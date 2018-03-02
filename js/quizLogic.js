@@ -5,8 +5,10 @@ function checkAnswer() {
                 totalCorrect++;
                 questions[arrayIndex].correct = "1";
 	            $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
+                $("#question" + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
             } else {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
+                $("#question" + arrayIndex).addClass('incorrect');
             }
 	        questions[arrayIndex].input = $('#answerInput').val();
 	        break;
@@ -39,12 +41,14 @@ function checkAnswer() {
                         totalCorrect++;
                         questions[arrayIndex].correct = "1";
                         $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
+                        $("#question" + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
                         break;
                     }
                 }
             }
             if(questions[arrayIndex].correct != "1") {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
+                $("#question" + arrayIndex).addClass('incorrect');
             }
 
             questions[arrayIndex].input = $('#answerInput').val();
@@ -54,8 +58,10 @@ function checkAnswer() {
                 totalCorrect++;
                 questions[arrayIndex].correct = "1";
 	            $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
+                $("#question" + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
             } else {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
+                $("#question" + arrayIndex).addClass('incorrect');
             }
             questions[arrayIndex].input = $('input[name=answerSelector]:checked').val();
             break;
@@ -65,8 +71,10 @@ function checkAnswer() {
                 correctAnswers++;
                 questions[arrayIndex].correct = "1";
 	            $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
+                $("#question" + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
             } else {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
+                $("#question" + arrayIndex).addClass('incorrect');
             }
             questions[arrayIndex].input = $('#answerInput').val();
             break;
@@ -85,6 +93,10 @@ function checkAnswer() {
 }
 
 function getNewQuestion() {
+    if($('#question'+arrayIndex).attr('class').includes('answerCorrect')){
+        arrayIndex++;
+        getNewQuestion();
+    }
     $(".page-link").parent().removeClass('active');
     $('#question'+arrayIndex).parent().addClass('active');
     var question = questions[arrayIndex];
@@ -133,6 +145,7 @@ function getNewQuestionNumber() {
 }
 
 function randomizeQuestions() {
+    var arrayIndex = 0;
 	questions.sort(function(a, b){return 0.5 - Math.random()});
 	setupPagination();
 	getNewQuestion();
@@ -157,7 +170,8 @@ function getNextQuestion() {
 	    arrayIndex++;
 	    getNewQuestion();
     } else {
-        alert("You have reached the end of the quiz.");
+        //alert("You have reached the end of the quiz.");
+        getFirstIncorrectQuestion()
     }
 }
 
@@ -172,6 +186,12 @@ function getPreviousQuestion() {
 
 function getFirstQuestion() {
     arrayIndex = 0;
+    getNewQuestion();
+}
+
+function getFirstIncorrectQuestion(){
+    var firstIncorrect = $('.incorrect').first().attr('id');
+    arrayIndex = parseInt(firstIncorrect.replace("question",""));
     getNewQuestion();
 }
 

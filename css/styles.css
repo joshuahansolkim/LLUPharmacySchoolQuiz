@@ -10,3 +10,18 @@ body{
     margin-right: 0;
     margin-left: 0;
 }
+
+.pagination {
+    flex-wrap: wrap;
+}
+
+.incorrect{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.answerCorrect{
+    color: #28a745;
+    border-color: #28a745;
+}
