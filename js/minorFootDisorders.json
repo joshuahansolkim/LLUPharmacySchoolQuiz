@@ -1,0 +1,187 @@
+minorFootQuestions = [
+    {
+        "question": "Corns and calluses both produce a marked hyperkeratosis of the ",
+        "answer": "stratum corneum",
+        "type": "text"
+    },
+    {
+        "question": "A corn's differentiating factor from a wart, is that it has a small, raised, sharply demarcated, hyperkeratotic lesion with a ______ _____",
+        "answer": "central core",
+        "type": "text"
+    },
+    {
+        "question": "What are the two types of corns",
+        "answer": "hard , soft",
+        "type": "list"
+    },
+    {
+        "question": "A hard corn usually occurs on the _____ of the toes and it appears ____, _____, and ______",
+        "answer": "top, shiny, dry, and polished",
+        "type": "list"
+    },
+    {
+        "question": "A soft corn usually occurs _____ adjacent toes, and appears _____ and _______",
+        "answer": "between, white, thickened",
+        "type": "list"
+    },
+    {
+        "question": "What are two types of calluses?",
+        "answer": "diffuse shearing, discrete nucleated",
+        "type": "list"
+    },
+    {
+        "question": "Diffuse shearing calluses have no associated ____",
+        "answer": "pain",
+        "type": "text"
+    },
+    {
+        "question": "Discrete nucleated calluses have ____ with applied pressure ",
+        "answer": "pain",
+        "type": "text"
+    },
+    {
+        "question": "Corns occur on _____bearing areas, have concentrated lesion with a central ____ and are ____ demarcated",
+        "answer": "weight, core, sharply",
+        "type": "list"
+    },
+    {
+        "question": "Calluses occur on ____ bearing areas, have diffuse ______ of the skin, and no definite _______",
+        "answer": "weight, thickening, border",
+        "type": "list"
+    },
+    {
+        "question": "Collodion like vehicle salicylic acid 12-17.6% can be used _____times  a day for up to ____ days",
+        "answer": "2, 14",
+        "type": "list"
+    },
+    {
+        "question": "Salicylic acid 12-40% plaster/pads  can be repeated every ____ hours for up to ______ days",
+        "answer": "48, 14",
+        "type": "list"
+    },
+    {
+        "question": "Bunions have a fluid filled sac called ",
+        "answer": "bursitis",
+        "type": "text"
+    },
+    {
+        "question": "Bunion pads/cushions can be used for up to",
+        "answer": "3 months",
+        "type": "text"
+    },
+    {
+        "question": "Bony growths on the underside of the heel bone are",
+        "answer": "heel spurs",
+        "type": "text"
+    },
+    {
+        "question": "Strain on the connective tissue that attaches the arch to the front of the heel and pain after standing or sitting is",
+        "answer": "plantar fascitis",
+        "type": "text"
+    },
+    {
+        "question": "Pain from heel compression where calcaneal apophysitis attaches to main body of the calcaneus is",
+        "answer": "sever's disease",
+        "type": "text"
+    },
+    {
+        "question": "What are non pharmacologic therapies for tired, aching feet",
+        "answer": "shoe inserts, partial insoles, heel cups/cushions, compression stockings",
+        "type": "list"
+    },
+    {
+        "question": "Exercise induced foot injuries are",
+        "answer": "shin splints, stress fracture, achilles tendonitis, blisters, ankle sprains, intermetatarsal neuritis, toenail loss",
+        "type": "list"
+    },
+    {
+        "question": "Non pharmacologic therapies include",
+        "answer": "athletic footwear, The Exercise surface, compression bandages, cryotherapy, contrast bath soaks",
+        "type": "list"
+    },
+    {
+        "question": "When do you refer exercise induced foot injuries",
+        "answer": "achilles tendon, stress fractures, intermetatarsal neuritis, DM, toenail loss, blisters",
+        "type": "list"
+    },
+    {
+        "question": "Ingrown toenails are caused by ____, trauma, obesity, excessive pressure",
+        "answer": "hyperhidrosis",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacologic therapies for ingrown toenails is",
+        "answer": "Sodium Sulfide Gel 1%, oral NSAIDS",
+        "type": "list"
+    },
+    {
+        "question": "Primary focal hyperhidrosis is visible excessive sweating lasting _____ months without a cause",
+        "answer": "6",
+        "type": "text"
+    },
+    {
+        "question": "Secondary hyperhidrosis is caused by medical conditions such as ",
+        "answer": "endocrine, pregnancy, neurologic",
+        "type": "list"
+    },
+    {
+        "question": "A medical referral is required for _____ hyperhidrosis",
+        "answer": "secondary",
+        "type": "text"
+    },
+    {
+        "question": "1st line therapy for hyperhidrosis is",
+        "answer": "Aluminum chloride",
+        "type": "text"
+    },
+    {
+        "question": "2nd line therapy for hyperhidrosis is",
+        "answer": "Iontophoresis",
+        "type": "text"
+    },
+    {
+        "question": "Botox injection is __ line therapy for hyperhidrosis",
+        "answer": "3rd",
+        "type": "text"
+    },
+    {
+        "question": "What is the prescription strength for Hexahydrate",
+        "answer": "20-25%",
+        "type": "text"
+    },
+    {
+        "question": "What is the prescription strength for B-Drier",
+        "answer": "15%",
+        "type": "text"
+    },
+    {
+        "question": "What is the prescription strength for Xerac AC",
+        "answer": "6.25%",
+        "type": "text"
+    },
+    {
+        "question": "What is the prescription strength for Drysol",
+        "answer": "20%",
+        "type": "text"
+    },
+    {
+        "question": "What is the prescription strength for Hypercare",
+        "answer": "15-20%",
+        "type": "text"
+    },
+    {
+        "question": "What are self exclusions for bunions",
+        "answer": "DM, bleeding, purulent discharge",
+        "type": "list"
+    },
+    {
+        "question": "PRICE/RICE therapy is used for which exercise induced foot injuries",
+        "answer": "shin splints, ankle sprains",
+        "type": "list"
+    },
+    {
+        "question": "Certain Dri can be reapplied every _____ hours",
+        "answer": "24-48",
+        "type": "text"
+    }
+]

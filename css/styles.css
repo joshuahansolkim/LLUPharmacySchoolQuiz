@@ -1,0 +1,12 @@
+body{
+    margin: 20px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#questionRow .row {
+    margin-right: 0;
+    margin-left: 0;
+}

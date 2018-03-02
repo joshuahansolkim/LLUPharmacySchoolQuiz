@@ -1,0 +1,122 @@
+<HTML>
+<HEAD>
+    <TITLE>Self Care Drug List Quiz</TITLE>
+    <script type="text/javascript" src="js/drugs.json"></script>
+    <script type="text/javascript" src="js/drugQuizLogic.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        var drugSubset = drugs;
+        var arrayIndex;
+        var totalDrugs = drugSubset.length;
+        var totalCorrect = 0;
+        var answerCorrect = new Array(totalDrugs);
+    </script>
+</HEAD>
+<BODY onload="getNewQuestion()">
+    <h1>Self Care Drug List Quiz</h1>
+    <form id="quizForm">
+        <fieldset>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="tradeRadio" class="questionSelector" id="tradeRadio" checked> Trade
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="genericRadio" class=" questionSelector" id="genericRadio"> Generic
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="indicationRadio" class="questionSelector" id="indicationRadio"> Primary Indication
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="moaRadio" class="questionSelector" id="moaRadio"> MOA
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="nonrxRadio" class="questionSelector" id="nonrxRadio"> Non RX
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="rxRadio" class="questionSelector" id="rxRadio"> RX
+                   </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                       <input type="radio" name="questionSelector" value="exclusionsRadio" class="questionSelector" id="exclusionsRadio"> Exclusions
+                   </label>
+            </div>
+            <div class="form-group">
+                <label for="quizOptions">Quiz Options</label>
+                <select class="form-control col-sm-2" id="quizOptions">
+                       <option value="all">All Drugs</option>
+                   </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="row">
+                <div class="form-group col">
+                    <label for="tradeInput">Trade Name</label><input class="userInput form-control" id="tradeInput" type="text" name="gtrade">
+                </div>
+                <div class="form-group col">
+                    <label for="genericInput">Generic Name</label><input class="userInput form-control" id="genericInput" type="text" name="generic">
+                </div>
+                <div class="form-group col">
+                    <label for="indicationInput">Primary Indication</label><input class="userInput form-control" id="indicationInput" type="text" name="indication">
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="form-group col">
+                    <label for="moaInput">MOA</label><textarea class="userInput form-control" id="moaInput" type="text" name="moa"></textarea>
+                </div>
+                <div class="form-group col">
+                    <label for="nonrxInput">Non RX Dosage</label><textarea class="userInput form-control" id="nonrxInput" type="text" name="nonrx"></textarea>
+                </div>
+                <div class="form-group col">
+                    <label for="rxInput">RX Dosage</label><textarea class="userInput form-control" id="rxInput" type="text" name="rx"></textarea>
+                </div>
+                <div class="form-group col">
+                    <label for="exclusionsInput">Exclusions</label><textarea class="userInput form-control" id="exclusionsInput" name="exclusions"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="correctCount">Questions Correct/Total Questions</label>
+                <input class="form-control" id="correctCount" type="text" disabled value="">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
+                <a class="btn btn-secondary" role="button" href="drugList.html">View Drug List</a>
+                <a class="btn btn-secondary" role="button" href="drugQuizLite.html">Drug Quiz Lite Version</a>
+                <a class="btn btn-secondary" role="button" href="topicsQuizLite.html">Topic Quiz Lite Version</a>
+            </div>
+        </fieldset>
+    </form>
+    <script>
+        createOptionList();
+        resetScore();
+        $('input:radio').change(function() {
+            var changeType = $('input[name="questionSelector"]:checked').val();
+            getNewQuestion();
+        });
+        $('.userInput').keypress(function(e) {
+            if (e.which == 13) {
+                checkAnswer();
+            }
+        });
+        $('#quizOptions').change(function() {
+            createDrugSubset($('#quizOptions').val());
+            resetScore();
+        });
+    </script>
+</BODY>
+</HTML>

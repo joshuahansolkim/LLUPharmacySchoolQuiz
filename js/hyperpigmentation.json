@@ -1,0 +1,77 @@
+hyperpigmentationQuestions = [
+    {
+        "question": "The three types of hyperpigmentation that can be treated are? ",
+        "answer": "ephelides, solar lentigines, melasma",
+        "type": "text"
+    },
+    {
+        "question": "Etiology of hyperpigmentation are _____ imbalances, ____ alternations, _____ dermatoses, _____ trauma to skin, ___ induced",
+        "answer": "endocrine, metabolic, inflammatory, physical, drug",
+        "type": "text"
+    },
+    {
+        "question": "Endocrine imbalances are caused by ____disease, ____ disease, hypo/hyper_____, _____, ____ resistance",
+        "answer": "Addison's, Cushing's, thyroidism, pregnancy, insulin",
+        "type": "text"
+    },
+    {
+        "question": "Drug induced hyperpigmentation include: amiodarone, antimalarial agents, antineoplastic agents, ___ metals, _____ replacement therapy, minocycline, ___ contraceptives, phenothiazines, ____ antidepressants, zidovudine",
+        "answer": "heavy, hormone, oral, tricylic",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone is pregnancy category __",
+        "answer": "C",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone is not suitable for children < ___ years old",
+        "answer": "12",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone is gently applied ____ times a day",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone noticeable hypopigmentation occurs after ____ to ___ weeks",
+        "answer": "3, 4",
+        "type": "text"
+    },
+    {
+        "question": "Hyperpigmentation is excluded for people under ___ years old",
+        "answer": "12",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone ____% is available as OTC",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Etiology of photoaging includes ____factors, _____ factors, ___ radiation exposure",
+        "answer": "intrinsic, extrinsic, UV",
+        "type": "text"
+    },
+    {
+        "question": "Primary culprit of photoaging is ____",
+        "answer": "UVB",
+        "type": "text"
+    },
+    {
+        "question": "Adverse effects of photoaging are s___, b___, p____, s___, d____",
+        "answer": "stinging, burning, pruritus, skin lightening, dryness",
+        "type": "text"
+    },
+    {
+        "question": "Alternative therapy to photoaging is ____/retinaldehyde, ascorbic acid, _____",
+        "answer": "retinol, idebenone",
+        "type": "text"
+    },
+    {
+        "question": "Hydroquinone should be used for ____ months or if skin darkens refer to PCP",
+        "answer": "3",
+        "type": "text"
+    }
+]

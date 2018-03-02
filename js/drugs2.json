@@ -1,0 +1,362 @@
+drugs = [
+    {
+	"tradeName" : "Nizoral AD",
+	"genericName" : "Ketoconazole",
+	"indication" : "Dandruff",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+     {
+	"tradeName" : "KBR 3023, Bayrepel",
+	"genericName" : "Picaridin",
+	"indication" : "Insect Repellent",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Ivy Block Lotion",
+	"genericName" : "Bentoquatam Lotion",
+	"indication" : "Contact Dermatitis",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Zanfel, Tecnu",
+	"genericName" : "Urushiol Removal Product",
+	"indication" : "Contact Dermatitis",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Burow's Solution",
+	"genericName" : "Aluminum Acetate Solution",
+	"indication" : "Contact Dermatitis",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "DEET",
+	"genericName" : "Conventional Repellent",
+	"indication" : "Insect Repellent",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Permethrin, Oil of Lemon Eucalyptus",
+	"genericName" : "Biopesticide Repellents",
+	"indication" : "Insect Repellent",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Benadryl",
+	"genericName" : "Diphenhydramine",
+	"indication" : "Antihistamine",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Caladryl Clear",
+	"genericName" : "Camphor/Pramoxine/Zinc",
+	"indication" : "Insect Bites",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Acticin, Emelite",
+	"genericName" : "Permethrin",
+	"indication" : "Insect Bites - Scabies",
+	"moa" : "",
+	"nonrx" : "5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Stromectol",
+	"genericName" : "Ivermectin",
+	"indication" : "Insect Bites - Scabies",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Kwell",
+	"genericName" : "Lindane",
+	"indication" : "Insect Bites - Scabies",
+	"moa" : "",
+	"nonrx" : "1%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "EpiPen, EpiPen Jr",
+	"genericName" : "Epinephrine",
+	"indication" : "Insect Bites",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Ovide",
+	"genericName" : "Malathion Lotion",
+	"indication" : "Insect Bites - Lice",
+	"moa" : "",
+	"nonrx" : "0.5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Ulesfia",
+	"genericName" : "Benzyl Alcohol Lotion",
+	"indication" : "Insect Bites - Lice",
+	"moa" : "",
+	"nonrx" : "5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Nix Xream Rinse Lice Treatment",
+	"genericName" : "Permethrin",
+	"indication" : "Insect Bites - Lice",
+	"moa" : "",
+	"nonrx" : "1%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "RID Lice Killing Shampoo, RID Mousse Foam, A-200 Lice Killing Shampoo, Pronto Lice Killing Shampoo",
+	"genericName" : "Pyrethrins + Piperonyl Butoxide",
+	"indication" : "Insect Bites - Lice",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Differin",
+	"genericName" : "Adapalene Gel",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "0.1%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Clean & Clear Contiuous Control Acne Cleanser",
+	"genericName" : "Benzoyl Peroxide",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Clearasil Daily Clear Adult Acne Treatment Cream",
+	"genericName" : "Sulfur + Resorcinal",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "Sulfer 8% + Resorcinal 2%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Neutrogena Oil-Free Acne Wash",
+	"genericName" : "Beta-Hydroxy Acids",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Tazorac",
+	"genericName" : "Tazarotene",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Retin-A",
+	"genericName" : "Tretinoin",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Epiduo",
+	"genericName" : "Adapalene + BP",
+	"indication" : "Acne Treatment - Combination",
+	"moa" : "",
+	"nonrx" : "Adapalene 0.1% + BP 2.5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Benzamycin",
+	"genericName" : "Erythromycin + BP",
+	"indication" : "Acne Treatment - Combination",
+	"moa" : "",
+	"nonrx" : "Erythromycin 3% + BP 5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Duac",
+	"genericName" : "Clindamycin + BP",
+	"indication" : "Acne Treatment - Combination",
+	"moa" : "",
+	"nonrx" : "Clindamycin 1% + BP 5%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Ziana",
+	"genericName" : "Clindamycin + Tretinoin",
+	"indication" : "Acne Treatment - Combination",
+	"moa" : "",
+	"nonrx" : "Clindamycin 1.2% + Tretinoin 0.025%",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Clinda-Derm",
+	"genericName" : "Clindamycin",
+	"indication" : "Acne Treatment - Topical Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Eryderm",
+	"genericName" : "Erythromycin",
+	"indication" : "Acne Treatment - Topical Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Bactrim",
+	"genericName" : "Sulfamethoxazole/trimethoprim",
+	"indication" : "Acne Treatment - Oral Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Ery-Tab",
+	"genericName" : "Erythromycin",
+	"indication" : "Acne Treatment - Oral Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Minocin",
+	"genericName" : "Minocycline",
+	"indication" : "Acne Treatment - Oral Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Oracea",
+	"genericName" : "Doxycycline",
+	"indication" : "Acne Treatment - Oral Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Tetracon",
+	"genericName" : "Tetracycline",
+	"indication" : "Acne Treatment - Oral Antibiotics",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Azelex, Finacea",
+	"genericName" : "Azelaic Acid",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Aczone",
+	"genericName" : "Dapsone",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Orthro Tri-Cyclin",
+	"genericName" : "Norgestimate with Ethinyl Estradiol",
+	"indication" : "Acne Treatment - Hormonal Agents",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Activella, Mimvey",
+	"genericName" : "Norethindrone Acetate with Ethinyl Estradiol",
+	"indication" : "Acne Treatment - Hormonal Agents",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Aldactone",
+	"genericName" : "Spironolactone",
+	"indication" : "Acne Treatment - Hormonal Agents",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},
+    {
+	"tradeName" : "Accutone, Absorica, Claravis, Sotret",
+	"genericName" : "Isotretinoin",
+	"indication" : "Acne Treatment",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	}
+]

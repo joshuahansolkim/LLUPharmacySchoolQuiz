@@ -1,0 +1,192 @@
+sunburnQuestions = [
+    {
+        "question": "UVA has wavelength",
+        "answer": "320-400nm",
+        "type": "text"
+    },
+    {
+        "question": "UVB has wavelength",
+        "answer": "290-320nm",
+        "type": "text"
+    },
+    {
+        "question": "UVC has wavelength",
+        "answer": "200-290nm",
+        "type": "text"
+    },
+    {
+        "question": "Which UVR is the most damaging?",
+        "answer": "UVC",
+        "type": "text"
+    },
+    {
+        "question": "Most of the UVC that strikes the skin is absorbed by dead cell layer of",
+        "answer": "stratum corneum",
+        "type": "text"
+    },
+    {
+        "question": "UVB AKA",
+        "answer": "sunburn",
+        "type": "text"
+    },
+    {
+        "question": "UVC AKA",
+        "answer": "germicidal radiation",
+        "type": "text"
+    },
+    {
+        "question": "UVB is primarily responsible for wrinkling, epidermal ______, elastosis and collagen _____",
+        "answer": "hyperplasia, damage",
+        "type": "fill"
+    },
+    {
+        "question": "Highest intensity of UVB occurs at ____am to _____pm",
+        "answer": "10, 4",
+        "type": "text"
+    },
+    {
+        "question": "UVR exposure can lead to suntan and ______, drug ______, skin ______, photoaging, skin _____, photodermatoses, premature ____ and ____",
+        "answer": "sunburn, photosensitivity, hyperpigmentation, skin, aging, cataracts",
+        "type": "fill"
+    },
+    {
+        "question": "Acute overexposure to UVR is a result of damaged and ______ skin cells",
+        "answer": "inflamed",
+        "type": "text"
+    },
+    {
+        "question": "erythema peaks after ____ hours",
+        "answer": "12-24",
+        "type": "text"
+    },
+    {
+        "question": "suntan is produced when UVR stimulates increased production of",
+        "answer": "melanin",
+        "type": "text"
+    },
+    {
+        "question": "skin pigmentation will return to baseline in",
+        "answer": "3 weeks",
+        "type": "text"
+    },
+    {
+        "question": "Tanning bed UVB:UVA ratio must not exceed",
+        "answer": "5%",
+        "type": "text"
+    },
+    {
+        "question": "photoallergy triggers _____ skin reaction",
+        "answer": "antigenic",
+        "type": "text"
+    },
+    {
+        "question": "photoallergy occurs after _____ exposure to agent/drug",
+        "answer": "prior",
+        "type": "text"
+    },
+    {
+        "question": "phototoxicity occurs during _____ exposure to agent/drug",
+        "answer": "first",
+        "type": "text"
+    },
+    {
+        "question": "What does the ABCDE evaluation stand for?",
+        "answer": "asymmetry, border, color, diameter, evolving",
+        "type": "text"
+    },
+    {
+        "question": "What are the three common photodermatoses",
+        "answer": "atopic dermatitis, psoriasis, herpes simplex labialis",
+        "type": "list"
+    },
+    {
+        "question": "DHA binds to amino acids in",
+        "answer": "stratum corneum ",
+        "type": "text"
+    }, {
+        "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by _____, ______, ______ UV radiation ",
+        "answer": "reflecting, absorbing, dispersing",
+        "type": "text"
+    },
+    {
+        "question": "SPF under 15 only protects against ___ radiation",
+        "answer": "UVB",
+        "type": "text"
+    },
+    {
+        "question": "sunscreens are not required to have expiration dates as long as manufacturer can prove that they are good for",
+        "answer": "3 years",
+        "type": "text"
+    },
+    {
+        "question": "apply sunscreen _____ mins before sun exposure",
+        "answer": "15-30",
+        "type": "text"
+    },
+    {
+        "question": "Which ingredients offer UVB protection",
+        "answer": "aminobenzoic acid, salicylates, cinnamates, PABA esters (Padimate O), ensulizole",
+        "type": "list"
+    },
+    {
+        "question": "Which ingredients offer UVB protection",
+        "answer": "meradimate, avobenzone, ecamsule",
+        "type": "list"
+    },
+    {
+        "question": "Which ingredient offers both UVA/UVB protection",
+        "answer": "benzophenones",
+        "type": "text"
+    },
+    {
+        "question": "What are two physical sunscreens",
+        "answer": "zinc oxide, titanium dioxide",
+        "type": "list"
+    },
+    {
+        "question": "Titanium dioxide is used most often on small _____ exposed areas",
+        "answer": "prominently",
+        "type": "text"
+    },
+    {
+        "question": "Do not use sunscreen in pediatric patients less than",
+        "answer": "6 months",
+        "type": "text"
+    },
+    {
+        "question": "What are some pharmacological treatment drugs for sunburn",
+        "answer": "NSAID, APAP",
+        "type": "list"
+    },
+    {
+        "question": "_____ concentrations of topical anesthetics are appropriate for skin injuries which the skin is _____",
+        "answer": "higher, intact",
+        "type": "fill"
+    },
+    {
+        "question": "Non-pharmacological treatments for sunburn are remain ______, cool ______, cool _____, _____, and drink ____",
+        "answer": "indoors, compress, oatmeal, aloe vera, water",
+        "type": "list"
+    },
+    {
+        "question": "topical anesthetics can only be applied to body surface area no more than _____% and no more than _____ times daily",
+        "answer": "2, 4",
+        "type": "fill"
+    },
+    {
+        "question": "Which one is not a topical anesthetic?",
+        "choices": "benzocaine, lidocaine, dibucaine, tetracaine, butamben, rotamben",
+        "answer": "rotamben",
+        "type": "multiple"
+    },
+    {
+        "question": "The primary inducer of skin cancer is UV __",
+        "answer": "B",
+        "type": "fill"
+    },
+    {
+        "question": "sun.png",
+        "answer": "",
+        "type": "image"
+    }
+]

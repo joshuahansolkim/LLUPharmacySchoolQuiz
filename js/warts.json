@@ -1,0 +1,397 @@
+wartsQuestions = [
+    {
+        "question": "Warts are caused by which virus ____ ",
+        "answer": "HPV",
+        "type": "text"
+    },
+    {
+        "question": "Warts AKA",
+        "answer": "verruca vulgaris",
+        "type": "text"
+    },
+    {
+        "question": "Highest occurence of warts occurs between the ages of  ___  years",
+        "answer": "12-16",
+        "type": "text"
+    },
+    {
+        "question": "Warts occurs through _____ contact or _______",
+        "answer": "person to person, autoinoculation",
+        "type": "fill"
+    },
+    {
+        "question": "Incubation period for warts is ____ months",
+        "answer": "1-9",
+        "type": "text"
+    },
+    {
+        "question": "What is the clinical presentation for warts, rough slightly scaly, dome-shaped growth resembling a",
+        "answer": "cauliflower",
+        "type": "text"
+    },
+    {
+        "question": "Irregular shaped papules or nodules appear ______ or ________ together",
+        "answer": "alone, grouped",
+        "type": "fill"
+    },
+    {
+        "question": "Common wart (verruca vulgaris) occurs on the",
+        "answer": "hands",
+        "type": "text"
+    },
+    {
+        "question": "Verrica plana occurs on the ",
+        "answer": "face",
+        "type": "text"
+    },
+    {
+        "question": "Mosaic wart occurs on the",
+        "answer": "feet",
+        "type": "text"
+    },
+    {
+        "question": "Plantar wart occurs on the",
+        "answer": "feet",
+        "type": "text"
+    },
+    {
+        "question": "Periungual wart occurs on the",
+        "answer": "nails",
+        "type": "text"
+    },
+    {
+        "question": "Filiform wart occurs on the",
+        "answer": "face",
+        "type": "text"
+    },
+    {
+        "question": "Skin colored or brown dome shaped hyperkeratotic papules with a rough surface is what type of wart",
+        "answer": "common",
+        "type": "text"
+    },
+    {
+        "question": "Smooth, flat topped, yellow-brown papules and common in children but rare in adults is what type of wart",
+        "answer": "flat",
+        "type": "text"
+    },
+    {
+        "question": "Skin colored flat, callous like papules on the feet is what type of wart",
+        "answer": "plantar",
+        "type": "text"
+    },
+    {
+        "question": "Multiple, closely grouped plantar warts is what type of wart",
+        "answer": "mosaic",
+        "type": "text"
+    },
+    {
+        "question": "Thickened, fissured around the nail plate is what type of wart",
+        "answer": "periungual",
+        "type": "text"
+    },
+    {
+        "question": "Rapidly growing, thread like projections is what type of wart",
+        "answer": "filiform",
+        "type": "text"
+    },
+    {
+        "question": "What is the age exclusion for warts",
+        "answer": "under 4",
+        "type": "text"
+    },
+    {
+        "question": "Warts affecting which areas of the body are excluded from self care",
+        "answer": "face, toenails, fingernails, anus, genitalia ",
+        "type": "list"
+    },
+    {
+        "question": "Collodion like vehicle has ____% salicylic acid",
+        "answer": "5-17",
+        "type": "text"
+    },
+    {
+        "question": "Plaster pad vehicle has ___% salicylic acid",
+        "answer": "12-40",
+        "type": "text"
+    },
+    {
+        "question": "Salicylic acid in collodion like vehicle can be used up to _____ daily",
+        "answer": "twice",
+        "type": "text"
+    },
+    {
+        "question": "How long can you repeat topical salicylic acid for warts",
+        "answer": "12 weeks",
+        "type": "text"
+    },
+    {
+        "question": "Karaya gum-glycol vehicle has _____% salicylic acid",
+        "answer": "15",
+        "type": "text"
+    },
+    {
+        "question": "FDA recommends topical salicylic acid products to be labeled for treating ONLY _______ or _______ warts",
+        "answer": "common or plantar",
+        "type": "text"
+    },
+    {
+        "question": "Cryotherapy can be used to treat a persistent wart  ____ times with a ____ day lapse between treatments",
+        "answer": "3, 10",
+        "type": "fill"
+    },
+    {
+        "question": "Other therapies to treat warts include",
+        "answer": "Oral cimetidine, adhesive/duct tape, dietary zinc, or garlic",
+        "type": "list"
+    },
+    {
+        "question": "tinea capitis affects the",
+        "answer": "scalp",
+        "type": "text"
+    },
+    {
+        "question": "tinea unguium affects the",
+        "answer": "nails",
+        "type": "text"
+    },
+    {
+        "question": "tinea cruris affects the",
+        "answer": "groin, pubic area",
+        "type": "list"
+    },
+    {
+        "question": "tinea corporis affects the",
+        "answer": "body",
+        "type": "text"
+    },
+    {
+        "question": "tinea pedis affects the",
+        "answer": "feet",
+        "type": "text"
+    },
+    {
+        "question": "Fungal skin infections are often referred to as ",
+        "answer": "ringworm",
+        "type": "text"
+    },
+    {
+        "question": "Which three genera of fungi causes fungal infections ",
+        "answer": "Trichophyton, Microsporum, Epidemophyton",
+        "type": "list"
+    },
+    {
+        "question": "What is not a risk factor for fungal infections: aging, trauma to skin, environmental factors, poor nutrition and hygiene, bacterial infection, immunosupressive medications, close contact with infected people, chronic health problems and immune compromise (DM impaired circulation)",
+        "answer": "bacterial infection",
+        "type": "text"
+    },
+    {
+        "question": "What is the correct order for the pathophysiology of fungal infections (involution, established infection, incubation, refractory period, inoculation",
+        "answer": "inoculation, incubation, established infection, refractory period, involution",
+        "type": "text"
+    },
+    {
+        "question": "Tinea corporis lesions begin as small, circular, erythematous, scaly areas, and spread ",
+        "answer": "peripherally",
+        "type": "text"
+    },
+    {
+        "question": "tinea cruris lesions spare the ____ and the ______",
+        "answer": "penis, scrotum",
+        "type": "fill"
+    },
+    {
+        "question": "Which one is not a risk factor of Athlete's Foot: hot weather, high impact sports, occlusive footwear, tight fitting clothing, infected house members, public pools or bathing facilities",
+        "answer": "tight fitting clothing",
+        "type": "text"
+    },
+    {
+        "question": "What are the four types of tinea pedis",
+        "answer": "chronic intertriginous, chronic papulosquamous pattern, vesicular, acute ulcerative",
+        "type": "list"
+    },
+    {
+        "question": "Chronic Intertriginous affects the ____ and ____ digits",
+        "answer": "4th,5th",
+        "type": "fill"
+    },
+    {
+        "question": "Chronic Intertiginous causes _____, _______, and _____ sensation",
+        "answer": "malodor, pruritus, stinging sensation",
+        "type": "fill"
+    },
+    {
+        "question": "Chronic Papulosquamous Pattern causes _____ like scaling on the soles",
+        "answer": "mocassin",
+        "type": "text"
+    },
+    {
+        "question": "vesicular type is symptomatic during ______ months",
+        "answer": "summer",
+        "type": "text"
+    },
+    {
+        "question": "Acute ulcerative has white ______ and a ______ odor",
+        "answer": "hyperkeratosis, pungent",
+        "type": "fill"
+    },
+    {
+        "question": "tinea unguium (Onychomycosis) become thick, rough, _____, and brittle or crumbly",
+        "answer": "yellow",
+        "type": "text"
+    },
+    {
+        "question": "Tinea capitis has forms of non-inflammatory, inflammatory, _______, and ________ ",
+        "answer": "black dot variety, favus variant",
+        "type": "fill"
+    },
+    {
+        "question": "How long does it take to resolve a fungal infection",
+        "answer": "2-4 weeks",
+        "type": "text"
+    },
+    {
+        "question": "Which formulation is most efficient and effective for a fungal infection",
+        "answer": "cream",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Cruex Antifungal Spray Powder",
+        "answer": "Miconazole 2%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Desenex Antifungal Liquid Spray",
+        "answer": "Miconazole 2%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Lamisil AT Antifungal Gel, Nighttime Therapy",
+        "answer": "Terbinafine HCl 1%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Lamisil AT Cream",
+        "answer": "Terbinafine HCl 1%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Lotrimin AF Cream",
+        "answer": "Clotrimazole 1%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Lotrimin AF Powder Aerosol",
+        "answer": "Miconazole nitrate 2%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Lotrimin Ultra Cream",
+        "answer": "Butenafine 1%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Micatin Cream",
+        "answer": "Miconazpole nitrate 2%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Tinactin Antifungal Cream",
+        "answer": "Tolnaftate 1%",
+        "type": "text"
+    },
+    {
+        "question": "What is the active ingredient for Tinactin Aerosol Powder Spray",
+        "answer": "Tolnaftate 1%",
+        "type": "text"
+    },
+    {
+        "question": "Allylamine Drugs (Terbinafine)  inhibit",
+        "answer": "squalene monooxygenase (epoxidase)",
+        "type": "text"
+    },
+    {
+        "question": "Azoles inhibit",
+        "answer": "14 alpha demethylase",
+        "type": "text"
+    },
+    {
+        "question": "Imidazole derivatives are applied to affected areas ___ a day for up to ____ weeks",
+        "answer": "twice, 4",
+        "type": "fill"
+    },
+    {
+        "question": "Imidazole derivatives cannot be used on children under ____ years old",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Imidazole derivatives inhibit ______ and ____ synthesis",
+        "answer": "ergosterol, sterol",
+        "type": "fill"
+    },
+    {
+        "question": "Which antifungal both treats and prevents fungal infections",
+        "answer": "Tolnaftate 1%",
+        "type": "text"
+    },
+    {
+        "question": "allylamines cannot be used for children under ____  years old",
+        "answer": "12",
+        "type": "text"
+    },
+    {
+        "question": "Tolnaftate 1% cannot be used for children under ____ years old",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Undecylenic acid 10-25% cannot be used for children under _____ years old",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Which topical antifungal exerts a strong odor",
+        "answer": "Undecylenic acid 10-25%",
+        "type": "text"
+    },
+    {
+        "question": "Salts of Aluminum (Burow's solution) is pregnancy category ",
+        "answer": "C",
+        "type": "text"
+    },
+    {
+        "question": "Imidazole Derivatives are pregnancy category",
+        "answer": "C",
+        "type": "text"
+    },
+    {
+        "question": "Aluminum acetate solution has antibacterial properties at concentration over ",
+        "answer": "20%",
+        "type": "text"
+    },
+    {
+        "question": "Aluminum acetate solution is used ______ times a day for _____ minutes up to _____ week",
+        "answer": "three, 20, 1",
+        "type": "fill"
+    },
+    {
+        "question": "Which antifungal treatment causes tissue necrosis from prolonged use",
+        "answer": "Aluminum acetate solution",
+        "type": "text"
+    },
+    {
+        "question": "What are complementary therapies for fungal infections?",
+        "answer": "bitter orange, tea tree oil, garlic gel",
+        "type": "list"
+    },
+    {
+        "question": "Garlic gel contains ____% ajoene",
+        "answer": "0.6",
+        "type": "text"
+    },
+    {
+        "question": "Which fungal infection treatment solution has no direct antifungal activity and relieves inflammatory conditions of the skin",
+        "answer": "Aluminum acetate solution",
+        "type": "text"
+    }
+]

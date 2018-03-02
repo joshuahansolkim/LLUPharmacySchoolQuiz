@@ -1,0 +1,50 @@
+<HTML>
+
+<HEAD>
+    <TITLE>Self Care Drug List Quiz</TITLE>
+    <script type="text/javascript" src="js/drugs.json"></script>
+    <script type="text/javascript" src="js/drugQuizLogic.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        var drugSubset = drugs;
+        var arrayIndex;
+        var totalDrugs = drugSubset.length;
+        var totalCorrect = 0;
+        var answerCorrect = new Array(totalDrugs);
+
+    </script>
+</HEAD>
+
+<BODY>
+    <div class="row">
+        <table id="drugList" class="table">
+            <thead>
+                <tr>
+                    <th>Trade Name</th>
+                    <th>Generic Name</th>
+                    <th>Primary Indication</th>
+                    <th>MOA</th>
+                    <th>Non RX Dosage</th>
+                    <th>RX Dosage</th>
+                    <th>Exclusions</th>
+                </tr>
+            </thead>
+            <tbody id="">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+        <a class="btn btn-secondary" role="button" href="drugQuizFull.html">Drug Quiz Full Version</a>
+        <a class="btn btn-secondary" role="button" href="drugQuizLite.html">Drug Quiz Lite Version</a>
+        <a class="btn btn-secondary" role="button" href="topicsQuizLite.html">Topic Quiz Lite Version</a>
+    </div>
+    <script>
+    printDrugList();
+    </script>
+</BODY>
+</HTML>

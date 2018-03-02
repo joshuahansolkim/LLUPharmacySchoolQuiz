@@ -1,0 +1,97 @@
+hairLossQuestions = [
+    {
+        "question": "Hair loss is most frequently due to ____ changes",
+        "answer": "hormonal",
+        "type": "text"
+    },
+    {
+        "question": "Secondary causes of hair loss include ___ stress, ___ use, ____ illness, ___ changes, ____ trauma, genetics",
+        "answer": "physiologic, medication, chronic, dietary, local",
+        "type": "text"
+    },
+    {
+        "question": "The stages of hair growth are: ___ phase, ___ phase, ____ phase, _____ phase",
+        "answer": "anagen, catagen, telogen, exogen",
+        "type": "text"
+    },
+    {
+        "question": "___ converts androgens to estrogens",
+        "answer": "aromatase",
+        "type": "text"
+    },
+    {
+        "question": "5 alpha reductase converts weak ___ to ___ and dihydrotestosterone (DHT)",
+        "answer": "androgens, testosterone",
+        "type": "text"
+    },
+    {
+        "question": "____ can be self treated",
+        "answer": "AGA",
+        "type": "text"
+    },
+    {
+        "question": "___ is the most common form of hair loss",
+        "answer": "AGA",
+        "type": "text"
+    },
+    {
+        "question": "The primary repressor of hair growth is the androgen  ____",
+        "answer": "dihydrotestosterone",
+        "type": "text"
+    },
+    {
+        "question": "Male pattern baldness is measured on the ____ scale",
+        "answer": "Norwood",
+        "type": "text"
+    },
+    {
+        "question": "Female pattern baldness is measured on the ___  and ___ scale",
+        "answer": "Ludwig, Sinclair",
+        "type": "text"
+    },
+    {
+        "question": "Alopecia areata occurs in three stages: sudden ____ loss in patches, enlargement of _____, regrowth",
+        "answer": "hair, patches",
+        "type": "text"
+    },
+    {
+        "question": "____ is the only FDA approved self-treatment for AGA",
+        "answer": "Minoxidil",
+        "type": "text"
+    },
+    {
+        "question": "What is the correct order for the mechanism of action of Minoxidil: Stimulate follicular hypertrophy, promotes and maintains vascularization of follicles, increases cutaneous blood flow directly to hair follicles, hair follicles increase in size after treatment",
+        "answer": "increases cutaneous blood flow directly to hair follicles, hair follicles increase in size after treatment, promotes and maintains vascularization of follicles, stimulate follicular hypertrophy",
+        "type": "text"
+    },
+    {
+        "question": "The dosage strength of minoxidil is ___% and ___%",
+        "answer": "2, 5",
+        "type": "text"
+    },
+    {
+        "question": "Minoxidil is applied to ___ hair ___ daily",
+        "answer": "dry, twice",
+        "type": "text"
+    },
+    {
+        "question": "It may take up to __ months to see results for Minoxidil",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "Exclusions for self treatment of hair loss is <___ or >___",
+        "answer": "18, 65",
+        "type": "text"
+    },
+    {
+        "question": "Minoxidil ___% products is usually recommended for men",
+        "answer": "5",
+        "type": "text"
+    },
+    {
+        "question": "Complementary therapies for hair loss include: amino acids, aminobenzioc acid, B vitamins, ____ oil, lanolin, ____jelly, urea, wheat germ oil, ___ palmetto",
+        "answer": "jojoba, royal, saw",
+        "type": "text"
+    }
+]

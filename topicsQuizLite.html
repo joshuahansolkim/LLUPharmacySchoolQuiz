@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+    <TITLE>Self Care Topic Quiz</TITLE>
+    <script type="text/javascript" src="js/sunburn.json"></script>
+    <script type="text/javascript" src="js/warts.json"></script>
+    <script type="text/javascript" src="js/minorBurnsWoundCare.json"></script>
+    <script type="text/javascript" src="js/minorFootDisorders.json"></script>
+    <script type="text/javascript" src="js/hairLoss.json"></script>
+    <script type="text/javascript" src="js/hyperpigmentation.json"></script>
+    <script type="text/javascript" src="js/obesity.json"></script>
+    <script type="text/javascript" src="js/testQuestions.json"></script>
+    <script type="text/javascript" src="js/quizLogic.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        var questions = sunburnQuestions;
+        var arrayIndex = 0;
+        var totalQuestions = questions.length;
+        var totalCorrect = 0;
+    </script>
+</HEAD>
+<BODY onload="randomizeQuestions()">
+    <h1>Self Care Topic Quiz</h1>
+    <form id="quizForm">
+        <fieldset>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="sunburn" class="topicSelector" checked> Sunburn
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="warts" class="topicSelector"> Warts
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="minorburns" class="topicSelector"> Minor Burns and Wounds
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="minorfoot" class="topicSelector"> Minor Foot Disorders
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="hairloss" class="topicSelector"> Hair Loss
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="hyperpigmentation" class="topicSelector"> Hyperpigmentation
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="obesity" class="topicSelector"> Obesity
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="row" id="questionRow">
+                
+            </div>
+            <div class="form-group">
+                <label for="correctAnswer" id="correctAnswerLabel">Start Quiz:</label>
+                <input class="form-control" id="correctAnswer" type="text" disabled value='Press "Check Answer" or "Enter" key to submit your answer.'>
+            </div>
+            <div class="form-group">
+                <p>Questions Correct/Total Questions: <span id="correctCount">0</span></p>
+            </div>
+            <div class="form-group">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item questionNav"><button class="page-link" type="button" onclick="getPreviousQuestion()">Previous</button></li>
+                        <li class="page-item"><button class="page-link" type="button" onclick="getNextQuestion()">Next</button></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
+                <button class="btn btn-primary" type="button" onclick="randomizeQuestions()">Reset Quiz</button>
+                <a class="btn btn-secondary" role="button" href="drugQuizFull.html">Drug Quiz Full Version</a>
+                <a class="btn btn-secondary" role="button" href="drugQuizLite.html">Drug Quiz Lite Version</a>
+            </div>
+        </fieldset>
+    </form>
+    <script>
+        resetScore();
+        $('input[name="topicSelector"]:radio').change(function() {
+            var changeTopic = $('input[name="topicSelector"]:checked').val();
+            switch(changeTopic){
+                case "sunburn": 
+                    questions = sunburnQuestions;
+                    break;
+                case "warts":
+                    questions = wartsQuestions;
+                    break;
+                case "minorburns":
+                    questions = minorBurnsQuestions;
+                    break;
+                case "minorfoot":
+                    questions = minorFootQuestions;
+                    break;
+                case "hairloss":
+                    questions = hairLossQuestions;
+                    break;
+                case "hyperpigmentation":
+                    questions = hyperpigmentationQuestions;
+                    break;
+                case "obesity":
+                    questions = obesityQuestions;
+                    break;
+            }
+            resetScore();
+            randomizeQuestions();
+            
+        });
+        $('BODY').keypress(function(e) {
+            if (e.which == 13) {
+                checkAnswer();
+            }
+        });
+    </script>
+</BODY>
+</HTML>

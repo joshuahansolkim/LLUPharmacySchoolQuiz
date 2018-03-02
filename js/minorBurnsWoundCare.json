@@ -1,0 +1,257 @@
+minorBurnsQuestions = [
+    {
+        "question": "What are all the different types of burns",
+        "answer": "thermal, chemical, sunburn, electrical, photosensitive reactions (drug induced)",
+        "type": "list"
+    },
+    {
+        "question": "You refer sunburn when it is",
+        "answer": "severe",
+        "type": "text"
+    },
+    {
+        "question": "You refer photosensitive reaction",
+        "answer": "anytime, (self treat or refer)",
+        "type": "list"
+    },
+    {
+        "question": "You refer thermal burn for",
+        "answer": "inhaled smoke or hot vapors",
+        "type": "text"
+    },
+    {
+        "question": "You refer electrical burn for",
+        "answer": "all",
+        "type": "text"
+    },
+    {
+        "question": "You refer chemical burn for",
+        "answer": "all",
+        "type": "text"
+    },
+    {
+        "question": "Acute wounds are",
+        "answer": "abrasions, punctures, lacerations",
+        "type": "list"
+    },
+    {
+        "question": "inflammatory phase is day",
+        "answer": "1-4",
+        "type": "text"
+    },
+    {
+        "question": "Proliferative phase is day ____ to week ____",
+        "answer": "3,3",
+        "type": "list"
+    },
+    {
+        "question": "Maturation or remodeling is week ___ to week ____",
+        "answer": "3,9",
+        "type": "list"
+    },
+    {
+        "question": "What is the correct order for phase of wound healing (proliferative and migration, hemostasis and coagulation, remodelign, inflammation",
+        "answer": "hemostasis and coagulation, inflammation, proliferative and migration, remodeling",
+        "type": "tlist"
+    },
+    {
+        "question": "What are local factors that affect wound healing",
+        "answer": "tissue perfusion, oxygenation, infection, wound characteristics",
+        "type": "list"
+    },
+    {
+        "question": "What are systemic factors that affect wound healing",
+        "answer": "poor vascularization, bacterial contamination, inadequate nutritioin, coexisting medical conditions, medications",
+        "type": "list"
+    },
+    {
+        "question": "Erythema of intact skin with warmth and redness is what stage of skin injury",
+        "answer": "1",
+        "type": "text"
+    },
+    {
+        "question": "Superficial lesions with partial thickness skin loss involving epidermis with or without dermis involved ( severe sunburn, abrasions, superficial lacerations and punctures) is what stage of skin injury",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Full thickness skin loss with damage to subcutaneous tissue is what stage of skin injury",
+        "answer": "3",
+        "type": "text"
+    },
+    {
+        "question": "Full thickness skin loss with extensive tissue necrosis and damag to underlying muscle, tendon, bone is what stage of skin injury",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "In stage II of skin injury, if the burn fails to heal in 2-3 weeks, what do you do?",
+        "answer": "refer",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not an exclusion for self treatment: wound contains foreign matter after irrigation, chronic wound, animal or human bite, scab, signs of infection, involvement of face, mucous membrane, or genitalia, deep acute wound, diabetes",
+        "answer": "scab",
+        "type": "text"
+    },
+    {
+        "question": "If the eye is involved in a chemical burn how long do you irrigate the eye",
+        "answer": "15-30 mins",
+        "type": "text"
+    },
+    {
+        "question": "What are the three treatment approach to uncontaminated acute wounds at stage I and II",
+        "answer": "cleanse, anti-infect, dress wound",
+        "type": "list"
+    },
+    {
+        "question": "What are the three treatment goals",
+        "answer": "relieve symptoms, promote healing, minimize scarring",
+        "type": "list"
+    },
+    {
+        "question": "What analgesics can you use for burns",
+        "answer": "ASA, NSAID, APAP",
+        "type": "list"
+    },
+    {
+        "question": "How long can you self treat for burns",
+        "answer": "7 days",
+        "type": "text"
+    },
+    {
+        "question": "How long can you soak an open wound",
+        "answer": "30 min",
+        "type": "text"
+    },
+    {
+        "question": "what are the steps for first aid in order? (remove exposure to offending agent, provide pain relief, stop bleeding and weeping from exudates, decrease infection risk, cool a burn, and protect area from further trauma",
+        "answer": "remove exposure to offending agent, stop bleeding and weeping from exudates, cool a burn, provide pain relief, decrease infection risk, protect area from further trauma",
+        "type": "list"
+    },
+    {
+        "question": "gauze alone is not recommended for _______ wound treatment",
+        "answer": "moist",
+        "type": "text"
+    },
+    {
+        "question": "What do you need to caution for in antimicrobials",
+        "answer": "thyroid disease (iodine absorption), skin allergy ",
+        "type": "list"
+    },
+    {
+        "question": "Which wound dressing will absorb excess moisture",
+        "answer": "foams and alginates",
+        "type": "text"
+    },
+    {
+        "question": "Which wound dressing will maintain moisture",
+        "answer": "hydrocolloid, transparent film dressing",
+        "type": "list"
+    },
+    {
+        "question": "Which wound dressing will provide moisture",
+        "answer": "hydrogel",
+        "type": "text"
+    },
+    {
+        "question": "You want to absorb excess moisture during the _______ phase of healing",
+        "answer": "inflammatory",
+        "type": "text"
+    },
+    {
+        "question": "You want to maintain moisture during the _______ phase",
+        "answer": "proliferative",
+        "type": "text"
+    },
+    {
+        "question": "You want to provide moisture to ___________ tissues",
+        "answer": "rehydrate",
+        "type": "text"
+    },
+    {
+        "question": "How long can you use skin protectants for",
+        "answer": "7 days",
+        "type": "text"
+    },
+    {
+        "question": "topical anesthetics are used to provide temporary relief of pain from minor ",
+        "answer": "burns, wounds, and sunburn",
+        "type": "list"
+    },
+    {
+        "question": "first aid antiseptics can only be applied to _______ skin",
+        "answer": "intact",
+        "type": "text"
+    },
+    {
+        "question": "topical anesthetics can be applied up to __ times a day",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "Which first aid antiseptic is recommended for chlorhexidine allergy",
+        "answer": "Iodine 2%, sodium iodide 2.5%",
+        "type": "list"
+    },
+    {
+        "question": "Which antibiotics work on gram negative bacteria",
+        "answer": "neomycin, polymyxin B sulfate",
+        "type": "list"
+    },
+    {
+        "question": "Which antibiotics work on gram positive bacteria",
+        "answer": "bacitracin",
+        "type": "text"
+    },
+    {
+        "question": "How long should topical antibiotics be used",
+        "answer": "7 days",
+        "type": "text"
+    },
+    {
+        "question": "How many times can you apply antibiotics",
+        "answer": "1-3",
+        "type": "text"
+    },
+    {
+        "question": "Which formulation is best for broken skin",
+        "answer": "cream",
+        "type": "text"
+    },
+    {
+        "question": "What are the primary ingredients for A + D Original Ointment",
+        "answer": "Petrolatum, lanolin, cod liver oil",
+        "type": "list"
+    },
+    {
+        "question": "What is the primary ingredients for Desitin Ointment ",
+        "answer": "Zinc oxide and petrolatum",
+        "type": "text"
+    },
+    {
+        "question": "What complementary therapies can be used",
+        "answer": "aloe vera, arnica montana, honey, (Calendula officinalis, Garcina morella, Datura metol)",
+        "type": "list"
+    },
+    {
+        "question": "Arnica montana is contraindicated for _____ and _______ family ",
+        "answer": "marigolds, Asteraceae",
+        "type": "list"
+    },
+    {
+        "question": "Calendula Officinalis is commonly known as",
+        "answer": "marigold",
+        "type": "text"
+    },
+    {
+        "question": "Aloe vera is composed of which vitamins",
+        "answer": "A,B,C,E",
+        "type": "list"
+    },
+    {
+        "question": "Aloe vera is contraindicated for ____ family (tulips, garlic, onions",
+        "answer": "Liliaceae",
+        "type": "text"
+    }
+]

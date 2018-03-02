@@ -1,0 +1,1475 @@
+drugs = [
+    {
+	"tradeName" : "Tylenol, FeverAll",
+	"genericName" : "Acetaminophen (APAP)",
+	"indication" : "Antipyretics, analgesic",
+	"moa" : "Central inhibition of prostaglandin synthesis",
+	"nonrx" : "325-1,000mg/day Q4-6hr PRN",
+	"rx" : "Max 4,000g/day", 
+	"exclusions" : "Can use for <6 month old: 10-15mg/kg/dose, max 5 dose/day, pregnancy category B, toxic metabolite: NAPQI, reversal: acetylcysteine: Mucomyst, activated charcoal"
+	},{
+	"tradeName" : "Advil, Motrin, Midol cramps and body aches",
+	"genericName" : "Ibuprofen",
+	"indication" : "Antipyretic, analgesic, and anti-inflammatory",
+	"moa" : "Reversible inhibition of COX-1 & COX-2, inhibition of prostaglandin synthesis",
+	"nonrx" : "200 mg, max 1200 mg/day",
+	"rx" : "400, 600, 800mg, max 3200mg/day", 
+	"exclusions" : "6 month-11 yo: 5-10mg/kg/dose, max 4 dose/day, pregnancy category B 1st and 2nd trimester, pregnancy category D 3rd trimester"
+	},{
+	"tradeName" : "Aleve, Midol Extended Relief, Pamprin All day",
+	"genericName" : "Naproxen",
+	"indication" : "Antipyretic, analgesic, and anti-inflammatory",
+	"moa" : "Reversible inhibition of COX-1 & COX-2, inhibition of prostaglandin synthesis",
+	"nonrx" : "660 mg",
+	"rx" : "Max 1500mg/day", 
+	"exclusions" : "Not for <12 yo, pregnancy category B 1st and 2nd trimester, pregnancy category D 3rd trimester"
+	},{
+	"tradeName" : "Ecotrin, Bayer, St. Joseph",
+	"genericName" : "Aspirin (ASA)",
+	"indication" : "Antipyretic, analgesic (anti-inflammatory only at high doses)",
+	"moa" : "Irreversible inhibition of COX-1 & COX-2, inhibition of prostaglandin synthesis",
+	"nonrx" : "81-162 mg daily for cardioprotection",
+	"rx" : "Max 4g/day", 
+	"exclusions" : "Not for <12 yo, avoid in pregnancy, risk of Reye's syndrome, can worsen gout or asthma, discontinue 2-7 days prior to surgery"
+	},{
+	"tradeName" : "Doan's",
+	"genericName" : "Magnesium salicylate",
+	"indication" : "Antipyretics/Analgesics Pain",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Alka-Seltzer",
+	"genericName" : "Sodium salicylate",
+	"indication" : "Antipyretics/Analgesics Pain",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Advil Cold and Sinus",
+	"genericName" : "Ibuprofen + Pseudoephedrine (PSE)",
+	"indication" : "Sinus Headache",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "Ibuprofen 200 mg + Pseudoephedrine 30 mg", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tylenol Sinus Severe Congestion Daytime",
+	"genericName" : "APAP + PSE + Guaifenesin",
+	"indication" : "Sinus Headache",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "APAP 325 mg + Pseudoephedrine 30 mg + Guaifenesin 200 mg", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Excedrin Sinus Headache",
+	"genericName" : "APAP + Phenylephrine",
+	"indication" : "Sinus Headache",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Neilmed Sinus Rinse, Ocean spray",
+	"genericName" : "Saline rinse",
+	"indication" : "Sinus Headache",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Excedrin Tension Headache",
+	"genericName" : "APAP + Caffeine",
+	"indication" : "Migraine",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Advil Migraine",
+	"genericName" : "Ibuprofen",
+	"indication" : "Migraine",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zostrix, Capzasin",
+	"genericName" : "Capsaicin",
+	"indication" : "Antipyretics/Analgesics Pain",
+	"moa" : "Local Analgesics/counterirritants used for: Lower back pain, Muscle soreness, Osteoarthritis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : "Apply no more than 3-4x for no more than 7 days, wash hands after use"
+	},{
+	"tradeName" : "Various brand names (ex. Bengay)",
+	"genericName" : "Methyl Salicylate, Menthol, Methyl Nicotinate",
+	"indication" : "Antipyretics/Analgesics Pain",
+	"moa" : "Local Analgesics/counterirritants used for: Lower back pain, Muscle soreness, Osteoarthritis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : "Apply 3-4x no more than 7 days, do not apply after a hot shower/bath, do not use with heating pad"
+	},{
+	"tradeName" : "Midol Menstrual Complete",
+	"genericName" : "APAP 500 mg + Caffeine 60 mg + Pyrilamine 15 mg",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Midol Extended Relief",
+	"genericName" : "Naproxen",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Midol Cramps and Body Aches",
+	"genericName" : "Ibuprofen",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Midol Teen Formula",
+	"genericName" : "APAP 500 mg + Pamabrom 25 mg",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pamprin Max",
+	"genericName" : "APAP 250 mg + ASA 250 mg + Caffeine 65 mg",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pamprin Multi-Symptom",
+	"genericName" : "APAP 500 mg + Pamabrom 25 mg + Pyrilamine 15 mg",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pamprin CRAMP",
+	"genericName" : "APAP 250 mg + Magnesium Salicylate 250 mg + Pamabrom",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pamprin All day",
+	"genericName" : "Naproxen sodium 220 mg",
+	"indication" : "Dysmenorrhea (Menstrual Cramps)",
+	"moa" : "",
+	"nonrx" : "220 mg",
+	"rx" : "", 
+	"exclusions" : "Pamabrom and caffeine: diuretic and reduces bloating, Pyrilamine: antihistamine and reduces irritability, other therapies:pyridoxine Vit B6: risk of peripheral neuropathy, calcium citrate recommmened for those on PPi, vit D is fat soluble"
+	},{
+	"tradeName" : "Azo, Uristat, Prodium",
+	"genericName" : "Phenazopyridine",
+	"indication" : "Urinary Pain",
+	"moa" : "",
+	"nonrx" : "95 mg",
+	"rx" : "100,200mg", 
+	"exclusions" : "Max 2 days, do not recommend unless patient is going to PCP, avoid in patients with G6PD deficiency"
+	},{
+	"tradeName" : "Methenamine",
+	"genericName" : "Cystex",
+	"indication" : "Urinary Pain",
+	"moa" : "",
+	"nonrx" : "162 mg",
+	"rx" : "", 
+	"exclusions" : "Must be used with antibiotics, avoid if consuming alcohol >3 drinks/day"
+	},{
+	"tradeName" : "Afrin, Neo-Synephrine 12 hrs",
+	"genericName" : "Oxymetazoline",
+	"indication" : "Cold Symptoms",
+	"moa" : "Adrenergic agonist (sympathomimetic), stimulates a-adrenergic receptors in nasala blood vessels and contracts nasal smooth muscles and constricts nasal blood vessels, and reduces inflammation of nasal membrane and mucous production to facilitate breathing",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Neo-Synephrine, Little noses",
+	"genericName" : "Phenylephrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Topical Decongestants",
+	"nonrx" : "",
+	"rx" : "10 mg Q4 hrs, max 60 mg", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Naphazoline",
+	"genericName" : "Privine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Topical Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Xylometazoline",
+	"genericName" : "Xylometazoline",
+	"indication" : "Cold Symptoms",
+	"moa" : "Topical Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tetrahydrazoline",
+	"genericName" : "Tetrahydrazoline",
+	"indication" : "Cold Symptoms",
+	"moa" : "Topical Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Ocean, AYR, NeilMed Sinus Rinse",
+	"genericName" : "Saline rinse",
+	"indication" : "Cold Symptoms",
+	"moa" : "Topical Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sudafed, Nexafed, Zephrex-D",
+	"genericName" : "Pseudoephedrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Systemic Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sudafed PE",
+	"genericName" : "Phenylephrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Systemic Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Various brand names and dosage forms (lozenge, spray) Cepacol, Chloraseptic, Halls, Sucrets, Vicks VapoDrops",
+	"genericName" : "Benzocaine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Sore Thoat",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Various brand names and dosage forms (lozenge, spray) Cepacol, Chloraseptic, Halls, Sucrets, Vicks VapoDrops",
+	"genericName" : "Menthol Phenol",
+	"indication" : "Cold Symptoms",
+	"moa" : "Sore Thoat",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Various brand names and dosage forms (lozenge, spray) Cepacol, Chloraseptic, Halls, Sucrets, Vicks VapoDrops",
+	"genericName" : "Dyclonine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Sore Thoat",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Various brand names and dosage forms (lozenge, spray) Cepacol, Chloraseptic, Halls, Sucrets, Vicks VapoDrops",
+	"genericName" : "Cetylpyridinium chloride hexylresorcinol",
+	"indication" : "Cold Symptoms",
+	"moa" : "Sore Thoat",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tavist",
+	"genericName" : "Clemastine",
+	"indication" : "Cold Symptoms",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Benadryl",
+	"genericName" : "Diphenhydramine",
+	"indication" : "Cold Symptoms",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Unisom",
+	"genericName" : "Doxylamine",
+	"indication" : "Cold Symptoms",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Claritin, Alavert",
+	"genericName" : "Loratadine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Cetirizine",
+	"genericName" : "Zyrtec",
+	"indication" : "Cold Symptoms",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Xyzal",
+	"genericName" : "Levocetirizine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Allegra",
+	"genericName" : "Fexofenadine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Claritin D, Alavert D",
+	"genericName" : "Loratadine + Pseudoephedrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Drixoral",
+	"genericName" : "Dexbrompheniramine + PSE",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tavist-D",
+	"genericName" : "Clesmastine + PSE",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zyrtec-D",
+	"genericName" : "Cetirizine + PSE",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Actifed",
+	"genericName" : "Tripolidine + PSE",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Dimetapp",
+	"genericName" : "Brompheniramine + Phenylephrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy: Antihistame + Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Mucinex, Mucinex ER, Robitussin, Tussin",
+	"genericName" : "Guaifenesin",
+	"indication" : "Cold Symptoms",
+	"moa" : "Productive Cough",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Delsym",
+	"genericName" : "Dextromethorphan",
+	"indication" : "Cold Symptoms",
+	"moa" : "Centrally-acting antitussive",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Benadryl",
+	"genericName" : "Diphenhydramine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Centrally-acting antitussive",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Various brand names and dosage forms (ointment, lozenge, inhalation)",
+	"genericName" : "Menthol Camphor",
+	"indication" : "Cold Symptoms",
+	"moa" : "Peripherally-acting antitussive",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Robitussin DM, Mucinex DM",
+	"genericName" : "Dextromethorphan + Guaifenesin",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Motrin, Advil",
+	"genericName" : "Ibuprofen",
+	"indication" : "Cold Symptoms",
+	"moa" : "Body Ache",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tylenol, FeverAll",
+	"genericName" : "Acetaminophen (APAP)",
+	"indication" : "Cold Symptoms",
+	"moa" : "Body Ache",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Aleve",
+	"genericName" : "Naproxen",
+	"indication" : "Cold Symptoms",
+	"moa" : "Body Ache",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "DayQuil, Tylenol cold Day",
+	"genericName" : "Acetaminophen Dextromethorphan Phenylephrine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy (Multi-symptom treatment)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "NyQuil",
+	"genericName" : "Acetaminophen Dextromethorphan Doxylamine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy (Multi-symptom treatment)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tylenol Cold Night",
+	"genericName" : "Acetaminophen Dextromethorphan Phenylephrine Chlorpheniramine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy (Multi-symptom treatment)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Theraflu",
+	"genericName" : "Acetaminophen Phenylephrine Pheniramine",
+	"indication" : "Cold Symptoms",
+	"moa" : "Combination Therapy (Multi-symptom treatment)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tavist",
+	"genericName" : "Clemastine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Benadryl",
+	"genericName" : "Diphenhydramine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Unisom",
+	"genericName" : "Doxylamine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Chlor-Trimeton",
+	"genericName" : "Chorpheniramine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "First Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Claritin, Alavert",
+	"genericName" : "Loratadine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zyrtec",
+	"genericName" : "Cetirizine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Xyzal",
+	"genericName" : "Levocetirizine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Allegra",
+	"genericName" : "Fexofenadine",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Second Generation Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "NasalCrom Spray",
+	"genericName" : "Cromolyn",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Mast Cell Stabilizer",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Nasocort Allergy 24HR",
+	"genericName" : "Triamcinolone",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Topical Corticosteroids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Flonase Allergy Relief",
+	"genericName" : "Fluticasone",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Topical Corticosteroids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Rhinocort Allergy Spray",
+	"genericName" : "Budesonide",
+	"indication" : "Allergic Rhinitis",
+	"moa" : "Topical Corticosteroids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pedialyte",
+	"genericName" : "Oral Rehydration Therapy",
+	"indication" : "Diarrhea",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Banana, Rice, Apple, Toast",
+	"genericName" : "BRAT diet",
+	"indication" : "Diarrhea",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Immodium A-D",
+	"genericName" : "Loperamide",
+	"indication" : "Diarrhea",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pepto-Bismol, Kaopectate",
+	"genericName" : "Bismuth Subsalicylate",
+	"indication" : "Diarrhea",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Lactaid, Lacteez, Surelac",
+	"genericName" : "Lactase enzyme",
+	"indication" : "Diarrhea",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Metamucil, Konsyl",
+	"genericName" : "Psyllium",
+	"indication" : "Constipation",
+	"moa" : "Bulk-forming laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Citrucel",
+	"genericName" : "Methylcellulose",
+	"indication" : "Constipation",
+	"moa" : "Bulk-forming laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Fibercon",
+	"genericName" : "Polycarbophil",
+	"indication" : "Constipation",
+	"moa" : "Bulk-forming laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Colace, Surfak",
+	"genericName" : "Docusate",
+	"indication" : "Constipation",
+	"moa" : "Emollient laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Liquid petrolatum",
+	"genericName" : "Mineral oil",
+	"indication" : "Constipation",
+	"moa" : "Lubricant laxative",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Magnesium Citrate",
+	"genericName" : "Magnesium Citrate",
+	"indication" : "Constipation",
+	"moa" : "Saline laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Fleet Enema",
+	"genericName" : "Monobasic Sodium Phosphate",
+	"indication" : "Constipation",
+	"moa" : "Saline laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Milk of Magnesia",
+	"genericName" : "Magnesium Hydroxide",
+	"indication" : "Constipation",
+	"moa" : "Saline laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Epsom Salt",
+	"genericName" : "Magnesium Sulfate",
+	"indication" : "Constipation",
+	"moa" : "Saline laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pedialax",
+	"genericName" : "Glycerin",
+	"indication" : "Constipation",
+	"moa" : "Hyperosmotic laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Miralax",
+	"genericName" : "Polyethylene Glycol 3350",
+	"indication" : "Constipation",
+	"moa" : "Hyperosmotic laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Senokot, Ex.Lax",
+	"genericName" : "Senna",
+	"indication" : "Constipation",
+	"moa" : "Stimulant laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Dulcolax",
+	"genericName" : "Bisacodyl",
+	"indication" : "Constipation",
+	"moa" : "Stimulant laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Castor oil",
+	"genericName" : "Castor oil",
+	"indication" : "Constipation",
+	"moa" : "Stimulant laxatives",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Dramamine Less Drowsy, Bonine",
+	"genericName" : "Meclizine",
+	"indication" : "Nausea/Vomiting",
+	"moa" : "Motion Sickness",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Dramamine",
+	"genericName" : "Dimenhydrinate",
+	"indication" : "Nausea/Vomiting",
+	"moa" : "Motion Sickness",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Bonine Kids Chewable",
+	"genericName" : "Cyclizine",
+	"indication" : "Nausea/Vomiting",
+	"moa" : "Motion Sickness",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Emetrol",
+	"genericName" : "Fructose + Glucose + Phosphoric Acid",
+	"indication" : "Nausea/Vomiting",
+	"moa" : "Viral Gastroenteritis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Emetine",
+	"genericName" : "Ipecac Syrup",
+	"indication" : "Poisoning",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Actidose-Aqua",
+	"genericName" : "Activated Charcoal",
+	"indication" : "Poisoning",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pin-X, Reese's Pinworm",
+	"genericName" : "Pyrantel Pamoate",
+	"indication" : "Pinworm Infection",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Gas-X, Mylicon, Mylanta, Phazyme",
+	"genericName" : "Simethicone",
+	"indication" : "Intestinal Gas",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "CharcoCaps",
+	"genericName" : "Activated Charcoal",
+	"indication" : "Intestinal Gas",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Beano, Gaz Away",
+	"genericName" : "a-Galactosidase",
+	"indication" : "Intestinal Gas",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Lactaid, Dairy Ease, SureLac",
+	"genericName" : "Lactase Enzyme",
+	"indication" : "Intestinal Gas",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Benzocaine, Lidocaine, Benzyl Alcohol, Pramoxine",
+	"genericName" : "Local Anesthetics",
+	"indication" : "Hemorrhoids",
+	"moa" : "Local Anesthetics",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Phenylephrine, Epinephrine, Ephedrine",
+	"genericName" : "Vasoconstrictors",
+	"indication" : "Hemorrhoids",
+	"moa" : "Vasoconstrictors",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Aluminum Hydroxide, Cocoa Butter, Lanolin, Kanolin, Mineral Oil, Calamine, Shark Liver Oil, Zinc Oxide, Glycerin, Petrolatum",
+	"genericName" : "Protectants",
+	"indication" : "Hemorrhoids",
+	"moa" : "Protectants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Calamine, Zinc Oxide, Witch Hazel",
+	"genericName" : "Astringents",
+	"indication" : "Hemorrhoids",
+	"moa" : "Astringents",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Alcloxa, Resorcinal",
+	"genericName" : "Keratolytics",
+	"indication" : "Hemorrhoids",
+	"moa" : "Keratolytics",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Menthol, Juniper Tar, Camphor",
+	"genericName" : "Antipruritics/Analgesics/Anesthetics",
+	"indication" : "Hemorrhoids",
+	"moa" : "Antipruritics/Analgesics/Anesthetics",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Hydrocortisone",
+	"genericName" : "Corticosteroids",
+	"indication" : "Hemorrhoids",
+	"moa" : "Corticosteroids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Preparation H Suppositories",
+	"genericName" : "Phenylephrine + Cocoa butter + Shark olive oil",
+	"indication" : "Hemorrhoids",
+	"moa" : "Combination Therapy",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Preparation H Cooling Gel",
+	"genericName" : "Phenylephrine + Witch Hazel",
+	"indication" : "Hemorrhoids",
+	"moa" : "Combination Therapy",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tums, Maalox",
+	"genericName" : "Calcium Carbonate",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Antacids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Alka-Seltzer",
+	"genericName" : "Sodium Bicarbonate",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Antacids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "AlternaGel",
+	"genericName" : "Aluminum Hydroxide",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Antacids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Philip's Milk of Magnesia",
+	"genericName" : "Magnesium Hydroxide",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Antacids",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pepto-bismol",
+	"genericName" : "Bismuth Subsalicylate",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Salicylate",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tagamet",
+	"genericName" : "Cimetidine",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Histamine 2 Receptor Antagonists (H2RAs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pepcid",
+	"genericName" : "Famotidine",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Histamine 2 Receptor Antagonists (H2RAs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zantac",
+	"genericName" : "Ranitidine",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Histamine 2 Receptor Antagonists (H2RAs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Axid",
+	"genericName" : "Nizatidine",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Histamine 2 Receptor Antagonists (H2RAs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Prilosec OTC",
+	"genericName" : "Omeprazole",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Proton Pump Inhibitors (PPIs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Prevacid 24 Hour",
+	"genericName" : "Lansoprazole",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Proton Pump Inhibitors (PPIs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Nexium 24 Hour",
+	"genericName" : "Esomeprazole",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Proton Pump Inhibitors (PPIs)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Gaviscon",
+	"genericName" : "Aluminum + Magnesium",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Mylanta, Gelusil",
+	"genericName" : "Aluminum + Magnesium + Simethicone",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Rolaids Original Antacid, Mylanta Supreme Liquid, Mylanta Ultimate Strength Chewable",
+	"genericName" : "Magnesium + Calcium",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Alka-Seltzer Original",
+	"genericName" : "Sodium Bicarbonate + citric acid + ASA",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Pepcid Complete, Tums Dual Action",
+	"genericName" : "Famotidine + Calcium Carbonate + Magnesium Hydroxide",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zegerid",
+	"genericName" : "Omeprazole + Sodium Bicbarbonate",
+	"indication" : "Heartburn/Dyspepsia",
+	"moa" : "Combination Products",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Oxytrol",
+	"genericName" : "Oxybutynin",
+	"indication" : "Urinary Incontinence",
+	"moa" : "Antimuscarinics/Anticholinergics",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Systane, HypoTears, Refresh, Tears Naturalle II, Tears Naturale Free",
+	"genericName" : "Cellulose ethers: Carboxymethylcellulose, Hydroxypropyl methylcellulose, Polyvinyl alcohol (PVA) 1.4%, Povidone 0.6%",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Artificial Tear Solutions",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Refresh (Lacri-Lube), Refresh P.M.",
+	"genericName" : "White petrolatum, Mineral oil, Lanolin",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Eye Ointments",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Refresh Redness Relief",
+	"genericName" : "Phenylephrine",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Ocular Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Clear Eyes, Naphcon",
+	"genericName" : "Naphazoline",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Ocular Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Opti-clear, Visine Original",
+	"genericName" : "Tetrahydrozoline",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Ocular Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Visine L.R.",
+	"genericName" : "Oxymetazoline",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Ocular Decongestants",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Naphacon-A, Visine-A, Opcon-A",
+	"genericName" : "Pheniramine +Naphazoline",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Combination therapy: Ocular Antihistamine + Ocular Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Vasocon-A",
+	"genericName" : "Antazoline + naphazoline",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Combination therapy: Ocular Antihistamine + Ocular Decongestant",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zaditor, Alaway",
+	"genericName" : "Ketotifen",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Antihistamine/Mast Cell Stabilizer",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Muro 128 Solution 2%",
+	"genericName" : "Sodium chloride 2%, 5%",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Oral Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Blinx, Eye Wash, Visual Eyes",
+	"genericName" : "Eyewash (irrigants)",
+	"indication" : "Ophthalmic (Eye)",
+	"moa" : "Oral Antihistamines",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Debrox, Auro Ear Drops",
+	"genericName" : "Carbamide peroxide 6.5%",
+	"indication" : "Otic (Ear)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Swim-Ear, Auro-Dri",
+	"genericName" : "Isopropyl alcohol 95% in anhydrous glycerin 5%",
+	"indication" : "Otic (Ear)",
+	"moa" : "",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Aquafresh Extra Fresh, Colgate ProClinical, Crest Cavity Protection, Gel-Kam, ACT Anticavity",
+	"genericName" : "Fluoride",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Caries Prevention - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Colgate Tartar Protection, Crest Tartar Protection",
+	"genericName" : "Zinc Chloride, Zinc Citrate, Soluble pyrophosphate",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Tartar-Control (anti-calculus) - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Colgate Total",
+	"genericName" : "Triclosan",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Antiplaque + antigingivitis - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Biotene Antibacterial Dry Mouth Toothpaste",
+	"genericName" : "Glucose Oxidase Lactoperoxidase",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Sodium Lauryl Sulfate-Free - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sensodyne Iso-Active Toothpaste",
+	"genericName" : "Potassium Nitrate",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Sodium Lauryl Sulfate-Free - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Aquafresh Whitening, Mentadent, Rembrandt Plus",
+	"genericName" : "Baking soda, titanium dioxide, aluminum oxide",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Whitening - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Crest WhiteStrips Classic",
+	"genericName" : "Hydrogen peroxide",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Whitening - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Rembrandt Professional Bleaching System",
+	"genericName" : "Carbamide peroxide gel + fluoride",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Whitening - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "BreathRX, Listerine, Crest ProHealth",
+	"genericName" : "Alcohol 0-27%, zinc chloride/citrate, glycerin, sorbital, benzoic, cetylpyridinium, fluoride, menthol, thymol",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Mouth Rinse - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Mouth Smart",
+	"genericName" : "Zinc salts (citrate, acetate, chloride)",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Halitosis - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "CloSYS",
+	"genericName" : "Chlorine dioxide",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Halitosis - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Potassium Nitrate 5%",
+	"genericName" : "Potassium Nitrate 5%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Tooth Hypersensitivity - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sodium Fluoride (0.145-0.243%)",
+	"genericName" : "Sodium Fluoride (0.145-0.243%)",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Tooth Hypersensitivity - Dentifrices",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Baby Anabesol Gel, Baby Orajel Teething Pain",
+	"genericName" : "Benzocaine 7.5%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Teething Discomfort (Baby)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Baby Orajel Teething Nighttime Formula",
+	"genericName" : "Benzocaine 10%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Teething Discomfort (Baby)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Motrin, Advil",
+	"genericName" : "Ibuprofen",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Teething Discomfort (Baby)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Tylenol, FeverAll",
+	"genericName" : "Acetaminophen",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Teething Discomfort (Baby)",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Peroxyl",
+	"genericName" : "Hydrogen peroxide 1.5%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Gly-Oxide Oral Cleanser Liquid",
+	"genericName" : "Carbamide peroxide 10%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zilactin-B, Anbesol",
+	"genericName" : "Benzocaine 10%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Anbesol",
+	"genericName" : "Benzocaine 10, 20%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Orajel",
+	"genericName" : "Benzocaine 20%, benzalkonium chloride 0.02%, zinc chloride 0.1%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Canker Cover",
+	"genericName" : "Menthol 2.5mg",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Canker Sore",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Abreva",
+	"genericName" : "Docosanol 10%",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Herpes Simplex Labialis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Zilactin-L",
+	"genericName" : "Lidocaine, benzyl alcohol",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Herpes Simplex Labialis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Salivart, Biotene Mouthwash, Biotene Oral Balance",
+	"genericName" : "Artificial saliva",
+	"indication" : "Oral Health (Mouth)",
+	"moa" : "Xerostomia",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Monistat, M-zole, Femizole",
+	"genericName" : "Miconazole",
+	"indication" : "Vaginal Disorders",
+	"moa" : "Yeast Infection",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Gyne-Lotrimin, Mycelex-7",
+	"genericName" : "Clotrimazole",
+	"indication" : "Vaginal Disorders",
+	"moa" : "Yeast Infection",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Vagistat-1",
+	"genericName" : "Tioconazole",
+	"indication" : "Vaginal Disorders",
+	"moa" : "Yeast Infection",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Gynazole-1",
+	"genericName" : "Butoconazole",
+	"indication" : "Vaginal Disorders",
+	"moa" : "Yeast Infection",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Glycerin, Propylene Gylcol, Hydroxypropyl methylcellulose",
+	"genericName" : "Glycerin, Propylene Gylcol, Hydroxypropyl methylcellulose",
+	"indication" : "Vaginal Disorders",
+	"moa" : "Atrophic Vaginitis",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Plan B, Plan B One Step, Next Choice, Next Choice One Dose My way, Take Action, Option 2",
+	"genericName" : "Levonorgestrel",
+	"indication" : "Contraception",
+	"moa" : "Emergency Contraception",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Male Condom",
+	"genericName" : "Male Condom",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Female Condom",
+	"genericName" : "Female Condom",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Comes in gel, foam, suppository, film form, Nonoxynol-9",
+	"genericName" : "Vaginal Spermicide",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sponge",
+	"genericName" : "Sponge",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Sponge",
+	"genericName" : "Sponge",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Prescription Only",
+	"genericName" : "Diaphragm",
+	"indication" : "Contraception",
+	"moa" : "Contraceptive Methods",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Calendar Rhythm, Basal Body Temperature (BBT), Cervical Mucus, Lactational Amenorrhea Method (LAM)",
+	"genericName" : "Females",
+	"indication" : "Contraception",
+	"moa" : "Fertility Awareness",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	},{
+	"tradeName" : "Withdrawal method",
+	"genericName" : "Males",
+	"indication" : "Contraception",
+	"moa" : "Fertility Awareness",
+	"nonrx" : "",
+	"rx" : "", 
+	"exclusions" : ""
+	}
+]
