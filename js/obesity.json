@@ -11,12 +11,12 @@ obesityQuestions = [
     },
     {
         "question": "The high risk waist circumference for women is _____ inches or ___ cm",
-        "answer": "35 , 88",
+        "answer": "35, 88",
         "type": "text"
     },
     {
         "question": "Metabolic syndrome involves waist circumference greater than ___ inches in men or ____inches in women",
-        "answer": "40,35",
+        "answer": "40, 35",
         "type": "text"
     },
     {
@@ -40,7 +40,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Obesity etiologies include",
+        "question": "Obesity etiologies include g__, m___, e___, m___ _____",
         "answer": "genetic, metabolic, environmental, medication induced",
         "type": "list"
     },
@@ -62,7 +62,7 @@ obesityQuestions = [
     {
         "question": "What are the correct self exclusions: a. Severe obesity (BMI>40, b. pregnancy or breast feeding, c. <18 years of age or >65 years of age, d. cardiovascular disease, dyslipidemia, DM, or HTN, e. eating disorders",
         "choices": "a and b, c and d, none of the above, all of the above",
-        "answer": "",
+		"answer": "all of the above",
         "type": "multiple"
     },
     {
@@ -141,7 +141,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Orlistate is indicated for patients with BMI ___ or higher",
+        "question": "Orlistat is indicated for patients with BMI ___ or higher",
         "answer": "25",
         "type": "text"
     },
@@ -162,7 +162,7 @@ obesityQuestions = [
     },
     {
         "question": "Orlistat OTC dose is ____mg ___ times a day",
-        "answer": "60, 4",
+        "answer": "60, 3",
         "type": "text"
     },
     {
@@ -216,7 +216,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Adverse effects of Phentermine include : c____, h___, i____, t___, t____, i___ BP",
+        "question": "Adverse effects of Phentermine include : c____, h___, in____, t___, t____, i___ BP",
         "answer": "constipation, headache, insomnia, tremor, tachycardia, increased BP",
         "type": "text"
     },
@@ -391,7 +391,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Risks of Garcinia cambogia is increased _____, _____, ____, _____",
+        "question": "Risks of Garcinia cambogia is increased s_____, r_____, h____, d_____",
         "answer": "serotonin, rhabdomyolysis, hypoglycemia, dementia",
         "type": "list"
     },
@@ -401,7 +401,7 @@ obesityQuestions = [
         "type": "list"
     },
     {
-        "question": "Chitosan is a structural component of _____, ____ and _____",
+        "question": "Chitosan is a structural component of c_____, i____ and s_____",
         "answer": "crustaceans, insects, spiders",
         "type": "list"
     },
@@ -456,13 +456,163 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Normal BMI is between BMI ____ to ______",
+        "question": "Normal BMI is between BMI ____ - ______",
         "answer": "18.5-24.9",
         "type": "text"
     },
     {
-        "question": "Overweight BMI is ___ to ____",
+        "question": "Overweight BMI is ___ - ____",
         "answer": "25-29.9",
         "type": "text"
-    }
+    },
+    {
+        "question": "The trade name of phentermine is",
+        "answer": "Adipex-P",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Phntermine/Topiramate ER is",
+        "answer": "Qsymia",
+        "type": "text"
+    },
+    {
+        "question": "The trade name for Locaserin is",
+        "answer": "Belviq",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Naltrexone/Bupropion SR is",
+        "answer": "Contrave",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Liraglutide is",
+        "answer": "Saxenda",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Adipex-P is",
+        "answer": "Phentermine",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of phentermine is",
+        "answer": "Adipex-P",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Diethylpropion is",
+        "answer": "Tenuate",
+        "type": "text"
+    },
+    {
+        "question": "The trade name is Benzphetamine is",
+        "answer": "Didrex",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Qsymia is",
+        "answer": "phentermine/topiramate ER",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Belviq is",
+        "answer": "Lorcaserin",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Contrave is",
+        "answer": "naltrexone/bupropion SR",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of phentermine is",
+        "answer": "Adipex-P",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Phntermine/Topiramate ER is",
+        "answer": "Qsymia",
+        "type": "text"
+    },
+    {
+        "question": "The trade name for Locaserin is",
+        "answer": "Belviq",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Naltrexone/Bupropion SR is",
+        "answer": "Contrave",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Saxenda is",
+        "answer": "Liraglutide",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Tenuate is",
+        "answer": "Diethylpropioin",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Didrex is",
+        "answer": "Benzphetamine",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of phentermine is stimulating the hypothalamus to release ____ to suppres appetite",
+        "answer": "NE",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of diethylpropion is to stimulate ________ release to supress ______ signals and appetite",
+        "answer": "catecholamine, hunger",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of benzphetamine is to stimulate _______ release to supress ___ signals and appetite",
+        "answer": "catecholamine, hunger",
+        "type": "text"
+    },
+    {
+        "question": "The MOA for orilistat is that it inhibits ___ absorption by forming bond with _____ and _____ lipase",
+        "answer": "nutrient, gastric, pancreatic",
+        "type": "text"
+    },
+    {
+        "question": "The MOA for lorcaserin is it is a selective _____ agonist which supresses appetite",
+        "answer": "5HT2C",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of phentermine and topiramate is phentermine stimulates ___ release to supress appetite and topiramate suppresses appetite and enhances ______",
+        "answer": "NE, satiety",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of topiramate is it increases _____ and reduces cravings for food by decreasing GI motility, increasing ___ aversion and increasing energy expenditure",
+        "answer": "satiety, taste",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of liraglutide is it is a _____ receptor agonist and a physiological regulator of appetite and calorie intake and also stimulates ___ and decreases ___",
+        "answer": "GLP-1, insulin, glucagon",
+        "type": "text"
+    },
+    {
+        "question": "The MOA of naltrexone/bupropion SR is it is an opioid ____ and dopamine/NE reuptake inhibitor which suppresses appetite",
+        "answer": "antagonist",
+        "type": "text"
+    },
+    {
+        "question": "The trade name of Orilistat is",
+        "answer": "Xenical",
+        "type": "text"
+    },
+    {
+        "question": "The generic name of Xenical is",
+        "answer": "Orilistat",
+        "type": "text"
+	}
 ]

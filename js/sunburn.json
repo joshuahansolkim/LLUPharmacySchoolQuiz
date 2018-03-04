@@ -35,7 +35,7 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "UVB is primarily responsible for wrinkling, epidermal ______, elastosis and collagen _____",
+        "question": "UVB is primarily responsible for wrinkling, epidermal h______, elastosis and collagen d_____",
         "answer": "hyperplasia, damage",
         "type": "fill"
     },
@@ -45,12 +45,12 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "UVR exposure can lead to suntan and ______, drug ______, skin ______, photoaging, skin _____, photodermatoses, premature ____ and ____",
-        "answer": "sunburn, photosensitivity, hyperpigmentation, skin, aging, cataracts",
+        "question": "UVR exposure can lead to suntan and s______, drug photo___, skin hyper____, photoaging, skin c_____, photodermatoses, premature a____ and c____",
+        "answer": "sunburn, photosensitivity, hyperpigmentation, cancer, aging, cataracts",
         "type": "fill"
     },
     {
-        "question": "Acute overexposure to UVR is a result of damaged and ______ skin cells",
+        "question": "Acute overexposure to UVR is a result of damaged and in____ skin cells",
         "answer": "inflamed",
         "type": "text"
     },
@@ -75,7 +75,7 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "photoallergy triggers _____ skin reaction",
+        "question": "photoallergy triggers a_____ skin reaction",
         "answer": "antigenic",
         "type": "text"
     },
@@ -104,7 +104,7 @@ sunburnQuestions = [
         "answer": "stratum corneum ",
         "type": "text"
     }, {
-        "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by _____, ______, ______ UV radiation ",
+        "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by r_____, a______, d______ UV radiation ",
         "answer": "reflecting, absorbing, dispersing",
         "type": "text"
     },
@@ -125,13 +125,15 @@ sunburnQuestions = [
     },
     {
         "question": "Which ingredients offer UVB protection",
-        "answer": "aminobenzoic acid, salicylates, cinnamates, PABA esters (Padimate O), ensulizole",
-        "type": "list"
+        "choices": "a. aminobenzoic acid, b. salicylates, c. cinnamates, d. PABA esters (Padimate O), d. ensulizole, e. none of the above, f. all of the above",
+		"answer": "all the above",
+        "type": "multiple"
     },
     {
         "question": "Which ingredients offer UVB protection",
-        "answer": "meradimate, avobenzone, ecamsule",
-        "type": "list"
+        "choices": "a. meradimate, b. avobenzone, c. ecamsule",
+		"answer": "all the above",
+        "type": "multiple"
     },
     {
         "question": "Which ingredient offers both UVA/UVB protection",
@@ -144,7 +146,7 @@ sunburnQuestions = [
         "type": "list"
     },
     {
-        "question": "Titanium dioxide is used most often on small _____ exposed areas",
+        "question": "Titanium dioxide is used most often on small p_____ exposed areas",
         "answer": "prominently",
         "type": "text"
     },
@@ -164,7 +166,7 @@ sunburnQuestions = [
         "type": "fill"
     },
     {
-        "question": "Non-pharmacological treatments for sunburn are remain ______, cool ______, cool _____, _____, and drink ____",
+        "question": "Non-pharmacological treatments for sunburn are remain in______, cool c______, cool o_____, a___v__, and drink w____",
         "answer": "indoors, compress, oatmeal, aloe vera, water",
         "type": "list"
     },
@@ -186,7 +188,7 @@ sunburnQuestions = [
     },
     {
         "question": "sun.png",
-        "answer": "",
+        "answer": "sunburn, suntan",
         "type": "image"
     }
 ]

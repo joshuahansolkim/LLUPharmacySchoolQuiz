@@ -1,11 +1,11 @@
 hairLossQuestions = [
     {
-        "question": "Hair loss is most frequently due to ____ changes",
+        "question": "Hair loss is most frequently due to h____ changes",
         "answer": "hormonal",
         "type": "text"
     },
     {
-        "question": "Secondary causes of hair loss include ___ stress, ___ use, ____ illness, ___ changes, ____ trauma, genetics",
+        "question": "Secondary causes of hair loss include p___ stress, m___ use, c____ illness, d___ changes, l____ trauma, genetics",
         "answer": "physiologic, medication, chronic, dietary, local",
         "type": "text"
     },
@@ -90,8 +90,38 @@ hairLossQuestions = [
         "type": "text"
     },
     {
-        "question": "Complementary therapies for hair loss include: amino acids, aminobenzioc acid, B vitamins, ____ oil, lanolin, ____jelly, urea, wheat germ oil, ___ palmetto",
-        "answer": "jojoba, royal, saw",
+        "question": "AGA etiology is h___ and h____",
+        "answer": "hormonal, hereditary",
+        "type": "list"
+    },
+    {
+        "question": "Alopecia areata etiology is a___",
+        "answer": "autoimmune",
+        "type": "text"
+    },
+    {
+        "question": "Anagen effluvium etiology is c____, r____, h___ m___ poisoning",
+        "answer": "chemotherapy, radiation, heavy metal",
+        "type": "text"
+    },
+    {
+        "question": "Telogen etiology is m___ or h____ disturbances, stress, severe illness or injury, and m_____",
+        "answer": "metabolic, hormonal, medications",
+        "type": "text"
+    },
+    {
+        "question": "Cosmetic hair damage etiology is hair care practices, b___, p___, bleaching",
+        "answer": "bleaching, permanents",
+        "type": "text"
+    },
+    {
+        "question": "Trichotillomania etiology is p____ compulsive  pulling out of one's hair",
+        "answer": "psychiatric",
+        "type": "text"
+    },
+    {
+        "question": "Tinea capitis etiology is Trichophyton t____",
+        "answer": "tonsurans",
         "type": "text"
     }
 ]

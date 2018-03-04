@@ -1,16 +1,16 @@
 hyperpigmentationQuestions = [
     {
-        "question": "The three types of hyperpigmentation that can be treated are? ",
+        "question": "The three types of hyperpigmentation that can be treated are e___, s___ l___, m____ ",
         "answer": "ephelides, solar lentigines, melasma",
         "type": "text"
     },
     {
-        "question": "Etiology of hyperpigmentation are _____ imbalances, ____ alternations, _____ dermatoses, _____ trauma to skin, ___ induced",
+        "question": "Etiology of hyperpigmentation are e_____ imbalances, m____ alternations, i_____ dermatoses, p_____ trauma to skin, d___ induced",
         "answer": "endocrine, metabolic, inflammatory, physical, drug",
         "type": "text"
     },
     {
-        "question": "Endocrine imbalances are caused by ____disease, ____ disease, hypo/hyper_____, _____, ____ resistance",
+        "question": "Endocrine imbalances are caused by a____disease, c____ disease, hypo/hyper_____, p_____, ____ resistance",
         "answer": "Addison's, Cushing's, thyroidism, pregnancy, insulin",
         "type": "text"
     },
@@ -50,7 +50,7 @@ hyperpigmentationQuestions = [
         "type": "text"
     },
     {
-        "question": "Etiology of photoaging includes ____factors, _____ factors, ___ radiation exposure",
+        "question": "Etiology of photoaging includes i____factors, e_____ factors, ___ radiation exposure",
         "answer": "intrinsic, extrinsic, UV",
         "type": "text"
     },
