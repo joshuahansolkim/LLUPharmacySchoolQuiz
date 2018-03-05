@@ -195,6 +195,11 @@ function getFirstIncorrectQuestion(){
     getNewQuestion();
 }
 
+function getCorrectAnswer(){
+    $('#correctAnswerLabel').text('Correct Answer:');
+    $('#correctAnswer').val(questions[arrayIndex].answer);
+}
+
 function resetScore() {
     totalQuestions = questions.length;
     $('#correctCount').text("0/" + totalQuestions);
