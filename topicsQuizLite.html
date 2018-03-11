@@ -8,6 +8,8 @@
     <script type="text/javascript" src="js/hairLoss.json"></script>
     <script type="text/javascript" src="js/hyperpigmentation.json"></script>
     <script type="text/javascript" src="js/obesity.json"></script>
+    <script type="text/javascript" src="js/CAM.json"></script>
+    <script type="text/javascript" src="js/vitaminsAndMinerals.json"></script>
     <script type="text/javascript" src="js/testQuestions.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -59,6 +61,16 @@
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
                     <input type="radio" name="topicSelector" value="obesity" class="topicSelector"> Obesity
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="cam" class="topicSelector"> Complimentary and Alternative Medicine
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="vitamins" class="topicSelector"> Vitamins and Minerals
                 </label>
             </div>
         </fieldset>
@@ -116,6 +128,12 @@
                     break;
                 case "obesity":
                     questions = obesityQuestions;
+                    break;
+                case "cam":
+                    questions = CAMQuestions;
+                    break;
+                case "vitamins":
+                    questions = vitaminsAndMineralsQuestions;
                     break;
             }
             resetScore();

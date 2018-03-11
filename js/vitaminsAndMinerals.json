@@ -1,0 +1,500 @@
+vitaminsAndMineralsQuestions = [
+    {
+        "question": "Which individuals require vitamin supplementation",
+		"choices": "specific deficiencies, medical indications, conditions affecting absorption, conditions affecting vitamin need, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "General recommendations for multivitamins that is false is",
+		"choices": "look for 100%, thiamine, riboflavin, niacin, B6, folic acid, B12, D, E, and C, limit vitamin C and minerals other than calcium and magnesium, include vitamin K unless there is anticoagulant use",
+        "answer": "limit vitamin C and minerals other than calcium and magnesium",
+        "type": "multiple"
+    },
+    {
+        "question": "How is vitamin intake quantitated",
+		"choices": "dietary reference intakes, recommended dietary allowance, daily value, tolerable upper intake level, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Select all the active forms of vitamin A",
+		"choices": "retinol, retinal, beta carotene, retinoic acid",
+        "answer": "retinol, retinal",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a normal function of vitamin A",
+        "choices": "Rhodopsin pigment in eyes, epithelial barrier function, antioxidant, cell division and transcription",
+		"answer": "cell division and transcription",
+        "type": "multiple"
+    },
+    {
+        "question": "Where do you look for vitamin deficiency in. Select all that apply",
+		"choices": "premature infants, GI conditions of fat malabsorption, developed countries with limited food intake",
+        "answer": "premature infants, GI conditions of fat malabsorption",
+        "type": "multiple"
+    },
+    {
+        "question": "What are the signs of vitamin A deficiency, dry, s___ skin, increased infectious diseases such as m____, m_____, d____ eyes, impaired a___, t___, s___",
+		"answer": "scaly, measles, malaria, dry, appetite, taste, smell",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin excess leads to",
+		"choices": "increased lung cancer risk in smokers, bleeding, liver toxicity, joint and bone pain, risk of osteoporosis, dry skin, gingivitis, birth defects, alopecia, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Acute overdose of vitamin A leads to increased i____ pressure, h__, s___, d___",
+        "answer": "intracranial, headaches, seizures, drowsiness",
+        "type": "text"
+    },
+    {
+        "question": "You can look for vitamin A excess in",
+		"choices": "use of retinoid drugs, use of fish liver oil, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "What is the daily requirement of vitamin A for male/female ____/____ug/day, ____IU vitamin A, ____IU beta carotene from supplements, ___ IU beta carotene from food",
+        "answer": "900/700, 3000, 6000, 18000",
+        "type": "text"
+    },
+    {
+        "question": "What is the UL for vitamin A ___ug/day",
+		"choices": "3000",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "The three different forms of vitamin D are e___, c____, 1,25-d_____",
+		"answer": "ergocalciferol, cholecalciferol, dihydroxycholecalciferol",
+        "type": "text"
+    },
+    {
+        "question": "Ergocalciferol (D2) is present in p___ and f___",
+        "answer": "plants, fungi",
+        "type": "text"
+    },
+    {
+        "question": "cholecalciferol (D3) is synthesized in skin in presence of s___, present in f___ foods",
+        "answer": "sunlight, fortified",
+        "type": "text"
+    },
+    {
+        "question": "What effect does vitamin D deficiency have",
+		"choices": "muscle weakness, lupus, rheumatoid arthritis, rickets, osteomalacia, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Calcitriol (Rocaltrol) is a p___ product",
+        "answer": "prescription",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin D excess leads to ___ complaints, h____",
+        "answer": "GI, hypercalcemia",
+        "type": "text"
+    },
+    {
+        "question": "What is the normal function of vitamin E",
+		"choices": "antioxidant protection against damage, involvement in immune function, inhibition of protein kinase C, decreases endothelial adhesion, increases vasodilation, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "What is the daily requirement of vitamin D for male/female (1-70yo) ____ug/day ( ____IU)",
+        "answer": "15, 600",
+        "type": "text"
+    },
+    {
+        "question": "What is the daily requirement of vitamin D for male/female (70+ yo) ______ug/day (___IU)",
+        "answer": "20, 800",
+        "type": "text"
+    },
+    {
+        "question": "What is the UL for vitamin D (>=9yo) ______ug/day (____IU)",
+        "answer": "100, 4000",
+        "type": "multiple"
+    },
+    {
+        "question": "You need ____ minutes of midday sun exposure from 10Am-3PM for ___ times/week ",
+        "answer": "5-30, 2",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin E deficiency leads to free radical damage to neuronal, muscle, and other membranes, p___ neuropathy, r____, a___, impaired immune function",
+        "answer": "peripheral, retinopathy, ataxia",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin E excess leads to increased bleeding at high doses, i___ mortality, decreased effect of r___ therapy",
+        "answer": "increased, radiation",
+        "type": "text"
+    },
+    {
+        "question": "The daily requirement of vitamin E for male/female is _____mg/day (_____IU)",
+        "answer": "15, 15.5-22.5",
+        "type": "text"
+    },
+    {
+        "question": "The UL for vitamin E in male/female is ____mg/day",
+        "answer": "1000",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a normal function of thiamine",
+		"choices": "carbohydrate metabolism, nervous function, gain fat",
+        "answer": "gain fat",
+        "type": "multiple"
+    },
+    {
+        "question": "Dry beriberi affects p___ nervous system",
+        "answer": "peripheral",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a symptom of dry beriberi",
+		"choices": "loss of tendon reflexes, paresthesia, numbness of feet, foot/wrist drop, emaciation, painful tender muscles (pain on compression), aphonia, edema",
+        "answer": "edema",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a symptom of wet beriberi",
+		"choices": "dyspnea, otheopnea, slight cyanosis, edema, wenicke's syndrome, dilation of right heart/heart failure, emaciation",
+        "answer": "emaciation",
+        "type": "multiple"
+    },
+    {
+        "question": "Wet beriberi affects c____ system",
+        "answer": "cardiovascular",
+        "type": "text"
+    },
+    {
+        "question": "Wernicke's encephalopathy is the acute phase and includes c___, a___, e___ weakness/p___",
+        "answer": "confusion, ataxia, eye, paralysis",
+        "type": "text"
+    },
+    {
+        "question": "Korsakoff's syndrome is the chronic phase and includes memory loss and visual impairment and is known as a___induced persisting a___disorder and can be irreversible",
+        "answer": "alcohol, amnestic",
+        "type": "text"
+    },
+    {
+        "question": "There is no UL for thiamine excess",
+		"choices": "true, false",
+        "answer": "true",
+        "type": "multiple"
+    },
+    {
+        "question": "What is the daily requirement of thiamine for male/female __/__mg/day",
+        "answer": "1.3/1.1",
+        "type": "text"
+    },
+    {
+        "question": "What is the normal function of riboflavin",
+		"choices": "Electron transport and ATP production, Glutathione reductase (antioxidant), metabolism of B6/niacin/folate, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Riboflavin deficiency needs to be watched in e___, a___, use of oral c____, long term a_____, t___ antidepressants",
+        "answer": "elderly, alcoholics, contraceptives, antibiotics, tricyclic",
+        "type": "text"
+    },
+    {
+        "question": "Riboflavin deficiency is also known as a___",
+        "answer": "ariboflavinosis",
+        "type": "text"
+    },
+    {
+        "question": "riboflavin deficiency results in",
+		"choices": "cheilosis, scaly skin, magenta tongue, GI irritatiion, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Daily requirement of riboflavin for male/female is ___/___mg.day",
+        "answer": "1.3/1.1",
+        "type": "text"
+    },
+    {
+        "question": "____ mg tryptophan = 1 mg niacin",
+        "answer": "60",
+        "type": "text"
+    },
+    {
+        "question": "riboflavin has no known UL",
+		"choices": "true, false",
+        "answer": "true",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a normal function of niacin",
+		"choices": "Electron transport and ATP production, protein and lipid synthesis and metabolism, DNA repair/cell cycling and differentiation, lipoprotein regulation, all of the above, none of the above",
+        "answer": "none of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Niacin deficiency needs to be watched in a____, diets rich in corn not a____ with lime, i___ therapy, use of bile acid binding resins",
+        "answer": "alcoholics, alkalinized, isoniazid",
+        "type": "text"
+    },
+    {
+        "question": "Niacin deficiency leads to",
+		"choices": "pellagra, dermatitis, diarrhea, dementia, facial lesions, dementia, glove-and-stocking lesions, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Niacin excess leads to f___, headache, i___, GI problems, atrial a____, hepatotoxicity, h____",
+        "answer": "flushing, itching, arrhythmias, hyperglycemia", 
+        "type": "text"
+    },
+    {
+        "question": "The daily requirement of niacin for male/female is ____/____mg/day and the UL is ____mg/day and the therapeutic dose is ____mg/day",
+        "answer": "16/14, 35, 500-3000",
+        "type": "text"
+    },
+    {
+        "question": "Pyridoxine is used for",
+		"choices": "transamination, synthesis of heme, fatty acids, neurotransmitters, homocysteine metabolism, gluconeogenesis, all of the above, none of the above",
+        "answer": "",
+        "type": "multiple"
+    },
+    {
+        "question": "Pyridoxine deficiency leads to",
+		"choices": "peripheral neuropathy, convulsions, decreased cognition, depression, cheilosis, decreased immune function, microcytic anemia, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Pyridoxine excess leads to",
+		"choices": "sensory neuropathy, skin disorders, photosensitivity, GI symptoms, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of pyridoxine for male/female is ___mg/day, the UL is ___mg/day",
+		"answers": "1.3, 100",
+        "type": "text"
+    },
+    {
+        "question": "The normal function of biotin is",
+		"choices": "gluconeogenesis, fatty acid, amino acid synthesis, histone binding in nucleus and protein expression, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Biotin deficiency leads to",
+		"choices": "thinning hair/faceial rash/dermatitis, uncombable hair syndrome, depression, peripheral neuropathy, GI symptoms, failure to thrive, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Biotin deficiency needs to be watched in",
+		"choices": "smoking, anticonvulsants, intake of raw egg, TPN without biotin, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of biotin for male/female is ____ug/day, the UL is ___ug/day",
+        "answer": "30, 100",
+        "type": "text"
+    },
+    {
+        "question": "Biotin is synthesized by g___ bacteria",
+        "answer": "gut",
+        "type": "text"
+    },
+    {
+        "question": "1 ug food folate= _DFE=_ug supplement or fortified food",
+		"answer": "1,0.6",
+        "type": "text"
+    },
+    {
+        "question": "The funcion of folate is to",
+		"choices": "cofactor for methylation reactions in nucleic acid synthesis and cell division, metabolism of amino acids, interaction with vitamins B6 and B12, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Folic acid deficiency leads to",
+		"choices": "mouth soreness and ulceration, megaloblastic anemia, including weakness, irritability, difficulty concentrating, developmental defects, neural tube, low birthweight, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Folic acid excess leads to",
+		"choices": "Gi, confusion, sleep disturbance, progression of preneoplastic lesions, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Folate deficiency needs to be watched in",
+		"choices": "women of child bearing age, alcoholics, smokers, drugs that antagonize folic acid including methotrexate, anticonvulsants, diuretics, antibiotics, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Folic acid excess needs to be watched in supplementation e__",
+        "answer": "excess",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin B12 is NOT needed for",
+		"choices": "metabolism of amino acids, synthesis of DNA/hemoglobin/myeline, interacts with folate and B6, involved with homocysteine metabolism",
+        "answer": "metabolism of amino acids",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of folic acid for male/female is ___ug/day, for pregnancy/lactation ____ug/day, and the UL is ____mg/day",
+        "answer": "400, 6000/500, 1",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin B12 deficiency leads to",
+		"choices": "ataxia, confusion, depression, dementia, peripheral neuropathy, mouth soreness, pernicious anemia, impaired fetal and infant growth, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "B12 deficiency needs to be watched in",
+		"choices": "unsupplemented vegan diet, loss of intrinsic factor (pernicious anemia, gastric atrophy, GI disorders, use of PPI/H2A/metformin, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "There is no B12 UL",
+		"choices": "true, false",
+        "answer": "true",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of vitamin B12 for male/female is ____ug/day, and there is ___UL",
+        "answer": "2.4, no",
+        "type": "text"
+    },
+    {
+        "question": "The normal function of vitamin C is",
+		"choices": "antioxidant activity, needed for synthetic and metabolic functions, needed for immune function, facilitates iron absorption, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Vitamin C deficiency leads to",
+		"choices": "bruising, bleeding in gums, fatigue/depression/irritability, slow wound healing, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin C excess leads to",
+		"choices": "potential dental erosion from lozenges/chewable tablets, GI symptoms, increased oxalate and kidney stone, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "text"
+    },
+    {
+        "question": "Vitamin C is destroyed by cooking and storage",
+		"choices": "true, false",
+        "answer": "true",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of Vitamin C for male/female is ___/___mg/day, the UL is ___mg/day, and _____mg/day if prone to kidney stones",
+        "answer": "90/75, 2000, 1000",
+        "type": "text"
+    },
+    {
+        "question": "General concerns regarding minerals is factors increasing absorption such as i___stomach acid, mineral d___, g____abnormalities",
+        "answer": "increased, deficiency, genetic",
+        "type": "text"
+    },
+    {
+        "question": "General concerns regardig minerals is factors decreasing absorption such as d___stomach acid, i____damage, s___ of transport proteins",
+        "answer": "decreased, intestinal, saturation",
+        "type": "text"
+    },
+    {
+        "question": "general issues regarding minerals is non absorption such as s___ texture, GI u___, d___drug absorption",
+        "answer": "stool, upset, decreased",
+        "type": "text"
+    },
+    {
+        "question": "Calcium deficiency leads to",
+		"choices": "osteopenia, skeletal abnormalities, numbness and tingling, cardiac arrhythmias, muscle cramps/tetany, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Calcium excess leads to",
+		"choices": "calcium precipitation in heart or kidney, constipation, increased cardiovascular risk, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "The daily requirement of calcium is ___mg/day for 9-19 yo",
+        "answer": "1300",
+        "type": "text"
+    },
+    {
+        "question": "The daily requirement of calcium for male/female is ___mg/day for 19-50 yo",
+		"answer": "1000",
+        "type": "text"
+    },
+    {
+        "question": "The daily requirement of calcium is ___mg/day for 51+ yo",
+        "answer": "1200",
+        "type": "text"
+    },
+    {
+        "question": "The UL for calcium for male/female is ____/_____/____mg/day for 9-19, 19-50, 51+",
+		"answer": "3000, 2500, 2000",
+        "type": "text"
+    },
+    {
+        "question": "Iron deficiency leads to",
+		"choices": "weakness/pallor/cold digits/anemia, impaired exercise performance, decreased cognition and development in young children, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Iron deficiency needs to be watched in",
+		"choices": "inadequate dietary intake, decreased vitamin C, periods of rapid growth or pregnancy, normal/drug induced or pathological blood loss incuding menstruation, all of the above, none of the above",
+		"answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Iron excess leads to",
+		"choices": "increased serum ferritin, GI/liver/vascular damage and shock due to free radical catalysis, constipation (dark, hard stools), all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "What are the different forms of iron supplements: ferrous f_____, s_____, g____",
+		"answer": "fumarate, sulfate, gluconate",
+        "type": "text"
+    },
+    {
+        "question": "R_____ iron is absorbed more readily than o____ iron",
+        "answer": "reduced, oxidized",
+        "type": "text"
+    },
+    {
+        "question": "H_____ iron is absorbed more readily than i_____ iron",
+		"answer": "heme, inorganic",
+        "type": "text"
+    },
+    {
+        "question": "Plant sources of iron come from l______, fortified grain products, m______, s____",
+        "answer": "legumes, molasses, spinach",
+        "type": "text"
+    },
+    {
+        "question": "The daily requirement",
+		"answer": "1000",
+        "type": "text"
+    }
+]

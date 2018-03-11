@@ -1,0 +1,89 @@
+CAMQuestions = [
+    {
+        "question": "A broader definition of dietary supplement includes culinary h____, s__, and f__",
+        "answer": "herbs, spices, foods",
+        "type": "text"
+    },
+    {
+        "question": "A dietary supplement is intended to supplement the diet, contains one or more dietary ingredients, and is intended to be taken by mouth as a c___, p___, t___, l___, and is labeled on the front as a dietary supplement",
+        "answer": "capsule, pill, tablet, liquid",
+        "type": "text"
+    },
+    {
+        "question": "Which one is NOt a reason for supplement use?",
+		"choices": "convenience, cost, lack of access to medical care, trust of the medical establishment, ethnic/cultural background, familiarity, treatment of sub-clinical or otherwise untreated illness",
+        "answer": "trust of the medical establishment",
+        "type": "multiple"
+    },
+    {
+        "question": "Who are typical supplement users",
+		"choices": "female, more educated, recently hospitalized, former smokers",
+        "answer": "female, more educated, recently hospitalized, former smokers",
+        "type": "multiple"
+    },
+    {
+        "question": "In order to know if dietary supplements are effective you need to know your e_____, encourage r____ expectations, keep the patient as a w____ in mind",
+        "answer": "evidence, realistic, whole",
+        "type": "text"
+    },
+    {
+        "question": "What are some examples of evidence: l___/e___/g___ resource",
+        "answer": "literature, electronic, government",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not an electronic literature source",
+		"choices": "Natural Medicines Database, Facts and Comparisons, Wikipedia, Micromedex, Cochrane reviews",
+        "answer": "Wikipedia",
+        "type": "multiple"
+    },
+    {
+        "question": "Dietary supplements are regulated by the FDA under the provisions of ___",
+        "answer": "DSHEA",
+        "type": "text"
+    },
+    {
+        "question": "A dietary supplement label may not claim that the supplement can d__, p___, m___, t___, or c___a specific disease",
+        "answer": "diagnose, prevent, mitigate, treat, cure",
+        "type": "text"
+    },
+    {
+        "question": "Exceptions are made for which specific health claims which need to meet Federal guidelines",
+		"choices": "approved health claims, qualified health claims, nutrient claims, well-being claims, none of the above, all of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "Dietary supplements can be labeled in regard to prevention of d___ disease, s___ or f___, or in regard to w___-b___",
+        "answer": "deficiency, structure, function, well-being",
+        "type": "text"
+    },
+    {
+        "question": "Government resources include",
+		"choices": "Both FDA and NIH, National Institutes of Health, Office of Dietary Supplements: Fact Sheets, Medline Plus, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "An appropiate response to is dietary supplements safe is",
+		"choices": "be aware of risks, keep relative risks in perspective, minimize risk, keep lines of communication open, report risks, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    },
+    {
+        "question": "For interactions, you must pay attention to the same e___, same s___ e___, same m____",
+        "answer": "effect, side effect, metabolism",
+        "type": "text"
+    },
+    {
+        "question": "Factual content of advertising is monitored by the ___ and ____",
+        "answer": "FDA, FTC",
+        "type": "text"
+    },
+    {
+        "question": "Which is the best response for dietary substances regulated by the FDA",
+		"choices": "be aware of variateions in manufacturer standards, be aware of standardization, help patients find quality products, be aware of likely areas of contamination, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "multiple"
+    }
+]

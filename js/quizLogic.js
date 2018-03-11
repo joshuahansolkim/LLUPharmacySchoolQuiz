@@ -110,7 +110,7 @@ function getNewQuestion() {
             $("#answerInput").focus();
             break;
         case "multiple":
-            $('#questionRow').html("<div class='col'><div class='row'><h2 id='question'></h2></div><div class='row form-group form-check'><label for='answerInput' class='answers'>Answer</label></div></div>");
+            $('#questionRow').html("<div class='col'><div class='row'><h2 id='question'></h2></div><div class='row form-group form-check'><label for='answerInput' class='answers'>Answers</label></div></div>");
             $("#question").text(arrayIndex + 1 + ": " + question.question.trim());
             
             var answerChoices = question.choices.split(",");
