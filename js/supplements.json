@@ -1,0 +1,217 @@
+supplementsQuestions = [
+    {
+        "question": "Cardiovascular supplements include c___ Q, f___ oil, g___",
+        "answer": "coenzyme, fish, garlic",
+        "type": "text"
+    },
+    {
+        "question": "Coenzyme Q is used for h__, c___ heart failure, m___ infarction, m____, P____ , a___",
+        "answer": "hypertension, congestive, myocardial, migraine, Parkinson's, antioxidant",
+        "type": "text"
+    },
+    {
+        "question": "Coenzyme Q adverse effects is G___ effects, elevation fo liver enzymes, decrease w____ effectiveness",
+		"answer": "GI, warfarin",
+        "type": "text"
+    },
+    {
+        "question": "Coenzyme Q is d___ by statin use",
+        "answer": "depleted",
+        "type": "text"
+    },
+    {
+        "question": "Fish oil is used for hyperl____, hypert_____, i___, A___/bipolar disorder",
+        "answer": "hyperlipidemia, hypertriglycerides, inflammation, ADHD",
+        "type": "text"
+    },
+    {
+        "question": "Adverse effects of fish oil include increased b___ and L___",
+        "answer": "bleeding, LDL",
+        "type": "text"
+    },
+    {
+        "question": "Fish oil is found in f__, w___, c__ oil, fish, k___, s__-",
+		"answer": "flaxseed, walnuts, canola, krill, seal",
+        "type": "text"
+    },
+    {
+        "question": "garlic is used for a___, hyperl____, hypert___, anti___, antioxidant, antic___",
+        "answer": "atherosclerosis, hyperlipidemia, hypertension, platelet, cancer",
+        "type": "text"
+    },
+    {
+        "question": "Adverse effects of garlic include a___, increased b___, GI d___",
+        "answer": "allergies, bleeding, distress",
+        "type": "text"
+    },
+    {
+        "question": "Garlic is activated by a____",
+		"answer": "allinase",
+        "type": "text"
+    },
+    {
+        "question": "Red yeast rice is used for h____",
+        "answer": "hyperlipidemia",
+        "type": "text"
+    },
+    {
+        "question": "Red yeast rice  adverse effects is similar to l____",
+        "answer": "lovastatin",
+        "type": "text"
+    },
+    {
+        "question": "Red yeast rice contraindication is f____ allergies",
+		"answer": "fungal",
+        "type": "text"
+    },
+    {
+        "question": "Which supplements have CNS effects f____, g___ biloba, St. John's w___,",
+        "answer": "feverfew, gingko, wort",
+        "type": "text"
+    },
+    {
+        "question": "Feverfew is used to decrease m____  frequency and severity",
+        "answer": "migraine",
+        "type": "text"
+    },
+    {
+        "question": "Feverfew adverse effects is oral i___, CYP450 inhibition, A___Compositae allergy",
+        "answer": "inhibition, Asteraceae",
+        "type": "text"
+    },
+    {
+        "question": "Feverfew is likely safe for acute use up to ___ months",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "Gingko biloba is used for a___, c___ function, d____, s___, v____, d___, Alzheimer's",
+        "answer": "anxiety, cognitive, dementia, schizophrenia, vertigo, dementia",
+        "type": "text"
+    },
+    {
+        "question": "Gingko biloba adverse effect are GI, C___ effect, i___ bleeding, spontaneous h___, s_____, drug interaction with C___",
+        "answer": "CNS, increased, hemorrhage, seizure, CYP",
+        "type": "text"
+    },
+    {
+        "question": "Gingko biloba tolerance may develop after ___ weeks",
+        "answer": "6",
+        "type": "text"
+    },
+    {
+        "question": "St. John's Wort use is mild d___, a___, m___",
+        "answer": "depression, anxiety, menopause",
+        "type": "text"
+    },
+    {
+        "question": "St. John's Wort adverse effect is GI, C__, p____, s___ syndrome, DDI with C___",
+        "answer": "CNS, psychosis, serotonin, CYP450",
+        "type": "text"
+    },
+    {
+        "question": "St. John's Wort should be used cautiously with transplant drugs, c_____, CV agents",
+        "answer": "chemotherapy",
+        "type": "text"
+    },
+    {
+        "question": "What supplementation is digestive: p____",
+        "answer": "probiotics",
+        "type": "text"
+    },
+    {
+        "question": "What supplementation is immune/inflammatory: E____, z___",
+        "answer": "Echinacea, zinc",
+        "type": "text"
+    },
+    {
+        "question": "Echinacea is used to d___ severity and duration of common c___ symptoms",
+        "answer": "decrease, cold",
+        "type": "text"
+    },
+    {
+        "question": "Echinacea adverse effects is GI symptoms, A___/compositae allergy, increase a____ disease, caution with HIV, t___ patients",
+        "answer": "Asteraceae, autoimmune, transplant",
+        "type": "text"
+    },
+    {
+        "question": "Echinacea can be used for __-____ days",
+        "answer": "7-10",
+        "type": "text"
+    },
+    {
+        "question": "Zinc is used for cofactor for multiple enzymes, d___ in zinc malnourished children, common c___, p____, a___, p___ ulcers",
+        "answer": "diarrhea, cold, pneumonia, acne, peptic",
+        "type": "text"
+    },
+    {
+        "question": "Zinc adverse effects is nausea, GI symptoms, c___ deficiency, anemia, n___, l___, j___, a___",
+        "answer": "copper, neutropenia, lethargy, jaundice, asnomia",
+        "type": "text"
+    },
+    {
+        "question": "reproductive/renal supplementation is black c___, c___, saw p____",
+        "answer": "cohosh, cranberry, palmetto",
+        "type": "text"
+    },
+    {
+        "question": "Black cohosh is used for m___ symptoms",
+        "answer": "menopause",
+        "type": "text"
+    },
+    {
+        "question": "Black cohosh adverse effect is GI, r___, l___ toxicity",
+        "answer": "rash, liver",
+        "type": "text"
+    },
+    {
+        "question": "Cranberry use is U___ prevention",
+        "answer": "UTI",
+        "type": "text"
+    },
+    {
+        "question": "Cranberry adverse effect is increased risk of o___ kidney stones in high amounts for long periods of time, GI upset, increase sugar consumption",
+        "answer": "oxalate",
+        "type": "text"
+    },
+    {
+        "question": "Cranberry contains s___ leading to concern regarding aspirin allergy and anticoagulation",
+        "answer": "salicylate",
+        "type": "text"
+    },
+    {
+        "question": "Saw palmetto is used for B___, ",
+        "answer": "BPH",
+        "type": "text"
+    },
+    {
+        "question": "Saw palmetto adverse effects is GI, d____/HA, a___ effect",
+        "answer": "dizziness, anticoagulation",
+        "type": "text"
+    },
+    {
+        "question": "Supplements that affect body structure are g____/chondroitan/MSM, and c_____",
+        "answer": "glucosamine, creatine",
+        "type": "text"
+    },
+    {
+        "question": "Glucosamine is used for o_____, glucosamine is used to i____ cartilage synthesis, sulfate increases cartilage growth, chondroitan i__ cartilage breakdown, MSM is an a___ source and s__ source",
+        "answer": "osteoarthritis, increase, increase, antioxidant, sulfur",
+        "type": "text"
+    },
+    {
+        "question": "Glucosamine adverse effect is n___, d___, s___ allergy, chondroitin i___ bleeding",
+        "answer": "nausea, diarrhea, shellfish, increase",
+        "type": "text"
+    },
+    {
+        "question": "Creatine is used for a___ performance, m___ strength, p___",
+        "answer": "athletic, muscle, phosphocreatine",
+        "type": "text"
+    },
+    {
+        "question": "Creatine adverse effect is increased water content leading to c___",
+        "answer": "cramping",
+        "type": "text"
+    }
+]

@@ -126,13 +126,13 @@ sunburnQuestions = [
     {
         "question": "Which ingredients offer UVB protection",
         "choices": "a. aminobenzoic acid, b. salicylates, c. cinnamates, d. PABA esters (Padimate O), d. ensulizole, e. none of the above, f. all of the above",
-		"answer": "all the above",
+		"answer": "f. all of the above",
         "type": "multiple"
     },
     {
         "question": "Which ingredients offer UVB protection",
-        "choices": "a. meradimate, b. avobenzone, c. ecamsule",
-		"answer": "all the above",
+        "choices": "a. meradimate, b. avobenzone, c. ecamsule, d. all the above",
+		"answer": "d. all the above",
         "type": "multiple"
     },
     {

@@ -93,9 +93,12 @@ function checkAnswer() {
 }
 
 function getNewQuestion() {
-    if($('#question'+arrayIndex).attr('class').includes('answerCorrect')){
-        arrayIndex++;
-        getNewQuestion();
+    // TODO: Figure out why this is failing when the app loads. Seems to not like when arrayIndex = 0?
+    if(arrayIndex > 0){
+        if($('#question'+arrayIndex).attr('class').includes('answerCorrect')){
+            arrayIndex++;
+            getNewQuestion();
+        }
     }
     $(".page-link").parent().removeClass('active');
     $('#question'+arrayIndex).parent().addClass('active');
@@ -149,7 +152,6 @@ function randomizeQuestions() {
 	questions.sort(function(a, b){return 0.5 - Math.random()});
 	setupPagination();
 	getNewQuestion();
-	console.log(questions);
 }
 
 function setupPagination() {
@@ -204,4 +206,5 @@ function resetScore() {
     totalQuestions = questions.length;
     $('#correctCount').text("0/" + totalQuestions);
     totalCorrect = 0;
+    getFirstQuestion();
 }

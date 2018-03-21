@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/obesity.json"></script>
     <script type="text/javascript" src="js/CAM.json"></script>
     <script type="text/javascript" src="js/vitaminsAndMinerals.json"></script>
+    <script type="text/javascript" src="js/supplements.json"></script>
     <script type="text/javascript" src="js/testQuestions.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -73,6 +74,11 @@
                     <input type="radio" name="topicSelector" value="vitamins" class="topicSelector"> Vitamins and Minerals
                 </label>
             </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="supplements" class="topicSelector"> Supplements
+                </label>
+            </div>
         </fieldset>
         <fieldset>
             <div class="row" id="questionRow">
@@ -134,6 +140,9 @@
                     break;
                 case "vitamins":
                     questions = vitaminsAndMineralsQuestions;
+                    break;
+                case "supplements":
+                    questions = supplementsQuestions;
                     break;
             }
             resetScore();
