@@ -1,0 +1,266 @@
+DiagnosticTestsQuestions = [
+    {
+        "question": "The fishbone diagram includes values such as e____, l_____, p____, E____S_____R____",
+        "answer": "erythrocytes, leukocytes, platelets, erythrocytes sedimentation rate",
+        "type": "text"
+    },
+    {
+        "question": "The hemoglobin values for males is __-__g/dL and the values for women is ___-___g/dL",
+        "answer": "14-17.5, 12.3-15.3",
+        "type": "text"
+    },
+    {
+        "question": "The normal mean cell volume is ____fL",
+        "answer": "75-100",
+        "type": "text"
+    },
+    {
+        "question": "Microcytic anemia such as _____ deficiency is MCV value <___fL",
+        "answer": "iron, 75",
+        "type": "text"
+    },
+    {
+        "question": "Macrocytic anemia such as vitamin ___ or f____ acid deficiency is MCV values >___",
+        "answer": "B12, folic, 100",
+        "type": "text"
+    },
+    {
+        "question": "The normal white blood cell value is __-____x10^3/mm^3 or ____-____mm^3 or ___-____x10^9/L or __-____x10^3/uL",
+        "answer": "5-10, 5000-10000, 5-10, 5-10",
+        "type": "text"
+    },
+    {
+        "question": "The most abundant leukocytes to least is ordered n___, l___, m___, e_____, b_____ (Never Let Monkeys Eat Banana)",
+        "answer": "neutrophil, lymphocyte, monocyte, eosinophil, basophil",
+        "type": "text"
+    },
+    {
+        "question": "Agranulocytes are l___ and m___",
+        "answer": "lymphocyte, monocyte",
+        "type": "text"
+    },
+    {
+        "question": "Neutrophils are the most abundant WBC and are increased during bacterial or fungal infections. The absolute neutrophil count is calculated as ANC= ____(____mature +____immature)",
+        "answer": "WBC, SEG, bands",
+        "type": "text"
+    },
+    {
+        "question": "ANC predicts the body's defense against infection. The normal range of ANC is ____-_____ cells/mm^3",
+        "answer": "1500-8000",
+        "type": "text"
+    },
+    {
+        "question": "Agranulocytosis is when ANC <____ cells/mm^3 and is also known as absolute n____ and there is a h___ risk of infection",
+        "answer": "500, neutropenia, high",
+        "type": "text"
+    },
+    {
+        "question": "ANC is used to monitor patients undergoing c____ or patients taking medication such as c_____",
+		"answer": "chemotherapy, clozapine",
+        "type": "text"
+    },
+    {
+        "question": "Neutrophilia occurs when there are i___ neutrophils and bands and this indicates a response to i____ cytokines and production of large number of new and immature white blood cells trying to fight off an infection",
+        "answer": "increased, inflammatory",
+        "type": "text"
+    },
+    {
+        "question": "neutrophilia value >___ indicates possible causes of b___ infection, or medication induced from l___ and/or s____",
+        "answer": "12000, bacterial, lithium, steroids",
+        "type": "text"
+    },
+    {
+        "question": "Neutropenia values <____ indicate possible causes such as r___ exposure, c___, or overwhelming acute b___ infection",
+        "answer": "1500, radiation, chemotherapy, bacterial",
+        "type": "text"
+    },
+    {
+        "question": "lymphocytosis >____ indicate possible causes such as v___ infection or l_____",
+        "answer": "4000, viral, lymphoma",
+        "type": "text"
+    },
+    {
+        "question": "Lymphocytopenia <____ indicates possible causes such as H____ infection",
+        "answer": "1000, HIV",
+        "type": "text"
+    },
+    {
+        "question": "Eosinophilia values >_____ indicates possible causes such as a___ reaction/disorder or p_____ infection",
+        "answer": "350, allergic, parasitic",
+        "type": "text"
+    },
+    {
+        "question": "Eosinopenia values <___ indicate possible causes such as a___ infection",
+        "answer": "acute",
+        "type": "text"
+    },
+    {
+        "question": "Platelets normal range is _____-______/uL",
+        "answer": "150,000-450,000",
+        "type": "text"
+    },
+    {
+        "question": "The average life span of platelets is ___-____ days and there is a ___% turnover each day",
+        "answer": "8-10, 10",
+        "type": "text"
+    },
+    {
+        "question": "The function of platelets is to convert l___ blood into g___(clot) and this prevents bleeding by binding ot site of damaged vessel",
+        "answer": "liquid, gel",
+        "type": "text"
+    },
+    {
+        "question": "Platelet aggregation can cause t____ formation and increase the risk of b___ clots, s___, h___ attack",
+        "answer": "thrombus, blood, stroke, heart",
+        "type": "text"
+    },
+    {
+        "question": "thrombocytopenia is l__ platelet count <____/uL and some causes are d__ induced, i___ condition, c___ treatment",
+        "answer": "low, 15000, drug, inherited, cancer",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a sign/symptom of thrombocytopenia",
+		"choices": "ecchymosis (discoloration of skin due to bleeding/bruising), petechiae (tiny round purple spots due bleeding under skin), hematuria(blood in urine), melena (dark tarry stool with or without blood), menorrhagia (heavy vaginal bleeding), epistaxis (nose bleed), bleeding gums, shortened bleeding",
+        "answer": "shortened bleeding",
+        "type": "text"
+    },
+    {
+        "question": "thrombocytosis is also known as t_____ has platelet counts > _____/uL and some causes are s___, i___, s____, posthemorrhagic a____",
+		"answer": "thrombocythemia, 800000, stress, infection, splenectomy",
+        "type": "text"
+    },
+    {
+        "question": "The erythrocyte sedimentation rate is useful for monitoring i____ conditions and is higher when d____ is active",
+        "answer": "inflammatory, disease",
+        "type": "text"
+    },
+    {
+        "question": "Serum creatinine levels range from ___-____mg/dL and creatine is produced in the l___ and filtered at the g____ and is a primary marker of r___ function",
+        "answer": "0.6-1.2, liver, glomerulus, renal",
+        "type": "text"
+    },
+    {
+        "question": "Serum creatinine should be avoided as the s___ assessment of renal function",
+        "answer": "sole",
+        "type": "text"
+    },
+    {
+        "question": "Which one of the factors does not affect serum creatinine",
+		"choices": "age, muscle mass, sex, race, diet, adipose mass",
+        "answer": "adipose mass",
+        "type": "multiple"
+	},
+    {
+        "question": "The normal blood urea nitrogen range is ___-_____mg/dL and is the e___ product of metabolism",
+        "answer": "10-20, end",
+        "type": "text"
+    },
+    {
+        "question": "BUN is produced by the l___ and excreted by the k____",
+        "answer": "liver, kidneys",
+        "type": "text"
+    },
+    {
+        "question": "Elevated BUN is caused by h___ protein diet/catabolism, GI bleeding where blood in the gut is converted to a___ and u___ nitrogen, r____ renal blood flow (dehydration)",
+        "answer": "high, ammonia, urea, reduced",
+        "type": "text"
+    },
+    {
+        "question": "Decreased BUN is caused by m___ or s___ liver damage",
+        "answer": "malnutrition, severe",
+        "type": "text"
+    },
+    {
+        "question": "BUN and serum creatinine levels are similar because they are both filtered by the g____ and they are different because urea is reabsorbed by t____ whereas c___ is m____ reabsorbed",
+        "answer": "glomerulus, tubules, minimally",
+        "type": "text"
+    },
+    {
+        "question": ">20:1 BUN:Cr indicates BUN reabsorption is i___, BUN is disproportionately e____ relative to creatinine and d____ is suspected",
+        "answer": "increased, elevated, dehydration",
+        "type": "text"
+    },
+    {
+        "question": "10:1 or 20:1 ratio is n___ range and reabsorption is within normal limits",
+        "answer": "normal",
+        "type": "text"
+    },
+    {
+        "question": "<10:1 ratio is due to r___ damage which causes r___ reabsorption of BUN",
+        "answer": "renal, reduced",
+        "type": "text"
+    },
+    {
+        "question": "The normal range of CrCl is ___-_____ mL/min and provides a good approximation of G___",
+        "answer": "90-140, GFR",
+        "type": "text"
+    },
+    {
+        "question": "Two methods to calculate CrCl is by c___ or by estimating through C___-G_____ equation",
+        "answer": "calculating, Cockcroft-Gault",
+        "type": "text"
+    },
+    {
+        "question": "Ideal body weight is calculated in females as _____ + (2.3 kg x inches over 5' and ____ + (2.3 kg x inches over 5' ",
+		"answer": "45.5, 50",
+        "type": "text"
+    },
+    {
+        "question": "the adjusted body weight is calculated as ABW= 0.4 (____-_____) + IBW",
+        "answer": "ABW, IBW",
+        "type": "text"
+    },
+    {
+        "question": "Acute kidney failure occurs when",
+		"choices": "increase in SCr by >= 0.3 mg/dL within 48 hours, increase in SCr of 1.5 times or more the patient's baseline within the past week, urine volume <0.5 mL/kg/hour for > 6 consecutive hours, all of the above, none of the above",
+        "answer": "all of the above",
+        "type": "text"
+    },
+    {
+        "question": "According to Kidney Disease Outcome Quality Initiative chronic kidney disease is",
+		"choices": "kidney damage for more than 3 months +/- decreased GFR, GFR less than GFR 60mL/min/1.73 m^2 for 3 months, abnormalities in blood or urine, abnormalities in imaging tests, all of the above, none of the above",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "Risk factors for CKD (DM, HTN, family history) lead to i_____ risk of developing kidney disease",
+        "answer": "increased",
+        "type": "text"
+    },
+    {
+        "question": "Kidney damage with normal GFR leads to stage __ CKD",
+        "answer": "1",
+        "type": "text"
+    },
+    {
+        "question": "Kidney damage with mild GFR leads to stage ___ CKD",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "Moderate decrease in GFR leads to stage __ CKD",
+        "answer": "3",
+        "type": "text"
+    },
+    {
+        "question": "Severe decrease in GFR leads to stage __",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "Kidney failure is stage __",
+        "answer": "5",
+        "type": "text"
+    },
+    {
+        "question": "Albuminura/proteinuria h____ albumin/protein is a m___ of kidney damage (nephropathy), p___ factor, and c___ risk factors",
+        "answer": "high, marker, progression, cardiovascular",
+        "type": "text"
+    },
+    {
+        "question": "A patient can be screened for albuminuria if they have excretion >___ mcg/mg",
+        "answer": "30",
+        "type": "text"
+    }
+]

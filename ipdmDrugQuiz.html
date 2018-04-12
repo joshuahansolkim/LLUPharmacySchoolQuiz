@@ -1,7 +1,7 @@
 <HTML>
 <HEAD>
-    <TITLE>Self Care Drug List Quiz</TITLE>
-    <script type="text/javascript" src="json/drugs.json"></script>
+    <TITLE>IPDM Drug List Quiz</TITLE>
+    <script type="text/javascript" src="json/ipdm/IPDMDrugList.json"></script>
     <script type="text/javascript" src="js/drugQuizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        var drugSubset = drugs;
+        var drugSubset = IPDMDrugs;
         var arrayIndex;
         var totalDrugs = drugSubset.length;
         var totalCorrect = 0;
@@ -17,7 +17,7 @@
     </script>
 </HEAD>
 <BODY onload="getNewQuestion()">
-    <h1>Self Care Drug List Quiz</h1>
+    <h1>IPDM Drug List Quiz</h1>
     <form id="quizForm">
         <fieldset>
             <div class="form-check form-check-inline">
@@ -29,12 +29,6 @@
                 <label class="form-check-label">
                        <input type="radio" name="questionSelector" value="genericRadio" class=" questionSelector" id="genericRadio"> Generic
                    </label>
-            </div>
-            <div class="form-group">
-                <label for="quizOptions">Quiz Options</label>
-                <select class="form-control col-sm-2" id="quizOptions">
-                       <option value="all">All Drugs</option>
-                   </select>
             </div>
         </fieldset>
         <fieldset>
@@ -51,17 +45,25 @@
                 <input class="form-control" id="correctCount" type="text" disabled value="">
             </div>
             <div class="form-group">
-                <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
-                <br><br>
-                <a class="btn btn-primary" role="button" href="index.html">Home</a>
-                <a class="btn btn-secondary" role="button" href="drugList.html">View Drug List</a>
-                <a class="btn btn-secondary" role="button" href="drugQuizFull.html">Drug Quiz Full Version</a>
-                <a class="btn btn-secondary" role="button" href="topicsQuizLite.html">Topic Quiz Lite Version</a>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item questionNav"><button class="page-link" type="button" onclick="getPreviousQuestion()">Previous</button></li>
+                        <li class="page-item"><button class="page-link" type="button" onclick="getNextQuestion()">Next</button></li>
+                    </ul>
+                </nav>
+
             </div>
+            <div class="form-group">
+                <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
+                <button class="btn btn-primary" type="button" onclick="randomizeQuestions()">Reset Quiz</button>
+                <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
+                <br><br>
+                <a class="btn btn-secondary" role="button" href="index.html">Home</a>
+                <a class="btn btn-secondary" role="button" href="ipdmTopicsQuiz.html">IPDM Topic Quiz - Lite</a>
+            </div
         </fieldset>
     </form>
     <script>
-        createOptionList();
         resetScore();
         $('input:radio').change(function() {
             var changeType = $('input[name="questionSelector"]:checked').val();

@@ -1,17 +1,9 @@
 <HTML>
 <HEAD>
     <TITLE>Self Care Topic Quiz</TITLE>
-    <script type="text/javascript" src="json/selfCare/sunburn.json"></script>
-    <script type="text/javascript" src="json/selfCare/warts.json"></script>
-    <script type="text/javascript" src="json/selfCare/minorBurnsWoundCare.json"></script>
-    <script type="text/javascript" src="json/selfCare/minorFootDisorders.json"></script>
-    <script type="text/javascript" src="json/selfCare/hairLoss.json"></script>
-    <script type="text/javascript" src="json/selfCare/hyperpigmentation.json"></script>
-    <script type="text/javascript" src="json/selfCare/obesity.json"></script>
-    <script type="text/javascript" src="json/selfCare/CAM.json"></script>
-    <script type="text/javascript" src="json/selfCare/vitaminsAndMinerals.json"></script>
-    <script type="text/javascript" src="json/selfCare/supplements.json"></script>
-    <script type="text/javascript" src="json/selfCare/testQuestions.json"></script>
+    <script type="text/javascript" src="json/ipdm/DiagnosticTests.json"></script>
+    <script type="text/javascript" src="json/ipdm/MedicalTerminology.json"></script>
+    <script type="text/javascript" src="json/ipdm/PE.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -19,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        var questions = sunburnQuestions;
+        var questions = DiagnosticTestsQuestions;
         var arrayIndex = 0;
         var totalQuestions = questions.length;
         var totalCorrect = 0;
@@ -31,52 +23,17 @@
         <fieldset>
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="sunburn" class="topicSelector" checked> Sunburn
+                    <input type="radio" name="topicSelector" value="DiagnosticTests" class="topicSelector" checked> Diagnostic Tests
                 </label>
             </div>
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="warts" class="topicSelector"> Warts
+                    <input type="radio" name="topicSelector" value="MedicalTerminology" class="topicSelector"> Medical Terminology
                 </label>
             </div>
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="minorburns" class="topicSelector"> Minor Burns and Wounds
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="minorfoot" class="topicSelector"> Minor Foot Disorders
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="hairloss" class="topicSelector"> Hair Loss
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="hyperpigmentation" class="topicSelector"> Hyperpigmentation
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="obesity" class="topicSelector"> Obesity
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="cam" class="topicSelector"> Complimentary and Alternative Medicine
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="vitamins" class="topicSelector"> Vitamins and Minerals
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="supplements" class="topicSelector"> Supplements
+                    <input type="radio" name="topicSelector" value="PE" class="topicSelector"> PE
                 </label>
             </div>
         </fieldset>
@@ -106,8 +63,7 @@
                 <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
                 <br><br>
                 <a class="btn btn-primary" role="button" href="index.html">Home</a>
-                <a class="btn btn-secondary" role="button" href="drugQuizFull.html">Drug Quiz Full Version</a>
-                <a class="btn btn-secondary" role="button" href="drugQuizLite.html">Drug Quiz Lite Version</a>
+                <a class="btn btn-secondary" role="button" href="drugQuizLite.html">IPDM Drug Quiz - Lite</a>
             </div>
         </fieldset>
     </form>

@@ -151,7 +151,7 @@ function randomizeQuestions() {
     var arrayIndex = 0;
 	questions.sort(function(a, b){return 0.5 - Math.random()});
 	setupPagination();
-	getNewQuestion();
+    getQuestion(0);
 }
 
 function setupPagination() {
