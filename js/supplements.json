@@ -213,5 +213,10 @@ supplementsQuestions = [
         "question": "Creatine adverse effect is increased water content leading to c___",
         "answer": "cramping",
         "type": "text"
+    },
+    {
+        "question": "Which supplements have Asteraceae/compositae allergy E____ and f_____",
+        "answer": "Echinaceae, feverfew",
+        "type": "text"
     }
 ]
