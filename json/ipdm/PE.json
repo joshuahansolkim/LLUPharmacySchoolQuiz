@@ -1,0 +1,194 @@
+PEQuestions = [
+    {
+        "question": "What does SOAP stand for s___, o____, a____, p____",
+        "answer": "subjective, objective, assessment, plan",
+        "type": "text"
+    },
+    {
+        "question": "Normal temperature ranges from ___-___F",
+        "answer": "98.6-100.3",
+        "type": "text"
+    },
+    {
+        "question": "Normal blood pressure is <______ and <____",
+        "answer": "120, 80",
+        "type": "text"
+    },
+    {
+        "question": "Elevated blood pressure is _____-_____ and <",
+        "answer": "120-139, 80",
+        "type": "text"
+    },
+    {
+        "question": "Stage 1 hypertension is ____-_____ OR ",
+        "answer": "130-139, 80-89",
+        "type": "text"
+    },
+    {
+        "question": "Stage 2 hypertension is >= ____ OR >= ",
+        "answer": "140, 90",
+        "type": "text"
+    },
+    {
+        "question": "Hypertensive crisis is >= _____ AND/OR > ____",
+        "answer": "180, 120",
+        "type": "text"
+    },
+    {
+        "question": "The normal range for heart rate or pulse is ____-_____ beats/min",
+        "answer": "60-90",
+        "type": "text"
+    },
+    {
+        "question": "The normal respiratory rate is _____-______ breaths/min ",
+        "answer": "12-20",
+        "type": "text"
+    },
+    {
+        "question": "Pain is considered the ___th vital sign",
+        "answer": "5th",
+        "type": "text"
+    },
+    {
+        "question": "The skin is examined for l____, s_____, b___, r____, m____, s___ t___ and e____",
+        "answer": "lesions, scars, bruises, rash, moles, skin turgor, elasticity",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a part of a head inspection",
+		"choices": "inspection of hair and scalp, palpation of the skull for any normalities, inspection of face for symmetry or trauma",
+		"answer": "palpation of the skull for any normalities",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a part of an eye inspection",
+		"choices": "inspection of sclera and conjunctiva, size/shape/symmetry of pupils, dark reaction, accomodation",
+        "answer": "dark reaction",
+        "type": "multiple"
+    },
+    {
+        "question": "P____, E_____, R_____, L_____, A____",
+        "answer": "pupils, equal, round, reactive, light, accomodation",
+        "type": "text"
+    },
+    {
+        "question": "E____, O____, M____, I_____",
+        "answer": "extra, ocular, movements, intact",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a part of ear inspection",
+		"choices": "check for auditory acuity, inspect inner ear, inspect ear canal and tymphanic membranes",
+        "answer": "inspect inner ear",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a part of nose inspection",
+		"choices": "inspect anterior and inferior surfaces, note symmetry or deformity, test for nasal obstruction, inspect nasal mucosa and septum, palpitate frontal and maxillary septum",
+        "answer": "palpitate frontal and maxillary septum",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a part of the mouth and throat structure",
+		"choices": "lips, oral mucus, tongue, gums and teeth, palate, tonsils, pharynx, trachea",
+        "answer": "trachea",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is not a neck inspection",
+		"choices": "palpate the lymph nodes bilaterally using a linear motion, inspect thyroid gland, inspect jugular vein to detect jugular venous distension",
+        "answer": "palpate the lymph nodes bilaterally using a linear motion",
+        "type": "multiple"
+    },
+    {
+        "question": "The first heart sound lub is heard at the ___, and the ______ and ____ valve close",
+        "answer": "apex, mitral, tricuspid",
+        "type": "text"
+    },
+    {
+        "question": "The second heart sound dub is heard at the ___, and the ___ and ___ valve close",
+        "answer": "base, pulmonic, aortic",
+        "type": "text"
+    },
+    {
+        "question": "The S3/4 gallop is abnormal becuase it may be a sign of ____ failure, ____ regurgitation ",
+        "answer": "heart, mitral",
+        "type": "text"
+    },
+    {
+        "question": "A murmur is benign or pathological ____ blood flow",
+        "answer": "turbulent",
+        "type": "text"
+    },
+    {
+        "question": "A rub is ____ friction",
+        "answer": "myocardial",
+        "type": "text"
+    },
+    {
+        "question": "5 areas for listening to the heart is A (right 2nd intercostal space)___, P(left 2nd intercostal space) __, E (left 3rd intercostal space)_____, T(left 4th intercostal)____, M(left 5th intercostal)_____",
+        "answer": "aortic, pulmonic, ERB, tricuspid, mitral",
+        "type": "text"
+    },
+    {
+        "question": "Which physical examination does not overlap with the CV exam",
+		"choices": "JVD, clubbing, cyanosis, peripheral edema, palpitation",
+		"answer": "palpitation",
+        "type": "multiple"
+    },
+    {
+        "question": "What are the four step for a respiratory exam I____, p____, P_____, A____",
+        "answer": "inspection, palpitation, percussion, auscultation",
+        "type": "multiple"
+    },
+    {
+        "question": "Inspection involves noting the skin for any m__, s___, r___, h____",
+        "answer": "marks, scars, rashes, hernia",
+        "type": "text"
+    },
+    {
+        "question": "The contour of the abdomen is observed to see if it is f___, r___, b___",
+        "answer": "flat, round, bloated",
+        "type": "text"
+    },
+    {
+        "question": "Auscultation is used to check for b___ motility, and to listen for b___ on a___ and e___ area",
+        "answer": "bowel, aorta, epigastric",
+        "type": "text"
+	},
+    {
+        "question": "Bruits is a murmur like sound that is caused by t___ blood flow indicating an o___",
+        "answer": "turbulent, obstruction",
+        "type": "text"
+    },
+    {
+        "question": "Percussion is used to check the amount and distribution of g___ in the abdomen, and helps to identify masses that are s__ or f___ filled, estimate the size of the l__ and s___",
+        "answer": "gas, solid, fluid, liver, spleen",
+        "type": "text"
+    },
+    {
+        "question": "All four quadrants need to be percussed to assess d___ and r___",
+        "answer": "dullness, resonance",
+        "type": "text"
+    },
+    {
+        "question": "Light/deep palpation helps to identify m___, t____, ",
+        "answer": "masses, tenderness",
+        "type": "text"
+    },
+    {
+        "question": "Musculoskeletal inspection is used to check for d____, s___, r___ of motion",
+        "answer": "deformities, symmetry, range",
+        "type": "text"
+    },
+    {
+        "question": "Neurological exam is used to determine level of consciousness: a___, l____, s____, c______",
+        "answer": "alert, lethargic, stuporous, comatose",
+        "type": "text"
+    },
+    {
+        "question": "4 orientation questions asked are p___, p____, t___, s_____",
+        "answer": "person, place, time, situation",
+        "type": "text"
+    }
+]

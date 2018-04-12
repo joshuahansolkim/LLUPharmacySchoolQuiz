@@ -1,0 +1,393 @@
+IPDMDrugs = [
+    {
+	"tradeName" : "Minipress",
+	"genericName" : "prazosin",
+	},
+     {
+	"tradeName" : "Hytrin",
+	"genericName" : "terazosin",
+	},
+    {
+	"tradeName" : "Cardura, Cardura XL",
+	"genericName" : "doxazosin",
+	},
+    {
+	"tradeName" : "Uroxatral",
+	"genericName" : "alfuzosin",
+	},
+    {
+	"tradeName" : "Flomax",
+	"genericName" : "tamsulosin",
+	},
+    {
+	"tradeName" : "Rapaflo",
+	"genericName" : "silodosin",
+	},
+    {
+	"tradeName" : "Proscar, Propecia",
+	"genericName" : "Finasteride",
+	},
+    {
+	"tradeName" : "Jalyn",
+	"genericName" : "tamsulosin + dutasteride",
+	},
+    {
+	"tradeName" : "Cialis, Adcirca",
+	"genericName" : "tadalafil",
+	},
+    {
+	"tradeName" : "Ditropan, ditropan XL, Oxytrol, Gelniquw 3%/10%",
+	"genericName" : "oxybutynin IR, oxybutynin XL, oxybutynin patch, oxybutynin gel",
+	},
+    {
+	"tradeName" : "Detrol, Detrol LA",
+	"genericName" : "tolterodine IR, tolterodine LA",
+	},
+    {
+	"tradeName" : "Sanctura, Sanctura XR",
+	"genericName" : "trospium IR, trospium ER",
+	},
+    {
+	"tradeName" : "Enablex",
+	"genericName" : "darifenacin ER",
+	},
+    {
+	"tradeName" : "Vesicare",
+	"genericName" : "solifenaccin",
+	},
+    {
+	"tradeName" : "Toviaz",
+	"genericName" : "fesoterodine ER",
+	},
+    {
+	"tradeName" : "Myrbetriq",
+	"genericName" : "mirabegron ER",
+	},
+    {
+	"tradeName" : "Botox",
+	"genericName" : "botulinum toxin A",
+	},
+    {
+	"tradeName" : "Sudafed",
+	"genericName" : "pseudoephedrine",
+	},
+    {
+	"tradeName" : "Tofranil",
+	"genericName" : "imipramine",
+	},
+    {
+	"tradeName" : "Premarin",
+	"genericName" : "vaginal estrogen",
+	},
+    {
+	"tradeName" : "Cymbalta",
+	"genericName" : "duloxetine",
+	},
+    {
+	"tradeName" : "Urecholine",
+	"genericName" : "bethanechol",
+	},
+    {
+	"tradeName" : "Colcrys",
+	"genericName" : "colchicine",
+	},
+    {
+	"tradeName" : "Indocin",
+	"genericName" : "indomethacin",
+	},
+    {
+	"tradeName" : "Naprosyn, Aleve",
+	"genericName" : "naproxen",
+	},
+    {
+	"tradeName" : "Clinoril",
+	"genericName" : "sulindac",
+	},
+    {
+	"tradeName" : "Lodine",
+	"genericName" : "etodolac",
+	},
+    {
+	"tradeName" : "Advil, Motrin",
+	"genericName" : "ibuprofen",
+	},
+    {
+	"tradeName" : "Feldene",
+	"genericName" : "piroxicam",
+	},
+    {
+	"tradeName" : "Celebrex",
+	"genericName" : "celecoxib",
+	},
+    {
+	"tradeName" : "Deltasone",
+	"genericName" : "prednisone (PO)",
+	},
+    {
+	"tradeName" : "Medrol Dose Pack, Solu-Medrol",
+	"genericName" : "methylprednisone (PO)/(IM)",
+	},
+    {
+	"tradeName" : "Kenalog",
+	"genericName": "triamcinolone",
+	},
+    {
+	"tradeName" : "Zylorim",
+	"genericName" : "allopurinol",
+	},
+    {
+	"tradeName" : "Urolic",
+	"genericName" : "febuxostat",
+	},
+    {	"tradeName" : "Zurampic",
+	"genericName": "lesinurad",
+	},
+    {
+	"tradeName" : "Duzallo",
+	"genericName": "lesinurad + allopurinol",
+	},
+    {
+	"tradeName" : "Probalan",
+	"genericName" : "probenacid",
+	},
+    {
+	"tradeName" : "Krystexxa",
+	"genericName" : "pegloticase",
+	},
+    {
+	"tradeName" : "Cozaar",
+	"genericName" : "losartan",
+	},
+    {
+	"tradeName" : "Tricor",
+	"genericName" : "fenofibrate",
+	},
+    {
+	"tradeName" : "Mitigare, Colcrys 0.6mg qday or bid",
+	"genericName" : "colchicine",
+	},
+    {
+	"tradeName" : "Naprosyn 250 mg bid",
+	"genericName" : "naproxen low dose",
+	},
+    {
+	"tradeName" : "<10 mg/day",
+	"genericName" : "prednisone/prednisolone",
+	},
+    {	
+	"tradeName" : "Tylenol",
+	"genericName" : "acetminophen",
+	},
+    {
+	"tradeName" : "Voltaren, Pennsaid, Cataflam",
+	"genericName" : "diclofenac",
+	},
+    {
+	"tradeName" : "Lodine",
+	"genericName" : "etodolac",
+	},
+    {
+	"tradeName" : "Vivlodex, Mobic",
+	"genericName" : "meloxicam",
+	},
+    {
+	"tradeName" : "Relafen",
+	"genericName" : "nabumetone",
+	},
+    {
+	"tradeName" : "Ultram",
+	"genericName" : "Tramadol",
+	},
+    {
+	"tradeName" : "Zilretta",
+	"genericName" : "triamcinolone acetonide",
+	},
+    {
+	"tradeName" : "Move Free",
+	"genericName" : "glucosamine chondroitin",
+	},
+    {
+	"tradeName" : "Capzasin, Zostrix",
+	"genericName" : "capsaicin",
+	},
+    {
+	"tradeName" : "Synvisc, Hyalgan",
+	"genericName" : "hyaluronate",
+	},
+    {
+	"tradeName" : "Norco",
+	"genericName" : "hydrocodone + APAP",
+	},
+    {
+	"tradeName" : "Ultracet",
+	"genericName" : "tramadol + APAP",
+	},
+    {
+	"tradeName" : "Percocet",
+	"genericName" : "oxycodone + APAP",
+	},
+    {
+	"tradeName" : "Trexall, Rheumatrex, Rasuvo (injection)",
+	"genericName" : "methotrexate",
+	},
+    {
+	"tradeName" : "Arava",
+	"genericName" : "leflunomide",
+	},
+    {
+	"tradeName" : "Azulfidine",
+	"genericName" : "sulfasalazine",
+	},
+    {
+	"tradeName" : "Plaquenil, Queineprox",
+	"genericName" : "hydroxychloroquine",
+	},
+    {
+	"tradeName" : "Xeljanz, Xeljanz XR",
+	"genericName" : "tofacitinib",
+	},
+    {
+	"tradeName" : "Humira, Amjevita",
+	"genericName" : "adlimumab",
+	},
+    {
+	"tradeName" : "Cyltezo",
+	"genericName" : "adalimumab-adbm",
+	},
+    {
+	"tradeName" : "Cimzia",
+	"genericName" : "certolizumab pegol",
+	},
+    {
+	"tradeName" : "Enbrel",
+	"genericName" : "etanercept",
+	},
+    {
+	"tradeName" : "Remicade, Inflectra",
+	"genericName" : "infliximab",
+	},
+    {
+	"tradeName" : "Ixifi",
+	"genericName" : "infliximab-qbtx",
+	},
+    {
+	"tradeName" : "Renflexis",
+	"genericName" : "infliximab-abda",
+	},
+    {
+	"tradeName" : "Simponi",
+	"genericName" : "golimumab",
+	},
+    {
+	"tradeName" : "Kineret",
+	"genericName" : "anakinra",
+	},
+    {
+	"tradeName" : "Orencia",
+	"genericName" : "abatacept",
+	},
+    {
+	"tradeName" : "Rituxan",
+	"genericName" : "rituximab",
+	},
+    {
+	"tradeName" : "Actemra",
+	"genericName" : "tocilizumab",
+	},
+    {
+	"tradeName" : "Lumigan, Latisse",
+	"genericName" : "bimatoprost",
+	},
+    {
+	"tradeName" : "Xalatan",
+	"genericName" : "latanoprost",
+	},
+    {
+	"tradeName" : "Travatan, Travatan Z",
+	"genericName" : "travoprost",
+	},
+    {
+	"tradeName" : "Rescula",
+	"genericName" : "unoprostone",
+	},
+    {
+	"tradeName" : "Zioptan",
+	"genericName" : "tafluprost",
+	},
+    {
+	"tradeName" : "Latanoprostene",
+	"genericName" : "Vyzulta",
+	},
+    {
+	"tradeName" : "Betoptic, Betoptic S",
+	"genericName" : "betaxolol",
+	},
+    {
+	"tradeName" : "Ocupress",
+	"genericName" : "carteolol",
+	},
+    {
+	"tradeName" : "Optipranolol",
+	"genericName" : "metipranolol",
+	},
+    {
+	"tradeName" : "Propine",
+	"genericName" : "dipivefrin",
+	},
+    {
+	"tradeName" : "Iopidine",
+	"genericName" : "apraclonidine",
+	},
+    {
+	"tradeName" : "Alphagan, Alphagan P",
+	"genericName" : "brimonidine",
+	},
+    {
+	"tradeName" : "Isopto-Carpine, Pilopine-HS",
+	"genericName" : "pilocarpine",
+	},
+    {
+	"tradeName" : "Isopto-carbachol",
+	"genericName" : "carbachol",
+	},
+    {
+	"tradeName" : "Phospholine iodide",
+	"genericName" : "echothiophate",
+	},
+    {
+	"tradeName" : "Azopt",
+	"genericName" : "brinzolamide",
+	},
+    {
+	"tradeName" : "Trusopt",
+	"genericName" : "dorzolamide",
+	},
+    {
+	"tradeName" : "Diamox",
+	"genericName" : "acetazolamide",
+	},
+    {
+	"tradeName" : "Neptazane",
+	"genericName" : "methazolamide",
+	},
+    {
+	"tradeName" : "Rhopressa",
+	"genericName" : "netarsudil",
+	},
+    {
+	"tradeName" : "Brimonidine + Timolol",
+	"genericName" : "combigan",
+	},
+    {
+	"tradeName" : "Dorzolamide + Timolol",
+	"genericName" : "cosopt",
+	},
+    {
+	"tradeName" : "Brinzolamide + Brimonidine",
+	"genericName" : "simbrinza",
+	},
+    {
+	"tradeName" : "Mitosol Kit",
+	"genericName" : "mitomycin",
+	}
+]

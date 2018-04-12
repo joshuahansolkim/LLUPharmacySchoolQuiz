@@ -1,0 +1,445 @@
+MedicalTermsQuestions = [
+    {
+        "question": "The root word for lung is",
+        "answer": "pulm/pneumo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for liver is",
+        "answer": "hepato",
+        "type": "text"
+    },
+    {
+        "question": "The root word for gall/bile is",
+        "answer": "chol/e",
+        "type": "text"
+    },
+    {
+        "question": "The root word for nose is",
+        "answer": "rhino",
+        "type": "text"
+    },
+    {
+        "question": "The root word for head/brain is",
+        "answer": "cephalo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for mouth is",
+        "answer": "stomato",
+        "type": "text"
+    },
+    {
+        "question": "The root word for ear is",
+        "answer": "oto",
+        "type": "text"
+    },
+    {
+        "question": "The root word for heart is",
+        "answer": "cardio",
+        "type": "text"
+    },
+    {
+        "question": "The root word for large intestines is",
+        "answer": "colo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for anus is",
+        "answer": "procto",
+        "type": "text"
+    },
+    {
+        "question": "The root word for small intestines is",
+        "answer": "entero",
+        "type": "text"
+    },
+    {
+        "question": "The root word for ovary is",
+		"answer": "oophoro",
+        "type": "text"
+    },
+    {
+        "question": "The root word for uterus is",
+        "answer": "hystero/metro",
+        "type": "text"
+    },
+    {
+        "question": "The root word for testis is",
+        "answer": "orchido",
+        "type": "text"
+    },
+    {
+        "question": "The root word for falopian tube is",
+        "answer": "salpingo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for bladder is",
+        "answer": "cysto",
+        "type": "text"
+    },
+    {
+        "question": "The root word hemo/emia means",
+        "answer": "blood",
+        "type": "text"
+    },
+    {
+        "question": "The root word phlebo/veno means",
+        "answer": "vein",
+        "type": "text"
+    },
+    {
+        "question": "The root word dento means",
+        "answer": "teeth",
+        "type": "text"
+    },
+    {
+        "question": "The root word gingivo means",
+        "answer": "gums",
+        "type": "text"
+    },
+    {
+        "question": "The root word glosso/linguo",
+        "answer": "tongue",
+        "type": "text"
+    },
+    {
+        "question": "The root word masto/mammo",
+        "answer": "breast",
+        "type": "text"
+    },
+    {
+        "question": "The root word mening/o means ______ surrounding the brain and spinal cord",
+        "answer": "membranes",
+        "type": "text"
+    },
+    {
+        "question": "The root word myel/o",
+        "answer": "spinal cord/bone marrow",
+        "type": "text"
+    },
+    {
+        "question": "The root word oseto means",
+        "answer": "bone",
+        "type": "text"
+    },
+    {
+        "question": "The root word brady means",
+		"answer": "slow",
+        "type": "text"
+    },
+    {
+        "question": "The root word tachy means",
+        "answer": "fast",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -pnea means",
+        "answer": "breath",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -algia means",
+        "answer": "pain",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -uria means",
+        "answer": "urine",
+        "type": "text"
+	},
+    {
+        "question": "The root word for kidneys is",
+        "answer": "rene/nephro",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -megaly means",
+        "answer": "enlarged",
+        "type": "text"
+    },
+    {
+        "question": "The prefix -pne/u means ",
+        "answer": "lung",
+        "type": "text"
+    },
+    {
+        "question": "The prefix -algesia means",
+        "answer": "pain",
+        "type": "text"
+    },
+    {
+        "question": "The prefix -ur/o means",
+        "answer": "urine",
+        "type": "text"
+    },
+    {
+        "question": "The prefix mega means",
+        "answer": "enlarged",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -itis means",
+        "answer": "inflammation",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -pathy means",
+        "answer": "disease",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -iasis means",
+        "answer": "abnormal",
+        "type": "text"
+    },
+    {
+        "question": "The suffix -osis means",
+        "answer": "abnormal",
+        "type": "text"
+    },
+    {
+        "question": "The prefix -dys means",
+		"answer": "painful",
+        "type": "text"
+    },
+    {
+        "question": "The term -ectomy means to ___ out",
+        "answer": "cut",
+        "type": "text"
+    },
+    {
+        "question": "The term -otomy means to ___ into",
+        "answer": "cut",
+        "type": "text"
+    },
+    {
+        "question": "The term -ostomy means to make a ____",
+        "answer": "mouth",
+        "type": "text"
+    },
+    {
+        "question": "The term -stasis means to ___",
+        "answer": "stop",
+        "type": "text"
+    },
+    {
+        "question": "The term -cyte means",
+        "answer": "cell",
+        "type": "text"
+    },
+    {
+        "question": "The term -rrhea means",
+        "answer": "flow",
+        "type": "text"
+    },
+    {
+        "question": "The term -plasia means",
+        "answer": "growth",
+        "type": "text"
+    },
+    {
+        "question": "The term a/an means",
+        "answer": "without",
+        "type": "text"
+    },
+    {
+        "question": "The term -ptysis means",
+        "answer": "cough",
+        "type": "text"
+    },
+    {
+        "question": "The term -plasty means",
+        "answer": "reconstruction",
+        "type": "text"
+    },
+    {
+        "question": "The term angi/o means",
+        "answer": "vessel",
+        "type": "text"
+    },
+    {
+        "question": "The term emes/o means",
+        "answer": "vomit",
+        "type": "text"
+    },
+    {
+        "question": "The term lith/o means",
+        "answer": "stone",
+        "type": "text"
+    },
+    {
+        "question": "The term olig/o means",
+		"answer": "less",
+        "type": "text"
+    },
+    {
+        "question": "The term melan/o means",
+        "answer": "black",
+        "type": "text"
+    },
+    {
+        "question": "The term xanth/o means",
+        "answer": "yellow",
+        "type": "text"
+    },
+    {
+        "question": "The term poli/o means",
+        "answer": "grey",
+        "type": "text"
+    },
+    {
+        "question": "The term eosin/o means",
+        "answer": "orange",
+        "type": "text"
+    },
+    {
+        "question": "A patient has been diagnosed as having an enlarged liver. The doctor describes it as",
+		"choices": "megacolon, hepatomegaly, macrostomia, hepatitis, gastroenteritis",
+        "answer": "hepatomegaly",
+        "type": "multiple"
+    },
+    {
+        "question": "A patient has had a diagnosis of colon cancer and will need surgical removal of the colon. She will end up with a permanent hole in her abdomen for drainage into a bag. The permanent opening is called a",
+        "choices": "megacolon, colitis, colonoscopy, colectomy",
+		"answer": "colostomy",
+        "type": "multiple"
+    },
+    {
+        "question": "You have taken your friend to the emergency room for frequent painful sensation while urinating. After examination and lab tests, the physician reports that your friend has an inflammation of bladder and makes a diagnosis of",
+        "choices": "hepatitis, cystitis, proctitis, nephritis, orchiditis",
+		"answer": "cystitis",
+        "type": "multiple"
+    },
+    {
+        "question": "Bradycardia is a term describing",
+		"choices": "fast heart rate, inflammation of heart muscle, slow breathing, slow heart rate, small heart",
+        "answer": "slow heart rate",
+        "type": "multiple"
+    },
+    {
+        "question": "The term -oma means",
+        "answer": "swelling",
+        "type": "text"
+    },
+    {
+        "question": "The term aden/o means",
+        "answer": "gland",
+        "type": "text"
+    },
+    {
+        "question": "The term my/o means",
+        "answer": "muscle",
+        "type": "text"
+    },
+    {
+        "question": "The term lymph/o means ___ tissue",
+        "answer": "lymph",
+        "type": "text"
+    },
+    {
+        "question": "The term carcin/o means",
+        "answer": "malignant",
+        "type": "text"
+    },
+    {
+        "question": "The term osteo means",
+		"answer": "bone",
+        "type": "text"
+    },
+    {
+        "question": "The term melan/o means",
+        "answer": "melanocytes",
+        "type": "text"
+    },
+    {
+        "question": "The term endo means",
+        "answer": "within",
+        "type": "text"
+    },
+    {
+        "question": "The term peri/circum means",
+        "answer": "around",
+        "type": "text"
+    },
+    {
+        "question": "The term epi means on ___",
+        "answer": "top  ",
+        "type": "text"
+    },
+    {
+        "question": "The term trans means",
+        "answer": "through",
+        "type": "text"
+    },
+    {
+        "question": "A tumor of the protective membranes surrounding the brain and spinal cord is called a/an",
+		"choices": "neuroma, encephalocele, myeloma, meningioma, meningocele",
+        "answer": "meningioma",
+        "type": "multiple"
+    },
+    {
+        "question": "Frequently getting up and urinating during the night is described as",
+		"choices": "nocturia, enuresis, uremia, oliguria",
+        "answer": "nocturia",
+        "type": "multiple"
+    },
+    {
+        "question": "A lab report comes back to a physician documenting numerous erythrocytes in the urine specimen. The term for this is",
+		"choices": "oliguria, polyuria, anuria, hematuria, nocturia",
+        "answer": "hematuria",
+        "type": "multiple"
+    },
+    {
+        "question": "Patients with pneumonia often find it difficult or painful to take deep breaths. The term for this is",
+		"choices": "tachypnea, dyspnea, apnea, epistaxis",
+        "answer": "dyspnea",
+        "type": "multiple"
+    },
+    {
+        "question": "The root word for heart is",
+        "answer": "cardio",
+        "type": "text"
+    },
+    {
+        "question": "The root word for large intestines is",
+        "answer": "colo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for anus is",
+        "answer": "procto",
+        "type": "text"
+    },
+    {
+        "question": "The root word for small intestines is",
+        "answer": "entero",
+        "type": "text"
+    },
+    {
+        "question": "The root word for ovary is",
+		"answer": "oophoro",
+        "type": "text"
+    },
+    {
+        "question": "The root word for uterus is",
+        "answer": "hystero/metro",
+        "type": "text"
+    },
+    {
+        "question": "The root word for testis is",
+        "answer": "orchido",
+        "type": "text"
+    },
+    {
+        "question": "The root word for falopian tube is",
+        "answer": "salpingo",
+        "type": "text"
+    },
+    {
+        "question": "The root word for bladder is",
+        "answer": "cysto",
+        "type": "text"
+    }
+]
