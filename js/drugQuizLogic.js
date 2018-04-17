@@ -57,12 +57,12 @@ function getNewQuestion () {
     /* Determine what the drug data type that should be asked for and populate other fields. */
     $('.userInput').attr('disabled', true);
     if($('#tradeRadio').prop('checked')){
-        $('#tradeInput').attr('value', '').attr('disabled', false);
+        $('#tradeInput').attr('value', '').attr('disabled', false).focus();
     } else {
         $('#tradeInput').attr('value', drug.tradeName);
     }
     if($('#genericRadio').prop('checked')){
-        $('#genericInput').attr('value', '').attr('disabled', false);
+        $('#genericInput').attr('value', '').attr('disabled', false).focus();
     } else {
         $('#genericInput').attr('value', drug.genericName);
     }
@@ -203,9 +203,11 @@ function getCorrectAnswer(){
     switch (questionType) {
         case 'genericRadio':
             $('#correctAnswer').val(drugSubset[arrayIndex].genericName);
+            $('#genericInput').focus();
             break;
         case 'tradeRadio':
             $('#correctAnswer').val(drugSubset[arrayIndex].tradeName);
+            $('#tradeInput').focus();
             break;
     }
 }
