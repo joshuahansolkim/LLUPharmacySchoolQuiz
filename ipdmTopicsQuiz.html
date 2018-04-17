@@ -1,6 +1,6 @@
 <HTML>
 <HEAD>
-    <TITLE>Self Care Topic Quiz</TITLE>
+    <TITLE>IPDM Topic Quiz</TITLE>
     <script type="text/javascript" src="json/ipdm/DiagnosticTests.json"></script>
     <script type="text/javascript" src="json/ipdm/MedicalTerminology.json"></script>
     <script type="text/javascript" src="json/ipdm/PE.json"></script>
@@ -18,7 +18,7 @@
     </script>
 </HEAD>
 <BODY onload="randomizeQuestions()">
-    <h1>Self Care Topic Quiz</h1>
+    <h1>IPDM Topic Quiz</h1>
     <form id="quizForm">
         <fieldset>
             <div class="form-check form-check-inline">
@@ -63,7 +63,7 @@
                 <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
                 <br><br>
                 <a class="btn btn-primary" role="button" href="index.html">Home</a>
-                <a class="btn btn-secondary" role="button" href="drugQuizLite.html">IPDM Drug Quiz - Lite</a>
+                <a class="btn btn-secondary" role="button" href="ipdmDrugQuiz.html">IPDM Drug Quiz - Lite</a>
             </div>
         </fieldset>
     </form>
@@ -103,15 +103,13 @@
                     questions = supplementsQuestions;
                     break;
             }
-            resetScore();
-            randomizeQuestions();
-            
         });
         $('BODY').keypress(function(e) {
             if (e.which == 13) {
                 checkAnswer();
             }
         });
+        randomizeQuestions();
     </script>
 </BODY>
 </HTML>
