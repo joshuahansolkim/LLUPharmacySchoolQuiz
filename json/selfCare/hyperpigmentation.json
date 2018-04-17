@@ -73,5 +73,25 @@ hyperpigmentationQuestions = [
         "question": "Hydroquinone should be used for ____ months or if skin darkens refer to PCP",
         "answer": "3",
         "type": "text"
+    },
+    {
+        "question": "Hydroquinone reduces the conversion of t___ to d___",
+        "answer": "tyrosine, dopa",
+        "type": "text"
+    },
+    {
+        "question": "Alternative agents to hydroquinone include synthetic o_____0.1%, K___ acid, r____, t___ acid, m____ acid, N____",
+        "answer": "oligopeptide, kojic, rucinol, tranexamic, mandelic, niacinamide",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacologic therapy for photoaging include vitamin __, ____, ___, ___, N_____ (kinerase), ___ (lactic and glycolic) and ____ ( salicyclic) hydroxy acids",
+        "answer": "A, B3, C, E, N-furfuryladenine, alpha, beta",
+        "type": "text"
+    },
+    {
+        "question": "photoaging agents should be used ___ days for ___ week, then increase to every other day for __ week, up to t___ daily",
+        "answer": "3, 1, 1, twice",
+        "type": "text"
     }
 ]

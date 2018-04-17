@@ -17,8 +17,8 @@ CAMQuestions = [
     },
     {
         "question": "Who are typical supplement users",
-		"choices": "female, more educated, recently hospitalized, former smokers",
-        "answer": "female, more educated, recently hospitalized, former smokers",
+		"choices": "female, more educated, recently hospitalized, former smokers, all of the above, none of the above",
+        "answer": "all of the above",
         "type": "multiple"
     },
     {
