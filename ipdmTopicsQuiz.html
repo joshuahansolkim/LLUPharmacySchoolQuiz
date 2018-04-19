@@ -4,6 +4,7 @@
     <script type="text/javascript" src="json/ipdm/DiagnosticTests.json"></script>
     <script type="text/javascript" src="json/ipdm/MedicalTerminology.json"></script>
     <script type="text/javascript" src="json/ipdm/PE.json"></script>
+    <script type="text/javascript" src="json/ipdm/LabValues.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -34,6 +35,11 @@
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
                     <input type="radio" name="topicSelector" value="PE" class="topicSelector"> PE
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="LabValues" class="topicSelector"> Lab Values
                 </label>
             </div>
         </fieldset>
@@ -72,37 +78,20 @@
         $('input[name="topicSelector"]:radio').change(function() {
             var changeTopic = $('input[name="topicSelector"]:checked').val();
             switch(changeTopic){
-                case "sunburn": 
-                    questions = sunburnQuestions;
+                case "DiagnosticTests": 
+                    questions = DiagnosticTestsQuestions;
                     break;
-                case "warts":
-                    questions = wartsQuestions;
+                case "MedicalTerminology":
+                    questions = MedicalTermsQuestions;
                     break;
-                case "minorburns":
-                    questions = minorBurnsQuestions;
+                case "PE":
+                    questions = PEQuestions;
                     break;
-                case "minorfoot":
-                    questions = minorFootQuestions;
-                    break;
-                case "hairloss":
-                    questions = hairLossQuestions;
-                    break;
-                case "hyperpigmentation":
-                    questions = hyperpigmentationQuestions;
-                    break;
-                case "obesity":
-                    questions = obesityQuestions;
-                    break;
-                case "cam":
-                    questions = CAMQuestions;
-                    break;
-                case "vitamins":
-                    questions = vitaminsAndMineralsQuestions;
-                    break;
-                case "supplements":
-                    questions = supplementsQuestions;
+                case "LabValues":
+                    questions = LabValuesQuestions;
                     break;
             }
+            randomizeQuestions();
         });
         $('BODY').keypress(function(e) {
             if (e.which == 13) {

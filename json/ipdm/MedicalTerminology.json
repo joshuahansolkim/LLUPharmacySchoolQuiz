@@ -396,50 +396,5 @@ MedicalTermsQuestions = [
 		"choices": "tachypnea, dyspnea, apnea, epistaxis",
         "answer": "dyspnea",
         "type": "multiple"
-    },
-    {
-        "question": "The root word for heart is",
-        "answer": "cardio",
-        "type": "text"
-    },
-    {
-        "question": "The root word for large intestines is",
-        "answer": "colo",
-        "type": "text"
-    },
-    {
-        "question": "The root word for anus is",
-        "answer": "procto",
-        "type": "text"
-    },
-    {
-        "question": "The root word for small intestines is",
-        "answer": "entero",
-        "type": "text"
-    },
-    {
-        "question": "The root word for ovary is",
-		"answer": "oophoro",
-        "type": "text"
-    },
-    {
-        "question": "The root word for uterus is",
-        "answer": "hystero/metro",
-        "type": "text"
-    },
-    {
-        "question": "The root word for testis is",
-        "answer": "orchido",
-        "type": "text"
-    },
-    {
-        "question": "The root word for falopian tube is",
-        "answer": "salpingo",
-        "type": "text"
-    },
-    {
-        "question": "The root word for bladder is",
-        "answer": "cysto",
-        "type": "text"
     }
 ]

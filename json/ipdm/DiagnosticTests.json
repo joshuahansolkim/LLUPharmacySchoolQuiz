@@ -91,7 +91,7 @@ DiagnosticTestsQuestions = [
     },
     {
         "question": "Eosinopenia values <___ indicate possible causes such as a___ infection",
-        "answer": "acute",
+        "answer": "50, acute",
         "type": "text"
     },
     {
@@ -105,7 +105,7 @@ DiagnosticTestsQuestions = [
         "type": "text"
     },
     {
-        "question": "The function of platelets is to convert l___ blood into g___(clot) and this prevents bleeding by binding ot site of damaged vessel",
+        "question": "The function of platelets is to convert l___ blood into g___(clot) and this prevents bleeding by binding to site of damaged vessel",
         "answer": "liquid, gel",
         "type": "text"
     },
@@ -123,11 +123,11 @@ DiagnosticTestsQuestions = [
         "question": "Which one is not a sign/symptom of thrombocytopenia",
 		"choices": "ecchymosis (discoloration of skin due to bleeding/bruising), petechiae (tiny round purple spots due bleeding under skin), hematuria(blood in urine), melena (dark tarry stool with or without blood), menorrhagia (heavy vaginal bleeding), epistaxis (nose bleed), bleeding gums, shortened bleeding",
         "answer": "shortened bleeding",
-        "type": "text"
+        "type": "multiple"
     },
     {
         "question": "thrombocytosis is also known as t_____ has platelet counts > _____/uL and some causes are s___, i___, s____, posthemorrhagic a____",
-		"answer": "thrombocythemia, 800000, stress, infection, splenectomy",
+		"answer": "thrombocythemia, 800000, stress, infection, splenectomy, anemia",
         "type": "text"
     },
     {
@@ -173,7 +173,7 @@ DiagnosticTestsQuestions = [
     },
     {
         "question": "BUN and serum creatinine levels are similar because they are both filtered by the g____ and they are different because urea is reabsorbed by t____ whereas c___ is m____ reabsorbed",
-        "answer": "glomerulus, tubules, minimally",
+        "answer": "glomerulus, tubules, creatinine, minimally",
         "type": "text"
     },
     {
@@ -202,7 +202,7 @@ DiagnosticTestsQuestions = [
         "type": "text"
     },
     {
-        "question": "Ideal body weight is calculated in females as _____ + (2.3 kg x inches over 5' and ____ + (2.3 kg x inches over 5' ",
+        "question": "Ideal body weight is calculated in females as _____ + (2.3 kg x inches over 5' and in males as ____ + (2.3 kg x inches over 5') ",
 		"answer": "45.5, 50",
         "type": "text"
     },
@@ -215,13 +215,13 @@ DiagnosticTestsQuestions = [
         "question": "Acute kidney failure occurs when",
 		"choices": "increase in SCr by >= 0.3 mg/dL within 48 hours, increase in SCr of 1.5 times or more the patient's baseline within the past week, urine volume <0.5 mL/kg/hour for > 6 consecutive hours, all of the above, none of the above",
         "answer": "all of the above",
-        "type": "text"
+        "type": "multiple"
     },
     {
         "question": "According to Kidney Disease Outcome Quality Initiative chronic kidney disease is",
 		"choices": "kidney damage for more than 3 months +/- decreased GFR, GFR less than GFR 60mL/min/1.73 m^2 for 3 months, abnormalities in blood or urine, abnormalities in imaging tests, all of the above, none of the above",
-        "answer": "",
-        "type": "text"
+        "answer": "all of the above",
+        "type": "multiple"
     },
     {
         "question": "Risk factors for CKD (DM, HTN, family history) lead to i_____ risk of developing kidney disease",
