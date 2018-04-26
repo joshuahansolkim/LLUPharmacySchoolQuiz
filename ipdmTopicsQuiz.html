@@ -5,6 +5,7 @@
     <script type="text/javascript" src="json/ipdm/MedicalTerminology.json"></script>
     <script type="text/javascript" src="json/ipdm/PE.json"></script>
     <script type="text/javascript" src="json/ipdm/LabValues.json"></script>
+    <script type="text/javascript" src="json/ipdm/BPH.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -40,6 +41,11 @@
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
                     <input type="radio" name="topicSelector" value="LabValues" class="topicSelector"> Lab Values
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="BPH" class="topicSelector"> BPH
                 </label>
             </div>
         </fieldset>
@@ -89,6 +95,9 @@
                     break;
                 case "LabValues":
                     questions = LabValuesQuestions;
+                    break;
+                case "BPH":
+                    questions = BPHQuestions;
                     break;
             }
             randomizeQuestions();

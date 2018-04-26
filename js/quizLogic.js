@@ -200,6 +200,7 @@ function getFirstIncorrectQuestion(){
 function getCorrectAnswer(){
     $('#correctAnswerLabel').text('Correct Answer:');
     $('#correctAnswer').val(questions[arrayIndex].answer);
+    $('#answerInput').focus();
 }
 
 function resetScore() {
