@@ -1,0 +1,37 @@
+PatientMedicationQuestions = [
+    {
+        "question": "Most common causes of medication errors is not i___ errors but problems with the design of the m___ system itself",
+        "answer": "individual, medical",
+        "type": "text"
+    },
+    {
+        "question": "Methods to reduce erros are l___ and s___ of high alert medication, s___ alike l___ alike medications, reporting medication e___/c____ calls",
+        "answer": "labeling, storage, sound, look, errors, close",
+        "type": "text"
+    },
+    {
+        "question": "p____ s___ o____ was created to improve the quality and safety of health care delivery in the US",
+        "answer": "patient safety organization",
+        "type": "text"
+    },
+    {
+        "question": "Organizations that specialize in error prevention analyze system based causes of errors and make recommendations to help reduce errors are i__ for s__ m___ p___ (ISMP)",
+        "answer": "institute for safe medication practices",
+        "type": "text"
+    },
+    {
+        "question": "methods used to reduce medications errors are to check p___ p___, don't use e___ prone abbreviations, s___, and d____ designations",
+        "answer": "patient profiles, error, symbols, dosage",
+        "type": "text"
+    },
+    {
+        "question": "In patient profiles you should check for a___/i____, monitor appropriateness of t___, check for d__-d___ interaction, check for p___",
+        "answer": "allergy/intolerance, therapy, drug-drug, polypharmacy",
+        "type": "text"
+    },
+    {
+        "question": "FDA program requires specified training and various restrictions such as c___ patient registry, A___ program for e___, i_____ program for i___",
+        "answer": "clozapine, APRISE, erythropoietin, iPLEDGE, isotretinoin",
+        "type": "text"
+    }
+]

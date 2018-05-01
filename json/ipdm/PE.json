@@ -16,7 +16,7 @@ PEQuestions = [
     },
     {
         "question": "Elevated blood pressure is _____-_____ and <",
-        "answer": "120-139, 80",
+        "answer": "120-129, 80",
         "type": "text"
     },
     {
@@ -67,7 +67,7 @@ PEQuestions = [
         "type": "multiple"
     },
     {
-        "question": "P____, E_____, R_____, L_____, A____",
+        "question": "P____, E_____, R_____, R____, L_____, A____",
         "answer": "pupils, equal, round, reactive, light, accomodation",
         "type": "text"
     },
@@ -137,9 +137,9 @@ PEQuestions = [
         "type": "multiple"
     },
     {
-        "question": "What are the four step for a respiratory exam I____, p____, P_____, A____",
+        "question": "What are the four steps for a respiratory exam I____, P____, P_____, A____",
         "answer": "inspection, palpitation, percussion, auscultation",
-        "type": "multiple"
+        "type": "text"
     },
     {
         "question": "Inspection involves noting the skin for any m__, s___, r___, h____",
@@ -153,7 +153,7 @@ PEQuestions = [
     },
     {
         "question": "Auscultation is used to check for b___ motility, and to listen for b___ on a___ and e___ area",
-        "answer": "bowel, aorta, epigastric",
+        "answer": "bowel, bruits, aorta, epigastric",
         "type": "text"
 	},
     {

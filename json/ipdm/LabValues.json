@@ -125,7 +125,7 @@ LabValuesQuestions = [
         "question": "lactate dehydrogenase is not specific to liver function",
 		"choices": "true, false",
         "answer": "true",
-        "type": "text"
+        "type": "multiple"
     },
     {
         "question": "5' nucleotidase is e___ in h___ tissue",
@@ -261,13 +261,11 @@ LabValuesQuestions = [
         "question": "The normal value for glucose is ___-___mg/dL",
         "answer": "70-110",
         "type": "text"
-		        "type": "text"
     },
     {
         "question": "T____ has a higher resolution than T____",
         "answer": "TEE, TTE",
         "type": "text"
-            "type": "text"
     },
     {
         "question": "TEE is used to detect v___ v____ in endocarditis and to detect a___ thrombi",

@@ -1,0 +1,62 @@
+DrugInteractionsQuestions = [
+    {
+        "question": "CYP450 are primarily located in the l___ and i___",
+        "answer": "liver, intestine",
+        "type": "text"
+    },
+    {
+        "question": "CYP inducers result in h___ activity of the enzyme (i___ drug metabolism), which d___ levels of the substrate drug",
+        "answer": "higher, increase ,decrease",
+        "type": "text"
+    },
+    {
+        "question": "Examples of big inducers are P____S____P____O_____R____C_____S____",
+        "answer": "phenytoin, smoking, phenobarbital, oxcarbazepine, rifampin, carbamazepine, st. john's wort",
+        "type": "text"
+    },
+    {
+        "question": "CYP inhibitors i_____ enzymes (causing l__ drug metabolism) and i___ level of substrate drug",
+        "answer": "inactivate, less, increases",
+        "type": "text"
+    },
+    {
+        "question": "Examples of CYP inhibitors are G___P____A____C____M____A____N____",
+        "answer": "grapefruit, protease inhibito CCBrs, azole antifungals, cimetidine, macrolides, amiodarone, non-DHP",
+        "type": "text"
+    },
+    {
+        "question": "P-glycoproteins are e___ transporters found in the g___ and other organs",
+        "answer": "efflux, gut",
+        "type": "text"
+    },
+    {
+        "question": " Pro drug inducers i___ level of a__ drug",
+        "answer": "increase, active",
+        "type": "text"
+    },
+    {
+        "question": "Pro drug inhibitors d___ level of a___ drug",
+        "answer": "decrease, active",
+        "type": "text"
+    },
+    {
+        "question": "Pglycoprotein inhibitors are c___, v___, and a____",
+        "answer": "cyclosporine, verapamil, amiodarone",
+        "type": "text"
+    },
+    {
+        "question": "P-glycoprotein inducers are r___ and s___",
+        "answer": "rifampin, st. john's wort",
+        "type": "text"
+    },
+    {
+        "question": "P-glycoprotein substrates are r__ and d___",
+        "answer": "rivaroxaban, dabigatran",
+        "type": "text"
+    },
+    {
+        "question": "Clopidogrel is a p___ drug and o___ is a major i__ of CYP2C19",
+		"answer": "pro, omeprazole, inhibitor",
+        "type": "text"
+    }
+]
