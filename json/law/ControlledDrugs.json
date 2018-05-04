@@ -1,0 +1,117 @@
+ControlledDrugs = [
+    {
+	"tradeName" : "Percocet",
+	"genericName" : "oxycodone + APAP",
+	"schedule" : "II",
+	},
+     {
+	"tradeName" : "Concerta",
+	"genericName" : "methylphenidate",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "oxycontin",
+	"genericName" : "oxycodone",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Vyvanse",
+	"genericName" : "lisdexamphetamine",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Duragesic",
+	"genericName" : "fentanyl patch",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Adderall",
+	"genericName" : "amphetamine + dextroamphetamine",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Dolophine",
+	"genericName" : "Methadone",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Demerol",
+	"genericName" : "meperidine",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Vicodin",
+	"genericName" : "APAP + hydrocodone",
+	"schedule" : "II",
+	},
+    {
+	"tradeName" : "Suboxone",
+	"genericName" : "buprenorphine",
+	"schedule" : "III",
+	},
+    {
+	"tradeName" : "Tylenol #2, 3, 4",
+	"genericName" : "Codeine + APAP",
+	"schedule" : "III",
+	},
+    {
+	"tradeName" : "Androgel",
+	"genericName" : "testosterone",
+	"schedule" : "III",
+	},
+    {
+	"tradeName" : "Ambien",
+	"genericName" : "zolpidem",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Xanax",
+	"genericName" : "alprazolam",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Klonopin",
+	"genericName" : "clonazepam",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Soma",
+	"genericName" : "carisoprodol",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "valium",
+	"genericName" : "diazepam",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Ativan",
+	"genericName" : "lorazepam",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Lunesta",
+	"genericName" : "Eszopiclone",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Restoril",
+	"genericName" : "temazepam",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Adipex",
+	"genericName" : "phentermine",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Ultram",
+	"genericName" : "tramadol",
+	"schedule" : "IV",
+	},
+    {
+	"tradeName" : "Phenergan with codeine",
+	"genericName" : "promethazine + codeine",
+	"schedule" : "V",
+	}
+]

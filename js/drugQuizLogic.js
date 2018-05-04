@@ -91,6 +91,11 @@ function getNewQuestion () {
     } else {
         $('#exclusionsInput').text(drug.exclusions);
     }
+    if($('#scheduleRadio').prop('checked')){
+        $('#scheduleInput').attr('value', '').attr('disabled', false).focus();
+    } else {
+        $('#scheduleInput').attr('value', drug.schedule);
+    }
     
     /* This modifies the Info box below the question depending on whether previous questions have been answered */
     var questionType = $(".questionSelector").val();
@@ -103,6 +108,9 @@ function getNewQuestion () {
         case 'tradeRadio':
             $('#correctAnswer').val(drugSubset[arrayIndex].tradeName);
             break;
+        case 'scheduleRadio':
+            $('#correctAnswer').val(drugSubset[arrayIndex].schedule);
+            break;
         }
 	    
     } else if(arrayIndex > 0 && "input" in drugSubset[arrayIndex - 1]){
@@ -113,6 +121,9 @@ function getNewQuestion () {
                 break;
             case 'tradeRadio':
                 $('#correctAnswer').val(drugSubset[arrayIndex-1].tradeName);
+                break;
+            case 'scheduleRadio':
+                $('#correctAnswer').val(drugSubset[arrayIndex-1].schedule);
                 break;
         }
     } else {
@@ -186,6 +197,20 @@ function checkAnswer(){
             $("#tradeInput").val('');
             drugSubset[arrayIndex].input = $('#tradeInput').val();
             break;
+        case 'scheduleRadio':
+            if(drugSubset[arrayIndex].schedule.toLowerCase() == $('#scheduleInput').val().toLowerCase()){
+                if(drugSubset[arrayIndex].correct != "1"){
+                    totalCorrect++;
+                }
+                drugSubset[arrayIndex].correct = "1";
+                $("#question" + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
+            } else {
+                $("#question" + arrayIndex).addClass('incorrect');
+                console.log("incorrect");
+            }
+            $("#scheduleInput").val('');
+            drugSubset[arrayIndex].input = $('#scheduleInput').val();
+            break;
     }
     
     $('#correctCount').text(totalCorrect + "/" + totalDrugs);
@@ -209,6 +234,10 @@ function getCorrectAnswer(){
             $('#correctAnswer').val(drugSubset[arrayIndex].tradeName);
             $('#tradeInput').focus();
             break;
+        case 'scheduleRadio':
+            $('#correctAnswer').val(drugSubset[arrayIndex].schedule);
+            $('#scheduleInput').focus();
+            break;
     }
 }
 
@@ -230,7 +259,7 @@ function printDrugList() {
 
 function resetScore() {
     totalDrugs = drugSubset.length;
-    $('#correctCount').text("0/" + totalDrugs);
     totalCorrect = 0;
+    $('#correctCount').text("0/" + totalDrugs);
     randomizeQuestions();
 }
