@@ -8,6 +8,7 @@
     <script type="text/javascript" src="json/ipdm/BPH.json"></script>
     <script type="text/javascript" src="json/ipdm/DrugInteractions.json"></script>
     <script type="text/javascript" src="json/ipdm/PatientMedications.json"></script>
+    <script type="text/javascript" src="json/ipdm/UrinaryIncontinence.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -58,6 +59,11 @@
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
                     <input type="radio" name="topicSelector" value="PatientMedications" class="topicSelector"> Patient Medications
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="UrinaryIncontinence" class="topicSelector"> Urinary Incontinence
                 </label>
             </div>
         </fieldset>
@@ -116,6 +122,9 @@
                     break;
                 case "PatientMedications":
                     questions = PatientMedicationQuestions;
+                    break;
+                case "UrinaryIncontinence":
+                    questions = UrinaryIncontinenceQuestions;
                     break;
             }
             randomizeQuestions();
