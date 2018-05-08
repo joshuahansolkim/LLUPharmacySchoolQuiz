@@ -85,8 +85,7 @@ function checkAnswer() {
     $('#correctCount').text(totalCorrect + "/" + totalQuestions);
 
     if (totalCorrect == totalQuestions) {
-        alert("Congratulations! You got them all right!");
-        location.reload();
+        getFirstQuestion();
     } else {
 	    getNextQuestion();
     }
