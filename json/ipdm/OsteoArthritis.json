@@ -1,4 +1,4 @@
-OsteoarthritisQuestions = [
+OsteoArthritisQuestions = [
     {
         "question": "Patients have multiple risk factors for osteoarthritis such as a__, o___, g___, o___, history of i___/trauma, g___ predisposition",
         "answer": "age, obesity, gender, occupation, injury, genetic",
