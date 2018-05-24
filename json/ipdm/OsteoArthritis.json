@@ -1,0 +1,362 @@
+OsteoarthritisQuestions = [
+    {
+        "question": "Patients have multiple risk factors for osteoarthritis such as a__, o___, g___, o___, history of i___/trauma, g___ predisposition",
+        "answer": "age, obesity, gender, occupation, injury, genetic",
+        "type": "text"
+    },
+    {
+        "question": "If you are obese there is more pressure on the k___ than h___",
+        "answer": "knee, hip",
+        "type": "text"
+    },
+    {
+        "question": "OA is more common in __ when under <45 yo and more common in ___ when > 45 yo",
+        "answer": "men, women",
+        "type": "text"
+    },
+    {
+        "question": "Clinical presentation of OA includes: m__ stiffness, p__ (deep and aching) d__ or r__ after joint use (ex. going up and down stairs), b__ of knees, s__ in the affected joints with limited joint motion, and generally a__ involvement",
+        "answer": "morning, during, right, bulging, stiffness, asymmetrical",
+        "type": "text"
+    },
+    {
+        "question": "OA affects c__ and l__ spine, h__, k__, first m__ phalangeal joint, d_ and p__ interphalangeal joints of h_ and base of t__",
+        "answer": "cervical, lubosacral, hip, knee, metatarsal, distal, proximal, hand, thumb",
+        "type": "text"
+    },
+    {
+        "question": "RA age of onset is y__ and speed of onset is r__, and joint symptoms p__, s__, s__, joints affected s__ and l__ joints on both sides of the body (symmetrical), and morning stiffness usually lasts >_ hr, and systemic symptoms are f__, general ill feeling",
+        "answer": "younger, rapid, painful, swollen, stiff, small, large, 1, fatigue",
+        "type": "text"
+    },
+    {
+        "question": "OA age of onset is l__ >__yo, and speed of onset, joint symptoms are a__ and t__, and joints affected usually begin a__ and spread to the other side and morning stiffness <__ min and there are no s__ symptoms",
+        "answer": "later, 50, aching, tender, asymmetrical, 30, systemic",
+        "type": "text"
+    },
+    {
+        "question": "Nonpharmacologic treatment include optimizing joint function by s__ and c__ of muscles that bridge the joints, and avoiding activities that o__ the joint, w__ loss, e__, w__ aid, p__ therapy, p__ interventions, s__",
+        "answer": "strengthening, conditioning, overload, weight, exercise, walking, physical, psychosocial, surgery",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacological treatments include A__, N__, t__, s___, o___, topical c___, c___ sulfate, h__",
+        "answer": "APAP, NSAIDs, tramadol, steroids, opioids, capsaicin, chondroitin, hyaluronate",
+        "type": "text"
+    },
+    {
+        "question": "Different forms of exercise include a__/r__, a__, t__ c__",
+        "answer": "aerobic/resistance, aquatic, tai chi",
+        "type": "text"
+    },
+    {
+        "question": "Tylenol acts within the C__ and inhibits the p___ synthesis and works p___ to block p__ impulse generation",
+        "answer": "CNS, prostaglandin, peripherally, pain",
+        "type": "text"
+    },
+    {
+        "question": "Tylenol is dosed at __-__-mg Q_-_hours, and max dose is _g and caution for h__ and avoid in chronic a__ abuse and l__ disease",
+		"answer": "650-1000, 4-6, 4, hepatotoxicity, alcohol, liver",
+        "type": "text"
+    },
+    {
+        "question": "Tylenol has DDI with A__ and w___ and A__ and A__ need to be monitored",
+        "answer": "APAP, warfarin, AST, ALT",
+        "type": "text"
+    },
+    {
+        "question": "NSAIDs inhibit COX-1 and COX-2 enzymes that result in decreased formation of prostaglandin precursors and have black box warning for increased risk of t___ and serious g__ bleeding",
+        "answer": "thrombosis, gastrointestinal",
+        "type": "text"
+    },
+    {
+        "question": "NSAIDs adverse effects are d_, n_, g_ ulcers, f_ retention, H_",
+        "answer": "dyspepsia, nausea, gastric, fluid, HTN",
+        "type": "text"
+    },
+    {
+        "question": "NSAIDs need to be taken in caution in G_, p_ ulcer disease, r_ impairment, c_ patients",
+        "answer": "GERD, peptic, renal, cardiac",
+        "type": "text"
+    },
+    {
+        "question": "Tylenol is guideline recommended for k__ and h__ O_",
+        "answer": "knee, hip OA",
+        "type": "text"
+    },
+    {
+        "question": "NSAIDs is guideline recommended for h_, k_, and h_ OA",
+        "answer": "hand, knee, hip",
+        "type": "text"
+    },
+    {
+        "question": "PO NSAID formulation is recommended for h__ OA",
+        "answer": "hip",
+        "type": "text"
+    },
+    {
+        "question": "Ibuprofen (Advil, Motrin) is dosed at _-_ mg __-__X daily (max__mg/day) and comes as P__, I__, and t___",
+        "answer": "400-800, 3-4, 3200, PO, IV, topical",
+        "type": "text"
+    },
+    {
+        "question": "Naproxen (Naprosyn, Aleve) is dosed at __-___mg _X daily and comes as P_, t_",
+        "answer": "250-500, 2, PO, topical",
+        "type": "text"
+    },
+    {
+        "question": "Meloxicam (Mobic, Vivlodex) is dosed at __-__mg daily and comes as P_",
+        "answer": "7.5-15, PO",
+        "type": "text"
+    },
+    {
+        "question": "Vivlodex is dosed at _-_mg daily and is not interchangeable with other meloxicam formulation, even if mg is the same",
+        "answer": "5-10",
+        "type": "text"
+    },
+    {
+        "question": "Diclofenac (Voltaren, Flector, Pennsaid, Zorvolex) is dosed at XR: _mg daily, DR: _mg 2-3X daily or _mg daily, IR: _mg 2-3x daily, Zorvolex: _-_mg TID and comes in P_, t_ (cream, gel, solution, patch) ",
+        "answer": "100, 50, 50, 18-35, PO, topical",
+        "type": "text"
+    },
+    {
+        "question": "Celecoxib (Celebrex) is dosed at _mg BID or _mg daily and comes in P_ and must be avoided in s__ allergy",
+        "answer": "100, 200, PO, sulfa",
+        "type": "text"
+    },
+    {
+        "question": "Indomethacin (Indocin, Tivorbex) is dosed at IR: _mg BID, titrate to a max of _mg TID, ER: _mg daily, MAX: _ mg daily, Tivorbex: _ mg TID or _ mg 2-3X daily and comes in P_",
+		"answer": "25, 50, 75, 150, 20, 40, PO",
+        "type": "text"
+    },
+    {
+        "question": "Ketoprofen (Orudis) is dosed at _-_mg 3-4X daily and comes in P_, t_",
+        "answer": "50-70, PO, topical",
+        "type": "text"
+    },
+    {
+        "question": "Ketorolac (Toradol) is dosed at _mg Q4-6 h (max _mg/day) and comes in P_, I_/I_",
+        "answer": "10, 40, PO, IV/IM",
+        "type": "text"
+    },
+    {
+        "question": "Nabumetone (Relafen) is dosed at _-_mg 1-2X daily and comes in P_",
+        "answer": "500-1000, PO",
+        "type": "text"
+    },
+    {
+        "question": "Piroxicam (Feldene) is dosed at _-_mg daily and comes in P_",
+        "answer": "1-20, PO",
+        "type": "text"
+	},
+    {
+        "question": "Pennsaid _% topical solution pump: apply _ pumps (_mg) to each painful knee _X daily and do not shower for at least _min after applying",
+        "answer": "2, 2, 40, 2, 30",
+        "type": "text"
+    },
+    {
+        "question": "Pennsaid _% topical solution: apply _ drops at a time onto the knee and spread. Apply until _ drops are applied and the knee is covered in solution. W_ hands and wait until area is dry prior to putting on clothing",
+        "answer": "1.5, 10, 40, wash",
+        "type": "text"
+    },
+    {
+        "question": "Voltaren 1% gel is dosed at _g on u__ extremity and is applied _ (max_g/joint/day) do not exceed _ mg/day",
+        "answer": "2, upper, QID, 8, 32",
+        "type": "text"
+    },
+    {
+        "question": "Voltaren 1% gel is dosed at _g on l__ extremity and is applied _ (max_g/joint/day) do not exceed _mg/day",
+        "answer": "4, lower, QID, 16, 32",
+        "type": "text"
+    },
+    {
+        "question": "Diclofenac has DDI with anticoagulation and antip__ therapies (increased bleeding risk), N__, A___ and A_ (renal impairment), and other HTN agents and you need to monitor: _, _, _, _, _",
+        "answer": "antiplatelet, NSAID, ACEI, ARB, Na, K, Scr, BUN, CBC",
+        "type": "text"
+    },
+    {
+        "question": "To prevent NSAID induced bleeding: take with f__ and recommend topical over oral NSAIDs especially in patients >_ yo, for GI protection use P__ (example pantoprazole) or m_ (synthetic prostaglandin)",
+        "answer": "food, 75, PPI, misoprostol",
+        "type": "text"
+    },
+    {
+        "question": "To prevent NSAID induced bleeding: choose a COX-2 selective agent (if no c_ problem) such as c__, m__, e__",
+        "answer": "celecoxib, meloxicam, etodolac",
+        "type": "text"
+    },
+    {
+        "question": "In patients with a history of complicated GI bleed, with GI bleed episode in the past year, use: COX-2 selective N___ + P__",
+        "answer": "NSAID, PPI",
+        "type": "text"
+    },
+    {
+        "question": "In patients with a history of complicated GI bleed but WITHOUT a GI bleed episode in past year, use: COX-2 selective N___ or non s___ N__ + P__",
+        "answer": "NSAID, selective, NSAID, PPI",
+        "type": "text"
+    },
+    {
+        "question": "To prevent cardiovascular complications try to avoid N__ if possible, avoid i___ in patients with cardiovascular disease, and if the patient is on low dose ASA (<=___mg/day) for cardio protection choose a non selective N___ (other than ibuprofen, n_ shown to be safest) + P__",
+        "answer": "NSAID, ibuprofen, 325, NSAID, naproxen, PPI",
+        "type": "text"
+    },
+    {
+        "question": "Opioids (C__-C__) MOA is opioid receptor a__ and u: a__, r__ d__, k: a__, s__, s__ GI transit, d: a__, t__",
+		"answer": "CII-CIV, agonist, analgesia, respiratory depression, analgesia, sedation, slows GI transit, analgesia, tolerance",
+        "type": "text"
+    },
+    {
+        "question": "Opioids are recommended only if the patient has i__ response to both p__ and n__- modalities and is unwilling/not qualified to undergo total joint a___",
+        "answer": "inadequate, pharmacological, nonpharmacological, arthroplasty",
+        "type": "text"
+    },
+    {
+        "question": "Opioids should be avoided in h__ OA adn BBW include a__, r__ d___",
+        "answer": "hand, addiction, respiratory depression",
+        "type": "text"
+    },
+    {
+        "question": "ADR for opioids include c__, r___ d__, d__/d__, i__, u__ r__ and a__ should be avoided as well as DDI with C__/C___",
+        "answer": "constipationi, respiratory depression, dizziness/drowsiness, itchiness, urinary retention, alcohol, CYP3A4/CYP2D6",
+        "type": "text"
+    },
+    {
+        "question": "Tramadol (Ultram, Ultracet) CIV MOA is s__ opioid which binds to opioid receptors in the C__ and inhibit a___ pain pathways. It i___ the reuptake of neurotransmitters (n__ and s__) involved in d__ inhibitory pain pathway responsible for pain relief",
+        "answer": "synthetic, CNS, ascending, inhibits, norepinephrine, serotonin, descending, ",
+        "type": "text"
+    },
+    {
+        "question": "Ultram is dosed at __-__mg Q_-_h: max daily __mg and Ultracet (APAP__/tramadol __mg): take _ tablets Q_-_h PRN: max _ tablets per day for short term (<_) pain management",
+        "answer": "50-100, 4-6, 400, 325, 37.5, 2, 4-6, 8, 58",
+        "type": "text"
+    },
+    {
+        "question": "ADR of Tramadol are c__, N/V, d__, decreased s__ threshold and BBW include risk of opioid a__, r__ d__",
+        "answer": "constipation, dizziness, seizure, addiction, respiratory depression",
+        "type": "text"
+    },
+    {
+        "question": "The guideline recommends opioid in h__, k__ and h__ OA",
+        "answer": "hand, knee, hip",
+        "type": "text"
+    },
+    {
+        "question": "Tramadol has DDI with T_, S_, S__, M__, and be aware of combination drugs with A__",
+        "answer": "TCA, SSRI, SNRI, MAO-I, APAP",
+        "type": "text"
+    },
+    {
+        "question": "Glucosamine and chondroitin are found in normal cartilage. The combination may help r__ damaged cartilage and s__ the progression of the disease and is n_ recommended by ACR guideline",
+        "answer": "replace, slow, not",
+        "type": "text"
+    },
+    {
+        "question": "Glucosamine is dosed (T__) at __mg/day and chondroitin is dosed (T_) at __ mg/day ",
+        "answer": "TID, 1500, TID, 1200",
+        "type": "text"
+    },
+    {
+        "question": "Glucosamine needs to be cautioned in patients with s__ allergy and increases INR when taken with w__",
+        "answer": "shellfish, warfarin",
+        "type": "text"
+    },
+    {
+        "question": "Guideline recommends to avoid in k__ and h__ OA for glucosamine/chondroitin",
+        "answer": "knee, hip",
+        "type": "text"
+    },
+    {
+        "question": "Capsaicin MOA depletes neurons of substance _ which is a principal chemo-mediator of pain impulses from the p__ to the C__",
+        "answer": "P, periphery, CNS",
+        "type": "text"
+    },
+    {
+        "question": "The guideline recommends using capsaicin in h__ but avoid in k__ OA",
+        "answer": "hand, knee",
+        "type": "text"
+    },
+    {
+        "question": "Apply a thin film of capsaicin to the affected area __-__ X daily and gently rub onto affected area until absorbed and wash hands after use",
+        "answer": "3-4",
+        "type": "text"
+    },
+    {
+        "question": "Apply 1 capsaicin patch to the affected area for up to __ hrs (max: _ patches/day)",
+        "answer": "8, 4",
+        "type": "text"
+    },
+    {
+        "question": "intraarticular corticosteroid injections are administered directly into the joint s__ to reduce inflammation in t__ and l__",
+        "answer": "space, tendons, ligaments",
+        "type": "text"
+    },
+    {
+        "question": "ICI offers s__ term pain relief (weeks to months) and has to be administered every __-__ months up to _ times a year ",
+        "answer": "short, 4-6, 4",
+        "type": "text"
+    },
+    {
+        "question": "Guideline recommends ICI in k__ and h__ OA and AVOID in h__ OA",
+        "answer": "knee, hip, hand",
+        "type": "text"
+    },
+    {
+        "question": "Short term systemic steroid side effects include: increased a__/w__ gain, f__ retention, i__/m__ swings, i__, elevated blood g__/p__",
+        "answer": "appetite/weight, fluid, irritability/mood, insomnia, glucose/pressure",
+        "type": "text"
+    },
+    {
+        "question": "Long term systemic steroid side effects include: i__, o__, a__, d__ thinning, central redistribution of fat",
+        "answer": "immunosupression, osteoporosis, acne, dernal",
+        "type": "text"
+    },
+    {
+        "question": "hyaluronic acid injection is used for lubrication and cushioning of the joints and is n__ recommended by ACR guideline due to lack of evidence and requires multiple injections and has a d__ onset where max effect is seen at __-__ weeks and effect lasts up to __ weeks",
+        "answer": "not, delayed, 5-13, 24",
+        "type": "text"
+    },
+    {
+        "question": "Hyaluronic acid injection is contraindicated in e__, c__, f__, or b__ protein allergy (rooster comb)",
+        "answer": "egg, chicke, feather, bird",
+        "type": "text"
+    },
+    {
+        "question": "Arthroplasty is known as t__ j__ r__",
+        "answer": "total joint replacement",
+        "type": "text"
+    },
+    {
+        "question": "Nonpharmacological treatments for hand OA are j_ protection techniques, t_ modalities, splint for trapeziometacarpal OA",
+        "answer": "joint, thermal",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacological treatments for hand OA are topical c___, topical N__, oral N__, t__",
+        "answer": "capsaicin, NSAIDs, NSAIDs, tramadol",
+        "type": "text"
+    },
+    {
+        "question": "Nonpharmacological treatment for knee OA include a__/r__ land based exercise, a_ exercise, w__ loss if overweight, t__ agents, w__ aids as needed",
+        "answer": "aerobic/resistance, aquatic, weight, thermal, walking",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacological treatment for knee OA include A_, oral N__, topical N__, t__, I_",
+        "answer": "APAP, NSAIDs, NSAIDs, tramadol, ICI",
+        "type": "text"
+    },
+    {
+        "question": "Use o__ (instead of tramadol) in k__/h__ OA if patient failed initial nonpharmacological/pharmacological tx and is not undergoing total joint arthroplasty",
+        "answer": "opioid, knee/hip",
+        "type": "text"
+    },
+    {
+        "question": "Nonpharmacological treatment in hip OA include a__/r__ land based exercise, a_ exercise, w__ loss if overweight, t__ agents, w__ aids as needed",
+        "answer": "aerobic/resistance, aquatic, weight, thermal, walking",
+        "type": "text"
+    },
+    {
+        "question": "Pharmacological treatment for hip OA include A_, oral N__, t__, I_",
+        "answer": "APAP, NSAIDs, NSAIDs, tramadol, ICI",
+        "type": "text"
+    }
+]
