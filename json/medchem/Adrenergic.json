@@ -1,0 +1,147 @@
+AdrenergicQuestions = [
+    {
+        "question": "Adenyl cyclase effect on VSM (beta2) is an i___ in CAMP which i___ dilation",
+        "answer": "increase, increase",
+        "type": "text"
+    },
+    {
+        "question": "Phospholipase C effect on VSM (alpha 1) is i___ in IP3 and/or phospholipase C, which is an i__ in contraction",
+        "answer": "increase, increase",
+        "type": "text"
+    },
+    {
+        "question": "Non-selective alpha 1 adrenergic antagonists are ___ used therapeutically for lowering BP because of toxicity",
+        "answer": "not",
+        "type": "text"
+    },
+    {
+        "question": "Q____ (-azosin) are used as antihypertensives ",
+        "answer": "quinazolines",
+        "type": "text"
+    },
+    {
+        "question": "P____, D___, and T____ are indicated for hypertension",
+        "answer": "Prazosin, Doxazosin, Terazosin",
+        "type": "text"
+    },
+    {
+        "question": "A___, S____, and T___ are indicated in BPH to block urethral constriction",
+        "answer": "Alfuzosin, Sildosin, Tamsulosin",
+        "type": "text"
+    },
+    {
+        "question": "Yohimbine  induces h___ and increase h___ rate and has no ___ approved use, and is herbally used for male i___ and o___ hypotension",
+        "answer": "hypertension, heart, FDA, impotence, orthostatic",
+        "type": "text"
+    },
+    {
+        "question": "B-1 adrenergic agonists i__ contractile force, and i___ heart rate, whereas B-1 adrenergic antagonists r___ contractile force, and l___ BP",
+        "answer": "increase, increase, reduce, lower",
+        "type": "text"
+    },
+    {
+        "question": "Beta blockers compete with e__ catecholamines for binding at B1 and B2 receptors",
+        "answer": "endogenous",
+        "type": "text"
+    },
+    {
+        "question": "Depending on receptor selectivity B blockers can be used to treat c___ arrythmias, a___ pectoris, m___, and g____",
+        "answer": "cardiac, angina, migraines, glaucoma",
+        "type": "text"
+    },
+    {
+        "question": "Aryloxypropanolamines SAR confer B1 selectivity through substitution on position __",
+        "answer": "4",
+        "type": "text"
+    },
+    {
+        "question": "Glaucoma is treated with p____, c___ inhibitors, c___ anhydrase inhibitors, and p___ analogs",
+		"answer": "parasympathomimetics, cholinesterase, carbonic, prsotaglandin",
+        "type": "text"
+    },
+    {
+        "question": "Commonly used beta blocker drugs are: t__ (timoptic), b___ (Betoptic), L___ (Betagen), M____ (Optipranolol), c___ (Ocupress)",
+        "answer": "timolol, betaxolol, levobunolol, metipranolol, carteolol",
+        "type": "text"
+    },
+    {
+        "question": "Common ADR of non-selective B blockers is f__, b___, s___ dysfunction, a___",
+        "answer": "fatigue, bronchoconstriction, sexual, arrhythmias",
+        "type": "text"
+    },
+    {
+        "question": "Propanolol is a nonselective B blocker = broncoc_____, vasoconstriction, i___ sodium retention, decreased cardiac output",
+        "answer": "constriction, increased",
+        "type": "text"
+    },
+    {
+        "question": "Selective B1 blockers are: _____, ______, ______, ______, _____, ______, _____",
+        "answer": "atenolol, acebutolol, betaxolol, esmolol, metoprolol, bisoprolol, Nebivolol",
+        "type": "list"
+    },
+    {
+        "question": "mixed a/B adrenergi antagonista are l___ and c____",
+        "answer": "labetalol, carvedilol",
+        "type": "text"
+    },
+    {
+        "question": "Among aryloxypropranolamines if the 4 position is open and metabolism occurs or is known, aromatic oxidation gives an a____ metabolite",
+        "answer": "active",
+        "type": "text"
+    },
+    {
+        "question": "Metoprolol and propanolol is metabolized by _____",
+        "answer": "CYP2D6",
+        "type": "text"
+    },
+    {
+        "question": "If 4 position is substituted, if metabolism occurs or is known ___ metabolites result (exception: m____)",
+        "answer": "IA, metipranolol",
+        "type": "text"
+    },
+    {
+        "question": "Metyrosine (Demser) inhibits t___ h___ competitively and is not used an antihypertensive-but is used in pheochromocytoma",
+        "answer": "tyrosine hydroxylase",
+        "type": "text"
+    },
+    {
+        "question": "Reserpine (Sandril, Serpasil): rauwolfia alkaloid binds tight to ATP driven monoamine transporter preventing EPI and NE reuptake into vesicle. Depletes neuron of NT and is used in h__ and s__",
+        "answer": "hypertension, schizophrenia",
+        "type": "text"
+    },
+    {
+        "question": "Propanolol has ___ and ____ receptor specificity and is used in ____, ____, ____, ____ ____, _____ ______",
+        "answer": "B1, B2, hypertension, migraine, hyperthroidism, angina pectoris, myocardial infarction",
+        "type": "list"
+    },
+    {
+        "question": "Nadolol has ___ and ___ receptor specificity and is used in _____",
+        "answer": "B1, B2, hypertension",
+        "type": "text"
+    },
+    {
+        "question": "timolol has ___ and ___ receptor specificity and is used in ____ and ____",
+        "answer": "B1, B2, glaucoma, hypertension",
+        "type": "text"
+    },
+    {
+        "question": "_____, _____, ______, _______ has ______ receptor specificity and is used to treat ____",
+		"answer": "acebutolol, atenolol, esmolol, metoprolol, B1, hypertension",
+        "type": "list"
+    },
+    {
+        "question": "Nebivolol has ___ receptor specificity (increased NO) and is used to treat ____",
+        "answer": "B1, hyptertension",
+        "type": "text"
+    },
+    {
+        "question": "Pindolol has ____, ___ receptor specificity and is used to treat ____",
+        "answer": "B1, B2, hypertension",
+        "type": "text"
+    },
+    {
+        "question": "Carvedilol and labetalol have ___, ____, and ____ receptor specificity and are used to treat ____ and _____ heart failure",
+        "answer": "a1, B1, B2, hypertension, congestive",
+        "type": "text"
+    }
+]
