@@ -1,7 +1,8 @@
 <HTML>
 <HEAD>
     <TITLE>IPDM Topic Quiz</TITLE>
-    <script type="text/javascript" src="json/medchem/Adrenergic.json"></script>
+    <script type="text/javascript" src="json/medchem/Adrenergic1.json"></script>
+    <script type="text/javascript" src="json/medchem/Adrenergic2.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -9,19 +10,24 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        var questions = AdrenergicQuestions;
+        var questions = AdrenergicQuestions1;
         var arrayIndex = 0;
         var totalQuestions = questions.length;
         var totalCorrect = 0;
     </script>
 </HEAD>
 <BODY onload="randomizeQuestions()">
-    <h1>IPDM Topic Quiz</h1>
+    <h1>Medchem Quiz</h1>
     <form id="quizForm">
         <fieldset>
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="AdrenergicQuestions" class="topicSelector" checked> Adrenergic
+                    <input type="radio" name="topicSelector" value="AdrenergicQuestions1" class="topicSelector" checked> Adrenergic 1
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="AdrenergicQuestions2" class="topicSelector" > Adrenergic 2
                 </label>
             </div>
         </fieldset>
@@ -59,8 +65,11 @@
         $('input[name="topicSelector"]:radio').change(function() {
             var changeTopic = $('input[name="topicSelector"]:checked').val();
             switch(changeTopic){
-                case "DiagnosticTests": 
-                    questions = AdrenergicQuestions;
+                case "AdrenergicQuestions1": 
+                    questions = AdrenergicQuestions1;
+                    break;
+                case "AdrenergicQuestions2": 
+                    questions = AdrenergicQuestions2;
                     break;
             }
             randomizeQuestions();
