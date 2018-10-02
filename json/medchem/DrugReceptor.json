@@ -1,0 +1,52 @@
+DrugReceptorQuestions = [
+    {
+        "question": "A drug with a higher Kd would require a ____ drug concentration in order to achieve significant receptor binding and drug effect",
+        "answer": "higher",
+        "type": "text"
+    },
+    {
+        "question": "___ is an expression of the activity of a drug in terms of the concentration or amount of the drug required to produce a defined effect, the ___ the dose the __ the potency",
+        "answer": "potency, higher, lower",
+        "type": "text"
+    },
+    {
+        "question": "The ____ fit model suggests that the receptor slightly reshapes itself to fit a ligand",
+        "answer": "induced",
+        "type": "text"
+    },
+    {
+        "question": "The ___ state or ___ selection model suggests that the ligand binds to and stabilizes a particular receptor shape",
+        "answer": "two, conformational",
+        "type": "text"
+    },
+    {
+        "question": "The term for receptor activity without any ligand binding to the receptor is ___ or ___ activity and is especially noted in ____",
+        "answer": "constitutive, basal, GPCR",
+        "type": "text"
+    },
+    {
+        "question": "A drug that is ___ has high intrinsic activity",
+        "answer": "efficacious",
+        "type": "text"
+    },
+    {
+        "question": "The endogenous ligand binding site is called the ___ site",
+        "answer": "orthosteric",
+        "type": "text"
+    },
+    {
+        "question": "Endogenous ligands that result in a receptor response are called ____",
+        "answer": "agonists",
+        "type": "text"
+    },
+    {
+        "question": "If an antagonist binds irreversibly then it is an ___ competitive antagonist or a ___ competitive antagonist",
+        "answer": "irreversible, non",
+        "type": "text"
+    },
+    {
+        "question": "Use of a non competitive antagonist will decrease the number of usable receptors and ___ agonist effect",
+        "answer": "decrease",
+        "type": "text"
+    }
+]

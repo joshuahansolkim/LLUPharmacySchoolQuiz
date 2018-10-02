@@ -1,0 +1,89 @@
+CholinergicNeurotransmissionQuestions = [
+    {
+        "question": "Acetylcholinesterase (AChE) is associated with the outer surface of __ cells in the synapse",
+        "answer": "glial",
+        "type": "text"
+    },
+    {
+        "question": "____ of AChE ____ synaptic concentration of ACh",
+        "answer": "inhibition, increase",
+        "type": "text"
+    },
+    {
+        "question": "Butyrylcholinesterase (BuChE, pseudocholinesterase) is located in ___ plasma and ___ dietary esters and drug molecules in the blood and can ___ Ach if present",
+        "answer": "human, hydrolyzes, hydrolyze",
+        "type": "text"
+    },
+    {
+        "question": "AChE enzymes ____ the ester bond of acetylcholine and form a temporary ___ bond with serine and histidine in the active site",
+        "answer": "hydrolyze, covalent",
+        "type": "text"
+    },
+    {
+        "question": "Reversible AChE bind with greater affinity than ACh and the acyl moiety bound to serine ____ more slowly and the enzyme regenerates more slowly",
+        "answer": "hydrolyzes",
+        "type": "text"
+    },
+    {
+        "question": "In irreversible (insecticides, nerve agents) the acyl moiety bound to serine does ____ hydrolyzeee spontaneously and second step produces the irreversibility",
+        "answer": "not",
+        "type": "text"
+    },
+    {
+        "question": "Muscarinic antagonists ___ net muscarinic activity by _____ acetylcholine",
+        "answer": "decrease, blocking",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a use for muscarinic antagonists",
+		"choices": "prevention of motion sickness, increase smooth muscle contraction, decrease secretory activity, treat bradycardia",
+        "answer": "increase smooth muscle contraction",
+        "type": "multiple"
+    },
+    {
+        "question": "Which one is false regarding the requirement for a muscarinic agonist SAR",
+		"choices": "positively charged N is required, replacement of the N-Me groups with H leads to loss of activity, no more than five atoms between terminal H and tertiary N, an O capable of hydrogen bonding two carbon units from the N is required or a C=O",
+        "answer": "no more than five atoms between terminal H and tertiary N",
+        "type": "multiple"
+    },
+    {
+        "question": "Atropine has a moiety that resembles ____",
+        "answer": "acetylcholine",
+        "type": "text"
+    },
+    {
+        "question": "anticholinergics are most potent when substituent is a ___ ammonium salt",
+        "answer": "quarternary",
+        "type": "text"
+    },
+    {
+        "question": "Atropine can cross the ___ and is ___ selective for muscarinic receptor",
+		"answer": "BBB, non",
+        "type": "text"
+    },
+    {
+        "question": "Ipratropium bromide (Atrovent) is a synthetic, ____ derivative of atropine and does not cross the ____ and is used to treat ____ and ___",
+        "answer": "quarternary, BBB, asthma, COPD",
+        "type": "text"
+    },
+    {
+        "question": "Trihexyphenidyl hydrochloride (Artane) is a ____ amine muscarinic receptor antagonist that is used in the treatment of ___ disease and other muscle conditions and ___ blocks M1 but may also affect ___",
+        "answer": "tertiary, Parkinson's, centrally, dopamine",
+        "type": "text"
+    },
+    {
+        "question": "Benztropine mesylate (Cogentin) is used in early ____ disease and adverse effects are sedation, mental confusion in the elderly",
+        "answer": "Parkinson's",
+        "type": "text"
+    },
+    {
+        "question": "Nicotinic antagonists are used as neuromuscular blocking agents which are ____",
+        "answer": "relaxants",
+        "type": "text"
+    },
+    {
+        "question": "Nicotinic antagonists such as Clostridium Botulinum prevent ____ release from the nerve terminal",
+        "answer": "ACh",
+        "type": "text"
+    }
+]

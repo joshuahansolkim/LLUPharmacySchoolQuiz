@@ -158,6 +158,7 @@ function setupPagination() {
     for(num in questions){
         var questionNum = parseInt(num) + 1;
         $('.questionNav').last().after('<li class="page-item questionNav"><button class="page-link removeable" type="button" onclick="getQuestion('+ num +')" id="question'+num+'">' + questionNum + '</button></li>');
+        // TODO: Fix total number of questions that shows under Correct Answers.
     }
 }
 

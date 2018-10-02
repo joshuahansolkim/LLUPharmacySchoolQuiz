@@ -3,6 +3,9 @@
     <TITLE>IPDM Topic Quiz</TITLE>
     <script type="text/javascript" src="json/medchem/Adrenergic1.json"></script>
     <script type="text/javascript" src="json/medchem/Adrenergic2.json"></script>
+    <script type="text/javascript" src="json/medchem/BioPharmaceutical.json"></script>
+    <script type="text/javascript" src="json/medchem/CholinergicNeurotransmission.json"></script>
+    <script type="text/javascript" src="json/medchem/DrugReceptor.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -28,6 +31,21 @@
             <div class="form-check form-check-inline">
                 <label class="form-check-label">
                     <input type="radio" name="topicSelector" value="AdrenergicQuestions2" class="topicSelector" > Adrenergic 2
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="BiopharmaceuticalQuestions" class="topicSelector" > BioPharmaceutical
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="CholinergicNeurotransmissionQuestions" class="topicSelector" > Cholinergic Neurotransmission
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                    <input type="radio" name="topicSelector" value="DrugReceptorQuestions" class="topicSelector" > Drug Receptor
                 </label>
             </div>
         </fieldset>
@@ -70,6 +88,15 @@
                     break;
                 case "AdrenergicQuestions2": 
                     questions = AdrenergicQuestions2;
+                    break;
+                case "BiopharmaceuticalQuestions": 
+                    questions = BiopharmaceuticalQuestions;
+                    break;
+                case "CholinergicNeurotransmissionQuestions": 
+                    questions = CholinergicNeurotransmissionQuestions;
+                    break;
+                case "DrugReceptorQuestions": 
+                    questions = DrugReceptorQuestions;
                     break;
             }
             randomizeQuestions();
