@@ -2,15 +2,13 @@ function checkAnswer() {
     console.log('checkAnswer');
     switch (questions[arrayIndex].type) {
         case 'text':
+        case 'fill':
             var values = [];
             $('.answerInput').each(function(i, item) {
                 values.push(item.value);
             });
-            console.log(values.toString().toLowerCase());
             var answerString = questions[arrayIndex].answer.toString().trim().toLowerCase().replace(/\s/g,'');
-            console.log(answerString);
             
-            //if (questions[arrayIndex].answer.toString().trim().toLowerCase() == $('.answerInput').val().trim().toLowerCase()) {
             if (answerString == values.toString().toLowerCase()) {
                 totalCorrect++;
                 questions[arrayIndex].correct = "1";
@@ -23,9 +21,8 @@ function checkAnswer() {
 	        questions[arrayIndex].input = values.toString();
 	        break;
         case 'list':
-        case 'fill':
         case 'image':
-            var inputArray = $('#answerInput').val().split(",").map(item => item.trim());
+            var inputArray = $('.answerInput').val().split(",").map(item => item.trim());
             var answerArray = questions[arrayIndex].answer.split(",").map(item => item.trim());
             var answerArrayCount = answerArray.length;
             var correctArray = new Array(answerArrayCount);
@@ -61,7 +58,7 @@ function checkAnswer() {
                 $("#question" + arrayIndex).addClass('incorrect');
             }
 
-            questions[arrayIndex].input = $('#answerInput').val();
+            questions[arrayIndex].input = $('.answerInput').val();
             break;
         case 'multiple':
             if (questions[arrayIndex].answer.trim() == $('input[name=answerSelector]:checked').val()){
@@ -77,7 +74,7 @@ function checkAnswer() {
             break;
         case 'either':
             var answerArray = questions[arrayIndex].answer.split(",");
-            if(answerArray.indexOf($('#answerInput').val().toLowerCase()) > -1){
+            if(answerArray.indexOf($('.answerInput').val().toLowerCase()) > -1){
                 correctAnswers++;
                 questions[arrayIndex].correct = "1";
 	            $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
@@ -86,7 +83,7 @@ function checkAnswer() {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
                 $("#question" + arrayIndex).addClass('incorrect');
             }
-            questions[arrayIndex].input = $('#answerInput').val();
+            questions[arrayIndex].input = $('.answerInput').val();
             break;
     }
 
@@ -136,7 +133,7 @@ function getNewQuestion() {
             }
             break;
 	    case "image":
-		    $('#questionRow').html("<div class='col'><div class='row'><img id='question' src=''></div><div class='row form-group'><label for='answerInput'>Answer</label></br><input class='userInput form-control' id='answerInput' type='text' name='answer'></div></div>");
+		    $('#questionRow').html("<div class='col'><div class='row'><img id='question' src=''></div><div class='row form-group'><label for='answerInput'>Answer</label></br><input class='userInput form-control answerInput' type='text' name='answer'></div></div>");
 		    $("#question").attr("src", "images/" + question.question);
 		    break;
     }
@@ -246,16 +243,13 @@ function getFirstIncorrectQuestion(){
     console.log('getFirstIncorrectQuestion');
     //TODO: Fix issue where last 
     var numIncorrect = $('.incorrect').length;
-    console.log(numIncorrect);
     if(numIncorrect > 0){
         var firstIncorrect = $('.incorrect').first().attr('id');
         arrayIndex = parseInt(firstIncorrect.replace("question",""));
         getNewQuestion();
     } else {
         var firstIncorrect = $('.removeable').not('.answerCorrect').first().attr('id');
-        console.log(firstIncorrect);
         arrayIndex = parseInt(firstIncorrect.replace("question",""));
-        console.log(arrayIndex);
         getNewQuestion();
     }
 }
@@ -264,7 +258,7 @@ function getCorrectAnswer(){
     console.log('getCorrectAnswer');
     $('#correctAnswerLabel').text('Correct Answer:');
     $('#correctAnswer').val(questions[arrayIndex].answer);
-    $('#answerInput').focus();
+    $('.answerInput').first().focus();
 }
 
 function resetScore() {
