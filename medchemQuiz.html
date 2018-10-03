@@ -6,6 +6,7 @@
     <script type="text/javascript" src="json/medchem/BioPharmaceutical.json"></script>
     <script type="text/javascript" src="json/medchem/CholinergicNeurotransmission.json"></script>
     <script type="text/javascript" src="json/medchem/DrugReceptor.json"></script>
+    <script type="text/javascript" src="json/medchem/topics.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -13,41 +14,18 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        var questions = AdrenergicQuestions1;
+        var questions = eval(topics[0].groupname);
         var arrayIndex = 0;
         var totalQuestions = questions.length;
         var totalCorrect = 0;
+        var questionTopics = topics;
+        console.log(topics);
     </script>
 </HEAD>
 <BODY onload="randomizeQuestions()">
     <h1>Medchem Quiz</h1>
     <form id="quizForm">
-        <fieldset>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="AdrenergicQuestions1" class="topicSelector" checked> Adrenergic 1
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="AdrenergicQuestions2" class="topicSelector" > Adrenergic 2
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="BiopharmaceuticalQuestions" class="topicSelector" > BioPharmaceutical
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="CholinergicNeurotransmissionQuestions" class="topicSelector" > Cholinergic Neurotransmission
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input type="radio" name="topicSelector" value="DrugReceptorQuestions" class="topicSelector" > Drug Receptor
-                </label>
-            </div>
+        <fieldset class="topics">
         </fieldset>
         <fieldset>
             <div class="row" id="questionRow">
@@ -79,26 +57,9 @@
         </fieldset>
     </form>
     <script>
-        resetScore();
+        setupPage();
         $('input[name="topicSelector"]:radio').change(function() {
-            var changeTopic = $('input[name="topicSelector"]:checked').val();
-            switch(changeTopic){
-                case "AdrenergicQuestions1": 
-                    questions = AdrenergicQuestions1;
-                    break;
-                case "AdrenergicQuestions2": 
-                    questions = AdrenergicQuestions2;
-                    break;
-                case "BiopharmaceuticalQuestions": 
-                    questions = BiopharmaceuticalQuestions;
-                    break;
-                case "CholinergicNeurotransmissionQuestions": 
-                    questions = CholinergicNeurotransmissionQuestions;
-                    break;
-                case "DrugReceptorQuestions": 
-                    questions = DrugReceptorQuestions;
-                    break;
-            }
+            questions = eval($('input[name="topicSelector"]:checked').val());
             randomizeQuestions();
         });
         $('BODY').keypress(function(e) {

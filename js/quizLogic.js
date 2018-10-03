@@ -162,6 +162,12 @@ function setupPagination() {
     }
 }
 
+function setupPage() {
+    for(topic in questionTopics){
+        $('.topics').append('<div class="form-check form-check-inline"><label class="form-check-label"><input type="radio" name="topicSelector" value="' + questionTopics[topic].groupname + '" class="topicSelector" ' + (topic == 0 ? 'checked': '') + '> ' + questionTopics[topic].topic +'</label></div>');
+    }
+}
+
 function getQuestion(index){
     arrayIndex = index;
     getNewQuestion();
