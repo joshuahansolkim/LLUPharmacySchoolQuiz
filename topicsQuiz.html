@@ -23,13 +23,13 @@
 </HEAD>
 <BODY onload="setupPage()">
     <h1 class="quizTitle"></h1>
-    <form id="quizForm">
         <fieldset class="topics">
         </fieldset>
         <fieldset>
-            <div class="row" id="questionRow">
-                
-            </div>
+            <form id="quizForm" class="form-inline">
+                <div class="row" id="questionRow">
+                </div>
+            </form>
             <div class="form-group">
                 <label for="correctAnswer" id="correctAnswerLabel">Start Quiz:</label>
                 <input class="form-control" id="correctAnswer" type="text" disabled value='Press "Check Answer" or "Enter" key to submit your answer.'>
@@ -54,7 +54,6 @@
                 <a class="btn btn-primary" role="button" href="index.html">Home</a>
             </div>
         </fieldset>
-    </form>
     <script>
         $('.quizTitle').append(pclass.name + ' Topics Quiz');
     </script>

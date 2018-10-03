@@ -2,7 +2,16 @@ function checkAnswer() {
     console.log('checkAnswer');
     switch (questions[arrayIndex].type) {
         case 'text':
-            if (questions[arrayIndex].answer.toString().trim().toLowerCase() == $('#answerInput').val().trim().toLowerCase()) {
+            var values = [];
+            $('.answerInput').each(function(i, item) {
+                values.push(item.value);
+            });
+            console.log(values.toString().toLowerCase());
+            var answerString = questions[arrayIndex].answer.toString().trim().toLowerCase().replace(/\s/g,'');
+            console.log(answerString);
+            
+            //if (questions[arrayIndex].answer.toString().trim().toLowerCase() == $('.answerInput').val().trim().toLowerCase()) {
+            if (answerString == values.toString().toLowerCase()) {
                 totalCorrect++;
                 questions[arrayIndex].correct = "1";
 	            $('#correctAnswer').removeClass('is-invalid').addClass('is-valid');
@@ -11,7 +20,7 @@ function checkAnswer() {
 	            $('#correctAnswer').removeClass('is-valid').addClass('is-invalid');
                 $("#question" + arrayIndex).addClass('incorrect');
             }
-	        questions[arrayIndex].input = $('#answerInput').val();
+	        questions[arrayIndex].input = values.toString();
 	        break;
         case 'list':
         case 'fill':
@@ -105,13 +114,15 @@ function getNewQuestion() {
     $('#question'+arrayIndex).parent().addClass('active');
     var question = questions[arrayIndex];
 
+    //TODO: Change boxes to be inline
     switch (question.type) {
         case 'text':
         case 'list':
         case 'fill':
-            $('#questionRow').html("<div class='col'><div class='row'><h2 id='question'></h2></div><div class='row form-group'><label for='answerInput'>Answer</label></br><input class='userInput form-control' id='answerInput' type='text' name='answer' autofocus></div></div>");
-            $("#question").text(arrayIndex + 1 + ": " + question.question);
-            $("#answerInput").focus();
+            var questionString = question.question.replace(/____/g,"<input class='userInput form-control answerInput' type='text' name='answer' autofocus>");
+            $('#questionRow').html("<div class='col'><div class='row'><h2 id='question'>" + arrayIndex + 1 + ": " + questionString + "</h2></div><div class='row form-group'><label class='sr-only' for='answerInput'>Answer</label></div>");
+            $("#question").html(arrayIndex + 1 + ": " + questionString);
+            $(".answerInput").first().focus();
             break;
         case "multiple":
             $('#questionRow').html("<div class='col'><div class='row'><h2 id='question'></h2></div><div class='row form-group form-check'><label for='answerInput' class='answers'>Answers</label></div></div>");
@@ -186,6 +197,7 @@ function setupPage() {
     
     $('input[name="topicSelector"]:radio').change(function() {
         questions = eval($('input[name="topicSelector"]:checked').val());
+        totalQuestions = questions.length;
         randomizeQuestions();
     });
     $('BODY').keypress(function(e) {
@@ -240,7 +252,11 @@ function getFirstIncorrectQuestion(){
         arrayIndex = parseInt(firstIncorrect.replace("question",""));
         getNewQuestion();
     } else {
-        getFirstQuestion();
+        var firstIncorrect = $('.removeable').not('.answerCorrect').first().attr('id');
+        console.log(firstIncorrect);
+        arrayIndex = parseInt(firstIncorrect.replace("question",""));
+        console.log(arrayIndex);
+        getNewQuestion();
     }
 }
 

@@ -5,17 +5,17 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "The high risk waist circumference for men is ___ inches or ___ cm",
+        "question": "The high risk waist circumference for men is ____ inches or ____ cm",
         "answer": "40, 102",
         "type": "text"
     },
     {
-        "question": "The high risk waist circumference for women is _____ inches or ___ cm",
+        "question": "The high risk waist circumference for women is ____ inches or ____ cm",
         "answer": "35, 88",
         "type": "text"
     },
     {
-        "question": "Metabolic syndrome involves waist circumference greater than ___ inches in men or ____inches in women",
+        "question": "Metabolic syndrome involves waist circumference greater than ____ inches in men or ____inches in women",
         "answer": "40, 35",
         "type": "text"
     },
@@ -25,32 +25,32 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Metabolic syndrome involves high density lipoprotein cholesterol less than ___ mg/dL in men or less than ___ mg/dL in women",
+        "question": "Metabolic syndrome involves high density lipoprotein cholesterol less than ____ mg/dL in men or less than ____ mg/dL in women",
         "answer": "40, 50",
         "type": "text"
     },
     {
-        "question": "Metabolic syndrome involves blood pressure level of _____ mmHg or higher",
+        "question": "Metabolic syndrome involves blood pressure level of ____ mmHg or higher",
         "answer": "130/85",
         "type": "text"
     },
     {
-        "question": "Metabolic syndrome involves serum glucose of _____ mg/dL or greater",
+        "question": "Metabolic syndrome involves serum glucose of ____ mg/dL or greater",
         "answer": "100",
         "type": "text"
     },
     {
-        "question": "Obesity etiologies include g__, m___, e___, m___ _____",
+        "question": "Obesity etiologies include g____, m____, e____, m____ ____",
         "answer": "genetic, metabolic, environmental, medication induced",
         "type": "list"
     },
     {
-        "question": "Environmental obesity etiologies include: _____ and lifestyle, ______ inactivity",
+        "question": "Environmental obesity etiologies include: ____ and lifestyle, ____ inactivity",
         "answer": "diet, physical",
         "type": "text"
     },
     {
-        "question": "Medication induced obesity etiologies include: ______, DM medications such as ______, ______, _______, highly active _____ therapy, _____ hormones",
+        "question": "Medication induced obesity etiologies include: ____, DM medications such as ____, ____, ____, highly active ____ therapy, ____ hormones",
         "answer": "psychotropics, insulin, sulfonylurea, thiazolidinediones, antiretroviral, steroid",
         "type": "text"
     },
@@ -66,32 +66,32 @@ obesityQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Weight needs to be lost when BMI > __, or BMI > ___ with ___ risk factors, high risk waist circumference with > ___ risk factors, men > ___ inches, women > ___ inches",
+        "question": "Weight needs to be lost when BMI > ____, or BMI > ____ with ____ risk factors, high risk waist circumference with > ____ risk factors, men > ____ inches, women > ____ inches",
         "answer": "30, 27, 2, 2, 40, 35",
         "type": "text"
     },
     {
-        "question": "___ modification is the most commonly used and most important for weight loss",
+        "question": "____ modification is the most commonly used and most important for weight loss",
         "answer": "dietary",
         "type": "text"
     },
     {
-        "question": "AHA/ACC/TOS recommends reduce food calorie intake _____ - ____ kcal/d for women and ______ - ______kcal/d for men",
+        "question": "AHA/ACC/TOS recommends reduce food calorie intake ____ - ____ kcal/d for women and ____ - ____kcal/d for men",
         "answer": "1200, 1500, 1500, 1800",
         "type": "text"
     },
     {
-        "question": "AHA/ACC/TOS recommends losing _____ to _____ pounds/week based on a calorie deficit of ____ to _____ kcal/day",
+        "question": "AHA/ACC/TOS recommends losing ____ to ____ pounds/week based on a calorie deficit of ____ to ____ kcal/day",
         "answer": "1, 2, 500, 750",
         "type": "text"
     },
     {
-        "question": "The initial goal of dietary modification is to reduce body weight by ___ to ____ from baselie over ___ months",
+        "question": "The initial goal of dietary modification is to reduce body weight by ____ to ____ from baselie over ____ months",
         "answer": "5, 10, 6",
         "type": "text"
     },
     {
-        "question": "Physical activity is especially important for weight loss ______",
+        "question": "Physical activity is especially important for weight loss ____",
         "answer": "maintenance",
         "type": "text"
     },
@@ -106,42 +106,42 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Children/adolescents are recommended > ____ minutes of moderate or vigorous aerobic activity a day, including vigorous activity at least ___ days/week",
+        "question": "Children/adolescents are recommended > ____ minutes of moderate or vigorous aerobic activity a day, including vigorous activity at least ____ days/week",
         "answer": "60, 3",
         "type": "text"
     },
     {
-        "question": "_____ therapy is most important for weight loss",
+        "question": "____ therapy is most important for weight loss",
         "answer": "dietary",
         "type": "text"
     },
     {
-        "question": "What are practical behavior tips for patients for weight loss, focus on ____ change at a time, _____ control is key, ____ method",
+        "question": "What are practical behavior tips for patients for weight loss, focus on ____ change at a time, ____ control is key, ____ method",
         "answer": "one, portion, plate",
         "type": "text"
     },
     {
-        "question": "In the plate method, fill ___ the plate with ______ ",
+        "question": "In the plate method, fill ____ the plate with ____ ",
         "answer": "half, vegetables",
         "type": "text"
     },
     {
-        "question": "In the plate method, fill a ____ of the plate with ______ foods",
+        "question": "In the plate method, fill a ____ of the plate with ____ foods",
         "answer": "quarter, starchy",
         "type": "text"
     },
     {
-        "question": "In the plate method, fill a ___ of the plate with ____",
+        "question": "In the plate method, fill a ____ of the plate with ____",
         "answer": "quarter, meat",
         "type": "text"
     },
     {
-        "question": "If the patient does not lose ___ kg in the first ___ weeks of initiating medication, there is a ___ likelihood of response",
+        "question": "If the patient does not lose ____ kg in the first ____ weeks of initiating medication, there is a ____ likelihood of response",
         "answer": "2, 4, low",
         "type": "text"
     },
     {
-        "question": "Orlistat is indicated for patients with BMI ___ or higher",
+        "question": "Orlistat is indicated for patients with BMI ____ or higher",
         "answer": "25",
         "type": "text"
     },
@@ -151,42 +151,42 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Orlistat MOA is that it inhibits absorption of dietary fats by inhibiting the _______ of _____",
+        "question": "Orlistat MOA is that it inhibits absorption of dietary fats by inhibiting the ____ of ____",
         "answer": "hydrolysis of triglycerides",
         "type": "text"
     },
     {
-        "question": "Orlistat is metbolized in _____ wall, ____ to ____ is excreted via _____",
+        "question": "Orlistat is metbolized in ____ wall, ____ to ____ is excreted via ____",
         "answer": "intestinal, 95, 97, feces",
         "type": "text"
     },
     {
-        "question": "Orlistat OTC dose is ____mg ___ times a day",
+        "question": "Orlistat OTC dose is ____mg ____ times a day",
         "answer": "60, 3",
         "type": "text"
     },
     {
-        "question": "Orlistat is pregnancy category __",
+        "question": "Orlistat is pregnancy category ____",
         "answer": "X",
         "type": "text"
     },
     {
-        "question": "Most patients in clinical trials lost ____ to ____ pounds over ___ months",
+        "question": "Most patients in clinical trials lost ____ to ____ pounds over ____ months",
         "answer": "5, 10, 6",
         "type": "text"
     },
     {
-        "question": "Adverse effects of Orlistat include: _____, loose ____, _____ stools, ____urgency, fecal _____",
+        "question": "Adverse effects of Orlistat include: ____, loose ____, ____ stools, ____urgency, fecal ____",
         "answer": "flatulence, stools, fatty, fecal, incontinence",
         "type": "text"
     },
     {
-        "question": "Orlistat decreases absorption of ____ soluble vitamins ___, ___, ____, ___",
+        "question": "Orlistat decreases absorption of ____ soluble vitamins ____, ____, ____, ____",
         "answer": "fat, D, A, K, E",
         "type": "text"
     },
     {
-        "question": "Orlistat should be avoided in patients taking ___, ____, and ____",
+        "question": "Orlistat should be avoided in patients taking ____, ____, and ____",
         "answer": "cyclosporine, levothyroxine, amiodarone",
         "type": "list"
     },
@@ -196,7 +196,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Prescription medications are reserved for patients with BMI > ___ or higher, BMI > __ or higher with concomitant disease or risk factors",
+        "question": "Prescription medications are reserved for patients with BMI > ____ or higher, BMI > ____ or higher with concomitant disease or risk factors",
         "answer": "30, 27",
         "type": "text"
     },
@@ -211,32 +211,32 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Phentermine is pregnancy category __",
+        "question": "Phentermine is pregnancy category ____",
         "answer": "X",
         "type": "text"
     },
     {
-        "question": "Adverse effects of Phentermine include : c____, h___, in____, t___, t____, i___ BP",
+        "question": "Adverse effects of Phentermine include : c____, h____, in____, t____, t____, i____ BP",
         "answer": "constipation, headache, insomnia, tremor, tachycardia, increased BP",
         "type": "text"
     },
     {
-        "question": "Phentermine tolerance develops within a _____ weeks",
+        "question": "Phentermine tolerance develops within a ____ weeks",
         "answer": "few",
         "type": "text"
     },
     {
-        "question": "Phentermine/Topiramate ER is discontinued or escalated if ___% weight loss is not acheived after ___ weeks on 7.6/46mg",
+        "question": "Phentermine/Topiramate ER is discontinued or escalated if ____% weight loss is not acheived after ____ weeks on 7.6/46mg",
         "answer": "3, 12",
         "type": "text"
     },
     {
-        "question": "Phentermine/Topiramate Er is discontinued if ___% weight loss is not achieved after ___ weeks on max daily dose",
+        "question": "Phentermine/Topiramate Er is discontinued if ____% weight loss is not achieved after ____ weeks on max daily dose",
         "answer": "5, 12",
         "type": "text"
     },
     {
-        "question": "Adverse effects of Phentermine/Topiramate ER include d____, c_____, p______, a____, d____",
+        "question": "Adverse effects of Phentermine/Topiramate ER include d____, c____, p____, a____, d____",
         "answer": "dizziness, constipation, paresthesia, altered taste, dry mouth",
         "type": "text"
     },
@@ -246,22 +246,22 @@ obesityQuestions = [
         "type": "text"
      },
     {
-        "question": "Lorcaserin is pregnancy category ___",
+        "question": "Lorcaserin is pregnancy category ____",
         "answer": "X",
         "type": "text"
     },
     {
-        "question": "Lorcaserin is dosed at ___ mg ___ times a day",
+        "question": "Lorcaserin is dosed at ____ mg ____ times a day",
         "answer": "10, 2",
         "type": "text"
     },
     {
-        "question": "Locaserin is discontinued at week ___ if ___% weight loss has not been achieved",
+        "question": "Locaserin is discontinued at week ____ if ____% weight loss has not been achieved",
         "answer": "12, 5",
         "type": "text"
     },
     {
-        "question": "Locaserin adverse effects include: d___, d_____, d____, s______, c____, f_____",
+        "question": "Locaserin adverse effects include: d____, d____, d____, s____, c____, f____",
         "answer": "dizziness, dry mouth, depression, suicidal ideation, constipation, fatigue",
         "type": "text"
     },
@@ -271,32 +271,32 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Naltrexone/Buproprion SR is FDA approved for ___ term use",
+        "question": "Naltrexone/Buproprion SR is FDA approved for ____ term use",
         "answer": "long",
         "type": "text"
     },
     {
-        "question": "Naltrexone/Buproprion should not be taken with high__ meals",
+        "question": "Naltrexone/Buproprion should not be taken with high____ meals",
         "answer": "fat",
         "type": "text"
     },
     {
-        "question": "Naltrexone/Bupropion should be discontinued if patient has not lost ___% BW in ___ weeks",
+        "question": "Naltrexone/Bupropion should be discontinued if patient has not lost ____% BW in ____ weeks",
         "answer": "5, 12",
         "type": "text"
     },
     {
-        "question": "Adverse effects of Naltrexone/Bupropion are N___, i___, H____, c___, d___ ____, d_____",
+        "question": "Adverse effects of Naltrexone/Bupropion are N____, i____, H____, c____, d____, d____",
         "answer": "N/V/D, insomnia, constipation, dry mouth, dizziness",
         "type": "text"
     },
     {
-        "question": "Naltrexone/Bupropion is pregnancy category __",
+        "question": "Naltrexone/Bupropion is pregnancy category ____",
         "answer": "X",
         "type": "text"
     },
     {
-        "question": "Naltrexone/Bupropion has a ______ box warning that it increases ______ ideation, and behavior",
+        "question": "Naltrexone/Bupropion has a ____ box warning that it increases ____ ideation, and behavior",
         "answer": "black, suicidal",
         "type": "text"
     },
@@ -311,12 +311,12 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Liraglutide should be avoided with other _____ agonist",
+        "question": "Liraglutide should be avoided with other ____ agonist",
         "answer": "GLP-1",
         "type": "text"
     },
     {
-        "question": "Liraglutide is pregnancy category ___",
+        "question": "Liraglutide is pregnancy category ____",
         "answer": "C",
         "type": "text"
     },
@@ -326,22 +326,22 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Bitter orange contains _____ which is similar to epinephrine",
+        "question": "Bitter orange contains ____ which is similar to epinephrine",
         "answer": "synephrine",
         "type": "text"
     },
     {
-        "question": "Other names for Ephedra include Ma ____ and _____ tea",
+        "question": "Other names for Ephedra include Ma ____ and ____ tea",
         "answer": "Huang, Mormon",
         "type": "text"
     },
     {
-        "question": "Caffeine Green Tea Extract also acts as a ___",
+        "question": "Caffeine Green Tea Extract also acts as a ____",
         "answer": "diuretic",
         "type": "text"
     },
     {
-        "question": "Caffeine green tea extract has interactions with blood ____ lowering agents and _____",
+        "question": "Caffeine green tea extract has interactions with blood ____ lowering agents and ____",
         "answer": "glucose, alendronate",
         "type": "text"
     },
@@ -351,17 +351,17 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Chromium plays a role in _____ regulation in body and cofactor for enzymes involved in energy production",
+        "question": "Chromium plays a role in ____ regulation in body and cofactor for enzymes involved in energy production",
         "answer": "insulin",
         "type": "text"
     },
     {
-        "question": "Chromium is naturally present in on___, t____, oy____, p____",
+        "question": "Chromium is naturally present in on____, t____, oy____, p____",
         "answer": "onion, tomatoes, oysters, potatoes",
         "type": "text"
     },
     {
-        "question": "Risks associated with chromium include r____, r___ failure, m___,  s___, and b___ sugar changes",
+        "question": "Risks associated with chromium include r____, r____ failure, m____,  s____, and b____ sugar changes",
         "answer": "rhabdomyolysis, renal, mood, sleep, blood",
         "type": "text"
     },
@@ -371,12 +371,12 @@ obesityQuestions = [
         "type": "list"
     },
     {
-        "question": "Raspberry ketone causes _____ and increases ______ production",
+        "question": "Raspberry ketone causes ____ and increases ____ production",
         "answer": "lipolysis, adiponectin",
         "type": "text"
     },
     {
-        "question": "Raspberry ketone has interactions with ___ and _____",
+        "question": "Raspberry ketone has interactions with ____ and ____",
         "answer": "warfarin, hypoglycemia",
         "type": "list"
     },
@@ -386,22 +386,22 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Garcinia cambogia is rich in ____ acid and is promoted to supress ______ and inhibit ____ production",
+        "question": "Garcinia cambogia is rich in ____ acid and is promoted to supress ____ and inhibit ____ production",
         "answer": "hydroxycitric, supress, fat",
         "type": "text"
     },
     {
-        "question": "Risks of Garcinia cambogia is increased s_____, r_____, h____, d_____",
+        "question": "Risks of Garcinia cambogia is increased s____, r____, h____, d____",
         "answer": "serotonin, rhabdomyolysis, hypoglycemia, dementia",
         "type": "list"
     },
     {
-        "question": "Psyllium and Guar Gum is used for _______ and _____ as a bulk laxative",
+        "question": "Psyllium and Guar Gum is used for ____ and ____ as a bulk laxative",
         "answer": "hypercholesterolemia, constipation",
         "type": "list"
     },
     {
-        "question": "Chitosan is a structural component of c_____, i____ and s_____",
+        "question": "Chitosan is a structural component of c____, i____ and s____",
         "answer": "crustaceans, insects, spiders",
         "type": "list"
     },
@@ -411,7 +411,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Cortisol blockers has the common ingredients ____ and _____",
+        "question": "Cortisol blockers has the common ingredients ____ and ____",
         "answer": "phosphatidylserine, L-theanine",
         "type": "list"
     },
@@ -421,12 +421,12 @@ obesityQuestions = [
         "type": "text"
     },
     {
-       "question": "Obesity Class I is BMI ___ to ___",
+       "question": "Obesity Class I is BMI ____ to ____",
         "answer": "30, 34.9",
         "type": "text"
     },
     {
-        "question": "Obesity Class II is BMI ____ to _____",
+        "question": "Obesity Class II is BMI ____ to ____",
         "answer": "35, 39.9",
         "type": "text"
     },
@@ -441,7 +441,7 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "BMI 35-39.9 is Obesity Class ___",
+        "question": "BMI 35-39.9 is Obesity Class ____",
         "answer": "II",
         "type": "text"
     },
@@ -451,17 +451,17 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "Underweight is classified as BMI <___",
+        "question": "Underweight is classified as BMI <____",
         "answer": "18.5",
         "type": "text"
     },
     {
-        "question": "Normal BMI is between BMI ____ - ______",
+        "question": "Normal BMI is between BMI ____ - ____",
         "answer": "18.5-24.9",
         "type": "text"
     },
     {
-        "question": "Overweight BMI is ___ - ____",
+        "question": "Overweight BMI is ____ - ____",
         "answer": "25-29.9",
         "type": "text"
     },
@@ -566,37 +566,37 @@ obesityQuestions = [
         "type": "text"
     },
     {
-        "question": "The MOA of diethylpropion is to stimulate ________ release to supress ______ signals and appetite",
+        "question": "The MOA of diethylpropion is to stimulate ____ release to supress ____ signals and appetite",
         "answer": "catecholamine, hunger",
         "type": "text"
     },
     {
-        "question": "The MOA of benzphetamine is to stimulate _______ release to supress ___ signals and appetite",
+        "question": "The MOA of benzphetamine is to stimulate ____ release to supress ____ signals and appetite",
         "answer": "catecholamine, hunger",
         "type": "text"
     },
     {
-        "question": "The MOA for orilistat is that it inhibits ___ absorption by forming bond with _____ and _____ lipase",
+        "question": "The MOA for orilistat is that it inhibits ____ absorption by forming bond with ____ and ____ lipase",
         "answer": "nutrient, gastric, pancreatic",
         "type": "text"
     },
     {
-        "question": "The MOA for lorcaserin is it is a selective _____ agonist which supresses appetite",
+        "question": "The MOA for lorcaserin is it is a selective ____ agonist which supresses appetite",
         "answer": "5HT2C",
         "type": "text"
     },
     {
-        "question": "The MOA of phentermine and topiramate is phentermine stimulates ___ release to supress appetite and topiramate suppresses appetite and enhances ______",
+        "question": "The MOA of phentermine and topiramate is phentermine stimulates ____ release to supress appetite and topiramate suppresses appetite and enhances ____",
         "answer": "NE, satiety",
         "type": "text"
     },
     {
-        "question": "The MOA of topiramate is it increases _____ and reduces cravings for food by decreasing GI motility, increasing ___ aversion and increasing energy expenditure",
+        "question": "The MOA of topiramate is it increases ____ and reduces cravings for food by decreasing GI motility, increasing ____ aversion and increasing energy expenditure",
         "answer": "satiety, taste",
         "type": "text"
     },
     {
-        "question": "The MOA of liraglutide is it is a _____ receptor agonist and a physiological regulator of appetite and calorie intake and also stimulates ___ and decreases ___",
+        "question": "The MOA of liraglutide is it is a ____ receptor agonist and a physiological regulator of appetite and calorie intake and also stimulates ____ and decreases ____",
         "answer": "GLP-1, insulin, glucagon",
         "type": "text"
     },

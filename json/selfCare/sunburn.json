@@ -35,17 +35,17 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "UVB is primarily responsible for wrinkling, epidermal h______, elastosis and collagen d_____",
+        "question": "UVB is primarily responsible for wrinkling, epidermal h____, elastosis and collagen d____",
         "answer": "hyperplasia, damage",
         "type": "fill"
     },
     {
-        "question": "Highest intensity of UVB occurs at ____am to _____pm",
+        "question": "Highest intensity of UVB occurs at ____am to ____pm",
         "answer": "10, 4",
         "type": "text"
     },
     {
-        "question": "UVR exposure can lead to suntan and s______, drug photo___, skin hyper____, photoaging, skin c_____, photodermatoses, premature a____ and c____",
+        "question": "UVR exposure can lead to suntan and s____, drug photo____, skin hyper____, photoaging, skin c____, photodermatoses, premature a____ and c____",
         "answer": "sunburn, photosensitivity, hyperpigmentation, cancer, aging, cataracts",
         "type": "fill"
     },
@@ -75,17 +75,17 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "photoallergy triggers a_____ skin reaction",
+        "question": "photoallergy triggers a____ skin reaction",
         "answer": "antigenic",
         "type": "text"
     },
     {
-        "question": "photoallergy occurs after _____ exposure to agent/drug",
+        "question": "photoallergy occurs after ____ exposure to agent/drug",
         "answer": "prior",
         "type": "text"
     },
     {
-        "question": "phototoxicity occurs during _____ exposure to agent/drug",
+        "question": "phototoxicity occurs during ____ exposure to agent/drug",
         "answer": "first",
         "type": "text"
     },
@@ -104,12 +104,12 @@ sunburnQuestions = [
         "answer": "stratum corneum ",
         "type": "text"
     }, {
-        "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by r_____, a______, d______ UV radiation ",
+        "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by r____, a____, d____ UV radiation ",
         "answer": "reflecting, absorbing, dispersing",
         "type": "text"
     },
     {
-        "question": "SPF under 15 only protects against ___ radiation",
+        "question": "SPF under 15 only protects against ____ radiation",
         "answer": "UVB",
         "type": "text"
     },
@@ -119,7 +119,7 @@ sunburnQuestions = [
         "type": "text"
     },
     {
-        "question": "apply sunscreen _____ mins before sun exposure",
+        "question": "apply sunscreen ____ mins before sun exposure",
         "answer": "15-30",
         "type": "text"
     },
@@ -146,7 +146,7 @@ sunburnQuestions = [
         "type": "list"
     },
     {
-        "question": "Titanium dioxide is used most often on small p_____ exposed areas",
+        "question": "Titanium dioxide is used most often on small p____ exposed areas",
         "answer": "prominently",
         "type": "text"
     },
@@ -161,17 +161,17 @@ sunburnQuestions = [
         "type": "list"
     },
     {
-        "question": "_____ concentrations of topical anesthetics are appropriate for skin injuries which the skin is _____",
+        "question": "____ concentrations of topical anesthetics are appropriate for skin injuries which the skin is ____",
         "answer": "higher, intact",
         "type": "fill"
     },
     {
-        "question": "Non-pharmacological treatments for sunburn are remain in______, cool c______, cool o_____, a___v__, and drink w____",
+        "question": "Non-pharmacological treatments for sunburn are remain in____, cool c____, cool o____, a____v____, and drink w____",
         "answer": "indoors, compress, oatmeal, aloe vera, water",
         "type": "list"
     },
     {
-        "question": "topical anesthetics can only be applied to body surface area no more than _____% and no more than _____ times daily",
+        "question": "topical anesthetics can only be applied to body surface area no more than ____% and no more than ____ times daily",
         "answer": "2, 4",
         "type": "fill"
     },
@@ -182,7 +182,7 @@ sunburnQuestions = [
         "type": "multiple"
     },
     {
-        "question": "The primary inducer of skin cancer is UV __",
+        "question": "The primary inducer of skin cancer is UV ____",
         "answer": "B",
         "type": "fill"
     },

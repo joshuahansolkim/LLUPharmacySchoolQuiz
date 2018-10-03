@@ -1,501 +1,501 @@
 UrinaryIncontinenceQuestions = [
     {
-        "question": "The p_____ nerves are controlled by S___ to S___ and they affect the b___ n___ and b____",
+        "question": "The p____ nerves are controlled by S____ to S____ and they affect the b____ n____ and b____",
         "answer": "parasympathetic, S2-S4, bladder neck, body",
         "type": "text"
     },
     {
-        "question": "The s____ nerves are controlled by L__ and they affect the b___ and t____",
+        "question": "The s____ nerves are controlled by L____ and they affect the b____ and t____",
         "answer": "sympathetic, body, trigone",
         "type": "text"
     },
     {
-        "question": "The p____ nerves are controlled by S___-S___ and they affect the e__ s____",
+        "question": "The p____ nerves are controlled by S____-S____ and they affect the e____ s____",
         "answer": "pudenal, S2-S4, external sphincter",
         "type": "text"
     },
     {
-        "question": "The p___ nerve aka p___ nerve release __ to stimulate the ___ receptor",
+        "question": "The p____ nerve aka p____ nerve release ____ to stimulate the ____ receptor",
         "answer": "parasympathetic, pelvic, acetylcholine, M3",
         "type": "text"
     },
     {
-        "question": "The s____ nerve aka h___ nerve inhibits the ___ receptor and release ___ to stimulate the ___ and ___ receptor",
+        "question": "The s____ nerve aka h____ nerve inhibits the ____ receptor and release ____ to stimulate the ____ and ____ receptor",
         "answer": "sympathetic, hypogastric, NA, B3, a1",
         "type": "text"
     },
     {
-        "question": "The p____ nerve or s___ nerve release ____ to stimulate the n___ receptor",
+        "question": "The p____ nerve or s____ nerve release ____ to stimulate the n____ receptor",
         "answer": "pudenal, somatic, acetylcholine, nicotinic",
         "type": "text"
     },
     {
-        "question": "The s___ nerves from ____-____ and s___ nerves from S___-S____ allow urine storage through the  B___ and ____ receptors",
+        "question": "The s____ nerves from ____-____ and s____ nerves from S____-S____ allow urine storage through the  B____ and ____ receptors",
         "answer": "sympathetic, somatic, T10-L2, S2-S4, B3, a1",
         "type": "text"
     },
     {
-        "question": "The p___ nerves from S___-S___ allow micturition through the ___ receptors",
+        "question": "The p____ nerves from S____-S____ allow micturition through the ____ receptors",
         "answer": "parasympathetic, S2-S4, muscarinic",
         "type": "text"
     },
     {
-        "question": "In the storage phase the detrusor muscle r___ and the internal urethral sphincter c___ and the external urethral sphincter c___ and the somatic and sympathetic nerves are a___ while the parasympathetic nerves are i____",
+        "question": "In the storage phase the detrusor muscle r____ and the internal urethral sphincter c____ and the external urethral sphincter c____ and the somatic and sympathetic nerves are a____ while the parasympathetic nerves are i____",
         "answer": "relaxes, contracts, contracts, activated, inhibited",
         "type": "text"
     },
     {
-        "question": "In the micturition phase the detrusor muscle c_____ and the internal sphincter r___ and the external urethral sphincter r___ and the somatic and sympathetic nerves are i__ and the parasympathetic nerves are a____",
+        "question": "In the micturition phase the detrusor muscle c____ and the internal sphincter r____ and the external urethral sphincter r____ and the somatic and sympathetic nerves are i____ and the parasympathetic nerves are a____",
         "answer": "contract, relaxes, relaxes, inhibited, activated",
         "type": "text"
     },
     {
-        "question": "Differential diagnosis of UI is D_____ and ____, I______, A__ v____ or u___, a___ b_____, P___ c___, d____, P___ a___, E___: d____, R_____ m____, S___ i___-",
+        "question": "Differential diagnosis of UI is D____ and ____, I____, A____ v____ or u____, a____ b____, P____ c____, d____, P____ a____, E____: d____, R____ m____, S____ i____-",
         "answer": "delirium and dementia, infections, atrophic vaginitis or urethrisis, atonic bladder, psychological causes, depression, pharmacologic agents, endocrine: diabetes, restricted mobility, stool impaction",
         "type": "text"
     },
     {
-        "question": "Symptoms of urinary incontinence include i_____ d____ f____, n____, u______",
+        "question": "Symptoms of urinary incontinence include i____ d____ f____, n____, u____",
 		"answer": "increased daytime frequency, nocturia, urgency",
         "type": "text"
     },
     {
-        "question": "Complications of urinary incontinence include i___ q___ of l____ and d____",
+        "question": "Complications of urinary incontinence include i____ q____ of l____ and d____",
         "answer": "impaired quality of life, depression",
         "type": "text"
     },
     {
-        "question": "The two types of urinary incontinence are 1. a___ or t___ and 2. c___ and p____",
+        "question": "The two types of urinary incontinence are 1. a____ or t____ and 2. c____ and p____",
         "answer": "acute or transient, chronic and persistent",
         "type": "text"
     },
     {
-        "question": "Chronic and persistent UI is composed of a. u__ u___ i___ ,  o___ b___, b. s___ u___ i___, c. o___, d. f___, e. m__",
+        "question": "Chronic and persistent UI is composed of a. u____ u____ i____ ,  o____ b____, b. s____ u____ i____, c. o____, d. f____, e. m____",
         "answer": "urge urinary incontinence, overactive bladder, stress urinary incontinence, overflow, functional, mixed",
         "type": "text"
     },
     {
-        "question": "Goals of UI therapy include: r___ of c____, r___ of UI e___, prevent or m___ complications, m____ of treatment of a___ e____, i___ quality of life",
+        "question": "Goals of UI therapy include: r____ of c____, r____ of UI e____, prevent or m____ complications, m____ of treatment of a____ e____, i____ quality of life",
         "answer": "restoration, continence, reduction, episodes, minimize, minimization, adverse effects, inprove",
         "type": "text"
     },
     {
-        "question": "Standard is a directive statement that an action should or should not be taken based on Grade ___ (high quality, high certainty), or Grade _(moderate quality, moderate certainty evidence)",
+        "question": "Standard is a directive statement that an action should or should not be taken based on Grade ____ (high quality, high certainty), or Grade ____(moderate quality, moderate certainty evidence)",
         "answer": "A, B",
         "type": "text"
     },
     {
-        "question": "Recommendation is a directive statement that an action should or should not be taken based on Grade _ (low quality, low certainty)",
+        "question": "Recommendation is a directive statement that an action should or should not be taken based on Grade ____ (low quality, low certainty)",
         "answer": "C",
         "type": "text"
     },
     {
-        "question": "Option is a non directive statement that leaves the decision regarding an action up to the individual c___ and p___ because the balance between benefits and risks/burden appear equal or appears uncertain based on Grade _, _, _ evidence",
+        "question": "Option is a non directive statement that leaves the decision regarding an action up to the individual c____ and p____ because the balance between benefits and risks/burden appear equal or appears uncertain based on Grade ____, ____, ____ evidence",
         "answer": "clinician, patient, A, B, C",
         "type": "text"
     },
     {
-        "question": "The Clinical Principle is a statement about a component of clinical care that is widely agreed up by u___ or other c___ for which there m__ or m___ not be evidence in the medical literature",
+        "question": "The Clinical Principle is a statement about a component of clinical care that is widely agreed up by u____ or other c____ for which there m____ or m____ not be evidence in the medical literature",
         "answer": "urological, clinicians, may, may",
         "type": "text"
     },
     {
-        "question": "Expert opinion is a statement achieved by consensus of the panel that is based on members' clinical training, experience, knowledge, and judgement for which there is __ evidence ",
+        "question": "Expert opinion is a statement achieved by consensus of the panel that is based on members' clinical training, experience, knowledge, and judgement for which there is ____ evidence ",
         "answer": "no",
         "type": "text"
     },
     {
-        "question": "First line treatment is b___ t___ and p____, second line is p____, and third is s___ or i___ p___",
+        "question": "First line treatment is b____ t____ and p____, second line is p____, and third is s____ or i____ p____",
         "answer": "behavioural therapies, pharmacotherapy, pharmacotherapy, surgery, invasive procedures",
         "type": "text"
     },
     {
-        "question": "Non pharmacological treatment includes lifestyle interventions of e__, modify f__ intake, reduce c__ intake, s__ cessation, w__ loss",
+        "question": "Non pharmacological treatment includes lifestyle interventions of e____, modify f____ intake, reduce c____ intake, s____ cessation, w____ loss",
         "answer": "exercise, fluid, caffeine, smoking, weight",
         "type": "text"
     },
     {
-        "question": "Non pharmacological treatment includes behavioural modifications of h__ training, e___ stimulation, s___ voiding, p__ voiding, p__ m__ t___",
+        "question": "Non pharmacological treatment includes behavioural modifications of h____ training, e____ stimulation, s____ voiding, p____ voiding, p____ m____ t____",
         "answer": "habit, electrical, scheduled, prompted, pelvic, muscle training",
         "type": "text"
     },
     {
-        "question": "Pathophysiology of UUI and OAB is o___ detrusor muscle, and i__ muscle contractions during urinary storage phase, and detrusor instablity can be caused by C___ damage",
+        "question": "Pathophysiology of UUI and OAB is o____ detrusor muscle, and i____ muscle contractions during urinary storage phase, and detrusor instablity can be caused by C____ damage",
         "answer": "overactive, involuntary, CNS",
         "type": "text"
     },
     {
-        "question": "UUI and OAB symptoms are u__ associated with l___ amounts of urine voided and a s___ desire to void and can be accompanied by f__ and n___ and OAB is w__ or w___ urinary incontinence",
+        "question": "UUI and OAB symptoms are u____ associated with l____ amounts of urine voided and a s____ desire to void and can be accompanied by f____ and n____ and OAB is w____ or w____ urinary incontinence",
 		"answer": "urgency, large, strong, frequency, nocturia, with, without",
         "type": "text"
     },
     {
-        "question": "UUI and OAB risk factors include a__, b__ i___, s__, s___c___i___, P___ disease, A__ disease",
+        "question": "UUI and OAB risk factors include a____, b____ i____, s____, s____c____i____, P____ disease, A____ disease",
         "answer": "aging, bladder irritants, stroke, spinal cord injury, Parkinson's, Alzheimer's",
         "type": "text"
     },
     {
-        "question": "Medication induced UUI and OAB come from a___, c___ such as B___ (U____), and c___ inhibitors such as D___ (A___), G____ (R____), R____(E___), and d___",
+        "question": "Medication induced UUI and OAB come from a____, c____ such as B____ (U____), and c____ inhibitors such as D____ (A____), G____ (R____), R____(E____), and d____",
         "answer": "alcohol, cholinergic, Bethanecol (Urecholine), cholinesterase, Donepezil (Aricept), Galantamine (Razadyne), Rivastigmine (Exelon), diuretics",
         "type": "text"
     },
     {
-        "question": "MOA of antimuscarinics is that it a___ the muscarinic receptors, s___ premature detrusor contractions, and e__ bladder storage",
+        "question": "MOA of antimuscarinics is that it a____ the muscarinic receptors, s____ premature detrusor contractions, and e____ bladder storage",
         "answer": "antagonizes, supresses, enhances",
         "type": "text"
     },
     {
-        "question": "O___ (D__) is dosed at ___-___mg PO ____-____",
+        "question": "O____ (D____) is dosed at ____-____mg PO ____-____",
         "answer": "oxybutynin (Ditropan), 2.5-5, BID-QID",
         "type": "text"
 	},
     {
-        "question": "O___ (D___ XL) is dosed at ___-___mg PO d__ and OROS formulation leaves a g__ shell in the stool",
+        "question": "O____ (D____ XL) is dosed at ____-____mg PO d____ and OROS formulation leaves a g____ shell in the stool",
         "answer": "oxybutynin (Ditropan), 5-30, daily, ghost",
         "type": "text"
     },
     {
-        "question": "O___ (O___, oxytrol women OTC) is dosed at __ mg patch applied t___ t___ weekly (every 3-4 days)",
+        "question": "O____ (O____, oxytrol women OTC) is dosed at ____ mg patch applied t____ t____ weekly (every 3-4 days)",
         "answer": "oxybutynin (oxytrol), 3.9, topically, twice",
         "type": "text"
     },
     {
-        "question": "O___ (G___ __%) is given in 1 sachet applied to i__, d___ skin d___",
+        "question": "O____ (G____%) is given in 1 sachet applied to i____, d____ skin d____",
         "answer": "oxybutynin (Gelnique 10), intact, dry, daily",
         "type": "text"
     },
     {
-        "question": "O___ (G____ ___ %) is dosed at ___ mg (3 pumps) applied t___ d___",
+        "question": "O____ (G____ %) is dosed at ____ mg (3 pumps) applied t____ d____",
         "answer": "oxybutynin (Gelnique 3), 84, topically, daily",
         "type": "text"
     },
     {
-        "question": "D___ (E__) is dosed at ___-___mg PO d___ and has N___ renal adjustment",
+        "question": "D____ (E____) is dosed at ____-____mg PO d____ and has N____ renal adjustment",
         "answer": "darifenacin (Enablex), 7.5-15, daily, NO",
         "type": "text"
     },
     {
-        "question": "F___ (T__) is dosed at __-__mg PO d___ and d__ dose if CrCl <___mL/min",
+        "question": "F____ (T____) is dosed at ____-____mg PO d____ and d____ dose if CrCl <____mL/min",
         "answer": "Fesoterodine (Toviaz), 4-8, daily, decrease, 30",
         "type": "text"
     },
     {
-        "question": "T____ (D___), is dosed at __-___mg PO B___ and d__ dose if CrCl<__mL/min",
+        "question": "T____ (D____), is dosed at ____-____mg PO B____ and d____ dose if CrCl<____mL/min",
         "answer": "Tolterodine (Detrol), 1-2, BID, decrease",
         "type": "text"
     },
     {
-        "question": "T___ (D__ LA) is dosed at __-___ mg PO d___ and d__ dose if CrCl< ___mL/min",
+        "question": "T____ (D____ LA) is dosed at ____-____ mg PO d____ and d____ dose if CrCl< ____mL/min",
         "answer": "Tolterodine (Detrol), 2-4, daily, decrease",
         "type": "text"
     },
     {
-        "question": "T___(S__) is dosed at __mg PO B___ and take on e__ stomach",
+        "question": "T____(S____) is dosed at ____mg PO B____ and take on e____ stomach",
         "answer": "Trospium (Sanctura), 20, BID, empty",
         "type": "text"
     },
     {
-        "question": "T__(S___ XR) is dosed at __mg PO d__ and avoid XR in CrCl<__ mL/min",
+        "question": "T____(S____ XR) is dosed at ____mg PO d____ and avoid XR in CrCl<____ mL/min",
         "answer": "Trospium (Sanctura), 60, daily, 30",
         "type": "text"
     },
     {
-        "question": "S__(V__) is dosed at __-__mg PO d__ and d__ dose if CrCl< ___mL/min",
+        "question": "S____(V____) is dosed at ____-____mg PO d____ and d____ dose if CrCl< ____mL/min",
 		"answer": "Solifenacin (Vesicare), 5-10, daily, decrease",
         "type": "text"
     },
     {
-        "question": "Side effects of anticholinergics are A__, B___ v__, C___ or c___, D___ mouth (x___), S___ or s__ of urine",
+        "question": "Side effects of anticholinergics are A____, B____ v____, C____ or c____, D____ mouth (x____), S____ or s____ of urine",
         "answer": "anorexia, blurry vision, constipation, confusion, dry (xerostomia), sedation, stasis",
         "type": "text"
     },
     {
-        "question": "Antimuscarinic DDIs have additive effects with other medications some examples include antihi__, t__ a___, antip___ medications, antip___",
+        "question": "Antimuscarinic DDIs have additive effects with other medications some examples include antihi____, t____ a____, antip____ medications, antip____",
         "answer": "antihistamines, tricyclic antidepressants, antiparkinsons, antipsychotics",
         "type": "text"
     },
     {
-        "question": "Antimuscarinics may d__/l__ effect of a___ inhibitors used for d___ because they work o___ the CNS and a___ inhibitors work i__ the CNS",
+        "question": "Antimuscarinics may d____/l____ effect of a____ inhibitors used for d____ because they work o____ the CNS and a____ inhibitors work i____ the CNS",
         "answer": "diminish/lower, acetylcholinesterase, dementia, outside, acetylcholinesterase, in",
         "type": "text"
     },
     {
-        "question": "A lower dose should be used when antimuscarinics are co-administered with strong CYP___ inhibitors such as t___ ER, s___, d___, f___",
+        "question": "A lower dose should be used when antimuscarinics are co-administered with strong CYP____ inhibitors such as t____ ER, s____, d____, f____",
         "answer": "3A4, tolterodine, solifenacin, darifenacin, fesoterodine",
         "type": "text"
     },
     {
-        "question": "Antimuscarinic agents cannot be used if <___ years old,  have unexplained l__ back pain or s__ pain, pain or b__ when urinating, c__ or f__ smelling urine, b__ in urine, narrow angle g__, urinary r__, m__ g___, obstruction of G_",
+        "question": "Antimuscarinic agents cannot be used if <____ years old,  have unexplained l____ back pain or s____ pain, pain or b____ when urinating, c____ or f____ smelling urine, b____ in urine, narrow angle g____, urinary r____, m____ g____, obstruction of G____",
         "answer": "18, lower, dise, burning, cloudy, foul, blood, glaucoma, retention, myasthenia gravis, GI",
         "type": "text"
     },
     {
-        "question": "Ditropan patient counseling includes d___ mouth, avoid m___ with alcohol, use artificial s___, suck on i__ chips, or sugar free c___, and maintain adequate water and dietary f__ intake for c___, or use a s__ softener or a l___, d__ can occur and worsens with a__",
+        "question": "Ditropan patient counseling includes d____ mouth, avoid m____ with alcohol, use artificial s____, suck on i____ chips, or sugar free c____, and maintain adequate water and dietary f____ intake for c____, or use a s____ softener or a l____, d____ can occur and worsens with a____",
         "answer": "dry, mouthwashes, saliva, ice, candy, fiber, constipation, stool, laxative, drowsiness, alcohol",
         "type": "text"
     },
     {
-        "question": "Gelnique 10% _ packet (!00mg) should be used t___ o__ daily and each packet is for o__ use only",
+        "question": "Gelnique 10% ____ packet (!00mg) should be used t____ o____ daily and each packet is for o____ use only",
         "answer": "1, topically, once, one",
         "type": "text"
     },
     {
-        "question": "Gelnique 3% needs __ pumps (84mg) t__ o__ daily, and is applied to the a__, upper a___ or s___, t___, and rub into skin until d__, apply to a d__ site each day",
+        "question": "Gelnique 3% needs ____ pumps (84mg) t____ o____ daily, and is applied to the a____, upper a____ or s____, t____, and rub into skin until d____, apply to a d____ site each day",
         "answer": "3, topically, once, abdomen, arm, shoulders, thighs, dry, different",
         "type": "text"
     },
     {
-        "question": "Gelnique causes less d__ mouth and c__ than other formulations, it is for t__ use only, h__ need to be washed after use, do not bath, swim, or shower for _ hour after use, gel is f___",
+        "question": "Gelnique causes less d____ mouth and c____ than other formulations, it is for t____ use only, h____ need to be washed after use, do not bath, swim, or shower for ____ hour after use, gel is f____",
         "answer": "dry, constipation, topical, hands, 1, flammable",
         "type": "text"
     },
     {
-        "question": "Oxytrol causes less d__ mouth, the same site needs to be avoided within _ days, the patch needs to be removed prior to a __ procedure, and w__ does change the way the drug works ",
+        "question": "Oxytrol causes less d____ mouth, the same site needs to be avoided within ____ days, the patch needs to be removed prior to a ____ procedure, and w____ does change the way the drug works ",
         "answer": "dry, 7, MRI, water",
         "type": "text"
     },
     {
-        "question": "Oxytrol contraindications are: pain or b__ when urinating, b__ in urine, l__ or s__ back pain, c__ or f__ smelling urine, <__ yrs old, gas retention, g__, urine loss from c__, s__, l__",
+        "question": "Oxytrol contraindications are: pain or b____ when urinating, b____ in urine, l____ or s____ back pain, c____ or f____ smelling urine, <____ yrs old, gas retention, g____, urine loss from c____, s____, l____",
         "answer": "burning, blood, lower, side, cloudy, foul, 18, glaucoma, coughing, sneezing, laughing",
         "type": "text"
     },
     {
-        "question": "Offer __ or ___ formulations of antimuscarinic drugs as an i___treatment option for adults with UUI",
+        "question": "Offer ____ or ____ formulations of antimuscarinic drugs as an i____treatment option for adults with UUI",
         "answer": "IR, ER, initial",
         "type": "text"
     },
     {
-        "question": "If __ formulations are unsuccessful for adults with UUI, offer __ or long acting drugs",
+        "question": "If ____ formulations are unsuccessful for adults with UUI, offer ____ or long acting drugs",
         "answer": "IR, ER",
         "type": "text"
     },
     {
-        "question": "Consider t___ oxybutynin if oral antimuscarinic agents cannot be tolerated due to d__ mouth",
+        "question": "Consider t____ oxybutynin if oral antimuscarinic agents cannot be tolerated due to d____ mouth",
         "answer": "transdermal, dry",
         "type": "text"
     },
     {
-        "question": "Offer and encourage review of benefit within _ month to patients started on antimuscarinic drugs for UUI",
+        "question": "Offer and encourage review of benefit within ____ month to patients started on antimuscarinic drugs for UUI",
         "answer": "1",
         "type": "text"
     },
     {
-        "question": "A__ using oxybutynin __ in patients who are at riske of c__ i__",
+        "question": "A____ using oxybutynin ____ in patients who are at riske of c____ i____",
         "answer": "avoid, IR, cognitive impairment",
         "type": "text"
     },
     {
-        "question": "Use antimuscarinic drugs with caution in patients with c__ i___",
+        "question": "Use antimuscarinic drugs with caution in patients with c____ i____",
         "answer": "cognitive impairment",
         "type": "text"
     },
     {
-        "question": "Mirabegron (M___) is a ___adrenergic receptor antagonist used for O___ with symptoms or u__ u__ i___ and u__ f___",
+        "question": "Mirabegron (M____) is a ____adrenergic receptor antagonist used for O____ with symptoms or u____ u____ i____ and u____ f____",
         "answer": "Myrbetriq, B3, OAB, urge urinary incontinence, urinary frequency",
         "type": "text"
     },
     {
-        "question": "MOA of Mirabegron is it i__ bladder capacity by relaxing the detrusor muscle during the storage space",
+        "question": "MOA of Mirabegron is it i____ bladder capacity by relaxing the detrusor muscle during the storage space",
         "answer": "increases",
         "type": "text"
     },
     {
-        "question": "Dosing of Mirabegron is __mg PO o__ d__ and increase to __ mg PO o__ d__ after __ weeks, if CrCl is 15-29mL/min take __ mg daily but if CrCl is <__ mL/min then it is not recommended",
+        "question": "Dosing of Mirabegron is ____mg PO o____ d____ and increase to ____ mg PO o____ d____ after ____ weeks, if CrCl is 15-29mL/min take ____ mg daily but if CrCl is <____ mL/min then it is not recommended",
         "answer": "25, once, daily, 50, once, daily, 8, 25, 15",
         "type": "text"
     },
     {
-        "question": "Side effects of Mirabegron are h___, U___, n___ and it has drug interactions with CYP___ inhibitor and if initiating d__ use the lowest possible dose and contraindications is with severe hypertension of >___mmHg",
+        "question": "Side effects of Mirabegron are h____, U____, n____ and it has drug interactions with CYP____ inhibitor and if initiating d____ use the lowest possible dose and contraindications is with severe hypertension of >____mmHg",
         "answer": "hypertension, UTI, nasopharyngitis, 2D6, digoxin, 180/110",
         "type": "text"
     },
     {
-        "question": "Onabotulinumtoxin A (Botox) is used for patients that are refractory or intolerant to f__ and s__ line OAB treatments and patients must be willing to return for frequent P__ evaluation",
+        "question": "Onabotulinumtoxin A (Botox) is used for patients that are refractory or intolerant to f____ and s____ line OAB treatments and patients must be willing to return for frequent P____ evaluation",
         "answer": "first, second, PVR",
         "type": "text"
     },
     {
-        "question": "Botox prevents release of a___ into synapse at neuromuscular junction and temporarily p__ muscle through neurotoxiin activity",
+        "question": "Botox prevents release of a____ into synapse at neuromuscular junction and temporarily p____ muscle through neurotoxiin activity",
         "answer": "acetylcholine, paralyzes",
         "type": "text"
     },
     {
-        "question": "__ units total dose is given with __ units injection across the detrusor muscle (~20 injections) and this treatment cannot be repeated sonner than __ weeks",
+        "question": "____ units total dose is given with ____ units injection across the detrusor muscle (~20 injections) and this treatment cannot be repeated sonner than ____ weeks",
         "answer": "100, 5, 12",
         "type": "text"
     },
     {
-        "question": "Side effects of botox include h__, U___, u__ r___ and p__ antimicrobial therapy may be needed",
+        "question": "Side effects of botox include h____, U____, u____ r____ and p____ antimicrobial therapy may be needed",
         "answer": "hematuria, UTI, urinary retention, prophylactic",
         "type": "text"
     },
     {
-        "question": "UUI have surgical options such as neuromodulation with an i__ sacral nerve s___ when they are refractory to or cannot tolerate first and second line treatment",
+        "question": "UUI have surgical options such as neuromodulation with an i____ sacral nerve s____ when they are refractory to or cannot tolerate first and second line treatment",
         "answer": "implanted, stimulator",
         "type": "text"
     },
     {
-        "question": "SUI have surgical options of s__ procedures for u__ and v___when they are refractory to or cannot tolerate first and second line treatment",
+        "question": "SUI have surgical options of s____ procedures for u____ and v____when they are refractory to or cannot tolerate first and second line treatment",
         "answer": "sling, urethral, vaginal",
         "type": "text"
     },
     {
-        "question": "Overflow urinary incontinence has surgical options of a c__when they are refractory to or cannot tolerate first and second line treatment",
+        "question": "Overflow urinary incontinence has surgical options of a c____when they are refractory to or cannot tolerate first and second line treatment",
         "answer": "catheter",
         "type": "text"
     },
     {
-        "question": "Pathophysiology of SUI include i__ urethral mobilitiy, i__ sphincter dysfunction, a__ increase in intra-abdominal pressure exceeds urethral sphincter closing pressure",
+        "question": "Pathophysiology of SUI include i____ urethral mobilitiy, i____ sphincter dysfunction, a____ increase in intra-abdominal pressure exceeds urethral sphincter closing pressure",
         "answer": "increased, intrinsic, abrupt",
         "type": "text"
     },
     {
-        "question": "Risk factors of SUI include p__ or c__, m__, c__ i__, o__, p____",
+        "question": "Risk factors of SUI include p____ or c____, m____, c____ i____, o____, p____",
         "answer": "pregnancy, childbirth, menopause, cognitive impairment, obesity, prostatectomy",
         "type": "text"
     },
     {
-        "question": "Medication induced SUI come from a__ antagonists, and A__ inhibitors",
+        "question": "Medication induced SUI come from a____ antagonists, and A____ inhibitors",
         "answer": "alpha, ACE",
         "type": "text"
     },
     {
-        "question": "P___ (Sudafed) is dosed at __-___mg PO T__ and P___ (Sudafed PE) is dosed at __ mg PO Q___",
+        "question": "P____ (Sudafed) is dosed at ____-____mg PO T____ and P____ (Sudafed PE) is dosed at ____ mg PO Q____",
         "answer": "pseudoephedrine, 15-60, TID, phenylephrine, 10, QID",
         "type": "text"
     },
     {
-        "question": "MOA of alpha adrenergic agonists is that it v__ smooth muscle",
+        "question": "MOA of alpha adrenergic agonists is that it v____ smooth muscle",
         "answer": "vasoconstricts",
         "type": "text"
     },
     {
-        "question": "Side effects of alpha adrenergic agonists is h___, h__ i__, r__",
+        "question": "Side effects of alpha adrenergic agonists is h____, h____ i____, r____",
         "answer": "hypertension, headache, insomnia, restlessness",
         "type": "text"
     },
     {
-        "question": "Contraindications of alpha adrenergic agonists include c__ artery disease, t__, m__ i___, uncontrolled h___, narrow angle g___",
+        "question": "Contraindications of alpha adrenergic agonists include c____ artery disease, t____, m____ i____, uncontrolled h____, narrow angle g____",
         "answer": "coronary, tachycardia, myocardial infarction, hypertension, glaucoma",
         "type": "text"
     },
     {
-        "question": "Estrogens e__ proliferation of urethral epithelium, local circulation, and numbers and or sensitivity of urogenital alpha adrenergic receptors and is indicated for s__ UI or u__ UI",
+        "question": "Estrogens e____ proliferation of urethral epithelium, local circulation, and numbers and or sensitivity of urogenital alpha adrenergic receptors and is indicated for s____ UI or u____ UI",
         "answer": "enhance, stress, urge",
         "type": "text"
     },
     {
-        "question": "D__(C__) is a SNRI antidepressant used non-FDA for women SUI in E__, but in men can be used for UUI and SUI",
+        "question": "D____(C____) is a SNRI antidepressant used non-FDA for women SUI in E____, but in men can be used for UUI and SUI",
         "answer": "duloxetine (Cymbalta), Europe",
         "type": "text"
     },
     {
-        "question": "I__ (T__) is a TCA used non-FDA for UUI and SUI",
+        "question": "I____ (T____) is a TCA used non-FDA for UUI and SUI",
         "answer": "Imipramine (Tofranil)",
         "type": "text"
     },
     {
-        "question": "Duloxetine MOA is a s__ and n___ reuptake inhibitor that i__ internal and external urethral sphincter activity and increases muscle tone in the s__ phase",
+        "question": "Duloxetine MOA is a s____ and n____ reuptake inhibitor that i____ internal and external urethral sphincter activity and increases muscle tone in the s____ phase",
         "answer": "serotonin, norepinephrine, storage",
         "type": "text"
     },
     {
-        "question": "Side effects of duloxetine are a__ effects, h___, n___, b__",
+        "question": "Side effects of duloxetine are a____ effects, h____, n____, b____",
         "answer": "anticholinergic, hypertension, nausea, bruxism",
         "type": "text"
     },
     {
-        "question": "Duloxetine should __ be offered to womean and men who are seeking a c__ for their incontinence",
+        "question": "Duloxetine should ____ be offered to womean and men who are seeking a c____ for their incontinence",
         "answer": "not, cure",
         "type": "text"
     },
     {
-        "question": "Duloxetine c_ be offered to women who are seeking t__ improvement in incontinence symptoms",
+        "question": "Duloxetine c____ be offered to women who are seeking t____ improvement in incontinence symptoms",
         "answer": "can, temporary",
         "type": "text"
     },
     {
-        "question": "Duloxetine can be offered as an a__ to pelvic floor muscle therapy for men with post prostateectomy stress urinary incontinence",
+        "question": "Duloxetine can be offered as an a____ to pelvic floor muscle therapy for men with post prostateectomy stress urinary incontinence",
         "answer": "adjunct",
         "type": "text"
     },
     {
-        "question": "Duloxetine should be initiated using t__ because of high adverse effect rates",
+        "question": "Duloxetine should be initiated using t____ because of high adverse effect rates",
         "answer": "titration",
         "type": "text"
     },
     {
-        "question": "Imipramine is a T_ that prevents the reuptake of N__ and ___ in the presynaptic neuronal membrane",
+        "question": "Imipramine is a T____ that prevents the reuptake of N____ and ____ in the presynaptic neuronal membrane",
         "answer": "Norepinephrine, 5-HT3",
         "type": "text"
     },
     {
-        "question": "Side effects of imipramine include anticholinergic effects, o__ h__, s___, QTc ___",
+        "question": "Side effects of imipramine include anticholinergic effects, o____ h____, s____, QTc ____",
         "answer": "orthostatic hypertension, sedation, prolongation",
         "type": "text"
     },
     {
-        "question": "Overflow incontinence is characterized by detrusor u___, b___ obstruction, and symptoms include s__ to void, weak urinary stream, lower abdominal ffullness and sense of incomplete emptying with frequency and/or noctura",
+        "question": "Overflow incontinence is characterized by detrusor u____, b____ obstruction, and symptoms include s____ to void, weak urinary stream, lower abdominal ffullness and sense of incomplete emptying with frequency and/or noctura",
         "answer": "urinary bladder, straining",
         "type": "text"
     },
     {
-        "question": "Overflow incontinence risk factors include n__ d___, anatomic urethral o_ such as B__ or p__ cancer, and h__ ",
+        "question": "Overflow incontinence risk factors include n____ d____, anatomic urethral o____ such as B____ or p____ cancer, and h____ ",
         "answer": "neurologic dysfunction, obstruction, BPH, prostate, hysterectomy",
         "type": "text"
     },
     {
-        "question": "Medication induced overflow incontinence include a__ agonists, a___, d___, C___, o__, T___",
+        "question": "Medication induced overflow incontinence include a____ agonists, a____, d____, C____, o____, T____",
         "answer": "alpha, anticholinergics, diuretics, opioids, TCA",
         "type": "text"
     },
     {
-        "question": "Off label use for alpha-1 adrenergic receptor antagonists include o__ u___ i___ for t__, d___, a___, t___ s___",
+        "question": "Off label use for alpha-1 adrenergic receptor antagonists include o____ u____ i____ for t____, d____, a____, t____ s____",
         "answer": "overflow urinary incontinence, terrazosin, doxazosin, alfusozin, tamsulosin, silodosin",
         "type": "text"
     },
     {
-        "question": "MOA of alpha-1 adrenergic antagonists is it r__ smooth muscle of p___, u__, b__ n___, improves urine flow rate and reduces symptoms of BPH",
+        "question": "MOA of alpha-1 adrenergic antagonists is it r____ smooth muscle of p____, u____, b____ n____, improves urine flow rate and reduces symptoms of BPH",
         "answer": "relaxes, prostate, urethra, blood",
         "type": "text"
     },
     {
-        "question": "B___ (U___) is used off label for o ____u___ i___",
+        "question": "B____ (U____) is used off label for o ____u____ i____",
         "answer": "Bethanecol (Urecholine), overflow urinary incontinence",
         "type": "text"
     },
     {
-        "question": "The MOA of bethanecol is its a c__ agents that stimulates the release of ACh at the nerve ending, thereby activating the PNS and increases the tone of the detrusor muscle",
+        "question": "The MOA of bethanecol is its a c____ agents that stimulates the release of ACh at the nerve ending, thereby activating the PNS and increases the tone of the detrusor muscle",
         "answer": "cholinergic",
         "type": "text"
     },
     {
-        "question": "Bethanecol is dosed at __-___mg PO Q__ and can be titrated up to __-___mg T___-Q___",
+        "question": "Bethanecol is dosed at ____-____mg PO Q____ and can be titrated up to ____-____mg T____-Q____",
         "answer": "5-10, QID, 10-50, TID-QID",
         "type": "text"
     },
     {
-        "question": "Side effects of Bethanechol include f___, abdominal c___, d__, urgent desire to urinate seizure",
+        "question": "Side effects of Bethanechol include f____, abdominal c____, d____, urgent desire to urinate seizure",
         "answer": "flushing, cramp, diarrhea",
         "type": "text"
     },
     {
-        "question": "Contraindications of Bethanechol include b___, h___, a___, P__",
+        "question": "Contraindications of Bethanechol include b____, h____, a____, P____",
         "answer": "bradycardia, hypotension, asthma, Parkinsonsim",
         "type": "text"
     },
     {
-        "question": "Functional incontinence is a l__ of urine in the setting of a normal structural and functional urinary system an occurs when one is unable or unwilling to reach the toilet to urinate",
+        "question": "Functional incontinence is a l____ of urine in the setting of a normal structural and functional urinary system an occurs when one is unable or unwilling to reach the toilet to urinate",
         "answer": "loss",
         "type": "text"
     },
     {
-        "question": "Risk factors of functional incontinence include m___ disorders, p__ restraints or immobility, d__, gait disturbance, a__ cognition",
+        "question": "Risk factors of functional incontinence include m____ disorders, p____ restraints or immobility, d____, gait disturbance, a____ cognition",
         "answer": "musculoskeletal, physical, dementia altered",
         "type": "text"
     },
     {
-        "question": "Medication induced functional incontinence includes s___, h___, n___",
+        "question": "Medication induced functional incontinence includes s____, h____, n____",
         "answer": "sedatives hypnotics, narcotics",
         "type": "text"
     }

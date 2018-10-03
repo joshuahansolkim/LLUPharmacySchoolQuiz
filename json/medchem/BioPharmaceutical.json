@@ -1,6 +1,6 @@
 BiopharmaceuticalQuestions = [
     {
-        "question": "Partition coefficient is a measure of the relative solubility of a drug in an ___ solvent and water",
+        "question": "Partition coefficient is a measure of the relative solubility of a drug in an ____ solvent and water",
         "answer": "organic",
         "type": "text"
     },
@@ -10,17 +10,17 @@ BiopharmaceuticalQuestions = [
         "type": "text"
     },
     {
-        "question": "Ions such glucose can be driven by ___  ___ through channel proteins or carrier proteins",
+        "question": "Ions such glucose can be driven by ____ through channel proteins or carrier proteins",
         "answer": "facilitated diffusion",
         "type": "text"
     },
     {
-        "question": "Uncharged (unionized) form of a drug will be absorbed through ___ diffusion",
+        "question": "Uncharged (unionized) form of a drug will be absorbed through ____ diffusion",
         "answer": "passive",
         "type": "text"
     },
     {
-        "question": "Non-diffusible substances can be moved across membranes by ___ proteins",
+        "question": "Non-diffusible substances can be moved across membranes by ____ proteins",
         "answer": "transporter",
         "type": "text"
     },
@@ -30,17 +30,17 @@ BiopharmaceuticalQuestions = [
         "type": "text"
     },
     {
-        "question": "___ soluble molecules are filtered and excreted in urine",
+        "question": "____ soluble molecules are filtered and excreted in urine",
         "answer": "water",
         "type": "text"
     },
     {
-        "question": "Water ___ molecules are generally metabolized to make them water soluble although some substances can be excreted in bile",
+        "question": "Water ____ molecules are generally metabolized to make them water soluble although some substances can be excreted in bile",
         "answer": "insoluble",
         "type": "text"
     },
     {
-        "question": "Prodrugs may lead to higher oral ____, ___ blood brain barrier permeability, better chemical stability, higher solubility, more acceptable taste or odor, less toxicity, irritation, or pain",
+        "question": "Prodrugs may lead to higher oral ____, ____ blood brain barrier permeability, better chemical stability, higher solubility, more acceptable taste or odor, less toxicity, irritation, or pain",
         "answer": "absorption, higher",
         "type": "text"
     }

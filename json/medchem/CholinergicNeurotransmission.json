@@ -1,6 +1,6 @@
 CholinergicNeurotransmissionQuestions = [
     {
-        "question": "Acetylcholinesterase (AChE) is associated with the outer surface of __ cells in the synapse",
+        "question": "Acetylcholinesterase (AChE) is associated with the outer surface of ____ cells in the synapse",
         "answer": "glial",
         "type": "text"
     },
@@ -10,12 +10,12 @@ CholinergicNeurotransmissionQuestions = [
         "type": "text"
     },
     {
-        "question": "Butyrylcholinesterase (BuChE, pseudocholinesterase) is located in ___ plasma and ___ dietary esters and drug molecules in the blood and can ___ Ach if present",
+        "question": "Butyrylcholinesterase (BuChE, pseudocholinesterase) is located in ____ plasma and ____ dietary esters and drug molecules in the blood and can ____ Ach if present",
         "answer": "human, hydrolyzes, hydrolyze",
         "type": "text"
     },
     {
-        "question": "AChE enzymes ____ the ester bond of acetylcholine and form a temporary ___ bond with serine and histidine in the active site",
+        "question": "AChE enzymes ____ the ester bond of acetylcholine and form a temporary ____ bond with serine and histidine in the active site",
         "answer": "hydrolyze, covalent",
         "type": "text"
     },
@@ -30,7 +30,7 @@ CholinergicNeurotransmissionQuestions = [
         "type": "text"
     },
     {
-        "question": "Muscarinic antagonists ___ net muscarinic activity by _____ acetylcholine",
+        "question": "Muscarinic antagonists ____ net muscarinic activity by ____ acetylcholine",
         "answer": "decrease, blocking",
         "type": "text"
     },
@@ -52,22 +52,22 @@ CholinergicNeurotransmissionQuestions = [
         "type": "text"
     },
     {
-        "question": "anticholinergics are most potent when substituent is a ___ ammonium salt",
+        "question": "anticholinergics are most potent when substituent is a ____ ammonium salt",
         "answer": "quarternary",
         "type": "text"
     },
     {
-        "question": "Atropine can cross the ___ and is ___ selective for muscarinic receptor",
+        "question": "Atropine can cross the ____ and is ____ selective for muscarinic receptor",
 		"answer": "BBB, non",
         "type": "text"
     },
     {
-        "question": "Ipratropium bromide (Atrovent) is a synthetic, ____ derivative of atropine and does not cross the ____ and is used to treat ____ and ___",
+        "question": "Ipratropium bromide (Atrovent) is a synthetic, ____ derivative of atropine and does not cross the ____ and is used to treat ____ and ____",
         "answer": "quarternary, BBB, asthma, COPD",
         "type": "text"
     },
     {
-        "question": "Trihexyphenidyl hydrochloride (Artane) is a ____ amine muscarinic receptor antagonist that is used in the treatment of ___ disease and other muscle conditions and ___ blocks M1 but may also affect ___",
+        "question": "Trihexyphenidyl hydrochloride (Artane) is a ____ amine muscarinic receptor antagonist that is used in the treatment of ____ disease and other muscle conditions and ____ blocks M1 but may also affect ____",
         "answer": "tertiary, Parkinson's, centrally, dopamine",
         "type": "text"
     },

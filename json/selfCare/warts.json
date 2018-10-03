@@ -10,12 +10,12 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Highest occurence of warts occurs between the ages of  ___  years",
+        "question": "Highest occurence of warts occurs between the ages of  ____  years",
         "answer": "12-16",
         "type": "text"
     },
     {
-        "question": "Warts occurs through _____ contact or _______",
+        "question": "Warts occurs through ____ contact or ____",
         "answer": "person to person, autoinoculation",
         "type": "fill"
     },
@@ -30,7 +30,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Irregular shaped papules or nodules appear ______ or ________ together",
+        "question": "Irregular shaped papules or nodules appear ____ or ____ together",
         "answer": "alone, grouped",
         "type": "fill"
     },
@@ -110,12 +110,12 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Plaster pad vehicle has ___% salicylic acid",
+        "question": "Plaster pad vehicle has ____% salicylic acid",
         "answer": "12-40",
         "type": "text"
     },
     {
-        "question": "Salicylic acid in collodion like vehicle can be used up to _____ daily",
+        "question": "Salicylic acid in collodion like vehicle can be used up to ____ daily",
         "answer": "twice",
         "type": "text"
     },
@@ -125,12 +125,12 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Karaya gum-glycol vehicle has _____% salicylic acid",
+        "question": "Karaya gum-glycol vehicle has ____% salicylic acid",
         "answer": "15",
         "type": "text"
     },
     {
-        "question": "FDA recommends topical salicylic acid products to be labeled for treating ONLY _______ or _______ warts",
+        "question": "FDA recommends topical salicylic acid products to be labeled for treating ONLY ____ or ____ warts",
         "answer": "common or plantar",
         "type": "text"
     },
@@ -195,7 +195,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "tinea cruris lesions spare the ____ and the ______",
+        "question": "tinea cruris lesions spare the ____ and the ____",
         "answer": "penis, scrotum",
         "type": "fill"
     },
@@ -215,32 +215,32 @@ wartsQuestions = [
         "type": "fill"
     },
     {
-        "question": "Chronic Intertiginous causes _____, _______, and _____ sensation",
+        "question": "Chronic Intertiginous causes ____, ____, and ____ sensation",
         "answer": "malodor, pruritus, stinging sensation",
         "type": "fill"
     },
     {
-        "question": "Chronic Papulosquamous Pattern causes _____ like scaling on the soles",
+        "question": "Chronic Papulosquamous Pattern causes ____ like scaling on the soles",
         "answer": "mocassin",
         "type": "text"
     },
     {
-        "question": "vesicular type is symptomatic during ______ months",
+        "question": "vesicular type is symptomatic during ____ months",
         "answer": "summer",
         "type": "text"
     },
     {
-        "question": "Acute ulcerative has white ______ and a ______ odor",
+        "question": "Acute ulcerative has white ____ and a ____ odor",
         "answer": "hyperkeratosis, pungent",
         "type": "fill"
     },
     {
-        "question": "tinea unguium (Onychomycosis) become thick, rough, _____, and brittle or crumbly",
+        "question": "tinea unguium (Onychomycosis) become thick, rough, ____, and brittle or crumbly",
         "answer": "yellow",
         "type": "text"
     },
     {
-        "question": "Tinea capitis has forms of non-inflammatory, inflammatory, _______, and ________ ",
+        "question": "Tinea capitis has forms of non-inflammatory, inflammatory, ____, and ____ ",
         "answer": "black dot variety, favus variant",
         "type": "fill"
     },
@@ -315,7 +315,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Imidazole derivatives are applied to affected areas ___ a day for up to ____ weeks",
+        "question": "Imidazole derivatives are applied to affected areas ____ a day for up to ____ weeks",
         "answer": "twice, 4",
         "type": "fill"
     },
@@ -325,7 +325,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Imidazole derivatives inhibit ______ and ____ synthesis",
+        "question": "Imidazole derivatives inhibit ____ and ____ synthesis",
         "answer": "ergosterol, sterol",
         "type": "fill"
     },
@@ -345,7 +345,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Undecylenic acid 10-25% cannot be used for children under _____ years old",
+        "question": "Undecylenic acid 10-25% cannot be used for children under ____ years old",
         "answer": "2",
         "type": "text"
     },
@@ -370,7 +370,7 @@ wartsQuestions = [
         "type": "text"
     },
     {
-        "question": "Aluminum acetate solution is used ______ times a day for _____ minutes up to _____ week",
+        "question": "Aluminum acetate solution is used ____ times a day for ____ minutes up to ____ week",
         "answer": "three, 20, 1",
         "type": "fill"
     },

@@ -1,61 +1,61 @@
 DrugInteractionsQuestions = [
     {
-        "question": "CYP450 are primarily located in the l___ and i___",
+        "question": "CYP450 are primarily located in the l____ and i____",
         "answer": "liver, intestine",
         "type": "text"
     },
     {
-        "question": "CYP inducers result in h___ activity of the enzyme (i___ drug metabolism), which d___ levels of the substrate drug",
+        "question": "CYP inducers result in h____ activity of the enzyme (i____ drug metabolism), which d____ levels of the substrate drug",
         "answer": "higher, increase ,decrease",
         "type": "text"
     },
     {
-        "question": "Examples of big inducers are P____S____P____O_____R____C_____S____",
+        "question": "Examples of big inducers are P____S____P____O____R____C____S____",
         "answer": "phenytoin, smoking, phenobarbital, oxcarbazepine, rifampin, carbamazepine, st. john's wort",
         "type": "text"
     },
     {
-        "question": "CYP inhibitors i_____ enzymes (causing l__ drug metabolism) and i___ level of substrate drug",
+        "question": "CYP inhibitors i____ enzymes (causing l____ drug metabolism) and i____ level of substrate drug",
         "answer": "inactivate, less, increases",
         "type": "text"
     },
     {
-        "question": "Examples of CYP inhibitors are G___P____A____C____M____A____N____",
+        "question": "Examples of CYP inhibitors are G____P____A____C____M____A____N____",
         "answer": "grapefruit, protease inhibito CCBrs, azole antifungals, cimetidine, macrolides, amiodarone, non-DHP",
         "type": "text"
     },
     {
-        "question": "P-glycoproteins are e___ transporters found in the g___ and other organs",
+        "question": "P-glycoproteins are e____ transporters found in the g____ and other organs",
         "answer": "efflux, gut",
         "type": "text"
     },
     {
-        "question": " Pro drug inducers i___ level of a__ drug",
+        "question": " Pro drug inducers i____ level of a____ drug",
         "answer": "increase, active",
         "type": "text"
     },
     {
-        "question": "Pro drug inhibitors d___ level of a___ drug",
+        "question": "Pro drug inhibitors d____ level of a____ drug",
         "answer": "decrease, active",
         "type": "text"
     },
     {
-        "question": "Pglycoprotein inhibitors are c___, v___, and a____",
+        "question": "Pglycoprotein inhibitors are c____, v____, and a____",
         "answer": "cyclosporine, verapamil, amiodarone",
         "type": "text"
     },
     {
-        "question": "P-glycoprotein inducers are r___ and s___",
+        "question": "P-glycoprotein inducers are r____ and s____",
         "answer": "rifampin, st. john's wort",
         "type": "text"
     },
     {
-        "question": "P-glycoprotein substrates are r__ and d___",
+        "question": "P-glycoprotein substrates are r____ and d____",
         "answer": "rivaroxaban, dabigatran",
         "type": "text"
     },
     {
-        "question": "Clopidogrel is a p___ drug and o___ is a major i__ of CYP2C19",
+        "question": "Clopidogrel is a p____ drug and o____ is a major i____ of CYP2C19",
 		"answer": "pro, omeprazole, inhibitor",
         "type": "text"
     }

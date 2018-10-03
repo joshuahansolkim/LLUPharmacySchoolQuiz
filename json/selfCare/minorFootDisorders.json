@@ -5,7 +5,7 @@ minorFootQuestions = [
         "type": "text"
     },
     {
-        "question": "A corn's differentiating factor from a wart, is that it has a small, raised, sharply demarcated, hyperkeratotic lesion with a ______ _____",
+        "question": "A corn's differentiating factor from a wart, is that it has a small, raised, sharply demarcated, hyperkeratotic lesion with a ____",
         "answer": "central core",
         "type": "text"
     },
@@ -15,12 +15,12 @@ minorFootQuestions = [
         "type": "list"
     },
     {
-        "question": "A hard corn usually occurs on the _____ of the toes and it appears ____, _____, and ______",
+        "question": "A hard corn usually occurs on the ____ of the toes and it appears ____, ____, and ____",
         "answer": "top, shiny, dry, and polished",
         "type": "list"
     },
     {
-        "question": "A soft corn usually occurs _____ adjacent toes, and appears _____ and _______",
+        "question": "A soft corn usually occurs ____ adjacent toes, and appears ____ and ____",
         "answer": "between, white, thickened",
         "type": "list"
     },
@@ -40,22 +40,22 @@ minorFootQuestions = [
         "type": "text"
     },
     {
-        "question": "Corns occur on _____bearing areas, have concentrated lesion with a central ____ and are ____ demarcated",
+        "question": "Corns occur on ____bearing areas, have concentrated lesion with a central ____ and are ____ demarcated",
         "answer": "weight, core, sharply",
         "type": "list"
     },
     {
-        "question": "Calluses occur on ____ bearing areas, have diffuse ______ of the skin, and no definite _______",
+        "question": "Calluses occur on ____ bearing areas, have diffuse ____ of the skin, and no definite ____",
         "answer": "weight, thickening, border",
         "type": "list"
     },
     {
-        "question": "Collodion like vehicle salicylic acid 12-17.6% can be used _____times  a day for up to ____ days",
+        "question": "Collodion like vehicle salicylic acid 12-17.6% can be used ____times  a day for up to ____ days",
         "answer": "2, 14",
         "type": "list"
     },
     {
-        "question": "Salicylic acid 12-40% plaster/pads  can be repeated every ____ hours for up to ______ days",
+        "question": "Salicylic acid 12-40% plaster/pads  can be repeated every ____ hours for up to ____ days",
         "answer": "48, 14",
         "type": "list"
     },
@@ -115,7 +115,7 @@ minorFootQuestions = [
         "type": "list"
     },
     {
-        "question": "Primary focal hyperhidrosis is visible excessive sweating lasting _____ months without a cause",
+        "question": "Primary focal hyperhidrosis is visible excessive sweating lasting ____ months without a cause",
         "answer": "6",
         "type": "text"
     },
@@ -125,7 +125,7 @@ minorFootQuestions = [
         "type": "list"
     },
     {
-        "question": "A medical referral is required for _____ hyperhidrosis",
+        "question": "A medical referral is required for ____ hyperhidrosis",
         "answer": "secondary",
         "type": "text"
     },
@@ -140,7 +140,7 @@ minorFootQuestions = [
         "type": "text"
     },
     {
-        "question": "Botox injection is __ line therapy for hyperhidrosis",
+        "question": "Botox injection is ____ line therapy for hyperhidrosis",
         "answer": "3rd",
         "type": "text"
     },
@@ -180,7 +180,7 @@ minorFootQuestions = [
         "type": "list"
     },
     {
-        "question": "Certain Dri can be reapplied every _____ hours",
+        "question": "Certain Dri can be reapplied every ____ hours",
         "answer": "24-48",
         "type": "text"
     }

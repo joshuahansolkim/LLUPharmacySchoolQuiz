@@ -1,26 +1,26 @@
 PEQuestions = [
     {
-        "question": "What does SOAP stand for s___, o____, a____, p____",
+        "question": "What does SOAP stand for s____, o____, a____, p____",
         "answer": "subjective, objective, assessment, plan",
         "type": "text"
     },
     {
-        "question": "Normal temperature ranges from ___-___F",
+        "question": "Normal temperature ranges from ____-____F",
         "answer": "98.6-100.3",
         "type": "text"
     },
     {
-        "question": "Normal blood pressure is <______ and <____",
+        "question": "Normal blood pressure is <____ and <____",
         "answer": "120, 80",
         "type": "text"
     },
     {
-        "question": "Elevated blood pressure is _____-_____ and <",
+        "question": "Elevated blood pressure is ____-____ and <",
         "answer": "120-129, 80",
         "type": "text"
     },
     {
-        "question": "Stage 1 hypertension is ____-_____ OR ",
+        "question": "Stage 1 hypertension is ____-____ OR ",
         "answer": "130-139, 80-89",
         "type": "text"
     },
@@ -30,27 +30,27 @@ PEQuestions = [
         "type": "text"
     },
     {
-        "question": "Hypertensive crisis is >= _____ AND/OR > ____",
+        "question": "Hypertensive crisis is >= ____ AND/OR > ____",
         "answer": "180, 120",
         "type": "text"
     },
     {
-        "question": "The normal range for heart rate or pulse is ____-_____ beats/min",
+        "question": "The normal range for heart rate or pulse is ____-____ beats/min",
         "answer": "60-90",
         "type": "text"
     },
     {
-        "question": "The normal respiratory rate is _____-______ breaths/min ",
+        "question": "The normal respiratory rate is ____-____ breaths/min ",
         "answer": "12-20",
         "type": "text"
     },
     {
-        "question": "Pain is considered the ___th vital sign",
+        "question": "Pain is considered the ____th vital sign",
         "answer": "5th",
         "type": "text"
     },
     {
-        "question": "The skin is examined for l____, s_____, b___, r____, m____, s___ t___ and e____",
+        "question": "The skin is examined for l____, s____, b____, r____, m____, s____ t____ and e____",
         "answer": "lesions, scars, bruises, rash, moles, skin turgor, elasticity",
         "type": "text"
     },
@@ -67,12 +67,12 @@ PEQuestions = [
         "type": "multiple"
     },
     {
-        "question": "P____, E_____, R_____, R____, L_____, A____",
+        "question": "P____, E____, R____, R____, L____, A____",
         "answer": "pupils, equal, round, reactive, light, accomodation",
         "type": "text"
     },
     {
-        "question": "E____, O____, M____, I_____",
+        "question": "E____, O____, M____, I____",
         "answer": "extra, ocular, movements, intact",
         "type": "text"
     },
@@ -101,12 +101,12 @@ PEQuestions = [
         "type": "multiple"
     },
     {
-        "question": "The first heart sound lub is heard at the ___, and the ______ and ____ valve close",
+        "question": "The first heart sound lub is heard at the ____, and the ____ and ____ valve close",
         "answer": "apex, mitral, tricuspid",
         "type": "text"
     },
     {
-        "question": "The second heart sound dub is heard at the ___, and the ___ and ___ valve close",
+        "question": "The second heart sound dub is heard at the ____, and the ____ and ____ valve close",
         "answer": "base, pulmonic, aortic",
         "type": "text"
     },
@@ -126,7 +126,7 @@ PEQuestions = [
         "type": "text"
     },
     {
-        "question": "5 areas for listening to the heart is A (right 2nd intercostal space)___, P(left 2nd intercostal space) __, E (left 3rd intercostal space)_____, T(left 4th intercostal)____, M(left 5th intercostal)_____",
+        "question": "5 areas for listening to the heart is A (right 2nd intercostal space)____, P(left 2nd intercostal space) ____, E (left 3rd intercostal space)____, T(left 4th intercostal)____, M(left 5th intercostal)____",
         "answer": "aortic, pulmonic, ERB, tricuspid, mitral",
         "type": "text"
     },
@@ -137,57 +137,57 @@ PEQuestions = [
         "type": "multiple"
     },
     {
-        "question": "What are the four steps for a respiratory exam I____, P____, P_____, A____",
+        "question": "What are the four steps for a respiratory exam I____, P____, P____, A____",
         "answer": "inspection, palpitation, percussion, auscultation",
         "type": "text"
     },
     {
-        "question": "Inspection involves noting the skin for any m__, s___, r___, h____",
+        "question": "Inspection involves noting the skin for any m____, s____, r____, h____",
         "answer": "marks, scars, rashes, hernia",
         "type": "text"
     },
     {
-        "question": "The contour of the abdomen is observed to see if it is f___, r___, b___",
+        "question": "The contour of the abdomen is observed to see if it is f____, r____, b____",
         "answer": "flat, round, bloated",
         "type": "text"
     },
     {
-        "question": "Auscultation is used to check for b___ motility, and to listen for b___ on a___ and e___ area",
+        "question": "Auscultation is used to check for b____ motility, and to listen for b____ on a____ and e____ area",
         "answer": "bowel, bruits, aorta, epigastric",
         "type": "text"
 	},
     {
-        "question": "Bruits is a murmur like sound that is caused by t___ blood flow indicating an o___",
+        "question": "Bruits is a murmur like sound that is caused by t____ blood flow indicating an o____",
         "answer": "turbulent, obstruction",
         "type": "text"
     },
     {
-        "question": "Percussion is used to check the amount and distribution of g___ in the abdomen, and helps to identify masses that are s__ or f___ filled, estimate the size of the l__ and s___",
+        "question": "Percussion is used to check the amount and distribution of g____ in the abdomen, and helps to identify masses that are s____ or f____ filled, estimate the size of the l____ and s____",
         "answer": "gas, solid, fluid, liver, spleen",
         "type": "text"
     },
     {
-        "question": "All four quadrants need to be percussed to assess d___ and r___",
+        "question": "All four quadrants need to be percussed to assess d____ and r____",
         "answer": "dullness, resonance",
         "type": "text"
     },
     {
-        "question": "Light/deep palpation helps to identify m___, t____, ",
+        "question": "Light/deep palpation helps to identify m____, t____, ",
         "answer": "masses, tenderness",
         "type": "text"
     },
     {
-        "question": "Musculoskeletal inspection is used to check for d____, s___, r___ of motion",
+        "question": "Musculoskeletal inspection is used to check for d____, s____, r____ of motion",
         "answer": "deformities, symmetry, range",
         "type": "text"
     },
     {
-        "question": "Neurological exam is used to determine level of consciousness: a___, l____, s____, c______",
+        "question": "Neurological exam is used to determine level of consciousness: a____, l____, s____, c____",
         "answer": "alert, lethargic, stuporous, comatose",
         "type": "text"
     },
     {
-        "question": "4 orientation questions asked are p___, p____, t___, s_____",
+        "question": "4 orientation questions asked are p____, p____, t____, s____",
         "answer": "person, place, time, situation",
         "type": "text"
     }

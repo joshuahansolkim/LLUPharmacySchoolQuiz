@@ -1,11 +1,11 @@
 CAMQuestions = [
     {
-        "question": "A broader definition of dietary supplement includes culinary h____, s__, and f__",
+        "question": "A broader definition of dietary supplement includes culinary h____, s____, and f____",
         "answer": "herbs, spices, foods",
         "type": "text"
     },
     {
-        "question": "A dietary supplement is intended to supplement the diet, contains one or more dietary ingredients, and is intended to be taken by mouth as a c___, p___, t___, l___, and is labeled on the front as a dietary supplement",
+        "question": "A dietary supplement is intended to supplement the diet, contains one or more dietary ingredients, and is intended to be taken by mouth as a c____, p____, t____, l____, and is labeled on the front as a dietary supplement",
         "answer": "capsule, pill, tablet, liquid",
         "type": "text"
     },
@@ -22,12 +22,12 @@ CAMQuestions = [
         "type": "multiple"
     },
     {
-        "question": "In order to know if dietary supplements are effective you need to know your e_____, encourage r____ expectations, keep the patient as a w____ in mind",
+        "question": "In order to know if dietary supplements are effective you need to know your e____, encourage r____ expectations, keep the patient as a w____ in mind",
         "answer": "evidence, realistic, whole",
         "type": "text"
     },
     {
-        "question": "What are some examples of evidence: l___/e___/g___ resource",
+        "question": "What are some examples of evidence: l____/e____/g____ resource",
         "answer": "literature, electronic, government",
         "type": "text"
     },
@@ -38,12 +38,12 @@ CAMQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Dietary supplements are regulated by the FDA under the provisions of ___",
+        "question": "Dietary supplements are regulated by the FDA under the provisions of ____",
         "answer": "DSHEA",
         "type": "text"
     },
     {
-        "question": "A dietary supplement label may not claim that the supplement can d__, p___, m___, t___, or c___a specific disease",
+        "question": "A dietary supplement label may not claim that the supplement can d____, p____, m____, t____, or c____a specific disease",
         "answer": "diagnose, prevent, mitigate, treat, cure",
         "type": "text"
     },
@@ -54,7 +54,7 @@ CAMQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Dietary supplements can be labeled in regard to prevention of d___ disease, s___ or f___, or in regard to w___-b___",
+        "question": "Dietary supplements can be labeled in regard to prevention of d____ disease, s____ or f____, or in regard to w____-b____",
         "answer": "deficiency, structure, function, well-being",
         "type": "text"
     },
@@ -71,12 +71,12 @@ CAMQuestions = [
         "type": "multiple"
     },
     {
-        "question": "For interactions, you must pay attention to the same e___, same s___ e___, same m____",
+        "question": "For interactions, you must pay attention to the same e____, same s____ e____, same m____",
         "answer": "effect, side effect, metabolism",
         "type": "text"
     },
     {
-        "question": "Factual content of advertising is monitored by the ___ and ____",
+        "question": "Factual content of advertising is monitored by the ____ and ____",
         "answer": "FDA, FTC",
         "type": "text"
     },

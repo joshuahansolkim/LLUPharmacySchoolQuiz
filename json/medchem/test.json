@@ -1,0 +1,12 @@
+testQuestions = [
+    {
+        "question": "A ____ B ____ C ____",
+        "answer": "A, B, C",
+        "type": "text"
+    },
+    {
+        "question": "Endogenous ligands that result in a receptor response are called ____",
+        "answer": "agonists",
+        "type": "text"
+    }
+]

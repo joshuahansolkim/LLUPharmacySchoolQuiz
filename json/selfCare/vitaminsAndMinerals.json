@@ -30,12 +30,12 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Where do you look for vitamin deficiency in vitamin A: p___, s___, f___ oil, i___ fat absorption",
+        "question": "Where do you look for vitamin deficiency in vitamin A: p____, s____, f____ oil, i____ fat absorption",
 		"answer": "pregnancy, smoking, fish oil, impaired",
         "type": "text"
     },
     {
-        "question": "What are the signs of vitamin A deficiency, dry, s___ skin, increased infectious diseases such as m____, m_____, d____ eyes, impaired a___, t___, s___",
+        "question": "What are the signs of vitamin A deficiency, dry, s____ skin, increased infectious diseases such as m____, m____, d____ eyes, impaired a____, t____, s____",
 		"answer": "scaly, measles, malaria, dry, appetite, taste, smell",
         "type": "text"
     },
@@ -46,27 +46,27 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "The three different forms of vitamin D are e___, c____, 1,25-d_____",
+        "question": "The three different forms of vitamin D are e____, c____, 1,25-d____",
 		"answer": "ergocalciferol, cholecalciferol, dihydroxycholecalciferol",
         "type": "text"
     },
     {
-        "question": "Ergocalciferol (D2) is present in p___ and f___",
+        "question": "Ergocalciferol (D2) is present in p____ and f____",
         "answer": "plants, fungi",
         "type": "text"
     },
     {
-        "question": "cholecalciferol (D3) is synthesized in skin in presence of s___, present in f___ foods",
+        "question": "cholecalciferol (D3) is synthesized in skin in presence of s____, present in f____ foods",
         "answer": "sunlight, fortified",
         "type": "text"
     },
     {
-        "question": "Calcitriol (Rocaltrol) is a p___ product",
+        "question": "Calcitriol (Rocaltrol) is a p____ product",
         "answer": "prescription",
         "type": "text"
     },
     {
-        "question": "Vitamin D excess leads to ___ complaints, h____",
+        "question": "Vitamin D excess leads to ____ complaints, h____",
         "answer": "GI, hypercalcemia",
         "type": "text"
     },
@@ -82,27 +82,27 @@ vitaminsAndMineralsQuestions = [
         "type": "text"
     },
     {
-        "question": "What is the daily requirement of vitamin D for male/female (70+ yo) ______ug/day (___IU)",
+        "question": "What is the daily requirement of vitamin D for male/female (70+ yo) ____ug/day (____IU)",
         "answer": "20, 800",
         "type": "text"
     },
     {
-        "question": "What is the UL for vitamin D (>=9yo) ______ug/day (____IU)",
+        "question": "What is the UL for vitamin D (>=9yo) ____ug/day (____IU)",
         "answer": "100, 4000",
         "type": "multiple"
     },
     {
-        "question": "You need to watch Vit D in e___, lack of s__, lack of m___, l___/kidney damage",
+        "question": "You need to watch Vit D in e____, lack of s____, lack of m____, l____/kidney damage",
         "answer": "elderly, sun, milk, liver",
         "type": "text"
     },
     {
-        "question": "Vitamin E deficiency leads to free radical damage to neuronal, muscle, and other membranes, p___ neuropathy, r____, a___, impaired immune function",
+        "question": "Vitamin E deficiency leads to free radical damage to neuronal, muscle, and other membranes, p____ neuropathy, r____, a____, impaired immune function",
         "answer": "peripheral, retinopathy, ataxia",
         "type": "text"
     },
     {
-        "question": "Vitamin E excess leads to increased bleeding at high doses, i___ mortality, decreased effect of r___ therapy",
+        "question": "Vitamin E excess leads to increased bleeding at high doses, i____ mortality, decreased effect of r____ therapy",
         "answer": "increased, radiation",
         "type": "text"
     },
@@ -113,7 +113,7 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Dry beriberi affects p___ nervous system",
+        "question": "Dry beriberi affects p____ nervous system",
         "answer": "peripheral",
         "type": "text"
     },
@@ -123,12 +123,12 @@ vitaminsAndMineralsQuestions = [
         "type": "text"
     },
     {
-        "question": "Wernicke's encephalopathy is the acute phase and includes c___, a___, e___ weakness/p___",
+        "question": "Wernicke's encephalopathy is the acute phase and includes c____, a____, e____ weakness/p____",
         "answer": "confusion, ataxia, eye, paralysis",
         "type": "text"
     },
     {
-        "question": "Korsakoff's syndrome is the chronic phase and includes memory loss and visual impairment and is known as a___induced persisting a___disorder and can be irreversible",
+        "question": "Korsakoff's syndrome is the chronic phase and includes memory loss and visual impairment and is known as a____induced persisting a____disorder and can be irreversible",
         "answer": "alcohol, amnestic",
         "type": "text"
     },
@@ -139,12 +139,12 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Riboflavin deficiency needs to be watched in e___, a___, some drugs",
+        "question": "Riboflavin deficiency needs to be watched in e____, a____, some drugs",
         "answer": "elderly, alcoholics",
         "type": "text"
     },
     {
-        "question": "Riboflavin deficiency is also known as a___",
+        "question": "Riboflavin deficiency is also known as a____",
         "answer": "ariboflavinosis",
         "type": "text"
     },
@@ -172,17 +172,17 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Niacin deficiency needs to be watched in a____, diets rich in corn not a____ with lime, i___ therapy",
+        "question": "Niacin deficiency needs to be watched in a____, diets rich in corn not a____ with lime, i____ therapy",
         "answer": "alcoholics, alkalinized, isoniazid",
         "type": "text"
     },
     {
-        "question": "Niacin deficiency leads to p__, der____, dia____, dem____",
+        "question": "Niacin deficiency leads to p____, der____, dia____, dem____",
 		"answer": "pellagra, dermatitis, diarrhea, dementia",
         "type": "text"
     },
     {
-        "question": "Niacin excess leads to f___, h_____ effects, h____, hyp_____",
+        "question": "Niacin excess leads to f____, h____ effects, h____, hyp____",
         "answer": "flushing, heart, hepatotoxicity, hyperglycemia", 
         "type": "text"
     },
@@ -216,17 +216,17 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Biotin deficiency needs to be watched in s___, anti_____intake of r__ egg, p____",
+        "question": "Biotin deficiency needs to be watched in s____, anti____intake of r____ egg, p____",
         "answer": "smoking, convulsant, raw, pregnancy",
         "type": "text"
     },
     {
-        "question": "Biotin is synthesized by g___ bacteria",
+        "question": "Biotin is synthesized by g____ bacteria",
         "answer": "gut",
         "type": "text"
     },
     {
-        "question": "1 ug food folate= _DFE=_ug supplement or fortified food",
+        "question": "1 ug food folate= ____DFE=____ug supplement or fortified food",
 		"answer": "1,0.6",
         "type": "text"
     },
@@ -243,7 +243,7 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Folic acid excess leads to G__, C__, masking of B__ deficiency",
+        "question": "Folic acid excess leads to G____, C____, masking of B____ deficiency",
         "answer": "GI, CNS, 12",
         "type": "text"
     },
@@ -266,7 +266,7 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "B12 deficiency needs to be watched in v__, GI ___, GI ____",
+        "question": "B12 deficiency needs to be watched in v____, GI ____, GI ____",
 		"answer": "vegan diet, damage, drugs",
         "type": "text"
     },
@@ -277,7 +277,7 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "The normal function of vitamin C is a__ activity, c___ synthesis, i__ function",
+        "question": "The normal function of vitamin C is a____ activity, c____ synthesis, i____ function",
 		"answer": "antioxidant, collagen, immune ",
         "type": "text"
     },
@@ -288,7 +288,7 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Vitamin C excess leads to k___ stones, GI s___",
+        "question": "Vitamin C excess leads to k____ stones, GI s____",
         "answer": "kidney, symptoms",
         "type": "text"
     },
@@ -299,57 +299,57 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "General concerns regarding minerals is factors increasing absorption such as i___stomach acid, mineral d___, g____abnormalities",
+        "question": "General concerns regarding minerals is factors increasing absorption such as i____stomach acid, mineral d____, g____abnormalities",
         "answer": "increased, deficiency, genetic",
         "type": "text"
     },
     {
-        "question": "General concerns regarding minerals is factors decreasing absorption such as d___stomach acid, i____damage, s___ of transport proteins",
+        "question": "General concerns regarding minerals is factors decreasing absorption such as d____stomach acid, i____damage, s____ of transport proteins",
         "answer": "decreased, intestinal, saturation",
         "type": "text"
     },
     {
-        "question": "general issues regarding minerals is non absorption such as s___ texture, GI u___, d___drug absorption",
+        "question": "general issues regarding minerals is non absorption such as s____ texture, GI u____, d____drug absorption",
         "answer": "stool, upset, decreased",
         "type": "text"
     },
     {
-        "question": "Calcium deficiency leads to o____, m___ cramps, cardiac a__",
+        "question": "Calcium deficiency leads to o____, m____ cramps, cardiac a____",
 		"answer": "osteoporosis, muscle, arrhythmias",
         "type": "text"
     },
     {
-        "question": "Calcium excess leads to k___ stones, c___ precipitation, c__",
+        "question": "Calcium excess leads to k____ stones, c____ precipitation, c____",
         "answer": "kidney, calcium, constipation",
         "type": "text"
     },
     {
-        "question": "The daily requirement of calcium is ___mg/day for 9-19 yo",
+        "question": "The daily requirement of calcium is ____mg/day for 9-19 yo",
         "answer": "1300",
         "type": "text"
     },
     {
-        "question": "The daily requirement of calcium for male/female is ___mg/day for 19-50 yo",
+        "question": "The daily requirement of calcium for male/female is ____mg/day for 19-50 yo",
 		"answer": "1000",
         "type": "text"
     },
     {
-        "question": "The daily requirement of calcium is ___mg/day for 51+ yo",
+        "question": "The daily requirement of calcium is ____mg/day for 51+ yo",
         "answer": "1200",
         "type": "text"
     },
     {
-        "question": "The UL for calcium for male/female is ____/_____/____mg/day for 9-19, 19-50, 51+",
+        "question": "The UL for calcium for male/female is ____/____/____mg/day for 9-19, 19-50, 51+",
 		"answer": "3000, 2500, 2000",
         "type": "text"
 	    },
     {
-        "question": "Calcium deficiency needs to be watched in bad diets, s___, i__ with unsupplemented formula",
+        "question": "Calcium deficiency needs to be watched in bad diets, s____, i____ with unsupplemented formula",
         "answer": "smokers, infants",
         "type": "text"	
     },
     {
-        "question": "Iron deficiency leads to a__",
+        "question": "Iron deficiency leads to a____",
         "answer": "anemia",
         "type": "text"
     },
@@ -360,37 +360,37 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Iron excess leads to GI/l___ damage from f___ radicals, c___",
+        "question": "Iron excess leads to GI/l____ damage from f____ radicals, c____",
         "answer": "liver, free, constipation",
         "type": "text"
     },
     {
-        "question": "What are the different forms of iron supplements: ferrous f_____, s_____, g____",
+        "question": "What are the different forms of iron supplements: ferrous f____, s____, g____",
 		"answer": "fumarate, sulfate, gluconate",
         "type": "text"
     },
     {
-        "question": "R_____ iron is absorbed more readily than o____ iron",
+        "question": "R____ iron is absorbed more readily than o____ iron",
         "answer": "reduced, oxidized",
         "type": "text"
     },
     {
-        "question": "H_____ iron is absorbed more readily than i_____ iron",
+        "question": "H____ iron is absorbed more readily than i____ iron",
 		"answer": "heme, inorganic",
         "type": "text"
     },
     {
-        "question": "Plant sources of iron come from l______, fortified grain products, m______, s____",
+        "question": "Plant sources of iron come from l____, fortified grain products, m____, s____",
         "answer": "legumes, molasses, spinach",
         "type": "text"
     },
     {
-        "question": "Iron needs to be watched in b___ loss, p___/rapid growth, p___ diet",
+        "question": "Iron needs to be watched in b____ loss, p____/rapid growth, p____ diet",
 		"answer": "blood, pregnancy, poor",
         "type": "text"
     },
     {
-        "question": "Magnesium is needed for c___ for energy production, i__ transport in muscles",
+        "question": "Magnesium is needed for c____ for energy production, i____ transport in muscles",
 		"answer": "cofactor, ion",
         "type": "text"
     },
@@ -401,12 +401,12 @@ vitaminsAndMineralsQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Magnesium excess leads to  d___, m___ weakness",
+        "question": "Magnesium excess leads to  d____, m____ weakness",
 		"answer": "diarrhea, muscle",
         "type": "text"
     },
     {
-        "question": "Magnesium deficiency needs to be watched in  a______, d____ use",
+        "question": "Magnesium deficiency needs to be watched in  a____, d____ use",
         "answer": "alcoholics, diuretic",
         "type": "text"
     }

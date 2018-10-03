@@ -1,11 +1,11 @@
 BPHQuestions = [
     {
-        "question": "The enzyme _____ converts testosterone to dihydrotestosterone (DHT)",
+        "question": "The enzyme ____ converts testosterone to dihydrotestosterone (DHT)",
         "answer": "5-alpha reductase",
         "type": "text"
     },
     {
-        "question": "The s_____ (smooth muscle) is embedded with _______ receptors",
+        "question": "The s____ (smooth muscle) is embedded with ____ receptors",
         "answer": "stromal, alpha-1 adrenergic",
         "type": "text"
     },
@@ -15,57 +15,57 @@ BPHQuestions = [
         "type": "text"
     },
     {
-        "question": "Stimulation of alpha-1 adrenergic receptor by n____ causes s___ muscle contraction leading to e____ compression of the urethra and r____ urethral lumen and d___ urinary bladder emptying",
+        "question": "Stimulation of alpha-1 adrenergic receptor by n____ causes s____ muscle contraction leading to e____ compression of the urethra and r____ urethral lumen and d____ urinary bladder emptying",
         "answer": "norepinephrine, smooth, extrinsic, reducing, decreased",
         "type": "text"
     },
     {
-        "question": "Type _ is localized to sebaceous glands in the f___ scalp, l___, s___, and a small amount in the p__",
+        "question": "Type ____ is localized to sebaceous glands in the f____ scalp, l____, s____, and a small amount in the p____",
         "answer": "I, frontal, liver, skin, prostate",
         "type": "text"
     },
     {
-        "question": "Type __ is localized to the p__, g___ tissue, and h__ follicles of the s___",
+        "question": "Type ____ is localized to the p____, g____ tissue, and h____ follicles of the s____",
         "answer": "II, prostrate, genital, hair, scalp",
         "type": "text"
     },
     {
-        "question": "In type __, DHT produced causes a__ and increased f__/b__ hair ",
+        "question": "In type ____, DHT produced causes a____ and increased f____/b____ hair ",
         "answer": "I, acne, facial, body",
         "type": "text"
     },
     {
-        "question": "In type __, DHT produced in the p___ induces g__ and e___ of the gland",
+        "question": "In type ____, DHT produced in the p____ induces g____ and e____ of the gland",
         "answer": "II, prostate, growth, enlargement",
         "type": "text"
     },
     {
-        "question": "In a normal prostate, the stromal to epithelial tissue ratio is __:__ and there is more alpha __ adrenergic receptor than D___",
+        "question": "In a normal prostate, the stromal to epithelial tissue ratio is ____:____ and there is more alpha ____ adrenergic receptor than D____",
         "answer": "2:1, 1, DHT",
         "type": "text"
     },
     {
-        "question": "In BPH, the stromal to epithelial ratio is __:__ and there is even more alpha __ adrenergic receptor than D__ ",
+        "question": "In BPH, the stromal to epithelial ratio is ____:____ and there is even more alpha ____ adrenergic receptor than D____ ",
         "answer": "5:1, 1, DHT",
         "type": "text"
     },
     {
-        "question": "In s___ BPH, there is anatomical e___ of the prostate gland and there is o__ to urinary outflow due to a___ stimulation of e___ tissue",
+        "question": "In s____ BPH, there is anatomical e____ of the prostate gland and there is o____ to urinary outflow due to a____ stimulation of e____ tissue",
         "answer": "static, enlargement, obstruction, androgen, epithelial",
         "type": "text"
     },
     {
-        "question": "In d__ BPH, there is c___ of prostate around the u___ and n___ of urethral lumen due to e___ alpha adrenergic tone of the s__ tissue",
+        "question": "In d____ BPH, there is c____ of prostate around the u____ and n____ of urethral lumen due to e____ alpha adrenergic tone of the s____ tissue",
 		"answer": "dynamic, contraction, urethra, narrowing, excessive, stromal",
         "type": "text"
     },
     {
-        "question": "Clinical presentation of obstructive BPH includes: d__ bladder emptying, h__, s___, w__ urine stream",
+        "question": "Clinical presentation of obstructive BPH includes: d____ bladder emptying, h____, s____, w____ urine stream",
         "answer": "decreased, hesitancy, straining, weak",
         "type": "text"
     },
     {
-        "question": "Clinical presentation of irritative BPH includes: f___, u__, b__ or c___ wetting, n___",
+        "question": "Clinical presentation of irritative BPH includes: f____, u____, b____ or c____ wetting, n____",
         "answer": "frequency, urgency, bedwetting, clothes, nocturia",
         "type": "text"
     },
@@ -75,177 +75,177 @@ BPHQuestions = [
         "type": "text"
     },
     {
-        "question": "Urinating often especially at night is __",
+        "question": "Urinating often especially at night is ____",
         "answer": "irritative",
         "type": "text"
     },
     {
-        "question": "Weak urinary stream is ___",
+        "question": "Weak urinary stream is ____",
         "answer": "obstructive",
         "type": "text"
     },
     {
-        "question": "Need to urinate urgently is __",
+        "question": "Need to urinate urgently is ____",
         "answer": "irritative",
         "type": "text"
     },
     {
-        "question": "Post void dribbling is __",
+        "question": "Post void dribbling is ____",
         "answer": "obstructive",
         "type": "text"
     },
     {
-        "question": "bladder always feels full even after voiding is ___",
+        "question": "bladder always feels full even after voiding is ____",
         "answer": "obstructive",
         "type": "text"
     },
     {
-        "question": "The seven screening and diagnosis methods are s___ evaluation, u___, P__ S___ A__(PSA), D___ R___ E___(DRE), R__ and I__ studies, U___ testing, U___ ",
+        "question": "The seven screening and diagnosis methods are s____ evaluation, u____, P____ S____ A____(PSA), D____ R____ E____(DRE), R____ and I____ studies, U____ testing, U____ ",
         "answer": "symptomatic, urinalysis, prostate specific antigen, digital rectal exam, radiologic and imaging studies, urodynamic testing, uroflowmeter",
         "type": "text"
     },
     {
-        "question": "The three categories of symptom evaluation are m__m__, s___",
+        "question": "The three categories of symptom evaluation are m____m____, s____",
         "answer": "mild, moderate, severe",
         "type": "text"
     },
     {
-        "question": "The PSA is NOT a specific m___ for c___ or B___ and is recommended for patients greater than __ years old with at least ___ years life expectancy",
+        "question": "The PSA is NOT a specific m____ for c____ or B____ and is recommended for patients greater than ____ years old with at least ____ years life expectancy",
         "answer": "marker, cancer, BPH, 40, 10",
         "type": "text"
     },
     {
-        "question": "The DRE assesses the s__ and s__ of prostate (static factor)",
+        "question": "The DRE assesses the s____ and s____ of prostate (static factor)",
         "answer": "size, shape",
         "type": "text"
     },
     {
-        "question": "The radiologic and imaging studies utilizes the T___ ",
+        "question": "The radiologic and imaging studies utilizes the T____ ",
         "answer": "transrectal ultrasound (TRUS)",
         "type": "text"
     },
     {
-        "question": "The urodynamic testing utilizes P___ V___ R___ where it measures the amount of urine remaining in the bladder after urination and normal is <___mL",
+        "question": "The urodynamic testing utilizes P____ V____ R____ where it measures the amount of urine remaining in the bladder after urination and normal is <____mL",
 		"answer": "post void residual, 50",
         "type": "text"
     },
     {
-        "question": "Uroflowmeter measures urine voided per unit time (___/___)",
+        "question": "Uroflowmeter measures urine voided per unit time (____/____)",
         "answer": "mL/s",
         "type": "text"
     },
     {
-        "question": "What is the treatment algorithm for mild BPH: w__ w___, if small prostate and normal PSA then use ___ blocker",
+        "question": "What is the treatment algorithm for mild BPH: w____ w____, if small prostate and normal PSA then use ____ blocker",
         "answer": "watchful waiting, alpha-1 ",
         "type": "text"
     },
     {
-        "question": "The treatment algorithm for moderate BPH in large prostate and increased PSA is ___ reductase inhibitor OR combined with ___ blocker",
+        "question": "The treatment algorithm for moderate BPH in large prostate and increased PSA is ____ reductase inhibitor OR combined with ____ blocker",
         "answer": "5-alpha, alpha-1",
         "type": "text"
     },
     {
-        "question": "In moderate BPH treatment with erectile dysfunction, treatment involves p___ inhibitor OR combined with ___ blocker ",
+        "question": "In moderate BPH treatment with erectile dysfunction, treatment involves p____ inhibitor OR combined with ____ blocker ",
         "answer": "phosphodiesterase, alpha-1",
         "type": "text"
 	},
     {
-        "question": "The treatment algorithm for severe BPH with complications involves minimally invasive s___ or p__",
+        "question": "The treatment algorithm for severe BPH with complications involves minimally invasive s____ or p____",
         "answer": "surgery, prostectomy",
         "type": "text"
     },
     {
-        "question": "In watchful waiting you can use n___ treatment and follow up in __-___ months",
+        "question": "In watchful waiting you can use n____ treatment and follow up in ____-____ months",
         "answer": "non-pharmacologic, 6-12",
         "type": "text"
     },
     {
-        "question": "Pharmacotherapy in watchful waiting involves __ adrenergic a___, ___ reductase inhibitor, and p___ inhibitor",
+        "question": "Pharmacotherapy in watchful waiting involves ____ adrenergic a____, ____ reductase inhibitor, and p____ inhibitor",
         "answer": "alpha-1, antagonist, 5-alpha, phosphodiesterase 5",
         "type": "text"
     },
     {
-        "question": "The surgery option involves either t___ r____ of the prostate (TURP) or t___ incision of the prostate (TUIP",
+        "question": "The surgery option involves either t____ r____ of the prostate (TURP) or t____ incision of the prostate (TUIP",
         "answer": "transurethal resection, transurethral incision",
         "type": "text"
     },
     {
-        "question": "Some non pharmacologic treatment include a healthy lifestyle of l__ fat diet, high intake of f__ and vegetables, regular e__, s__ cessation",
+        "question": "Some non pharmacologic treatment include a healthy lifestyle of l____ fat diet, high intake of f____ and vegetables, regular e____, s____ cessation",
         "answer": "low, fruits, exercise, smoking",
         "type": "text"
     },
     {
-        "question": "Patient education for patients with mild symptoms include restricting fluids close to b___, minimize c__ and a___ intake, frequent emptying of bladder during waking hours, avoid d__",
+        "question": "Patient education for patients with mild symptoms include restricting fluids close to b____, minimize c____ and a____ intake, frequent emptying of bladder during waking hours, avoid d____",
         "answer": "bedtime, caffeine, alcohol, drugs",
         "type": "text"
     },
     {
-        "question": "S____ such as d____ which are __ adrenergic agonists and some examples include p___ and p___ and a___ which are ___ adrenergic agonists have examples such as c___ and m____ ",
+        "question": "S____ such as d____ which are ____ adrenergic agonists and some examples include p____ and p____ and a____ which are ____ adrenergic agonists have examples such as c____ and m____ ",
         "answer": "sympathomimetic, decongestants, alpha-1, phenylepthrine, pseudoephedrine, antihypertensives, clonidine, methyldopa",
         "type": "text"
     },
     {
-        "question": "Medications that worsen BPH include s___, o___, d___, a___, t___ products",
+        "question": "Medications that worsen BPH include s____, o____, d____, a____, t____ products",
         "answer": "sympathomimetics, opioids, diuretics, anticholinergics, testosterone",
         "type": "text"
     },
     {
-        "question": "Some examples of diuretics include l__, f___, t___, H___",
+        "question": "Some examples of diuretics include l____, f____, t____, H____",
         "answer": "loops, furosemid, thiazides, HCTZ",
         "type": "text"
     },
     {
-        "question": "Examples of anticholinergics include antih___ such as d___, t___ antidepressants such as a___, antip___, m__ relaxants, antis___ such as t___",
+        "question": "Examples of anticholinergics include antih____ such as d____, t____ antidepressants such as a____, antip____, m____ relaxants, antis____ such as t____",
         "answer": "antihistamine, diphenhydramine, tricyclic, amytriptyline, antipsychotics, muscle, antispasmodics, tolterodine",
         "type": "text"
     },
     {
-        "question": "The MOA of alpha-1 adrenergic antagonists is it causes s__ muscle relaxation of p___, b___, n___, and prostatic u___",
+        "question": "The MOA of alpha-1 adrenergic antagonists is it causes s____ muscle relaxation of p____, b____, n____, and prostatic u____",
 		"answer": "smooth, prostat, bladder, neck, urethra",
         "type": "text"
     },
     {
-        "question": "alpha-1 A adrenergic antagonists are localized in p___ and u___ and  give d__ effects of medication",
+        "question": "alpha-1 A adrenergic antagonists are localized in p____ and u____ and  give d____ effects of medication",
         "answer": "prostate, urethra, desired",
         "type": "text"
     },
     {
-        "question": "alpha-1 B is localized in v___ smooth muscle and the side effects of medication include o___ h____, first dose s___, and medication needs to start l__ and titrate up s__",
+        "question": "alpha-1 B is localized in v____ smooth muscle and the side effects of medication include o____ h____, first dose s____, and medication needs to start l____ and titrate up s____",
         "answer": "vascular, orthostatic hypotension, syncope, low, slowly",
         "type": "text"
     },
     {
-        "question": "alpha-1 D is localized in b__",
+        "question": "alpha-1 D is localized in b____",
         "answer": "bladder",
         "type": "text"
     },
     {
-        "question": "u___ agents are preferred over n___ for patients no tolerating h___",
+        "question": "u____ agents are preferred over n____ for patients no tolerating h____",
         "answer": "uroselective, nonuroselective, hypotension",
         "type": "text"
     },
     {
-        "question": "2nd generation alpha__ adrenergic antagonists are p___ (M___), t___(H___), d___( C____/C___), a____(U____)",
+        "question": "2nd generation alpha____ adrenergic antagonists are p____ (M____), t____(H____), d____( C____/C____), a____(U____)",
         "answer": "1, prazosin, Minipress, terazosin, Hytrin, Doxazosin, Cardura, Cardura XL, alfuzosin, Uroxatral",
         "type": "text"
     },
     {
-        "question": "a___ is the most u___ 2nd gneration alpha 1 blocker",
+        "question": "a____ is the most u____ 2nd gneration alpha 1 blocker",
         "answer": "alfuzosin, uroselective",
         "type": "text"
     },
     {
-        "question": "3rd generation alpha__ adrenergic antagonists include t___ (F__), s___ (R___) which are u____ alpha 1 blockers",
+        "question": "3rd generation alpha____ adrenergic antagonists include t____ (F____), s____ (R____) which are u____ alpha 1 blockers",
         "answer": "1, tamsulosin, Flomax, Silodosin (Rapaflo), uroselective",
         "type": "text"
     },
     {
-        "question": "D___ leaves a ghost tablet in stool",
+        "question": "D____ leaves a ghost tablet in stool",
         "answer": "Doxazosin",
         "type": "text"
     },
     {
-        "question": "alpha-1 adrenergic antagonists are __ line for rapid symptomatic relief and takes __-__ weeks to see benefits and does not affect p__ size or P___",
+        "question": "alpha-1 adrenergic antagonists are ____ line for rapid symptomatic relief and takes ____-____ weeks to see benefits and does not affect p____ size or P____",
         "answer": "1st, 1-6, prostate, PSA",
         "type": "text"
     },
@@ -256,42 +256,42 @@ BPHQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Intraoperative Floppy Iris Syndrome is a complication that may occur during c__ surgery and result in permanent loss in vision",
+        "question": "Intraoperative Floppy Iris Syndrome is a complication that may occur during c____ surgery and result in permanent loss in vision",
         "answer": "cataract",
         "type": "text"
     },
     {
-        "question": "In hypotension, alpha-1 adrenergic antagonist dose needs to start l___ and titrate up, take at b___ to sleep through side effects, and patient may need to switch to more u___ agent",
+        "question": "In hypotension, alpha-1 adrenergic antagonist dose needs to start l____ and titrate up, take at b____ to sleep through side effects, and patient may need to switch to more u____ agent",
         "answer": "low, bedtime, uroselective",
         "type": "text"
     },
     {
-        "question": "Priapism is a r__ but serious adverse effect, and it is a painful and prolonged erection >__ hours and patient must seek i___ medical attention",
+        "question": "Priapism is a r____ but serious adverse effect, and it is a painful and prolonged erection >____ hours and patient must seek i____ medical attention",
         "answer": "rare, 4, immediate",
         "type": "text"
     },
     {
-        "question": "The MOA of 5 alpha reductase inhibitors are that it inhibits the conversion of t___ to d___ thus s___ the prostate and reducing the s____ factor, and the greatest benefit is for patients with enlarged prostate >___ g and the delayed onset of response compared to alpha 1 blockers is __ months vs ___ weeks ",
+        "question": "The MOA of 5 alpha reductase inhibitors are that it inhibits the conversion of t____ to d____ thus s____ the prostate and reducing the s____ factor, and the greatest benefit is for patients with enlarged prostate >____ g and the delayed onset of response compared to alpha 1 blockers is ____ months vs ____ weeks ",
         "answer": "testosterone, dihydrotestosterone, shrinking, static, 30, 6, 6",
         "type": "text"
     },
     {
-        "question": "Finasteride is a ___ alpha reductase inhibitor that inhibits type ___ and is FDA approved for a____ (P___) and the dosing is __ mg PO Qday",
+        "question": "Finasteride is a ____ alpha reductase inhibitor that inhibits type ____ and is FDA approved for a____ (P____) and the dosing is ____ mg PO Qday",
         "answer": "5, II, alopecia, Propecia, 5",
         "type": "text"
     },
     {
-        "question": "Dutasteride is a 5-alpha reductase inhibitor that inhibits type ___ and ___ and is taken ___ mg PO Qday and is available in combination with t____ (J___)",
+        "question": "Dutasteride is a 5-alpha reductase inhibitor that inhibits type ____ and ____ and is taken ____ mg PO Qday and is available in combination with t____ (J____)",
         "answer": "I, II, 0.5, tamsulosin, Jalyn",
         "type": "text"
     },
     {
-        "question": "For PSA correction d___ the actual measured PSA in a patient taking 5 alpha reductase inhibitor after ___ months to approximate true PSA level",
+        "question": "For PSA correction d____ the actual measured PSA in a patient taking 5 alpha reductase inhibitor after ____ months to approximate true PSA level",
         "answer": "double, 6",
         "type": "text"
     },
     {
-        "question": "5 alpha reductase inhibitors are pregnancy category _, and pregnant women should n__ handle tablets or contact with s___ from men and men shoud a___ donating blood within __ months after discontinuing therapy",
+        "question": "5 alpha reductase inhibitors are pregnancy category ____, and pregnant women should n____ handle tablets or contact with s____ from men and men shoud a____ donating blood within ____ months after discontinuing therapy",
         "answer": "X, not, semen, avoid, 6",
         "type": "text"
     },
@@ -302,47 +302,47 @@ BPHQuestions = [
         "type": "text"
     },
     {
-        "question": "The MOA of phosphodiesterase 5 inhibitors is it causes s___ muscle relaxation of p___, b___, n___, and p___ urethra",
+        "question": "The MOA of phosphodiesterase 5 inhibitors is it causes s____ muscle relaxation of p____, b____, n____, and p____ urethra",
         "answer": "smooth, prostrate, bladder, neck, prostratic",
         "type": "text"
     },
     {
-        "question": "Adcirca is used for p___ hypertension and is taken as __ mg PO qday",
+        "question": "Adcirca is used for p____ hypertension and is taken as ____ mg PO qday",
         "answer": "pulmonary, 40",
         "type": "text"
     },
     {
-        "question": "Cialis is used for e___ dysfunction and B__ and is taken as __ mg po qday but if the CrCl is < ___ ml/min then the use is not recommended",
+        "question": "Cialis is used for e____ dysfunction and B____ and is taken as ____ mg po qday but if the CrCl is < ____ ml/min then the use is not recommended",
         "answer": "erectile, BPH, 5, 30",
         "type": "text"
     },
     {
-        "question": "cialis is metabolized by C____ and should be avoided with medications that are C___ inhibitors",
+        "question": "cialis is metabolized by C____ and should be avoided with medications that are C____ inhibitors",
         "answer": "CYP3A4",
         "type": "text"
     },
     {
-        "question": "Phosphodiesterase 5 inhibitors should not be taken with n____ or wait __ hours because both agents r__ blood vessels giving an e___ vasodilatory effect and causes a d__ in blood pressure",
+        "question": "Phosphodiesterase 5 inhibitors should not be taken with n____ or wait ____ hours because both agents r____ blood vessels giving an e____ vasodilatory effect and causes a d____ in blood pressure",
         "answer": "nitrates, 24, relax, enhanced, drop",
         "type": "text"
     },
     {
-        "question": "Side effects of Phosphodiesterase 5 inhibitors include: h__, d___, h__ loss",
+        "question": "Side effects of Phosphodiesterase 5 inhibitors include: h____, d____, h____ loss",
         "answer": "headache, dizziness, hearing",
         "type": "text"
     },
     {
-        "question": "The MOA of anticholinergics is it blocks a___ receptors which are released by nerves in the bladder to stimulate c___ of detrusor muscles of the bladder but blocking a___ supresses involuntary c___ of the detrusor",
+        "question": "The MOA of anticholinergics is it blocks a____ receptors which are released by nerves in the bladder to stimulate c____ of detrusor muscles of the bladder but blocking a____ supresses involuntary c____ of the detrusor",
         "answer": "acetylcholine, contraction, acetylcholine, contraction",
         "type": "text"
     },
     {
-        "question": "anticholinergics reduce i___ symptoms and is used for o___ bladders and can cause u___ retention and must not be used in patients with PVR> ___mL",
+        "question": "anticholinergics reduce i____ symptoms and is used for o____ bladders and can cause u____ retention and must not be used in patients with PVR> ____mL",
         "answer": "irritative, overactive, urinary, 250",
         "type": "text"
     },
     {
-        "question": "CAMs include s__ palmetto, s___ nettle, south african s___ grass, p__ seed, a___ plum",
+        "question": "CAMs include s____ palmetto, s____ nettle, south african s____ grass, p____ seed, a____ plum",
         "answer": "saw, stinging, star, pumpkin, african",
         "type": "text"
     }
