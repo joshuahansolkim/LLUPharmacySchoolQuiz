@@ -1,12 +1,7 @@
 <HTML>
 <HEAD>
-    <TITLE>IPDM Topic Quiz</TITLE>
-    <script type="text/javascript" src="json/medchem/Adrenergic1.json"></script>
-    <script type="text/javascript" src="json/medchem/Adrenergic2.json"></script>
-    <script type="text/javascript" src="json/medchem/BioPharmaceutical.json"></script>
-    <script type="text/javascript" src="json/medchem/CholinergicNeurotransmission.json"></script>
-    <script type="text/javascript" src="json/medchem/DrugReceptor.json"></script>
-    <script type="text/javascript" src="json/medchem/topics.json"></script>
+    <TITLE>Pharmacy Topic Quiz</TITLE>
+    <script type="text/javascript" src="json/classes.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -14,16 +9,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <script>
-        var questions = eval(topics[0].groupname);
+        // Determine the class to ask questions for
+        var urlParams = new URLSearchParams(window.location.search);
+        var className = urlParams.get('class');
+        var pclass = classes.find(function (obj) {return obj.path === className});
+        var classTopics = pclass.topics;
+        setupTopics();
+        var questions;
         var arrayIndex = 0;
-        var totalQuestions = questions.length;
+        var totalQuestions;
         var totalCorrect = 0;
-        var questionTopics = topics;
-        console.log(topics);
     </script>
 </HEAD>
-<BODY onload="randomizeQuestions()">
-    <h1>Medchem Quiz</h1>
+<BODY onload="setupPage()">
+    <h1 class="quizTitle"></h1>
     <form id="quizForm">
         <fieldset class="topics">
         </fieldset>
@@ -57,17 +56,7 @@
         </fieldset>
     </form>
     <script>
-        setupPage();
-        $('input[name="topicSelector"]:radio').change(function() {
-            questions = eval($('input[name="topicSelector"]:checked').val());
-            randomizeQuestions();
-        });
-        $('BODY').keypress(function(e) {
-            if (e.which == 13) {
-                checkAnswer();
-            }
-        });
-        randomizeQuestions();
+        $('.quizTitle').append(pclass.name + ' Topics Quiz');
     </script>
 </BODY>
 </HTML>

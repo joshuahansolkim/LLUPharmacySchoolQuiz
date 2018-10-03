@@ -1,4 +1,4 @@
-ControlledDrugs = [
+ControlledDrugsQuestions = [
     {
 	"tradeName" : "Percocet",
 	"genericName" : "oxycodone + APAP",

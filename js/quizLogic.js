@@ -1,4 +1,5 @@
 function checkAnswer() {
+    console.log('checkAnswer');
     switch (questions[arrayIndex].type) {
         case 'text':
             if (questions[arrayIndex].answer.toString().trim().toLowerCase() == $('#answerInput').val().trim().toLowerCase()) {
@@ -92,6 +93,7 @@ function checkAnswer() {
 }
 
 function getNewQuestion() {
+    console.log('getNewQuestion');
     // TODO: Figure out why this is failing when the app loads. Seems to not like when arrayIndex = 0?
     if(arrayIndex > 0){
         if($('#question'+arrayIndex).attr('class').includes('answerCorrect')){
@@ -139,21 +141,16 @@ function getNewQuestion() {
     }
 }
 
-function getNewQuestionNumber() {
-    arrayIndex = Math.floor((Math.random() * questions.length));
-    if (questions[arrayIndex].correct == 1) {
-        getNewQuestionNumber();
-    }
-}
-
 function randomizeQuestions() {
-    var arrayIndex = 0;
+    console.log('randomizeQuestions');
+    arrayIndex = 0;
 	questions.sort(function(a, b){return 0.5 - Math.random()});
 	setupPagination();
     getQuestion(0);
 }
 
 function setupPagination() {
+    console.log('setupPagination');
 	$('.removeable').remove();
     for(num in questions){
         var questionNum = parseInt(num) + 1;
@@ -162,18 +159,52 @@ function setupPagination() {
     }
 }
 
-function setupPage() {
-    for(topic in questionTopics){
-        $('.topics').append('<div class="form-check form-check-inline"><label class="form-check-label"><input type="radio" name="topicSelector" value="' + questionTopics[topic].groupname + '" class="topicSelector" ' + (topic == 0 ? 'checked': '') + '> ' + questionTopics[topic].topic +'</label></div>');
+function setupClass() {
+    console.log('setupClass');
+    var topicFile = document.createElement('script');
+    topicFile.setAttribute('src','json/' + pclass.path +'/topics.json');
+    document.head.appendChild(topicFile);
+}
+
+function setupTopics() {
+    console.log('setupTopics');
+    for(topic in classTopics){
+        var topicFile = document.createElement('script');
+        topicFile.setAttribute('src','json/' + pclass.path + '/' + classTopics[topic].path +'.json');
+        document.head.appendChild(topicFile);
     }
 }
 
+function setupPage() {
+    console.log('setupPage');
+    questions = eval(classTopics[0].varname);
+    totalQuestions = questions.length;
+    
+    for(topic in classTopics){
+        $('.topics').append('<div class="form-check form-check-inline"><label class="form-check-label"><input type="radio" name="topicSelector" value="' + classTopics[topic].varname + '" class="topicSelector" ' + (topic == 0 ? 'checked': '') + '> ' + classTopics[topic].name +'</label></div>');
+    }
+    
+    $('input[name="topicSelector"]:radio').change(function() {
+        questions = eval($('input[name="topicSelector"]:checked').val());
+        randomizeQuestions();
+    });
+    $('BODY').keypress(function(e) {
+        if (e.which == 13) {
+            checkAnswer();
+        }
+    });
+    
+    randomizeQuestions();
+}
+
 function getQuestion(index){
+    console.log('getQuestion');
     arrayIndex = index;
     getNewQuestion();
 }
 
 function getNextQuestion() {
+    console.log('getNextQuestion');
     if(arrayIndex < questions.length - 1){
 	    arrayIndex++;
 	    getNewQuestion();
@@ -184,6 +215,7 @@ function getNextQuestion() {
 }
 
 function getPreviousQuestion() {
+    console.log('getPreviousQuestion');
     if(arrayIndex > 0){
 	    arrayIndex--;
 	    getNewQuestion();
@@ -193,23 +225,34 @@ function getPreviousQuestion() {
 }
 
 function getFirstQuestion() {
+    console.log('getFirstQuestion');
     arrayIndex = 0;
     getNewQuestion();
 }
 
 function getFirstIncorrectQuestion(){
-    var firstIncorrect = $('.incorrect').first().attr('id');
-    arrayIndex = parseInt(firstIncorrect.replace("question",""));
-    getNewQuestion();
+    console.log('getFirstIncorrectQuestion');
+    //TODO: Fix issue where last 
+    var numIncorrect = $('.incorrect').length;
+    console.log(numIncorrect);
+    if(numIncorrect > 0){
+        var firstIncorrect = $('.incorrect').first().attr('id');
+        arrayIndex = parseInt(firstIncorrect.replace("question",""));
+        getNewQuestion();
+    } else {
+        getFirstQuestion();
+    }
 }
 
 function getCorrectAnswer(){
+    console.log('getCorrectAnswer');
     $('#correctAnswerLabel').text('Correct Answer:');
     $('#correctAnswer').val(questions[arrayIndex].answer);
     $('#answerInput').focus();
 }
 
 function resetScore() {
+    console.log('resetScore');
     totalQuestions = questions.length;
     $('#correctCount').text("0/" + totalQuestions);
     totalCorrect = 0;
