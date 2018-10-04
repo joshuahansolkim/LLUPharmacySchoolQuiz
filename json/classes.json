@@ -165,9 +165,9 @@ classes = [
         "quizType" : "form",
         "topics" : [
             {
-                "name" : "",
-                "path" : "",
-                "varname" : ""
+                "name" : "Test",
+                "path" : "test",
+                "varname" : "testDrugs"
             }
         ]
     }

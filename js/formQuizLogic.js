@@ -1,0 +1,72 @@
+function checkAnswer() {
+    console.log('checkAnswer');
+    
+    var questionNumber = $('.nameField').data('arrayIndex');
+    console.log(questionNumber);
+    var drug = questions[questionNumber];
+    var broadValues = [];
+    
+    for(fieldname in drug){
+        if (fieldname !== 'name'){
+            var className = fieldname + 'Field';
+        
+            // Get correct answers from json
+            var itemAnswerArray = drug[fieldname].split('|').map(item => item.trim().toLowerCase());
+            console.log(itemAnswerArray);
+
+            // Get user's input and add them to an array
+            var itemInputArray = [];
+            $('.' + className).each(function(i, item) {
+                itemInputArray.push(item.value.toLowerCase());
+            });
+
+            // Compare the json array with the user's input to see if they are the same
+            var correctAnswersCount = 0;
+            for(question in itemAnswerArray){
+                if(itemInputArray.indexOf(itemAnswerArray[question]) > -1){
+                    console.log(itemAnswerArray[question]);
+                    correctAnswersCount++;
+                }
+            }
+            
+            // Set the styles according to whether that section was correct or not
+            if(correctAnswersCount == itemAnswerArray.length){
+                $('.' + className).removeClass('incorrect').addClass('answerCorrect');
+            } else {
+                $('.' + className).removeClass('answerCorrect').addClass('incorrect');
+            }
+        }
+    }
+}
+
+function getNewQuestion(questionNumber) {
+    console.log('getNewQuestion');
+    
+    // Clear all form fields
+    $('.formFields').empty();
+    
+    // Update the pagination buttons
+    $('.page-link').parent().removeClass('active');
+    $('#question'+questionNumber).parent().addClass('active');
+    
+    // Get the drug for the form
+    var drug = questions[questionNumber];
+    console.log(drug);
+    
+    // Show the drug name on the page
+    $('.nameField').append('<h2>' + drug.Name + '</h2>').data('arrayIndex', questionNumber);
+    
+    // Iterate through the fields
+    for(fieldname in drug){
+        if (fieldname.toLowerCase() !== 'name'){
+            // Show an empty input field for each item in the json
+            var className = fieldname.toLowerCase() + 'Field';
+            $('.inputFields').append('<div class="form-group"><div class="label">' + fieldname + ':</div><div class=' + className + 's formFields"></div></div>');
+            
+            var itemArray = drug[fieldname].split('|').map(item => item);
+            for(question in itemArray){
+                $('.' + className + 's').append('<input class="form-control ' + className + '" type="text">');
+            }
+        }
+    }
+}
