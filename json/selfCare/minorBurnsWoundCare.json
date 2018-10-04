@@ -45,7 +45,7 @@ minorBurnsQuestions = [
         "type": "list"
     },
     {
-        "question": "Maturation or remodeling is week ___ to week ____",
+        "question": "Maturation or remodeling is week ____ to week ____",
         "answer": "3,9",
         "type": "list"
     },
@@ -130,7 +130,7 @@ minorBurnsQuestions = [
         "type": "list"
     },
     {
-        "question": "gauze alone is not recommended for _______ wound treatment",
+        "question": "gauze alone is not recommended for ____ wound treatment",
         "answer": "moist",
         "type": "text"
     },
@@ -155,17 +155,17 @@ minorBurnsQuestions = [
         "type": "text"
     },
     {
-        "question": "You want to absorb excess moisture during the _______ phase of healing",
+        "question": "You want to absorb excess moisture during the ____ phase of healing",
         "answer": "inflammatory",
         "type": "text"
     },
     {
-        "question": "You want to maintain moisture during the _______ phase",
+        "question": "You want to maintain moisture during the ____ phase",
         "answer": "proliferative",
         "type": "text"
     },
     {
-        "question": "You want to provide moisture to ___________ tissues",
+        "question": "You want to provide moisture to ____ tissues",
         "answer": "rehydrate",
         "type": "text"
     },
@@ -180,12 +180,12 @@ minorBurnsQuestions = [
         "type": "list"
     },
     {
-        "question": "first aid antiseptics can only be applied to _______ skin",
+        "question": "first aid antiseptics can only be applied to ____ skin",
         "answer": "intact",
         "type": "text"
     },
     {
-        "question": "topical anesthetics can be applied up to __ times a day",
+        "question": "topical anesthetics can be applied up to ____ times a day",
         "answer": "4",
         "type": "text"
     },
@@ -235,7 +235,7 @@ minorBurnsQuestions = [
         "type": "list"
     },
     {
-        "question": "Arnica montana is contraindicated for _____ and _______ family ",
+        "question": "Arnica montana is contraindicated for ____ and ____ family ",
         "answer": "marigolds, Asteraceae",
         "type": "list"
     },

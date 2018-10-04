@@ -2,160 +2,173 @@ classes = [
     {
         "name" : "IPDM",
         "path" : "ipdm",
-        topics : [
+        "quizType" : "topics",
+        "topics" : [
             {
-                "name": "BPH",
-                "path": "BPH",
-                "varname": "BPHQuestions"
+                "name" : "BPH",
+                "path" : "BPH",
+                "varname" : "BPHQuestions"
             },
             {
-                "name": "Diagnostic Tests",
-                "path": "DiagnosticTests",
-                "varname": "DiagnosticTestsQuestions"
+                "name" : "Diagnostic Tests",
+                "path" : "DiagnosticTests",
+                "varname" : "DiagnosticTestsQuestions"
             },
             {
-                "name": "Drug Interations",
-                "path": "DrugInteractions",
-                "varname": "DrugInteractionsQuestions"
+                "name" : "Drug Interations",
+                "path" : "DrugInteractions",
+                "varname" : "DrugInteractionsQuestions"
             },
             {
-                "name": "Gout",
-                "path": "Gout",
-                "varname": "GoutQuestions"
+                "name" : "Gout",
+                "path" : "Gout",
+                "varname" : "GoutQuestions"
             },
             {
-                "name": "Lab Values",
-                "path": "LabValues",
-                "varname": "LabValuesQuestions"
+                "name" : "Lab Values",
+                "path" : "LabValues",
+                "varname" : "LabValuesQuestions"
             },
             {
-                "name": "Medical Terminology",
-                "path": "MedicalTerminology",
-                "varname": "MedicalTermsQuestions"
+                "name" : "Medical Terminology",
+                "path" : "MedicalTerminology",
+                "varname" : "MedicalTermsQuestions"
             },
             {
-                "name": "Osteo Arthritis",
-                "path": "OsteoArthritis",
-                "varname": "OsteoArthritisQuestions"
+                "name" : "Osteo Arthritis",
+                "path" : "OsteoArthritis",
+                "varname" : "OsteoArthritisQuestions"
             },
             {
-                "name": "Patient Medications",
-                "path": "PatientMedications",
-                "varname": "PatientMedicationQuestions"
+                "name" : "Patient Medications",
+                "path" : "PatientMedications",
+                "varname" : "PatientMedicationQuestions"
             },
             {
-                "name": "PE",
-                "path": "PE",
-                "varname": "PEQuestions"
+                "name" : "PE",
+                "path" : "PE",
+                "varname" : "PEQuestions"
             },
             {
-                "name": "Urinary Incontinence",
-                "path": "UrinaryIncontinence",
-                "varname": "UrinaryIncontinenceQuestions"
+                "name" : "Urinary Incontinence",
+                "path" : "UrinaryIncontinence",
+                "varname" : "UrinaryIncontinenceQuestions"
             }
         ]
     },
     {
-        "name": "Law",
-        "path": "law",
-        "topics": [
+        "name" : "Law",
+        "path" : "law",
+        "quizType" : "drug",
+        "topics" : [
             
             {
-                "name": "Controlled Drugs",
-                "path": "ControlledDrugs",
-                "varname": "ControlledDrugsQuestions"
+                "name" : "Controlled Drugs",
+                "path" : "ControlledDrugs",
+                "varname" : "ControlledDrugsQuestions"
             }
         ]
     },
     {
-        "name": "Medchem",
-        "path": "medchem",
-        "topics": [
+        "name" : "Medchem",
+        "path" : "medchem",
+        "quizType" : "topics",
+        "topics" : [
             {
-                "name": "Adrenergic 1",
-                "path": "Adrenergic1",
-                "varname": "AdrenergicQuestions1"
+                "name" : "Adrenergic 1",
+                "path" : "Adrenergic1",
+                "varname" : "AdrenergicQuestions1"
             },
             {
-                "name": "Adrenergic 2",
-                "path": "Adrenergic2",
-                "varname": "AdrenergicQuestions2"
+                "name" : "Adrenergic 2",
+                "path" : "Adrenergic2",
+                "varname" : "AdrenergicQuestions2"
             },
             {
-                "name": "BioPharmaceutical",
-                "path": "BioPharmaceutical",
-                "varname": "BiopharmaceuticalQuestions"
+                "name" : "BioPharmaceutical",
+                "path" : "BioPharmaceutical",
+                "varname" : "BiopharmaceuticalQuestions"
             },
             {
-                "name": "Cholinergic Neurotransmissions",
-                "path": "CholinergicNeurotransmission",
-                "varname": "CholinergicNeurotransmissionQuestions"
+                "name" : "Cholinergic Neurotransmissions",
+                "path" : "CholinergicNeurotransmission",
+                "varname" : "CholinergicNeurotransmissionQuestions"
             },
             {
-                "name": "Drug Receptor",
-                "path": "DrugReceptor",
-                "varname": "DrugReceptorQuestions"
+                "name" : "Drug Receptor",
+                "path" : "DrugReceptor",
+                "varname" : "DrugReceptorQuestions"
+            }
+            
+        ]
+    },
+    {
+        "name" : "Self Care",
+        "path" : "selfCare",
+        "quizType" : "topics",
+        "topics" : [
+            {
+                "name" : "Complimentary and Alternative Medicine",
+                "path" : "CAM",
+                "varname" : "CAMQuestions"
+            },
+            {
+                "name" : "Hair Loss",
+                "path" : "hairLoss",
+                "varname" : "hairLossQuestions"
+            },
+            {
+                "name" : "Hyperpigmentation",
+                "path" : "hyperpigmentation",
+                "varname" : "hyperpigmentationQuestions"
+            },
+            {
+                "name" : "Minor Burns and Wounds",
+                "path" : "minorBurnsWoundCare",
+                "varname" : "minorBurnsQuestions"
+            },
+            {
+                "name" : "Minor Foot Disorders",
+                "path" : "minorFootDisorders",
+                "varname" : "minorFootQuestions"
+            },
+            {
+                "name" : "Obesity",
+                "path" : "obesity",
+                "varname" : "obesityQuestions"
+            },
+            {
+                "name" : "Sunburn",
+                "path" : "sunburn",
+                "varname" : "sunburnQuestions"
+            },
+            {
+                "name" : "Supplements",
+                "path" : "supplements",
+                "varname" : "supplementsQuestions"
+            },
+            {
+                "name" : "Vitamins And Minerals",
+                "path" : "vitaminsAndMinerals",
+                "varname" : "vitaminsAndMineralsQuestions"
+            },
+            {
+                "name" : "Warts",
+                "path" : "warts",
+                "varname" : "wartsQuestions"
             }
         ]
     },
     {
-        "name": "Self Care",
-        "path": "selfCare",
-        "topics": [
+        "name" : "Endo",
+        "path" : "endo",
+        "quizType" : "form",
+        "topics" : [
             {
-                "name": "Complimentary and Alternative Medicine",
-                "path": "CAM",
-                "varname": "CAMQuestions"
-            },
-            {
-                "name": "Hair Loss",
-                "path": "hairLoss",
-                "varname": "hairLossQuestions"
-            },
-            {
-                "name": "Hyperpigmentation",
-                "path": "hyperpigmentation",
-                "varname": "hyperpigmentationQuestions"
-            },
-            {
-                "name": "Minor Burns and Wounds",
-                "path": "minorBurnsWoundCare",
-                "varname": "minorBurnsQuestions"
-            },
-            {
-                "name": "Minor Foot Disorders",
-                "path": "minorFootDisorders",
-                "varname": "minorFootQuestions"
-            },
-            {
-                "name": "Obesity",
-                "path": "obesity",
-                "varname": "obesityQuestions"
-            },
-            {
-                "name": "Sunburn",
-                "path": "sunburn",
-                "varname": "sunburnQuestions"
-            },
-            {
-                "name": "Supplements",
-                "path": "supplements",
-                "varname": "supplementsQuestions"
-            },
-            {
-                "name": "Vitamins And Minerals",
-                "path": "vitaminsAndMinerals",
-                "varname": "vitaminsAndMineralsQuestions"
-            },
-            {
-                "name": "Warts",
-                "path": "warts",
-                "varname": "wartsQuestions"
+                "name" : "",
+                "path" : "",
+                "varname" : ""
             }
         ]
-    },
-    {
-        "name": "Endo",
-        "path": "endo"
     }
 ]

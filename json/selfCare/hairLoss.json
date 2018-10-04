@@ -5,22 +5,22 @@ hairLossQuestions = [
         "type": "text"
     },
     {
-        "question": "Secondary causes of hair loss include p___ stress, m___ use, c____ illness, d___ changes, l____ trauma, genetics",
+        "question": "Secondary causes of hair loss include p____ stress, m____ use, c____ illness, d____ changes, l____ trauma, genetics",
         "answer": "physiologic, medication, chronic, dietary, local",
         "type": "text"
     },
     {
-        "question": "The stages of hair growth are: ___ phase, ___ phase, ____ phase, _____ phase",
+        "question": "The stages of hair growth are: ____ phase, ____ phase, ____ phase, ____ phase",
         "answer": "anagen, catagen, telogen, exogen",
         "type": "text"
     },
     {
-        "question": "___ converts androgens to estrogens",
+        "question": "____ converts androgens to estrogens",
         "answer": "aromatase",
         "type": "text"
     },
     {
-        "question": "5 alpha reductase converts weak ___ to ___ and dihydrotestosterone (DHT)",
+        "question": "5 alpha reductase converts weak ____ to ____ and dihydrotestosterone (DHT)",
         "answer": "androgens, testosterone",
         "type": "text"
     },
@@ -30,7 +30,7 @@ hairLossQuestions = [
         "type": "text"
     },
     {
-        "question": "___ is the most common form of hair loss",
+        "question": "____ is the most common form of hair loss",
         "answer": "AGA",
         "type": "text"
     },
@@ -45,12 +45,12 @@ hairLossQuestions = [
         "type": "text"
     },
     {
-        "question": "Female pattern baldness is measured on the ___  and ___ scale",
+        "question": "Female pattern baldness is measured on the ____  and ____ scale",
         "answer": "Ludwig, Sinclair",
         "type": "text"
     },
     {
-        "question": "Alopecia areata occurs in three stages: sudden ____ loss in patches, enlargement of _____, regrowth",
+        "question": "Alopecia areata occurs in three stages: sudden ____ loss in patches, enlargement of ____, regrowth",
         "answer": "hair, patches",
         "type": "text"
     },
@@ -65,52 +65,52 @@ hairLossQuestions = [
         "type": "text"
     },
     {
-        "question": "The dosage strength of minoxidil is ___% and ___%",
+        "question": "The dosage strength of minoxidil is ____% and ____%",
         "answer": "2, 5",
         "type": "text"
     },
     {
-        "question": "Minoxidil is applied to ___ hair ___ daily",
+        "question": "Minoxidil is applied to ____ hair ____ daily",
         "answer": "dry, twice",
         "type": "text"
     },
     {
-        "question": "It may take up to __ months to see results for Minoxidil",
+        "question": "It may take up to ____ months to see results for Minoxidil",
         "answer": "4",
         "type": "text"
     },
     {
-        "question": "Exclusions for self treatment of hair loss is <___ or >___",
+        "question": "Exclusions for self treatment of hair loss is <____ or >____",
         "answer": "18, 65",
         "type": "text"
     },
     {
-        "question": "Minoxidil ___% products is usually recommended for men",
+        "question": "Minoxidil ____% products is usually recommended for men",
         "answer": "5",
         "type": "text"
     },
     {
-        "question": "AGA etiology is h___ and h____",
+        "question": "AGA etiology is h____ and h____",
         "answer": "hormonal, hereditary",
         "type": "list"
     },
     {
-        "question": "Alopecia areata etiology is a___",
+        "question": "Alopecia areata etiology is a____",
         "answer": "autoimmune",
         "type": "text"
     },
     {
-        "question": "Anagen effluvium etiology is c____, r____, h___ m___ poisoning",
+        "question": "Anagen effluvium etiology is c____, r____, h____ m____ poisoning",
         "answer": "chemotherapy, radiation, heavy metal",
         "type": "text"
     },
     {
-        "question": "Telogen etiology is m___ or h____ disturbances, stress, severe illness or injury, and m_____",
+        "question": "Telogen etiology is m____ or h____ disturbances, stress, severe illness or injury, and m____",
         "answer": "metabolic, hormonal, medications",
         "type": "text"
     },
     {
-        "question": "Cosmetic hair damage etiology is hair care practices, b___, p___, bleaching",
+        "question": "Cosmetic hair damage etiology is hair care practices, b____, p____, bleaching",
         "answer": "bleaching, permanents",
         "type": "text"
     },

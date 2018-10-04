@@ -1,6 +1,6 @@
 AdrenergicQuestions1 = [
     {
-        "question": "Drugs that affect receptors stimulated by ___ or ___ are adrenergic and may block neurotransmission (s____) and may interrupt release of norepinephrine from neuron",
+        "question": "Drugs that affect receptors stimulated by ____ or ____ are adrenergic and may block neurotransmission (s____) and may interrupt release of norepinephrine from neuron",
         "answer": "NE, E, sympatholytic",
         "type": "text"
     },
@@ -10,77 +10,77 @@ AdrenergicQuestions1 = [
         "type": "text"
     },
     {
-        "question": "a2 is largely p___ autoreceptor, feedback inhibition",
+        "question": "a2 is largely p____ autoreceptor, feedback inhibition",
         "answer": "presynaptic",
         "type": "text"
     },
     {
-        "question": "__ is primarily cardiac muscle",
+        "question": "____ is primarily cardiac muscle",
         "answer": "B1",
         "type": "text"
     },
     {
-        "question": "___ is found in bronchi and vascular smooth muscle",
+        "question": "____ is found in bronchi and vascular smooth muscle",
         "answer": "B2",
         "type": "text"
     },
     {
-        "question": "___ is metabolic responses to adipocytes",
+        "question": "____ is metabolic responses to adipocytes",
         "answer": "B3",
         "type": "text"
     },
     {
-        "question": "Adrenergic receptors belong to superfamily of _____",
+        "question": "Adrenergic receptors belong to superfamily of ____",
         "answer": "GPCR",
         "type": "text"
     },
     {
-        "question": "a1 agonist leads to v___, i___ peripheral resistance, i___ blood pressure, m___, and i____ closure of internal sphincter of bladder",
+        "question": "a1 agonist leads to v____, i____ peripheral resistance, i____ blood pressure, m____, and i____ closure of internal sphincter of bladder",
         "answer": "vasoconstriciton, increased, increased, mydriasis, increased",
         "type": "text"
     },
     {
-        "question": "a2 agonists leads to i___ of NE release, i__ of acetylcholine release, and i__ of insulin release",
+        "question": "a2 agonists leads to i____ of NE release, i____ of acetylcholine release, and i____ of insulin release",
         "answer": "inhibition, inhibition, inhibition",
         "type": "text"
     },
     {
-        "question": "B1 agonists lead to t___, i__ lipolysis, i__ myocardial contractility, and i__release of renin",
+        "question": "B1 agonists lead to t____, i____ lipolysis, i____ myocardial contractility, and i____release of renin",
         "answer": "tachycardia, increased, increased, increased",
         "type": "text"
     },
     {
-        "question": "B2 agonists lead to v___, d___ peripheral resistance, b___, i__ muscle and liver glycogenolysis, i__ release of glucagon, and r__ uterine smooth muscle",
+        "question": "B2 agonists lead to v____, d____ peripheral resistance, b____, i____ muscle and liver glycogenolysis, i____ release of glucagon, and r____ uterine smooth muscle",
         "answer": "vasodilation, decreased, bronchodilation, increased, increased, relaxed",
         "type": "text"
     },
     {
-        "question": "L-tyrosine is converted to L-dopa by t___ h___ which is the r___ l___ s___",
+        "question": "L-tyrosine is converted to L-dopa by t____ h____ which is the r____ l____ s____",
 		"answer": "tyrosine hydroxylase, rate limiting step",
         "type": "text"
     },
     {
-        "question": "L-tyrosine is converted to _-___ and then to ____ and then to ___",
+        "question": "L-tyrosine is converted to ____ and then to ____ and then to ____",
         "answer": "L-dopa, dopamine, norepinephrine",
         "type": "text"
     },
     {
-        "question": "Tyrosine hydroxylase is s___ and there is n__ hydroxylation of other related amino acids",
+        "question": "Tyrosine hydroxylase is s____ and there is n____ hydroxylation of other related amino acids",
         "answer": "specific, no",
         "type": "text"
     },
     {
-        "question": "tyrosin hydroxylase is inhibited by ___ NE",
+        "question": "tyrosin hydroxylase is inhibited by ____ NE",
         "answer": "high",
         "type": "text"
     },
     {
-        "question": "Dopamine B hydroxylase is found in __ synaptic storage vesicles",
+        "question": "Dopamine B hydroxylase is found in ____ synaptic storage vesicles",
         "answer": "NE",
         "type": "text"
     },
     {
-        "question": "Dopamine B hydroxylase cofactors are __ and a__ acid",
+        "question": "Dopamine B hydroxylase cofactors are ____ and a____ acid",
         "answer": "O2, ascorbic",
         "type": "text"
     },
@@ -90,7 +90,7 @@ AdrenergicQuestions1 = [
         "type": "text"
     },
     {
-        "question": "Phenethanolamine N-Methyltransferase is located in the a__ medulla and b___",
+        "question": "Phenethanolamine N-Methyltransferase is located in the a____ medulla and b____",
         "answer": "adrenal, brain",
         "type": "text"
     },
@@ -100,17 +100,17 @@ AdrenergicQuestions1 = [
         "type": "text"
     },
     {
-        "question": "Phenethanolamine N-Methyltransferase converts __ to ___",
+        "question": "Phenethanolamine N-Methyltransferase converts ____ to ____",
         "answer": "NE, E",
         "type": "text"
     },
     {
-        "question": "MAO is mainly found in the l__ and b___",
+        "question": "MAO is mainly found in the l____ and b____",
         "answer": "liver, brain",
         "type": "text"
     },
     {
-        "question": "MAO is n__-specific and deaminates t__ and c____ and requires __ as a cofactor",
+        "question": "MAO is n____-specific and deaminates t____ and c____ and requires ____ as a cofactor",
         "answer": "non, tyramine, catecholamines, O2",
         "type": "text"
     },
@@ -120,77 +120,77 @@ AdrenergicQuestions1 = [
         "type": "text"
     },
     {
-        "question": "MAO converts ____ to ___",
+        "question": "MAO converts ____ to ____",
         "answer": "amine, aldehyde",
         "type": "text"
     },
     {
-        "question": "COMT is found in l___ and k____ and requires ___ as a cofactor",
+        "question": "COMT is found in l____ and k____ and requires ____ as a cofactor",
 		"answer": "liver, kidneys, SAM",
         "type": "text"
     },
     {
-        "question": "COMT is responsible for regulating e___ levels (in the synaptic cleft)",
+        "question": "COMT is responsible for regulating e____ levels (in the synaptic cleft)",
         "answer": "extraneuronal",
         "type": "text"
     },
     {
-        "question": "Entacapone (Comtan) is available for ___ disease",
+        "question": "Entacapone (Comtan) is available for ____ disease",
         "answer": "Parkinson's",
         "type": "text"
     },
     {
-        "question": "COMT adds a ___ groupt to OH to turn it into ___",
+        "question": "COMT adds a ____ groupt to OH to turn it into ____",
         "answer": "CH3, OCH3",
         "type": "text"
     },
     {
-        "question": "Norepinephrine is oxidized by oxygen to q___",
+        "question": "Norepinephrine is oxidized by oxygen to q____",
         "answer": "quinone",
         "type": "text"
 	},
     {
-        "question": "l____ transmembrane residues are highly c_____",
+        "question": "l____ transmembrane residues are highly c____",
         "answer": "lipophilic, conserved",
         "type": "text"
     },
     {
-        "question": "Activation of all three B receptor subtypes result in activation of a____ c___ G_ which leads to increased conversion of ATP to cAMP leading to p___ of specific proteins",
+        "question": "Activation of all three B receptor subtypes result in activation of a____ c____ G____ which leads to increased conversion of ATP to cAMP leading to p____ of specific proteins",
         "answer": "adenylyl cyclase, s, phosphorylation",
         "type": "text"
     },
     {
-        "question": "a1 adrenoceptor agonism activates G_ coupling protein which activates p___ C and produces ___ and ___ as second messengers. IP3 releases calcium and enzymes p___ their substrates = smooth muscle c___",
+        "question": "a1 adrenoceptor agonism activates G____ coupling protein which activates p____ C and produces ____ and ____ as second messengers. IP3 releases calcium and enzymes p____ their substrates = smooth muscle c____",
         "answer": "q, phospholipase, IP3, DAG, phosphorylate, contraction",
         "type": "text"
     },
     {
-        "question": "a2 adrenoceptor activates G_ leading to i___ of adenylyl cylcase instead of activation, resulting in inhibition of ___",
+        "question": "a2 adrenoceptor activates G____ leading to i____ of adenylyl cylcase instead of activation, resulting in inhibition of ____",
         "answer": "i, inhibition, NE",
         "type": "text"
     },
     {
-        "question": "a1 receptors agonism result in v___, r___ of gastrointestinal smooth muscle, s__ secretion",
+        "question": "a1 receptors agonism result in v____, r____ of gastrointestinal smooth muscle, s____ secretion",
         "answer": "vasoconstriction, relaxation, salivary",
         "type": "text"
     },
     {
-        "question": "a2 receptor agonism result in i___ of NE and Ach release from autonomic nerves and p___ aggregation",
+        "question": "a2 receptor agonism result in i____ of NE and Ach release from autonomic nerves and p____ aggregation",
         "answer": "inhibition, platelet",
         "type": "text"
     },
     {
-        "question": "B1 receptor agonism result in i__ cardiac rate and force, and r__ of GI smooth muscle",
+        "question": "B1 receptor agonism result in i____ cardiac rate and force, and r____ of GI smooth muscle",
         "answer": "increased, relaxation",
         "type": "text"
     },
     {
-        "question": "B2 receptor agonism result in b__, v___ and r__ of visceral SM",
+        "question": "B2 receptor agonism result in b____, v____ and r____ of visceral SM",
         "answer": "bronchodilation, vasodilation, relaxation",
         "type": "text"
     },
     {
-        "question": "B3 receptor agonism result in a___",
+        "question": "B3 receptor agonism result in a____",
         "answer": "adipolysis",
         "type": "text"
     },
@@ -200,62 +200,62 @@ AdrenergicQuestions1 = [
         "type": "text"
     },
     {
-        "question": "Indirect acting adrenergic agonists cause release of ___ like amphetamines and cocaine in the CNS",
+        "question": "Indirect acting adrenergic agonists cause release of ____ like amphetamines and cocaine in the CNS",
 		"answer": "NE",
         "type": "text"
     },
     {
-        "question": "NE and E have limited clinical significance due to n___ actions and no oral bioavailability (intravenous)",
+        "question": "NE and E have limited clinical significance due to n____ actions and no oral bioavailability (intravenous)",
         "answer": "nonselective",
         "type": "text"
     },
     {
-        "question": "E is used more clinically than NE in t__, trauma based h___, a__ reaction",
+        "question": "E is used more clinically than NE in t____, trauma based h____, a____ reaction",
         "answer": "trauma, hypotension, allergic",
         "type": "text"
     },
     {
-        "question": "Phenethanolamines (Phenylephrine) are used as d___, and h___ and is NOT a substrate for ___",
+        "question": "Phenethanolamines (Phenylephrine) are used as d____, and h____ and is NOT a substrate for ____",
         "answer": "decongestant, hypotension, COMT",
         "type": "text"
     },
     {
-        "question": "2-Arylimidazoline is a v___and is used as d___ and e__ drops",
+        "question": "2-Arylimidazoline is a v____and is used as d____ and e____ drops",
         "answer": "vasoconstrictor, decongestant, eye",
         "type": "text"
     },
     {
-        "question": "A___ (Iopidine) and b___ (Alphagan) is used in treatment of g___ and b__ is first line treatment for glaucoma",
+        "question": "A____ (Iopidine) and b____ (Alphagan) is used in treatment of g____ and b____ is first line treatment for glaucoma",
         "answer": "Apraclonidine, brimonidine, glaucoma, brimonidine",
         "type": "text"
     },
     {
-        "question": "Tizanidine (Zanaflex) is used as a m__ relaxant and is a __ receptor and is used mostly in cerebral or spinal cord injury patient to reduce spastic motions",
+        "question": "Tizanidine (Zanaflex) is used as a m____ relaxant and is a ____ receptor and is used mostly in cerebral or spinal cord injury patient to reduce spastic motions",
         "answer": "muscle, a2",
         "type": "text"
     },
     {
-        "question": "Guanfacine (Tenex) and Guanabenz (Wytensin) is used as an a___ and A___",
+        "question": "Guanfacine (Tenex) and Guanabenz (Wytensin) is used as an a____ and A____",
         "answer": "antihypertensive, ADHD",
         "type": "text"
     },
     {
-        "question": "Methyldopa (Adomet) is CNS C___ acting, used for h___, and s____",
+        "question": "Methyldopa (Adomet) is CNS C____ acting, used for h____, and s____",
         "answer": "centrally, hypertension, sympatholytic",
         "type": "text"
     },
     {
-        "question": "Dopamine (B1) is used as post surgial c__ stimulant",
+        "question": "Dopamine (B1) is used as post surgial c____ stimulant",
         "answer": "cardiac",
         "type": "text"
     },
     {
-        "question": "Main effect of B2 adrenergics is b___ and is used in a__ and chronic p__ diseases",
+        "question": "Main effect of B2 adrenergics is b____ and is used in a____ and chronic p____ diseases",
         "answer": "bronchodilation, asthma, pulmonary",
         "type": "text"
     },
     {
-        "question": "SAR of B2 phenylethanolamine adrenergics must have 1 or 2 amines that are b___",
+        "question": "SAR of B2 phenylethanolamine adrenergics must have 1 or 2 amines that are b____",
         "answer": "basic",
         "type": "text"
     }

@@ -1,6 +1,6 @@
 LabValuesQuestions = [
     {
-        "question": "The normal range of albumin is ____-_____ g/dL",
+        "question": "The normal range of albumin is ____-____ g/dL",
         "answer": "3.5-5",
         "type": "text"
     },
@@ -10,12 +10,12 @@ LabValuesQuestions = [
         "type": "text"
     },
     {
-        "question": "Albumin maintains plasma o____ pressure, binds and transports h___, d___, f___ acids, i___",
+        "question": "Albumin maintains plasma o____ pressure, binds and transports h____, d____, f____ acids, i____",
         "answer": "osmotic, hormones, drugs, fatty, ions",
         "type": "text"
     },
     {
-        "question": "Albumin has a serum half life of ___ days",
+        "question": "Albumin has a serum half life of ____ days",
         "answer": "20",
         "type": "text"
     },
@@ -31,32 +31,32 @@ LabValuesQuestions = [
         "type": "text"
     },
     {
-        "question": "Prealbumin is used to determine n___ status",
+        "question": "Prealbumin is used to determine n____ status",
         "answer": "nutritional",
         "type": "text"
     },
     {
-        "question": "Prealbumin has a shorter half life span of ___ days compared to albumin which has a half life of ___ days, s___ body pool, more s___ to protein nutrition, less affected by l__ disease, not involved in o___ ",
+        "question": "Prealbumin has a shorter half life span of ____ days compared to albumin which has a half life of ____ days, s____ body pool, more s____ to protein nutrition, less affected by l____ disease, not involved in o____ ",
         "answer": "2, 20, smaller, sensitive, liver, osmoregulation",
         "type": "text"
     },
     {
-        "question": "total protein is a___ + g___",
+        "question": "total protein is a____ + g____",
         "answer": "albumin, globulin",
         "type": "text"
     },
     {
-        "question": "globulin is made o___ the liver",
+        "question": "globulin is made o____ the liver",
         "answer": "outside",
         "type": "text"
     },
     {
-        "question": "The liver synthesizes six coagulation factors _, _, _, _, _, _",
+        "question": "The liver synthesizes six coagulation factors ____, ____, ____, ____, ____, ____",
         "answer": "I, II, V, VII, IX, X",
         "type": "text"
     },
     {
-        "question": "Vitamin K is a c____ for activation of clotting factors _, _, _, _",
+        "question": "Vitamin K is a c____ for activation of clotting factors ____, ____, ____, ____",
 		"answer": "cofactor, II, VII, IX, X",
         "type": "text"
     },
@@ -67,17 +67,17 @@ LabValuesQuestions = [
         "type": "multiple"
     },
     {
-        "question": "Prothrombin time has been replaced by i_____ n____ r___",
+        "question": "Prothrombin time has been replaced by i____ n____ r____",
         "answer": "international, normalized ratio",
         "type": "text"
     },
     {
-        "question": "the INR attempts to standardize test used to monitor w____ therapy and measures how long it takes blood to form a c__",
+        "question": "the INR attempts to standardize test used to monitor w____ therapy and measures how long it takes blood to form a c____",
         "answer": "warfarin, clot",
         "type": "text"
     },
     {
-        "question": "to standardize thromboplastin, the manufacturer inclcudes the i___ s___ i___",
+        "question": "to standardize thromboplastin, the manufacturer inclcudes the i____ s____ i____",
         "answer": "international sensitivity index",
         "type": "text"
     },
@@ -87,37 +87,37 @@ LabValuesQuestions = [
         "type": "text"
     },
     {
-        "question": "Aminotransferase is released into the serum where there is c__ damage",
+        "question": "Aminotransferase is released into the serum where there is c____ damage",
         "answer": "cell",
         "type": "text"
     },
     {
-        "question": "AST and ALT are located in h___, c___ muscle, k___, b____",
+        "question": "AST and ALT are located in h____, c____ muscle, k____, b____",
         "answer": "hepatocytes, cardiac muscle, kidneys, brain",
         "type": "text"
     },
     {
-        "question": "AST/ALT ratio is useful in diagnosing a___ liver disease where AST is __X ALT",
+        "question": "AST/ALT ratio is useful in diagnosing a____ liver disease where AST is ____X ALT",
         "answer": "alcohol, 2",
         "type": "text"
     },
     {
-        "question": "Lactate dehydrogenase is found in h__, l___ s___ muscle, b__, l___, k___, R__",
+        "question": "Lactate dehydrogenase is found in h____, l____ s____ muscle, b____, l____, k____, R____",
         "answer": "heart, liver, skeletal, brain, lung, kidneys, RBC",
         "type": "text"
     },
     {
-        "question": "Lactate dehydrogenase is elevated in M_, m__, b__, m___, a___",
+        "question": "Lactate dehydrogenase is elevated in M____, m____, b____, m____, a____",
         "answer": "MI, myocarditis, burns, malignancy, anemias",
         "type": "text"
     },
     {
-        "question": "Cholestasis is f___ to move bile from liver to d____",
+        "question": "Cholestasis is f____ to move bile from liver to d____",
         "answer": "failure, duodenum",
         "type": "text"
     },
     {
-        "question": "Alkaline phosphatase (ALP) ___X normal suggest a cholestatic disorder",
+        "question": "Alkaline phosphatase (ALP) ____X normal suggest a cholestatic disorder",
         "answer": "4",
         "type": "text"
     },
@@ -128,102 +128,102 @@ LabValuesQuestions = [
         "type": "multiple"
     },
     {
-        "question": "5' nucleotidase is e___ in h___ tissue",
+        "question": "5' nucleotidase is e____ in h____ tissue",
 		"answer": "elevated, hepatic",
         "type": "text"
     },
     {
-        "question": "E__ ALP with n___ GGTP or GGT points to a n___ etiology ",
+        "question": "E____ ALP with n____ GGTP or GGT points to a n____ etiology ",
         "answer": "elevated, normal, nonhepatic",
         "type": "text"
     },
     {
-        "question": "GGT/ALP > ___ is highly indicative of a___ abuse",
+        "question": "GGT/ALP > ____ is highly indicative of a____ abuse",
         "answer": "2.5, alcohol",
         "type": "text"
     },
     {
-        "question": "Bilirubin is the b___ of h___",
+        "question": "Bilirubin is the b____ of h____",
         "answer": "breakdown, hemoglobin",
         "type": "text"
     },
     {
-        "question": "U___ bilirubin is water i___, and c___ bilirubin is water s___",
+        "question": "U____ bilirubin is water i____, and c____ bilirubin is water s____",
         "answer": "unconjugated, insoluble, conjugated, soluble",
         "type": "text"
 	},
     {
-        "question": "Unconjugated bilirubin is known as i___ bilirubin and is bound to a___, when elevated leads to h____ disease",
+        "question": "Unconjugated bilirubin is known as i____ bilirubin and is bound to a____, when elevated leads to h____ disease",
         "answer": "indirect, albumin, hepatocellular",
         "type": "text"
     },
     {
-        "question": "Conjugated bilirubin is known as d___ bilirubin and is r___ in feces, and removed by kidneys when elevated and leads to d___ urine color",
+        "question": "Conjugated bilirubin is known as d____ bilirubin and is r____ in feces, and removed by kidneys when elevated and leads to d____ urine color",
         "answer": "direct, removed, dark",
         "type": "text"
     },
     {
-        "question": "The range for total bilirubin is __-__ mg/dL",
+        "question": "The range for total bilirubin is ____-____ mg/dL",
         "answer": "0.3-1",
         "type": "text"
     },
     {
-        "question": "ONLY t__ and d___ bilirubin can be measured",
+        "question": "ONLY t____ and d____ bilirubin can be measured",
         "answer": "total, indirect",
         "type": "text"
     },
     {
-        "question": "Bilirubin is increased in h___ disease, h___ (jaundice), obstruction to bile flow c___",
+        "question": "Bilirubin is increased in h____ disease, h____ (jaundice), obstruction to bile flow c____",
         "answer": "hepatocellular, hyperbilirubinemia, cholelithiasis",
         "type": "text"
     },
     {
-        "question": "Ammonia is made in the l___ intestine",
+        "question": "Ammonia is made in the l____ intestine",
         "answer": "large",
         "type": "text"
     },
     {
-        "question": "Accumulation of ammonia leads to altered mental status called h___ e___",
+        "question": "Accumulation of ammonia leads to altered mental status called h____ e____",
         "answer": "hepatic encephalopathy",
         "type": "text"
     },
     {
-        "question": "To determine the type of ACS, you should look at c__ presentation of the patient, e____, c__ markers",
+        "question": "To determine the type of ACS, you should look at c____ presentation of the patient, e____, c____ markers",
         "answer": "clinical, electrocardiography, cardiac",
         "type": "text"
     },
     {
-        "question": "The three cardiac markers are Tn__, Tn___, Tn___",
+        "question": "The three cardiac markers are Tn____, Tn____, Tn____",
         "answer": "T, I, C",
         "type": "text"
     },
     {
-        "question": "Tn_ is presen in both c__ and s___ muscle",
+        "question": "Tn____ is presen in both c____ and s____ muscle",
         "answer": "cardiac, skeletal",
         "type": "text"
     },
     {
-        "question": "The normal range of troponin cardiac marker is ___-___ng/mL",
+        "question": "The normal range of troponin cardiac marker is ____-____ng/mL",
 		"answer": "0-0.5",
         "type": "text"
     },
     {
-        "question": "Echocardiography uses s___ waves to create a m___ image of the heart",
+        "question": "Echocardiography uses s____ waves to create a m____ image of the heart",
         "answer": "sound, moving",
         "type": "text"
     },
     {
-        "question": "The normal range of TSH is ___-___ mU/L",
+        "question": "The normal range of TSH is ____-____ mU/L",
         "answer": "0.5-5",
         "type": "text"
     },
     {
-        "question": "T4 is called t___ and T3 is called t___",
+        "question": "T4 is called t____ and T3 is called t____",
         "answer": "thyroxine, triiodothyronine",
         "type": "text"
     },
     {
-        "question": "T4 and T3 circulate in human serum in two forms b___ and u____",
+        "question": "T4 and T3 circulate in human serum in two forms b____ and u____",
         "answer": "bound, unbound",
         "type": "text"
     },
@@ -233,32 +233,32 @@ LabValuesQuestions = [
         "type": "text"
     },
     {
-        "question": "The normal value of potassium is ___-___ mEq/L",
+        "question": "The normal value of potassium is ____-____ mEq/L",
         "answer": "3.5-5",
         "type": "text"
     },
     {
-        "question": "The normal value for chloride is ___-____ mEq/L",
+        "question": "The normal value for chloride is ____-____ mEq/L",
         "answer": "96-106",
         "type": "text"
     },
     {
-        "question": "The normal value for bicarbonate is __-___mEq/L",
+        "question": "The normal value for bicarbonate is ____-____mEq/L",
         "answer": "23-28",
         "type": "text"
     },
     {
-        "question": "The normal value for BUN is ____-_____mg/dL",
+        "question": "The normal value for BUN is ____-____mg/dL",
         "answer": "10-20",
         "type": "text"
     },
     {
-        "question": "The normal value for SCr is ___-___mg/dL",
+        "question": "The normal value for SCr is ____-____mg/dL",
         "answer": "0.6-1.2",
         "type": "text"
     },
     {
-        "question": "The normal value for glucose is ___-___mg/dL",
+        "question": "The normal value for glucose is ____-____mg/dL",
         "answer": "70-110",
         "type": "text"
     },
@@ -268,7 +268,7 @@ LabValuesQuestions = [
         "type": "text"
     },
     {
-        "question": "TEE is used to detect v___ v____ in endocarditis and to detect a___ thrombi",
+        "question": "TEE is used to detect v____ v____ in endocarditis and to detect a____ thrombi",
         "answer": "valve vegetation, atrial",
         "type": "text"
     }

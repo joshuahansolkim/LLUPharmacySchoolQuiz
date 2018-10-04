@@ -1,31 +1,31 @@
 hyperpigmentationQuestions = [
     {
-        "question": "The three types of hyperpigmentation that can be treated are e___, s___ l___, m____ ",
+        "question": "The three types of hyperpigmentation that can be treated are e____, s____ l____, m____ ",
         "answer": "ephelides, solar lentigines, melasma",
         "type": "text"
     },
     {
-        "question": "Etiology of hyperpigmentation are e_____ imbalances, m____ alternations, i_____ dermatoses, p_____ trauma to skin, d___ induced",
+        "question": "Etiology of hyperpigmentation are e____ imbalances, m____ alternations, i____ dermatoses, p____ trauma to skin, d____ induced",
         "answer": "endocrine, metabolic, inflammatory, physical, drug",
         "type": "text"
     },
     {
-        "question": "Endocrine imbalances are caused by a____disease, c____ disease, hypo/hyper_____, p_____, ____ resistance",
+        "question": "Endocrine imbalances are caused by a____disease, c____ disease, hypo/hyper____, p____, ____ resistance",
         "answer": "Addison's, Cushing's, thyroidism, pregnancy, insulin",
         "type": "text"
     },
     {
-        "question": "Drug induced hyperpigmentation include: amiodarone, antimalarial agents, antineoplastic agents, ___ metals, _____ replacement therapy, minocycline, ___ contraceptives, phenothiazines, ____ antidepressants, zidovudine",
+        "question": "Drug induced hyperpigmentation include: amiodarone, antimalarial agents, antineoplastic agents, ____ metals, ____ replacement therapy, minocycline, ____ contraceptives, phenothiazines, ____ antidepressants, zidovudine",
         "answer": "heavy, hormone, oral, tricylic",
         "type": "text"
     },
     {
-        "question": "Hydroquinone is pregnancy category __",
+        "question": "Hydroquinone is pregnancy category ____",
         "answer": "C",
         "type": "text"
     },
     {
-        "question": "Hydroquinone is not suitable for children < ___ years old",
+        "question": "Hydroquinone is not suitable for children < ____ years old",
         "answer": "12",
         "type": "text"
     },
@@ -35,12 +35,12 @@ hyperpigmentationQuestions = [
         "type": "text"
     },
     {
-        "question": "Hydroquinone noticeable hypopigmentation occurs after ____ to ___ weeks",
+        "question": "Hydroquinone noticeable hypopigmentation occurs after ____ to ____ weeks",
         "answer": "3, 4",
         "type": "text"
     },
     {
-        "question": "Hyperpigmentation is excluded for people under ___ years old",
+        "question": "Hyperpigmentation is excluded for people under ____ years old",
         "answer": "12",
         "type": "text"
     },
@@ -50,7 +50,7 @@ hyperpigmentationQuestions = [
         "type": "text"
     },
     {
-        "question": "Etiology of photoaging includes i____factors, e_____ factors, ___ radiation exposure",
+        "question": "Etiology of photoaging includes i____factors, e____ factors, ____ radiation exposure",
         "answer": "intrinsic, extrinsic, UV",
         "type": "text"
     },
@@ -60,12 +60,12 @@ hyperpigmentationQuestions = [
         "type": "text"
     },
     {
-        "question": "Adverse effects of photoaging are s___, b___, p____, s___, d____",
+        "question": "Adverse effects of photoaging are s____, b____, p____, s____, d____",
         "answer": "stinging, burning, pruritus, skin lightening, dryness",
         "type": "text"
     },
     {
-        "question": "Alternative therapy to photoaging is ____/retinaldehyde, ascorbic acid, _____",
+        "question": "Alternative therapy to photoaging is ____/retinaldehyde, ascorbic acid, ____",
         "answer": "retinol, idebenone",
         "type": "text"
     },
@@ -75,22 +75,22 @@ hyperpigmentationQuestions = [
         "type": "text"
     },
     {
-        "question": "Hydroquinone reduces the conversion of t___ to d___",
+        "question": "Hydroquinone reduces the conversion of t____ to d____",
         "answer": "tyrosine, dopa",
         "type": "text"
     },
     {
-        "question": "Alternative agents to hydroquinone include synthetic o_____0.1%, K___ acid, r____, t___ acid, m____ acid, N____",
+        "question": "Alternative agents to hydroquinone include synthetic o____0.1%, K____ acid, r____, t____ acid, m____ acid, N____",
         "answer": "oligopeptide, kojic, rucinol, tranexamic, mandelic, niacinamide",
         "type": "text"
     },
     {
-        "question": "Pharmacologic therapy for photoaging include vitamin __, ____, ___, ___, N_____ (kinerase), ___ (lactic and glycolic) and ____ ( salicyclic) hydroxy acids",
+        "question": "Pharmacologic therapy for photoaging include vitamin ____, ____, ____, ____, N____ (kinerase), ____ (lactic and glycolic) and ____ ( salicyclic) hydroxy acids",
         "answer": "A, B3, C, E, N-furfuryladenine, alpha, beta",
         "type": "text"
     },
     {
-        "question": "photoaging agents should be used ___ days for ___ week, then increase to every other day for __ week, up to t___ daily",
+        "question": "photoaging agents should be used ____ days for ____ week, then increase to every other day for ____ week, up to t____ daily",
         "answer": "3, 1, 1, twice",
         "type": "text"
     }
