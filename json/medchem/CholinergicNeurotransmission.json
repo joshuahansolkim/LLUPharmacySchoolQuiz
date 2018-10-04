@@ -2,37 +2,37 @@ CholinergicNeurotransmissionQuestions = [
     {
         "question": "Acetylcholinesterase (AChE) is associated with the outer surface of ____ cells in the synapse",
         "answer": "glial",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ of AChE ____ synaptic concentration of ACh",
         "answer": "inhibition, increase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Butyrylcholinesterase (BuChE, pseudocholinesterase) is located in ____ plasma and ____ dietary esters and drug molecules in the blood and can ____ Ach if present",
         "answer": "human, hydrolyzes, hydrolyze",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AChE enzymes ____ the ester bond of acetylcholine and form a temporary ____ bond with serine and histidine in the active site",
         "answer": "hydrolyze, covalent",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Reversible AChE bind with greater affinity than ACh and the acyl moiety bound to serine ____ more slowly and the enzyme regenerates more slowly",
         "answer": "hydrolyzes",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In irreversible (insecticides, nerve agents) the acyl moiety bound to serine does ____ hydrolyzeee spontaneously and second step produces the irreversibility",
         "answer": "not",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Muscarinic antagonists ____ net muscarinic activity by ____ acetylcholine",
         "answer": "decrease, blocking",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which one is not a use for muscarinic antagonists",
@@ -49,41 +49,41 @@ CholinergicNeurotransmissionQuestions = [
     {
         "question": "Atropine has a moiety that resembles ____",
         "answer": "acetylcholine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "anticholinergics are most potent when substituent is a ____ ammonium salt",
         "answer": "quarternary",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Atropine can cross the ____ and is ____ selective for muscarinic receptor",
 		"answer": "BBB, non",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ipratropium bromide (Atrovent) is a synthetic, ____ derivative of atropine and does not cross the ____ and is used to treat ____ and ____",
         "answer": "quarternary, BBB, asthma, COPD",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Trihexyphenidyl hydrochloride (Artane) is a ____ amine muscarinic receptor antagonist that is used in the treatment of ____ disease and other muscle conditions and ____ blocks M1 but may also affect ____",
         "answer": "tertiary, Parkinson's, centrally, dopamine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Benztropine mesylate (Cogentin) is used in early ____ disease and adverse effects are sedation, mental confusion in the elderly",
         "answer": "Parkinson's",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nicotinic antagonists are used as neuromuscular blocking agents which are ____",
         "answer": "relaxants",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nicotinic antagonists such as Clostridium Botulinum prevent ____ release from the nerve terminal",
         "answer": "ACh",
-        "type": "text"
+        "type": "fill"
     }
 ]

@@ -1,13 +1,16 @@
 function checkAnswer() {
     console.log('checkAnswer');
+    // Determine correct answer using logic specific to question type
     switch (questions[arrayIndex].type) {
         case 'text':
+            // A single answer
         case 'fill':
+            // Fill in the blanks
             var values = [];
             $('.answerInput').each(function(i, item) {
                 values.push(item.value);
             });
-            var answerString = questions[arrayIndex].answer.toString().trim().toLowerCase().replace(/\s/g,'');
+            var answerString = questions[arrayIndex].answer.toString().trim().toLowerCase().replace(/,\s/g,',');
             
             if (answerString == values.toString().toLowerCase()) {
                 totalCorrect++;
@@ -21,7 +24,9 @@ function checkAnswer() {
 	        questions[arrayIndex].input = values.toString();
 	        break;
         case 'list':
+            // A list of answers (order doesn't matter)
         case 'image':
+            // An image with the possibility of a list of answers (order doesn't matter)
             var inputArray = $('.answerInput').val().split(',').map(item => item.trim());
             var answerArray = questions[arrayIndex].answer.split(',').map(item => item.trim());
             var answerArrayCount = answerArray.length;
@@ -54,6 +59,7 @@ function checkAnswer() {
             questions[arrayIndex].input = $('.answerInput').val();
             break;
         case 'multiple':
+            // Multiple choice
             if (questions[arrayIndex].answer.trim() == $('input[name=answerSelector]:checked').val()){
                 totalCorrect++;
                 questions[arrayIndex].correct = '1';
@@ -66,6 +72,7 @@ function checkAnswer() {
             questions[arrayIndex].input = $('input[name=answerSelector]:checked').val();
             break;
         case 'either':
+            // I don't know what this is for
             var answerArray = questions[arrayIndex].answer.split(',');
             if(answerArray.indexOf($('.answerInput').val().toLowerCase()) > -1){
                 correctAnswers++;
@@ -79,11 +86,13 @@ function checkAnswer() {
             questions[arrayIndex].input = $('.answerInput').val();
             break;
     }
-
+    
+    // Update scoring
 	$('#correctAnswerLabel').text('Correct Answer to Previous Question:');
     $('#correctAnswer').val(questions[arrayIndex].answer);
     $('#correctCount').text(totalCorrect + '/' + totalQuestions);
 
+    // Get next question
     if (totalCorrect == totalQuestions) {
         getFirstQuestion();
     } else {
@@ -93,31 +102,31 @@ function checkAnswer() {
 
 function getNewQuestion(questionNumber) {
     console.log('getNewQuestion');
-    // TODO: Figure out why this is failing when the app loads. Seems to not like when arrayIndex = 0?
-    // TODO: Do I still need this block? I don't remember what it's for.
-    /*
-    if(questionNumber > 0){
-        if($('#question'+questionNumber).attr('class').includes('answerCorrect')){
-            questionNumber++;
-            getNewQuestion(questionNumber);
-        }
-    }
-    */
+    // Update pagination
     $('.page-link').parent().removeClass('active');
     $('#question' + questionNumber).parent().addClass('active');
+    
+    // Get question and determine how to present the question by type
     var question = questions[questionNumber];
-
-    //TODO: Change boxes to be inline
     switch (question.type) {
-        case 'text':
         case 'list':
+            // Lists of answers
+            /* TODO: Update - This should be similar to text, no inline spaces, but the check answer logic is different because the order doesn't matter */
+            
+        case 'text':
+            // A single answer
+            var questionString = question.question;
+		    $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + questionString + '</h2></div><div class="row form-group"><h3><label for="answerInput">Answer: &nbsp; </label></h3></br><input class="userInput form-control answerInput" type="text" name="answer"></div></div>');
+            break;
         case 'fill':
+            // Fill in the blanks
             var questionString = question.question.replace(/____/g,'<input class="userInput form-control answerInput" type="text" name="answer" autofocus>');
             $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + questionNumber + 1 + ': ' + questionString + '</h2></div><div class="row form-group"><label class="sr-only" for="answerInput">Answer</label></div>');
             $('#question').html(questionNumber + 1 + ': ' + questionString);
             $('.answerInput').first().focus();
             break;
         case 'multiple':
+            // Multiple choice
             $('#questionRow').html('<div class="col"><div class="row"><h2 id="question"></h2></div><div class="row form-group form-check"><label for="answerInput" class="answers">Answers</label></div></div>');
             $('#question').text(questionNumber + 1 + ': ' + question.question.trim());
             
@@ -129,9 +138,14 @@ function getNewQuestion(questionNumber) {
             }
             break;
 	    case 'image':
+            // An image with a single answer box
 		    $('#questionRow').html('<div class="col"><div class="row"><img id="question" src=""></div><div class="row form-group"><label for="answerInput">Answer</label></br><input class="userInput form-control answerInput" type="text" name="answer"></div></div>');
 		    $('#question').attr('src', 'images/' + question.question);
 		    break;
+        case 'choose':
+            // Choose all that apply
+            /* TODO: Update - This will feature checkboxes instead of radio buttons and allow the user to select multiple answers */
+            break;
     }
     if('input' in questions[questionNumber]){
         $('#correctAnswerLabel').text('Previously Entered Answer:');

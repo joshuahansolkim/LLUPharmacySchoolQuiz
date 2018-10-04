@@ -7,7 +7,7 @@ minorFootQuestions = [
     {
         "question": "A corn's differentiating factor from a wart, is that it has a small, raised, sharply demarcated, hyperkeratotic lesion with a ____",
         "answer": "central core",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are the two types of corns",
@@ -32,32 +32,32 @@ minorFootQuestions = [
     {
         "question": "Diffuse shearing calluses have no associated ____",
         "answer": "pain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Discrete nucleated calluses have ____ with applied pressure ",
         "answer": "pain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Corns occur on ____bearing areas, have concentrated lesion with a central ____ and are ____ demarcated",
         "answer": "weight, core, sharply",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Calluses occur on ____ bearing areas, have diffuse ____ of the skin, and no definite ____",
         "answer": "weight, thickening, border",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Collodion like vehicle salicylic acid 12-17.6% can be used ____times  a day for up to ____ days",
         "answer": "2, 14",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Salicylic acid 12-40% plaster/pads  can be repeated every ____ hours for up to ____ days",
         "answer": "48, 14",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Bunions have a fluid filled sac called ",
@@ -107,7 +107,7 @@ minorFootQuestions = [
     {
         "question": "Ingrown toenails are caused by ____, trauma, obesity, excessive pressure",
         "answer": "hyperhidrosis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacologic therapies for ingrown toenails is",
@@ -117,7 +117,7 @@ minorFootQuestions = [
     {
         "question": "Primary focal hyperhidrosis is visible excessive sweating lasting ____ months without a cause",
         "answer": "6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Secondary hyperhidrosis is caused by medical conditions such as ",
@@ -127,7 +127,7 @@ minorFootQuestions = [
     {
         "question": "A medical referral is required for ____ hyperhidrosis",
         "answer": "secondary",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "1st line therapy for hyperhidrosis is",
@@ -142,7 +142,7 @@ minorFootQuestions = [
     {
         "question": "Botox injection is ____ line therapy for hyperhidrosis",
         "answer": "3rd",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the prescription strength for Hexahydrate",
@@ -182,6 +182,6 @@ minorFootQuestions = [
     {
         "question": "Certain Dri can be reapplied every ____ hours",
         "answer": "24-48",
-        "type": "text"
+        "type": "fill"
     }
 ]

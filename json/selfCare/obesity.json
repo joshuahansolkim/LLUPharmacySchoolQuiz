@@ -7,57 +7,57 @@ obesityQuestions = [
     {
         "question": "The high risk waist circumference for men is ____ inches or ____ cm",
         "answer": "40, 102",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The high risk waist circumference for women is ____ inches or ____ cm",
         "answer": "35, 88",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metabolic syndrome involves waist circumference greater than ____ inches in men or ____inches in women",
         "answer": "40, 35",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metabolic syndrome involves serum triglycerides of ____mg/dL or greater",
         "answer": "150",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metabolic syndrome involves high density lipoprotein cholesterol less than ____ mg/dL in men or less than ____ mg/dL in women",
         "answer": "40, 50",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metabolic syndrome involves blood pressure level of ____ mmHg or higher",
         "answer": "130/85",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metabolic syndrome involves serum glucose of ____ mg/dL or greater",
         "answer": "100",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Obesity etiologies include g____, m____, e____, m____ ____",
         "answer": "genetic, metabolic, environmental, medication induced",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Environmental obesity etiologies include: ____ and lifestyle, ____ inactivity",
         "answer": "diet, physical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Medication induced obesity etiologies include: ____, DM medications such as ____, ____, ____, highly active ____ therapy, ____ hormones",
         "answer": "psychotropics, insulin, sulfonylurea, thiazolidinediones, antiretroviral, steroid",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are the consequences of obesity: ____disease, hypertension, ____, DM, ____stroke, cancer, ____apnea, osteoarthritis",
         "answer": "cardiovascular, dyslipidemia, sleep",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are the correct self exclusions: a. Severe obesity (BMI>40, b. pregnancy or breast feeding, c. <18 years of age or >65 years of age, d. cardiovascular disease, dyslipidemia, DM, or HTN, e. eating disorders",
@@ -68,122 +68,122 @@ obesityQuestions = [
     {
         "question": "Weight needs to be lost when BMI > ____, or BMI > ____ with ____ risk factors, high risk waist circumference with > ____ risk factors, men > ____ inches, women > ____ inches",
         "answer": "30, 27, 2, 2, 40, 35",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ modification is the most commonly used and most important for weight loss",
         "answer": "dietary",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AHA/ACC/TOS recommends reduce food calorie intake ____ - ____ kcal/d for women and ____ - ____kcal/d for men",
         "answer": "1200, 1500, 1500, 1800",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AHA/ACC/TOS recommends losing ____ to ____ pounds/week based on a calorie deficit of ____ to ____ kcal/day",
         "answer": "1, 2, 500, 750",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The initial goal of dietary modification is to reduce body weight by ____ to ____ from baselie over ____ months",
         "answer": "5, 10, 6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Physical activity is especially important for weight loss ____",
         "answer": "maintenance",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adults are recommended ____ minutes of moderate aerobic activity or ____ minutes of vigorous physical activity per week equalling ____ minutes ____ times/week",
         "answer": "150, 75, 30, 5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "To meet weight control goals ____ minutes of moderate intensity aerobic activity is recommended",
         "answer": "300",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Children/adolescents are recommended > ____ minutes of moderate or vigorous aerobic activity a day, including vigorous activity at least ____ days/week",
         "answer": "60, 3",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ therapy is most important for weight loss",
         "answer": "dietary",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are practical behavior tips for patients for weight loss, focus on ____ change at a time, ____ control is key, ____ method",
         "answer": "one, portion, plate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In the plate method, fill ____ the plate with ____ ",
         "answer": "half, vegetables",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In the plate method, fill a ____ of the plate with ____ foods",
         "answer": "quarter, starchy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In the plate method, fill a ____ of the plate with ____",
         "answer": "quarter, meat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "If the patient does not lose ____ kg in the first ____ weeks of initiating medication, there is a ____ likelihood of response",
         "answer": "2, 4, low",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat is indicated for patients with BMI ____ or higher",
         "answer": "25",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat is approved for ages ____ and older for long term use of ____ months",
         "answer": "18, 12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat MOA is that it inhibits absorption of dietary fats by inhibiting the ____ of ____",
         "answer": "hydrolysis of triglycerides",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat is metbolized in ____ wall, ____ to ____ is excreted via ____",
         "answer": "intestinal, 95, 97, feces",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat OTC dose is ____mg ____ times a day",
         "answer": "60, 3",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat is pregnancy category ____",
         "answer": "X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Most patients in clinical trials lost ____ to ____ pounds over ____ months",
         "answer": "5, 10, 6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of Orlistat include: ____, loose ____, ____ stools, ____urgency, fecal ____",
         "answer": "flatulence, stools, fatty, fecal, incontinence",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat decreases absorption of ____ soluble vitamins ____, ____, ____, ____",
         "answer": "fat, D, A, K, E",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Orlistat should be avoided in patients taking ____, ____, and ____",
@@ -193,52 +193,52 @@ obesityQuestions = [
     {
         "question": "Orlistat may increase effects of ____",
         "answer": "warfarin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Prescription medications are reserved for patients with BMI > ____ or higher, BMI > ____ or higher with concomitant disease or risk factors",
         "answer": "30, 27",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine is approved for short term use of ____ to ____ weeks, max ____ months",
         "answer": "8, 12, 6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine is cautioned in patients with mod-sev ____, ____ impairment",
         "answer": "HTN, renal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine is pregnancy category ____",
         "answer": "X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of Phentermine include : c____, h____, in____, t____, t____, i____ BP",
         "answer": "constipation, headache, insomnia, tremor, tachycardia, increased BP",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine tolerance develops within a ____ weeks",
         "answer": "few",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine/Topiramate ER is discontinued or escalated if ____% weight loss is not acheived after ____ weeks on 7.6/46mg",
         "answer": "3, 12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phentermine/Topiramate Er is discontinued if ____% weight loss is not achieved after ____ weeks on max daily dose",
         "answer": "5, 12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of Phentermine/Topiramate ER include d____, c____, p____, a____, d____",
         "answer": "dizziness, constipation, paresthesia, altered taste, dry mouth",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the REMS for Phentermine/Topiramate ER",
@@ -248,122 +248,122 @@ obesityQuestions = [
     {
         "question": "Lorcaserin is pregnancy category ____",
         "answer": "X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lorcaserin is dosed at ____ mg ____ times a day",
         "answer": "10, 2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Locaserin is discontinued at week ____ if ____% weight loss has not been achieved",
         "answer": "12, 5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Locaserin adverse effects include: d____, d____, d____, s____, c____, f____",
         "answer": "dizziness, dry mouth, depression, suicidal ideation, constipation, fatigue",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Locaserin may increase levels of drugs metabolized by ____",
         "answer": "CYP2D6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naltrexone/Buproprion SR is FDA approved for ____ term use",
         "answer": "long",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naltrexone/Buproprion should not be taken with high____ meals",
         "answer": "fat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naltrexone/Bupropion should be discontinued if patient has not lost ____% BW in ____ weeks",
         "answer": "5, 12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of Naltrexone/Bupropion are N____, i____, H____, c____, d____, d____",
         "answer": "N/V/D, insomnia, constipation, dry mouth, dizziness",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naltrexone/Bupropion is pregnancy category ____",
         "answer": "X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naltrexone/Bupropion has a ____ box warning that it increases ____ ideation, and behavior",
         "answer": "black, suicidal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Liraglutide is FDA approved for ____ management",
         "answer": "weight",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Liraglutide has a ____ box warning that it induces ____ C cell tumors in rats",
         "answer": "black, thyroid",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Liraglutide should be avoided with other ____ agonist",
         "answer": "GLP-1",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Liraglutide is pregnancy category ____",
         "answer": "C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Liraglutide requires ____ because of black box warning",
         "answer": "REMS",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Bitter orange contains ____ which is similar to epinephrine",
         "answer": "synephrine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Other names for Ephedra include Ma ____ and ____ tea",
         "answer": "Huang, Mormon",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Caffeine Green Tea Extract also acts as a ____",
         "answer": "diuretic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Caffeine green tea extract has interactions with blood ____ lowering agents and ____",
         "answer": "glucose, alendronate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Chromium is an ____ trace element",
         "answer": "essential",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Chromium plays a role in ____ regulation in body and cofactor for enzymes involved in energy production",
         "answer": "insulin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Chromium is naturally present in on____, t____, oy____, p____",
         "answer": "onion, tomatoes, oysters, potatoes",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Risks associated with chromium include r____, r____ failure, m____,  s____, and b____ sugar changes",
         "answer": "rhabdomyolysis, renal, mood, sleep, blood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Raspberry ketone is similar to ____ and ____",
@@ -373,7 +373,7 @@ obesityQuestions = [
     {
         "question": "Raspberry ketone causes ____ and increases ____ production",
         "answer": "lipolysis, adiponectin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Raspberry ketone has interactions with ____ and ____",
@@ -383,17 +383,17 @@ obesityQuestions = [
     {
         "question": "Hoodia is an ____ supressant",
         "answer": "appetite",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Garcinia cambogia is rich in ____ acid and is promoted to supress ____ and inhibit ____ production",
         "answer": "hydroxycitric, supress, fat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Risks of Garcinia cambogia is increased s____, r____, h____, d____",
         "answer": "serotonin, rhabdomyolysis, hypoglycemia, dementia",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Psyllium and Guar Gum is used for ____ and ____ as a bulk laxative",
@@ -403,12 +403,12 @@ obesityQuestions = [
     {
         "question": "Chitosan is a structural component of c____, i____ and s____",
         "answer": "crustaceans, insects, spiders",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Chitosan is marketed as ____ absorption blocker",
         "answer": "fat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cortisol blockers has the common ingredients ____ and ____",
@@ -418,17 +418,17 @@ obesityQuestions = [
     {
         "question": "Laxatives should not be used long term for over ____ weeks",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
        "question": "Obesity Class I is BMI ____ to ____",
         "answer": "30, 34.9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Obesity Class II is BMI ____ to ____",
         "answer": "35, 39.9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Obesity Class III is BMI >=",
@@ -438,32 +438,32 @@ obesityQuestions = [
     {
         "question": "BMI 30-34.9 is Obesity ____",
         "answer": "I",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "BMI 35-39.9 is Obesity Class ____",
         "answer": "II",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "BMI >=40 is Obesity Class ____",
         "answer": "III",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Underweight is classified as BMI <____",
         "answer": "18.5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Normal BMI is between BMI ____ - ____",
         "answer": "18.5-24.9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Overweight BMI is ____ - ____",
         "answer": "25-29.9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The trade name of phentermine is",
@@ -563,47 +563,47 @@ obesityQuestions = [
     {
         "question": "The MOA of phentermine is stimulating the hypothalamus to release ____ to suppres appetite",
         "answer": "NE",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of diethylpropion is to stimulate ____ release to supress ____ signals and appetite",
         "answer": "catecholamine, hunger",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of benzphetamine is to stimulate ____ release to supress ____ signals and appetite",
         "answer": "catecholamine, hunger",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA for orilistat is that it inhibits ____ absorption by forming bond with ____ and ____ lipase",
         "answer": "nutrient, gastric, pancreatic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA for lorcaserin is it is a selective ____ agonist which supresses appetite",
         "answer": "5HT2C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of phentermine and topiramate is phentermine stimulates ____ release to supress appetite and topiramate suppresses appetite and enhances ____",
         "answer": "NE, satiety",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of topiramate is it increases ____ and reduces cravings for food by decreasing GI motility, increasing ____ aversion and increasing energy expenditure",
         "answer": "satiety, taste",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of liraglutide is it is a ____ receptor agonist and a physiological regulator of appetite and calorie intake and also stimulates ____ and decreases ____",
         "answer": "GLP-1, insulin, glucagon",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of naltrexone/bupropion SR is it is an opioid ____ and dopamine/NE reuptake inhibitor which suppresses appetite",
         "answer": "antagonist",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The trade name of Orilistat is",

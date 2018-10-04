@@ -2,297 +2,297 @@ MedicalTermsQuestions = [
     {
         "question": "The root word for lung is ____",
         "answer": "pulm/pneumo",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for liver is ____",
         "answer": "hepato",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for gall/bile is ____",
         "answer": "chol/e",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for nose is ____",
         "answer": "rhino",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for head/brain is ____",
         "answer": "cephalo",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for mouth is ____",
         "answer": "stomato",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for ear is ____",
         "answer": "oto",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for heart is ____",
         "answer": "cardio",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for large intestines is ____",
         "answer": "colo",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for anus is ____",
         "answer": "procto",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for small intestines is ____",
         "answer": "entero",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for ovary is ____",
 		"answer": "oophoro",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for uterus is ____",
         "answer": "hystero/metro",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for testis is ____",
         "answer": "orchido",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for falopian tube is ____",
         "answer": "salpingo",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word for bladder is ____",
         "answer": "cysto",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word hemo/emia means ____",
         "answer": "blood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word phlebo/veno means ____",
         "answer": "vein",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word dento means ____",
         "answer": "teeth",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word gingivo means ____",
         "answer": "gums",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word glosso/linguo means ____",
         "answer": "tongue",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word masto/mammo means ____",
         "answer": "breast",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word mening/o means ____ surrounding the brain and spinal cord",
         "answer": "membranes",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word myel/o means ____",
         "answer": "spinal cord/bone marrow",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word oseto means ____",
         "answer": "bone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word brady means ____",
 		"answer": "slow",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The root word tachy means ____",
         "answer": "fast",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -pnea means ____",
         "answer": "breath",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -algia means ____",
         "answer": "pain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -uria means ____",
         "answer": "urine",
-        "type": "text"
+        "type": "fill"
 	},
     {
         "question": "The root word for kidneys is ____",
         "answer": "rene/nephro",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -megaly means ____",
         "answer": "enlarged",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The prefix -pne/u means ____",
         "answer": "lung",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The prefix -algesia means ____",
         "answer": "pain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The prefix -ur/o means ____",
         "answer": "urine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The prefix mega means ____",
         "answer": "enlarged",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -itis means ____",
         "answer": "inflammation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -pathy means ____",
         "answer": "disease",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -iasis means ____",
         "answer": "abnormal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The suffix -osis means ____",
         "answer": "abnormal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The prefix -dys means ____",
 		"answer": "painful",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -ectomy means to ____ out",
         "answer": "cut",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -otomy means to ____ into",
         "answer": "cut",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -ostomy means to make a ____",
         "answer": "mouth",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -stasis means to ____",
         "answer": "stop",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -cyte means ____",
         "answer": "cell",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -rrhea means ____",
         "answer": "flow",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -plasia means ____",
         "answer": "growth",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term a/an means ____",
         "answer": "without",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -ptysis means ____",
         "answer": "cough",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term -plasty means ____",
         "answer": "reconstruction",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term angi/o means ____",
         "answer": "vessel",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term emes/o means ____",
         "answer": "vomit",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term lith/o means ____",
         "answer": "stone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term olig/o means ____",
 		"answer": "less",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term melan/o means ____",
         "answer": "black",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term xanth/o means ____",
         "answer": "yellow",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term poli/o means ____",
         "answer": "grey",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term eosin/o means ____",
         "answer": "orange",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A patient has been diagnosed as having an enlarged liver. The doctor describes it as ____",
@@ -321,57 +321,57 @@ MedicalTermsQuestions = [
     {
         "question": "The term -oma means ____",
         "answer": "swelling",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term aden/o means ____",
         "answer": "gland",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term my/o means ____",
         "answer": "muscle",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term lymph/o means ____ tissue",
         "answer": "lymph",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term carcin/o means ____",
         "answer": "malignant",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term osteo means ____",
 		"answer": "bone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term melan/o means ____",
         "answer": "melanocytes",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term endo means ____",
         "answer": "within",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term peri/circum means ____",
         "answer": "around",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term epi means on ____",
         "answer": "top  ",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term trans means ____",
         "answer": "through",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A tumor of the protective membranes surrounding the brain and spinal cord is called a/an ____",

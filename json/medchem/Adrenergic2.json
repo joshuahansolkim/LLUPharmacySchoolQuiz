@@ -2,77 +2,77 @@ AdrenergicQuestions2 = [
     {
         "question": "Adenyl cyclase effect on VSM (beta2) is an i____ in CAMP which i____ dilation",
         "answer": "increase, increase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Phospholipase C effect on VSM (alpha 1) is i____ in IP3 and/or phospholipase C, which is an i____ in contraction",
         "answer": "increase, increase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Non-selective alpha 1 adrenergic antagonists are ____ used therapeutically for lowering BP because of toxicity",
         "answer": "not",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Q____ (-azosin) are used as antihypertensives ",
         "answer": "quinazolines",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "P____, D____, and T____ are indicated for hypertension",
         "answer": "Prazosin, Doxazosin, Terazosin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A____, S____, and T____ are indicated in BPH to block urethral constriction",
         "answer": "Alfuzosin, Sildosin, Tamsulosin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Yohimbine  induces h____ and increase h____ rate and has no ____ approved use, and is herbally used for male i____ and o____ hypotension",
         "answer": "hypertension, heart, FDA, impotence, orthostatic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "B-1 adrenergic agonists i____ contractile force, and i____ heart rate, whereas B-1 adrenergic antagonists r____ contractile force, and l____ BP",
         "answer": "increase, increase, reduce, lower",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Beta blockers compete with e____ catecholamines for binding at B1 and B2 receptors",
         "answer": "endogenous",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Depending on receptor selectivity B blockers can be used to treat c____ arrythmias, a____ pectoris, m____, and g____",
         "answer": "cardiac, angina, migraines, glaucoma",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Aryloxypropanolamines SAR confer B1 selectivity through substitution on position ____",
         "answer": "4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glaucoma is treated with p____, c____ inhibitors, c____ anhydrase inhibitors, and p____ analogs",
 		"answer": "parasympathomimetics, cholinesterase, carbonic, prsotaglandin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Commonly used beta blocker drugs are: t____ (timoptic), b____ (Betoptic), L____ (Betagen), M____ (Optipranolol), c____ (Ocupress)",
         "answer": "timolol, betaxolol, levobunolol, metipranolol, carteolol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Common ADR of non-selective B blockers is f____, b____, s____ dysfunction, a____",
         "answer": "fatigue, bronchoconstriction, sexual, arrhythmias",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Propanolol is a nonselective B blocker = broncoc____, vasoconstriction, i____ sodium retention, decreased cardiac output",
         "answer": "constriction, increased",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Selective B1 blockers are: ____, ____, ____, ____, ____, ____, ____",
@@ -82,32 +82,32 @@ AdrenergicQuestions2 = [
     {
         "question": "mixed a/B adrenergi antagonista are l____ and c____",
         "answer": "labetalol, carvedilol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Among aryloxypropranolamines if the 4 position is open and metabolism occurs or is known, aromatic oxidation gives an a____ metabolite",
         "answer": "active",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metoprolol and propanolol is metabolized by ____",
         "answer": "CYP2D6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "If 4 position is substituted, if metabolism occurs or is known ____ metabolites result (exception: m____)",
         "answer": "IA, metipranolol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Metyrosine (Demser) inhibits t____ h____ competitively and is not used an antihypertensive-but is used in pheochromocytoma",
         "answer": "tyrosine hydroxylase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Reserpine (Sandril, Serpasil): rauwolfia alkaloid binds tight to ATP driven monoamine transporter preventing EPI and NE reuptake into vesicle. Depletes neuron of NT and is used in h____ and s____",
         "answer": "hypertension, schizophrenia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Propanolol has ____ and ____ receptor specificity and is used in ____, ____, ____, ____, ____",
@@ -117,12 +117,12 @@ AdrenergicQuestions2 = [
     {
         "question": "Nadolol has ____ and ____ receptor specificity and is used in ____",
         "answer": "B1, B2, hypertension",
-        "type": "text"
+        "type": "fill"
     },
-    {
+    {s
         "question": "timolol has ____ and ____ receptor specificity and is used in ____ and ____",
         "answer": "B1, B2, glaucoma, hypertension",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____, ____, ____, ____ has ____ receptor specificity and is used to treat ____",
@@ -132,16 +132,16 @@ AdrenergicQuestions2 = [
     {
         "question": "Nebivolol has ____ receptor specificity (increased NO) and is used to treat ____",
         "answer": "B1, hyptertension",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pindolol has ____, ____ receptor specificity and is used to treat ____",
         "answer": "B1, B2, hypertension",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Carvedilol and labetalol have ____, ____, and ____ receptor specificity and are used to treat ____ and ____ heart failure",
         "answer": "a1, B1, B2, hypertension, congestive",
-        "type": "text"
+        "type": "fill"
     }
 ]

@@ -2,221 +2,221 @@ supplementsQuestions = [
     {
         "question": "Cardiovascular supplements include c____ Q, f____ oil, g____",
         "answer": "coenzyme, fish, garlic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Coenzyme Q is used for h____, c____ heart failure, m____ infarction, m____, P____ , a____",
         "answer": "hypertension, congestive, myocardial, migraine, Parkinson's, antioxidant",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Coenzyme Q adverse effects is G____ effects, elevation fo liver enzymes, decrease w____ effectiveness",
 		"answer": "GI, warfarin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Coenzyme Q is d____ by statin use",
         "answer": "depleted",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Fish oil is used for hyperl____, hypert____, i____, A____/bipolar disorder",
         "answer": "hyperlipidemia, hypertriglycerides, inflammation, ADHD",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of fish oil include increased b____ and L____",
         "answer": "bleeding, LDL",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Fish oil is found in f____, w____, c____ oil, fish, k____, s____-",
 		"answer": "flaxseed, walnuts, canola, krill, seal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "garlic is used for a____, hyperl____, hypert____, anti____, antioxidant, antic____",
         "answer": "atherosclerosis, hyperlipidemia, hypertension, platelet, cancer",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of garlic include a____, increased b____, GI d____",
         "answer": "allergies, bleeding, distress",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Garlic is activated by a____",
 		"answer": "allinase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Red yeast rice is used for h____",
         "answer": "hyperlipidemia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Red yeast rice  adverse effects is similar to l____",
         "answer": "lovastatin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Red yeast rice contraindication is f____ allergies",
 		"answer": "fungal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which supplements have CNS effects f____, g____ biloba, St. John's w____,",
         "answer": "feverfew, gingko, wort",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Feverfew is used to decrease m____  frequency and severity",
         "answer": "migraine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Feverfew adverse effects is oral i____, CYP450 inhibition, A____Compositae allergy",
         "answer": "inhibition, Asteraceae",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Feverfew is likely safe for acute use up to ____ months",
         "answer": "4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Gingko biloba is used for a____, c____ function, d____, s____, v____, d____, Alzheimer's",
         "answer": "anxiety, cognitive, dementia, schizophrenia, vertigo, dementia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Gingko biloba adverse effect are GI, C____ effect, i____ bleeding, spontaneous h____, s____, drug interaction with C____",
         "answer": "CNS, increased, hemorrhage, seizure, CYP",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Gingko biloba tolerance may develop after ____ weeks",
         "answer": "6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "St. John's Wort use is mild d____, a____, m____",
         "answer": "depression, anxiety, menopause",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "St. John's Wort adverse effect is GI, C____, p____, s____ syndrome, DDI with C____",
         "answer": "CNS, psychosis, serotonin, CYP450",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "St. John's Wort should be used cautiously with transplant drugs, c____, CV agents",
         "answer": "chemotherapy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What supplementation is digestive: p____",
         "answer": "probiotics",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What supplementation is immune/inflammatory: E____, z____",
         "answer": "Echinacea, zinc",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Echinacea is used to d____ severity and duration of common c____ symptoms",
         "answer": "decrease, cold",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Echinacea adverse effects is GI symptoms, A____/compositae allergy, increase a____ disease, caution with HIV, t____ patients",
         "answer": "Asteraceae, autoimmune, transplant",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Echinacea can be used for ____-____ days",
         "answer": "7-10",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Zinc is used for cofactor for multiple enzymes, d____ in zinc malnourished children, common c____, p____, a____, p____ ulcers",
         "answer": "diarrhea, cold, pneumonia, acne, peptic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Zinc adverse effects is nausea, GI symptoms, c____ deficiency, anemia, n____, l____, j____, a____",
         "answer": "copper, neutropenia, lethargy, jaundice, asnomia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "reproductive/renal supplementation is black c____, c____, saw p____",
         "answer": "cohosh, cranberry, palmetto",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Black cohosh is used for m____ symptoms",
         "answer": "menopause",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Black cohosh adverse effect is GI, r____, l____ toxicity",
         "answer": "rash, liver",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cranberry use is U____ prevention",
         "answer": "UTI",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cranberry adverse effect is increased risk of o____ kidney stones in high amounts for long periods of time, GI upset, increase sugar consumption",
         "answer": "oxalate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cranberry contains s____ leading to concern regarding aspirin allergy and anticoagulation",
         "answer": "salicylate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Saw palmetto is used for B____, ",
         "answer": "BPH",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Saw palmetto adverse effects is GI, d____/HA, a____ effect",
         "answer": "dizziness, anticoagulation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Supplements that affect body structure are g____/chondroitan/MSM, and c____",
         "answer": "glucosamine, creatine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucosamine is used for o____, glucosamine is used to i____ cartilage synthesis, sulfate increases cartilage growth, chondroitan i____ cartilage breakdown, MSM is an a____ source and s____ source",
         "answer": "osteoarthritis, increase, increase, antioxidant, sulfur",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucosamine adverse effect is n____, d____, s____ allergy, chondroitin i____ bleeding",
         "answer": "nausea, diarrhea, shellfish, increase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Creatine is used for a____ performance, m____ strength, p____",
         "answer": "athletic, muscle, phosphocreatine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Creatine adverse effect is increased water content leading to c____",
         "answer": "cramping",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which supplements have Asteraceae/compositae allergy E____ and f____",
         "answer": "Echinaceae, feverfew",
-        "type": "text"
+        "type": "fill"
     }
 ]

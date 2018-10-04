@@ -2,51 +2,51 @@ DrugReceptorQuestions = [
     {
         "question": "A drug with a higher Kd would require a ____ drug concentration in order to achieve significant receptor binding and drug effect",
         "answer": "higher",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ is an expression of the activity of a drug in terms of the concentration or amount of the drug required to produce a defined effect, the ____ the dose the ____ the potency",
         "answer": "potency, higher, lower",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The ____ fit model suggests that the receptor slightly reshapes itself to fit a ligand",
         "answer": "induced",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The ____ state or ____ selection model suggests that the ligand binds to and stabilizes a particular receptor shape",
         "answer": "two, conformational",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for receptor activity without any ligand binding to the receptor is ____ or ____ activity and is especially noted in ____",
         "answer": "constitutive, basal, GPCR",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A drug that is ____ has high intrinsic activity",
         "answer": "efficacious",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The endogenous ligand binding site is called the ____ site",
         "answer": "orthosteric",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Endogenous ligands that result in a receptor response are called ____",
         "answer": "agonists",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "If an antagonist binds irreversibly then it is an ____ competitive antagonist or a ____ competitive antagonist",
         "answer": "irreversible, non",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Use of a non competitive antagonist will decrease the number of usable receptors and ____ agonist effect",
         "answer": "decrease",
-        "type": "text"
+        "type": "fill"
     }
 ]

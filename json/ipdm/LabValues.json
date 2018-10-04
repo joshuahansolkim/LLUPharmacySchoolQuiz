@@ -2,22 +2,22 @@ LabValuesQuestions = [
     {
         "question": "The normal range of albumin is ____-____ g/dL",
         "answer": "3.5-5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Albumin is synthesized in the l____",
         "answer": "liver",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Albumin maintains plasma o____ pressure, binds and transports h____, d____, f____ acids, i____",
         "answer": "osmotic, hormones, drugs, fatty, ions",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Albumin has a serum half life of ____ days",
         "answer": "20",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hypoalbuminemia is not caused by",
@@ -28,37 +28,37 @@ LabValuesQuestions = [
     {
         "question": "The normal range of prealbumin is ____ mg/dL",
         "answer": "16-40",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Prealbumin is used to determine n____ status",
         "answer": "nutritional",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Prealbumin has a shorter half life span of ____ days compared to albumin which has a half life of ____ days, s____ body pool, more s____ to protein nutrition, less affected by l____ disease, not involved in o____ ",
         "answer": "2, 20, smaller, sensitive, liver, osmoregulation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "total protein is a____ + g____",
         "answer": "albumin, globulin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "globulin is made o____ the liver",
         "answer": "outside",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The liver synthesizes six coagulation factors ____, ____, ____, ____, ____, ____",
         "answer": "I, II, V, VII, IX, X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin K is a c____ for activation of clotting factors ____, ____, ____, ____",
 		"answer": "cofactor, II, VII, IX, X",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is not a cause of elevated PT",
@@ -69,57 +69,57 @@ LabValuesQuestions = [
     {
         "question": "Prothrombin time has been replaced by i____ n____ r____",
         "answer": "international, normalized ratio",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "the INR attempts to standardize test used to monitor w____ therapy and measures how long it takes blood to form a c____",
         "answer": "warfarin, clot",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "to standardize thromboplastin, the manufacturer inclcudes the i____ s____ i____",
         "answer": "international sensitivity index",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "INR= ____/____",
         "answer": "PT patient, PT reference plasma",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Aminotransferase is released into the serum where there is c____ damage",
         "answer": "cell",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AST and ALT are located in h____, c____ muscle, k____, b____",
         "answer": "hepatocytes, cardiac muscle, kidneys, brain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AST/ALT ratio is useful in diagnosing a____ liver disease where AST is ____X ALT",
         "answer": "alcohol, 2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lactate dehydrogenase is found in h____, l____ s____ muscle, b____, l____, k____, R____",
         "answer": "heart, liver, skeletal, brain, lung, kidneys, RBC",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lactate dehydrogenase is elevated in M____, m____, b____, m____, a____",
         "answer": "MI, myocarditis, burns, malignancy, anemias",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cholestasis is f____ to move bile from liver to d____",
         "answer": "failure, duodenum",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Alkaline phosphatase (ALP) ____X normal suggest a cholestatic disorder",
         "answer": "4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "lactate dehydrogenase is not specific to liver function",
@@ -130,146 +130,146 @@ LabValuesQuestions = [
     {
         "question": "5' nucleotidase is e____ in h____ tissue",
 		"answer": "elevated, hepatic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "E____ ALP with n____ GGTP or GGT points to a n____ etiology ",
         "answer": "elevated, normal, nonhepatic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "GGT/ALP > ____ is highly indicative of a____ abuse",
         "answer": "2.5, alcohol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Bilirubin is the b____ of h____",
         "answer": "breakdown, hemoglobin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "U____ bilirubin is water i____, and c____ bilirubin is water s____",
         "answer": "unconjugated, insoluble, conjugated, soluble",
-        "type": "text"
+        "type": "fill"
 	},
     {
         "question": "Unconjugated bilirubin is known as i____ bilirubin and is bound to a____, when elevated leads to h____ disease",
         "answer": "indirect, albumin, hepatocellular",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Conjugated bilirubin is known as d____ bilirubin and is r____ in feces, and removed by kidneys when elevated and leads to d____ urine color",
         "answer": "direct, removed, dark",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The range for total bilirubin is ____-____ mg/dL",
         "answer": "0.3-1",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "ONLY t____ and d____ bilirubin can be measured",
         "answer": "total, indirect",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Bilirubin is increased in h____ disease, h____ (jaundice), obstruction to bile flow c____",
         "answer": "hepatocellular, hyperbilirubinemia, cholelithiasis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ammonia is made in the l____ intestine",
         "answer": "large",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Accumulation of ammonia leads to altered mental status called h____ e____",
         "answer": "hepatic encephalopathy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "To determine the type of ACS, you should look at c____ presentation of the patient, e____, c____ markers",
         "answer": "clinical, electrocardiography, cardiac",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The three cardiac markers are Tn____, Tn____, Tn____",
         "answer": "T, I, C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tn____ is presen in both c____ and s____ muscle",
         "answer": "cardiac, skeletal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal range of troponin cardiac marker is ____-____ng/mL",
 		"answer": "0-0.5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Echocardiography uses s____ waves to create a m____ image of the heart",
         "answer": "sound, moving",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal range of TSH is ____-____ mU/L",
         "answer": "0.5-5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "T4 is called t____ and T3 is called t____",
         "answer": "thyroxine, triiodothyronine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "T4 and T3 circulate in human serum in two forms b____ and u____",
         "answer": "bound, unbound",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for sodium is ____-____ mEq/L",
         "answer": "135-145",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value of potassium is ____-____ mEq/L",
         "answer": "3.5-5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for chloride is ____-____ mEq/L",
         "answer": "96-106",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for bicarbonate is ____-____mEq/L",
         "answer": "23-28",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for BUN is ____-____mg/dL",
         "answer": "10-20",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for SCr is ____-____mg/dL",
         "answer": "0.6-1.2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal value for glucose is ____-____mg/dL",
         "answer": "70-110",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "T____ has a higher resolution than T____",
         "answer": "TEE, TTE",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "TEE is used to detect v____ v____ in endocarditis and to detect a____ thrombi",
         "answer": "valve vegetation, atrial",
-        "type": "text"
+        "type": "fill"
     }
 ]

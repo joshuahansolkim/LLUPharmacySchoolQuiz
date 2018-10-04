@@ -2,36 +2,36 @@ PatientMedicationQuestions = [
     {
         "question": "Most common causes of medication errors is not i____ errors but problems with the design of the m____ system itself",
         "answer": "individual, medical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Methods to reduce erros are l____ and s____ of high alert medication, s____ alike l____ alike medications, reporting medication e____/c____ calls",
         "answer": "labeling, storage, sound, look, errors, close",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "p____ s____ o____ was created to improve the quality and safety of health care delivery in the US",
         "answer": "patient safety organization",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Organizations that specialize in error prevention analyze system based causes of errors and make recommendations to help reduce errors are i____ for s____ m____ p____ (ISMP)",
         "answer": "institute for safe medication practices",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "methods used to reduce medications errors are to check p____ p____, don't use e____ prone abbreviations, s____, and d____ designations",
         "answer": "patient profiles, error, symbols, dosage",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In patient profiles you should check for a____/i____, monitor appropriateness of t____, check for d____-d____ interaction, check for p____",
         "answer": "allergy/intolerance, therapy, drug-drug, polypharmacy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "FDA program requires specified training and various restrictions such as c____ patient registry, A____ program for e____, i____ program for i____",
         "answer": "clozapine, APRISE, erythropoietin, iPLEDGE, isotretinoin",
-        "type": "text"
+        "type": "fill"
     }
 ]

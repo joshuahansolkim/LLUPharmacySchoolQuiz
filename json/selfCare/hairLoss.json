@@ -2,62 +2,62 @@ hairLossQuestions = [
     {
         "question": "Hair loss is most frequently due to h____ changes",
         "answer": "hormonal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Secondary causes of hair loss include p____ stress, m____ use, c____ illness, d____ changes, l____ trauma, genetics",
         "answer": "physiologic, medication, chronic, dietary, local",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The stages of hair growth are: ____ phase, ____ phase, ____ phase, ____ phase",
         "answer": "anagen, catagen, telogen, exogen",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ converts androgens to estrogens",
         "answer": "aromatase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "5 alpha reductase converts weak ____ to ____ and dihydrotestosterone (DHT)",
         "answer": "androgens, testosterone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ can be self treated",
         "answer": "AGA",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ is the most common form of hair loss",
         "answer": "AGA",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The primary repressor of hair growth is the androgen  ____",
         "answer": "dihydrotestosterone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Male pattern baldness is measured on the ____ scale",
         "answer": "Norwood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Female pattern baldness is measured on the ____  and ____ scale",
         "answer": "Ludwig, Sinclair",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Alopecia areata occurs in three stages: sudden ____ loss in patches, enlargement of ____, regrowth",
         "answer": "hair, patches",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ is the only FDA approved self-treatment for AGA",
         "answer": "Minoxidil",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the correct order for the mechanism of action of Minoxidil: Stimulate follicular hypertrophy, promotes and maintains vascularization of follicles, increases cutaneous blood flow directly to hair follicles, hair follicles increase in size after treatment",
@@ -67,27 +67,27 @@ hairLossQuestions = [
     {
         "question": "The dosage strength of minoxidil is ____% and ____%",
         "answer": "2, 5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Minoxidil is applied to ____ hair ____ daily",
         "answer": "dry, twice",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "It may take up to ____ months to see results for Minoxidil",
         "answer": "4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Exclusions for self treatment of hair loss is <____ or >____",
         "answer": "18, 65",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Minoxidil ____% products is usually recommended for men",
         "answer": "5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "AGA etiology is h____ and h____",
@@ -97,31 +97,31 @@ hairLossQuestions = [
     {
         "question": "Alopecia areata etiology is a____",
         "answer": "autoimmune",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Anagen effluvium etiology is c____, r____, h____ m____ poisoning",
         "answer": "chemotherapy, radiation, heavy metal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Telogen etiology is m____ or h____ disturbances, stress, severe illness or injury, and m____",
         "answer": "metabolic, hormonal, medications",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cosmetic hair damage etiology is hair care practices, b____, p____, bleaching",
         "answer": "bleaching, permanents",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Trichotillomania etiology is p____ compulsive  pulling out of one's hair",
         "answer": "psychiatric",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tinea capitis etiology is Trichophyton t____",
         "answer": "tonsurans",
-        "type": "text"
+        "type": "fill"
     }
 ]

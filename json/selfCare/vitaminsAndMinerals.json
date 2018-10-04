@@ -32,12 +32,12 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Where do you look for vitamin deficiency in vitamin A: p____, s____, f____ oil, i____ fat absorption",
 		"answer": "pregnancy, smoking, fish oil, impaired",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are the signs of vitamin A deficiency, dry, s____ skin, increased infectious diseases such as m____, m____, d____ eyes, impaired a____, t____, s____",
 		"answer": "scaly, measles, malaria, dry, appetite, taste, smell",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin A excess leads to",
@@ -48,27 +48,27 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "The three different forms of vitamin D are e____, c____, 1,25-d____",
 		"answer": "ergocalciferol, cholecalciferol, dihydroxycholecalciferol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ergocalciferol (D2) is present in p____ and f____",
         "answer": "plants, fungi",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "cholecalciferol (D3) is synthesized in skin in presence of s____, present in f____ foods",
         "answer": "sunlight, fortified",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Calcitriol (Rocaltrol) is a p____ product",
         "answer": "prescription",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin D excess leads to ____ complaints, h____",
         "answer": "GI, hypercalcemia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the normal function of vitamin E",
@@ -79,32 +79,32 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "What is the daily requirement of vitamin D for male/female (1-70yo) ____ug/day ( ____IU)",
         "answer": "15, 600",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the daily requirement of vitamin D for male/female (70+ yo) ____ug/day (____IU)",
         "answer": "20, 800",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the UL for vitamin D (>=9yo) ____ug/day (____IU)",
         "answer": "100, 4000",
-        "type": "multiple"
+        "type": "fill"
     },
     {
         "question": "You need to watch Vit D in e____, lack of s____, lack of m____, l____/kidney damage",
         "answer": "elderly, sun, milk, liver",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin E deficiency leads to free radical damage to neuronal, muscle, and other membranes, p____ neuropathy, r____, a____, impaired immune function",
         "answer": "peripheral, retinopathy, ataxia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin E excess leads to increased bleeding at high doses, i____ mortality, decreased effect of r____ therapy",
         "answer": "increased, radiation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which one is not a normal function of thiamine",
@@ -115,22 +115,22 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Dry beriberi affects p____ nervous system",
         "answer": "peripheral",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Wet beriberi affects c____ system",
         "answer": "cardiovascular",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Wernicke's encephalopathy is the acute phase and includes c____, a____, e____ weakness/p____",
         "answer": "confusion, ataxia, eye, paralysis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Korsakoff's syndrome is the chronic phase and includes memory loss and visual impairment and is known as a____induced persisting a____disorder and can be irreversible",
         "answer": "alcohol, amnestic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the normal function of riboflavin",
@@ -141,12 +141,12 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Riboflavin deficiency needs to be watched in e____, a____, some drugs",
         "answer": "elderly, alcoholics",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Riboflavin deficiency is also known as a____",
         "answer": "ariboflavinosis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "riboflavin deficiency results in",
@@ -157,7 +157,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "____ mg tryptophan = 1 mg niacin",
         "answer": "60",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "riboflavin has no known UL",
@@ -174,17 +174,17 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Niacin deficiency needs to be watched in a____, diets rich in corn not a____ with lime, i____ therapy",
         "answer": "alcoholics, alkalinized, isoniazid",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Niacin deficiency leads to p____, der____, dia____, dem____",
 		"answer": "pellagra, dermatitis, diarrhea, dementia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Niacin excess leads to f____, h____ effects, h____, hyp____",
         "answer": "flushing, heart, hepatotoxicity, hyperglycemia", 
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pyridoxine is used for",
@@ -201,7 +201,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Pyridoxine excess leads to s____ n____",
 		"answer": "sensory neuropathy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The normal function of biotin is",
@@ -218,17 +218,17 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Biotin deficiency needs to be watched in s____, anti____intake of r____ egg, p____",
         "answer": "smoking, convulsant, raw, pregnancy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Biotin is synthesized by g____ bacteria",
         "answer": "gut",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "1 ug food folate= ____DFE=____ug supplement or fortified food",
 		"answer": "1,0.6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The funcion of folate is to",
@@ -245,7 +245,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Folic acid excess leads to G____, C____, masking of B____ deficiency",
         "answer": "GI, CNS, 12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Folate deficiency needs to be watched in",
@@ -268,7 +268,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "B12 deficiency needs to be watched in v____, GI ____, GI ____",
 		"answer": "vegan diet, damage, drugs",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "There is no B12 UL",
@@ -279,7 +279,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "The normal function of vitamin C is a____ activity, c____ synthesis, i____ function",
 		"answer": "antioxidant, collagen, immune ",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin C deficiency leads to",
@@ -290,7 +290,7 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Vitamin C excess leads to k____ stones, GI s____",
         "answer": "kidney, symptoms",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vitamin C is destroyed by cooking and storage",
@@ -301,57 +301,57 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "General concerns regarding minerals is factors increasing absorption such as i____stomach acid, mineral d____, g____abnormalities",
         "answer": "increased, deficiency, genetic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "General concerns regarding minerals is factors decreasing absorption such as d____stomach acid, i____damage, s____ of transport proteins",
         "answer": "decreased, intestinal, saturation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "general issues regarding minerals is non absorption such as s____ texture, GI u____, d____drug absorption",
         "answer": "stool, upset, decreased",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Calcium deficiency leads to o____, m____ cramps, cardiac a____",
 		"answer": "osteoporosis, muscle, arrhythmias",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Calcium excess leads to k____ stones, c____ precipitation, c____",
         "answer": "kidney, calcium, constipation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The daily requirement of calcium is ____mg/day for 9-19 yo",
         "answer": "1300",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The daily requirement of calcium for male/female is ____mg/day for 19-50 yo",
 		"answer": "1000",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The daily requirement of calcium is ____mg/day for 51+ yo",
         "answer": "1200",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The UL for calcium for male/female is ____/____/____mg/day for 9-19, 19-50, 51+",
 		"answer": "3000, 2500, 2000",
-        "type": "text"
+        "type": "fill"
 	    },
     {
         "question": "Calcium deficiency needs to be watched in bad diets, s____, i____ with unsupplemented formula",
         "answer": "smokers, infants",
-        "type": "text"	
+        "type": "fill"	
     },
     {
         "question": "Iron deficiency leads to a____",
         "answer": "anemia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Iron deficiency needs to be watched in",
@@ -362,37 +362,37 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Iron excess leads to GI/l____ damage from f____ radicals, c____",
         "answer": "liver, free, constipation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are the different forms of iron supplements: ferrous f____, s____, g____",
 		"answer": "fumarate, sulfate, gluconate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "R____ iron is absorbed more readily than o____ iron",
         "answer": "reduced, oxidized",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "H____ iron is absorbed more readily than i____ iron",
 		"answer": "heme, inorganic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Plant sources of iron come from l____, fortified grain products, m____, s____",
         "answer": "legumes, molasses, spinach",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Iron needs to be watched in b____ loss, p____/rapid growth, p____ diet",
 		"answer": "blood, pregnancy, poor",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Magnesium is needed for c____ for energy production, i____ transport in muscles",
 		"answer": "cofactor, ion",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Magnesium deficiency causes",
@@ -403,11 +403,11 @@ vitaminsAndMineralsQuestions = [
     {
         "question": "Magnesium excess leads to  d____, m____ weakness",
 		"answer": "diarrhea, muscle",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Magnesium deficiency needs to be watched in  a____, d____ use",
         "answer": "alcoholics, diuretic",
-        "type": "text"
+        "type": "fill"
     }
 ]

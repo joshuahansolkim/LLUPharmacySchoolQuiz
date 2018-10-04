@@ -2,7 +2,7 @@ wartsQuestions = [
     {
         "question": "Warts are caused by which virus ____ ",
         "answer": "HPV",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Warts AKA",
@@ -12,7 +12,7 @@ wartsQuestions = [
     {
         "question": "Highest occurence of warts occurs between the ages of  ____  years",
         "answer": "12-16",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Warts occurs through ____ contact or ____",
@@ -22,7 +22,7 @@ wartsQuestions = [
     {
         "question": "Incubation period for warts is ____ months",
         "answer": "1-9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What is the clinical presentation for warts, rough slightly scaly, dome-shaped growth resembling a",
@@ -107,17 +107,17 @@ wartsQuestions = [
     {
         "question": "Collodion like vehicle has ____% salicylic acid",
         "answer": "5-17",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Plaster pad vehicle has ____% salicylic acid",
         "answer": "12-40",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Salicylic acid in collodion like vehicle can be used up to ____ daily",
         "answer": "twice",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "How long can you repeat topical salicylic acid for warts",
@@ -127,12 +127,12 @@ wartsQuestions = [
     {
         "question": "Karaya gum-glycol vehicle has ____% salicylic acid",
         "answer": "15",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "FDA recommends topical salicylic acid products to be labeled for treating ONLY ____ or ____ warts",
-        "answer": "common or plantar",
-        "type": "text"
+        "answer": "common, plantar",
+        "type": "fill"
     },
     {
         "question": "Cryotherapy can be used to treat a persistent wart  ____ times with a ____ day lapse between treatments",
@@ -180,9 +180,10 @@ wartsQuestions = [
         "type": "list"
     },
     {
-        "question": "What is not a risk factor for fungal infections: aging, trauma to skin, environmental factors, poor nutrition and hygiene, bacterial infection, immunosupressive medications, close contact with infected people, chronic health problems and immune compromise (DM impaired circulation)",
+        "question": "What is not a risk factor for fungal infections: ",
+        "choices": "aging, trauma to skin, environmental factors, poor nutrition and hygiene, bacterial infection, immunosupressive medications, close contact with infected people, chronic health problems and immune compromise (DM impaired circulation)",
         "answer": "bacterial infection",
-        "type": "text"
+        "type": "multiple"
     },
     {
         "question": "What is the correct order for the pathophysiology of fungal infections (involution, established infection, incubation, refractory period, inoculation",
@@ -200,9 +201,10 @@ wartsQuestions = [
         "type": "fill"
     },
     {
-        "question": "Which one is not a risk factor of Athlete's Foot: hot weather, high impact sports, occlusive footwear, tight fitting clothing, infected house members, public pools or bathing facilities",
+        "question": "Which one is not a risk factor of Athlete's Foot: ",
+        "choices" : "hot weather, high impact sports, occlusive footwear, tight fitting clothing, infected house members, public pools or bathing facilities",
         "answer": "tight fitting clothing",
-        "type": "text"
+        "type": "multiple"
     },
     {
         "question": "What are the four types of tinea pedis",
@@ -222,12 +224,12 @@ wartsQuestions = [
     {
         "question": "Chronic Papulosquamous Pattern causes ____ like scaling on the soles",
         "answer": "mocassin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "vesicular type is symptomatic during ____ months",
         "answer": "summer",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Acute ulcerative has white ____ and a ____ odor",
@@ -237,7 +239,7 @@ wartsQuestions = [
     {
         "question": "tinea unguium (Onychomycosis) become thick, rough, ____, and brittle or crumbly",
         "answer": "yellow",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tinea capitis has forms of non-inflammatory, inflammatory, ____, and ____ ",
@@ -322,7 +324,7 @@ wartsQuestions = [
     {
         "question": "Imidazole derivatives cannot be used on children under ____ years old",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Imidazole derivatives inhibit ____ and ____ synthesis",
@@ -337,17 +339,17 @@ wartsQuestions = [
     {
         "question": "allylamines cannot be used for children under ____  years old",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tolnaftate 1% cannot be used for children under ____ years old",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Undecylenic acid 10-25% cannot be used for children under ____ years old",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which topical antifungal exerts a strong odor",
@@ -387,7 +389,7 @@ wartsQuestions = [
     {
         "question": "Garlic gel contains ____% ajoene",
         "answer": "0.6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which fungal infection treatment solution has no direct antifungal activity and relieves inflammatory conditions of the skin",

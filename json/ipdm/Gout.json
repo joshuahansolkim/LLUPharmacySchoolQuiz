@@ -2,396 +2,396 @@ GoutQuestions = [
     {
         "question": "Evidence level ____ is supported by ____ randomized clinical trials or meta analysis",
         "answer": "A, multiple",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Evidence level ____ is derived from a ____ randomized trial or non randomized studies",
         "answer": "B, single",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Evidence level ____ is consensus opinion of experts, case studies, or standard-of-care",
         "answer": "C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Gout has been referred to as the 'disease of ____' and is more common in ____ countries such as ____, ____, ____ and in ____ adults > 80 yo",
         "answer": "Kings, developed, US, Japan, Australia, older",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Risk factors/predisposing factors are ____ serum urate level >____ (____/____), o____, d____, s____ lifestyle, f____ history, m____ induced, r____ impairment, m____, a____",
         "answer": "Elevated, 6.8 mg/dL, obesity, dietary, sedentary, family, medication, renal, male, age",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "H____ does not always lead to gout and many patients with hyperuricemia remain a____",
         "answer": "Hyperuricemia, asymptomatic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Uric acid has no known physiologic purpose and is excreted in the g____ and k____",
         "answer": "Gut, kidney",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Unlike other mammals, humans do not express the enzyme UA-> u____-->Allantoin",
         "answer": "Uricase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Differential diagnosis include: c____, s____ arthritis, s____ inflammatory arthritis, p____",
         "answer": "Cellulitis, septic, seronegative, pseudogout",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Definitive diagnosis requires aspiration of s____ fluid from the affected joint and identification of intracellular crystals of m____ urate (MSU)",
         "answer": "Synovial, monosodium",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Acute gouty arthritis is typically m____ and 50% of cases occurs on the 1st m____ joint aka “great toe or p____”",
         "answer": "Monoarticular, metatarsophalangeal joint, podagra",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Onset of acute gouty arthritis is r____/s____ and intensity is e____ pain with i____",
 		"answer": "Rapid/sudden, excruciating, inflammation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for redness is r____",
         "answer": "Rubor",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for swelling is t____",
         "answer": "Tumor",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for heat is c____",
         "answer": "Calor",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for pain is d____",
         "answer": "Dolar",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The term for loss of function is f____ l____",
         "answer": "Functio laesa",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The pathophysiology is UA crystals are taken up by m____, m____ make i____ markers (ex. IL-1B), IL-1B helps recruit neutrophils into the a____ joint, activation and degranulation of n____ contribute to pain associated with acute gouty arthritis",
         "answer": "macrophages, macrophages, inflammatory, affected, neutrophils",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The goal for treatment is t____ the acute attack ASAP",
         "answer": "Treatment",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Non-pharmacologic therapy for acute gouty arthritis is local application of i____",
         "answer": "Ice",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacologic therapy for acute gouty arthritis is m____ or c____ therapy depending on severity of pain and j____ involvement with N____, c____, and c____",
         "answer": "Monotherapy, combination, joint, NSAIDs, corticosteroids, colchicine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The brand name for indomethacin is ____ and the dosing range is ____mg T____",
         "answer": "Indocin, 50, TID",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The generic name for Indocin is I____ and the dosing range is ____ mg T____",
         "answer": "Indomethacin, 50, TID",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The brand name for naproxen is n____ and the dosing range is ____ mg f/b ____ mg Q____hr",
         "answer": "Naprosyn, 750, 250, 8",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The generic name for Naprosyn is n____ and the dosing range is ____ mg f/b ____mg Q____hr",
         "answer": "Naproxen, 750, 250, 8",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The brand name for sulindac is c____ and the dosing range is ____ mg B____",
 		"answer": "Clinoril, 200, BID",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The generic name for clinoril is s____ and the dosing range is ____ mg B____",
         "answer": "Sulindac, 200, BID",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA of NSAIDs is r____ inhibition of c____ (COX-____ and COX-____) and inhibition of p____ synthesis",
         "answer": "Reversible, cyclooxygenase, 1, 2, prostaglandin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of NSAIDs is G____ bleeding (take with f____), edema, i____ bleeding, r____ impairment, increased risk of c____ and t____ events with long term use",
         "answer": "GI, food, increased, renal, cardiovascular, thromboembolic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "There is higher chance of stomach bleeding if you are >____yo, have > 3 alcoholic drinks/day with concomitant NSAIDs use, taking other N____, taking blood t____ or systemic steroid drugs, history of stomach u____ or bleeding problems, taking m____ or for a longer time than directed",
         "answer": "60, NSAIDs, thinners, ulcers, more",
-        "type": "text"
+        "type": "fill"
 	},
     {
         "question": "The MOA of corticosteroids is to r____ the expression of p____-inflammatory genes via activation of the glucocorticoid receptor, r____ the expression of p____-inflammatory transcription factors through transrepression, i____ the synthesis of a____-inflammatory proteins",
         "answer": "Reduce, pro, reduce, pro, increase, anti",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of corticosteroids are C____(C____ syndrome), U____, S____ marks, s____ thinning, H____,h____, i____ BP, I____, i____, N____ of femoral heads, G____ elevation, G____ upset, DM, O____, o____, I____ wound healing, i____, D____/m____ changes",
         "answer": "Cataracts, cushing, ulcers, stretch, skin, hypertension, hirsutism, increased, immunosuppression, infection, necrosis, glucose, GI, osteoporosis, obesity, impaired, insomnia, depression,/mood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Short term corticosteroid effects are i____BP, g____ elevation, G____ upset, I____, m____ changes",
         "answer": "Increased, glucose, GI, insomnia, mood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Patient counseling points for corticosteroids include: s____ upset, take with f____, i____, take in the morning, increase in blood sugar, m____ blood sugar, increased f____ retention, increase in b____ pressure, monitor",
         "answer": "Stomach, food, insomnia, monitor, fluid, blood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Colchicine MOA i____ phagocytosis of UA crystals, interferes with i____ complex and inhibits IL-1 a____, inhibits neutrophil m____, a____, and d____",
         "answer": "Inhibits, inflammasome, activation, migration, activation, degranulation",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Colchicine is dosed at ____ mg followed by ____ mg ____ hour later and clearance is d____ in s____ renal and hepatic impairment and has DDI with C____ and P____ inhibitors",
         "answer": "1.2, 0.6, 1, decreased, severe, CYP3A4, p-glycoprotein",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of colchicine include d____, n____, v____, m____",
         "answer": "Diarrhea, nausea, vomiting, myelosuppression",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Counseling for Colchicine is to s____ therapy within ____ hours of symptom onset, do not use if you have been using colchicine for treatment of acute gout attack in the last ____ days",
         "answer": "Start, 36, 14",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Cochicine prophylaxis dose can be restarted (0.6 mg daily or BID) ____ hours after treating an acute attack with colchicine treatment dose (1.2 mg followed by 0.6 mg)",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Colchicine is not an analgesic and should not be used to treat pain from other causes and can be used for both a____ attack and p____ but at d____ doses",
         "answer": "Acute, prophylaxis, different",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Monotherapy for mild-moderate attack of gout affecting 1 or few small joints or 1-2 large joints is e____ effective and the most appropriate therapy should be chosen based on patient’s preference, p____ response, and associated c____",
 		"answer": "Equally, prior, comorbidities",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Combination therapy for severe or refractory attack involving 1-2 large joints or polyarticular is s____ use of full doses of c____ + N____, c____ + oral c____, intra-articular s____ + c____/N____/oral c____",
         "answer": "Simultaneous, colchicine, NSAIDs, colchicine, corticosteroids, steroids, colchicine/NSAIDs/corticosteroids",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The treatment plan goal for hyperuricemia is to p____ recurrent gout attacks by maintaining low uric acid levels (<____ mg/dL or sometimes <____ mg/dL)",
         "answer": "Prevent, 6, 5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Non-pharmacologic therapy for hyperuricemia is w____ loss, e____, reduce a____ intake, limit consumption of high-fructose corn syrup and p____ rich foods (organ m____, s____)",
         "answer": "Weight, exercise, alcohol, purine, meats, seafood",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacologic therapy for hyperuricemia is d____ unnecessary medications that increase U____ levels, and u____ lowering therapy",
         "answer": "Discontinue, UA, urate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Purine rich food with ____-____ mg/100g is b____, l____, k____, g____, t____, v____, t____, p____",
         "answer": "75-100, bacon, liver, kidneys, goose, turkey, veal, trout, pigeon",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Purine rich food with >____mg/100g is h____, meat extracts, m____, s____, s____, s____, y____",
         "answer": "100, herring, mussels, sardines, smelts, sweetbreads, yeast",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Medications that worsen gout are d____ such as t____, l____, n____, s____, l____, e____, e____, p____, c____",
         "answer": "Diuretics, thiazide, loop, niacin, salicylates, levodopa, ethanol, ethambutol, pyrazinamide, cyclosporine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Criteria for Urate lowering therapy are for: patients with > ____ gouty attacks per year (evidence ____), presence of one or more t____ (Evidence ____), c____ kidney disease (stage ____ or worse (Evidence ____), history of u____ (Evidence ____)",
         "answer": "2, A, tophus, A, chronic, 2, C, urolithiasis, C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "MOA of xanthine oxidase inhibitors is it b____ formation of u____ acid and d____ serum UA levels and it is a ____ line therapy",
         "answer": "Blocks, uric, decreases, 1st",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hypoxanthine blocks xanthine formation by a____ and f____and xanthine blocks uric acid formation by a____ and f____",
         "answer": "Allopurinol, febuxostat, allopurinol, febuxostat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Initial dosing for allopurinol is ____-____ mg daily (____ mg in CKD stage ____), and titrate up every ____-____ weeks until UA target reached and maximum dose is ____ mg/day (in divided doses)",
         "answer": "50-100, 50, 4, 800",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Allopurinol warnings include h____ reaction/s____ rash, S____ J____ S____ (SJS), and genetic testing for H____ prior to starting therapy in K____ with CKD stage > ____, Han C____ or T____ irrespective of renal function",
         "answer": "Hypersensitivity, severe, Steven Johnson Syndrome, HLA-B*5801, Koreans, 4, Chinese, Thai",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Side effects of allopurinol include r____, increased L____, a____ g____ attacks, and this can be prevented by using c____ or N____ for up to ____ months c____ to reduce the risk of acute attacks when starting u____ lowering therapy",
         "answer": "Rash, LFTs, acute gout, colchicine, NSAIDs, 6, concurrently, urate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Febuxostat (Uloric) is dosed at ____-____ mg daily and has warnings for h____, h____ (less than allopurinol), t____ events and has contraindications with a____ or m____",
         "answer": "40-80, hepatotoxicity, hypersensitivity, thromboembolic, azathioprine, mercaptopurine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Side effects of febuxostat (Uloric) is r____(less than allopurinol), increased L____ (d/c if LFTs > ____x ULN), and this can be prevented by using c____ or N____ for up to ____ months c____ to reduce the risk of acute attacks when starting u____ lowering therapy",
         "answer": "Rash, LFTs, 3, colchicine, NSAIDs, 6, concurrently",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lesinurad (Zurampic) MOA of U____ acid transporter1 (URAT1) inhibitor is i____ the function of transporter proteins involved in uric acid r____, d____ serum uric acid level, i____ renal clearance, and fractional absorption of uric acid",
         "answer": "Uric, inhibits, reabsorption, decreased, increased",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lesinurad + allopurinol is D____",
         "answer": "Duzallo",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Lesinurad (Zurampic) is not used as m____ and should be used in combination with X____, and there is a black box warning for a____ r____ f____ (especially when used a____), and contraindication is CrCl <____mL/min, E____, K____ transplant, d____",
         "answer": "Monotherapy, XOI, acute renal failure, alone, 30, ESRD, kidney, dialysis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Patient counseling for Lesinurad is to stay well h____ (~____L/day), ____ mg PO Q____ with a dose of X____, decrease efficacy of oral c____ ",
         "answer": "Hydrated, 2, AM, XOI, contraceptives",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of lesinurad (Zurampic) is c____ effects, g____ flares (recommend gout flare p____), n____, h____, i____, G____ and metabolism is through____ where poor metabolizers have ____x higher drug exposure",
         "answer": "Cardiovascular, gout, prophylaxis, nephrotoxicity, headache, influenza, GERD, CYP2C9, 1.8",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "MOA of uricosuric agents is i____ renal excretion of U____ by inhibiting proximal tubular r____ and is an a____ 1st line",
         "answer": "increased, UA, reabsorption, alternative",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Probenacid (Probalan) is useful in urate u____, and is dosed initially at ____ mg B____ for ____ week and is titrated up to ____-____ mg/day until target UA and has a warning of i____ risk of hemolytic anemia in patients with G____ deficiency",
         "answer": "underexcretion, 250, BID, 1, 500-2000, G6PD",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Probenacid (Probalan) is not recommended as m____ in patients with CrCl<____ mL/min or history of u____ and should avoid use in patients with CrCl <____mL/min",
         "answer": "monotherapy, 50, 30",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Contraindications for Probenacid (Probalan) are concomitant use of A____ (>____mg), u____, initiation during a____ g____ a____, blood d____ and side effects include h____ reactionis, h____ anemia, and a____g____ a____",
         "answer": "ASA, 325, urolithiasis, acute gout attack, dyscrasias, hypersensitivity, hemolytic, acute gout attacks",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The MOA for urate oxidase enzyme is p____ recombinant uricase and converts UA to a____ (water solube and easily excreted through kidneys)",
         "answer": "pegylated, allantoin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pegloticase (Krystexxa) is used for s____ r____ g____ and is dosed at ____ mg IV infusion Q____wks (over at least ____ hours), and there is a risk of a____ (infusion related reactions) and patient should be pre-medicated with a____ and c____",
         "answer": "severe, refractory gout, 8, 2, anaphylaxis, antihistamine, corticosteroids",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pegloticase (Krystexxa) should be discontinued or oral a____ agents should not be initiated prior to initiating Pegloticase",
         "answer": "antihyperuricemic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pegloticase (Krystexxa) needs to be protected from l____, r____ vials, do not s____, and must be used within ____ hours after dilution",
         "answer": "light, refrigerate, shake, 4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pegloticase (Krystexxa) contraindication occurs for patients with G____ deficiency and has warnings for h____/a____, may exacerbate C____, i____, and a____g____a____ and this can be prevented by using c____ daily or N____ before and after (up to 6 months) concurrently to reduce the risk of acute attacks",
         "answer": "G6PD, hypersensitivity/anaphylaxis, CHF, immunogenicitiy, acute gout attacks",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "L____(Cozaar) is useful as anti-____ and u____ effects and F____ (Tricor)",
         "answer": "losartan, hypertension, uricosuric, fenofibrates",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The goal for monotherapy is to reduce UA to <____mg/dL (sometime <____mg/dL), a____ or f____ is ____ line therapy and p____ is an alternative 1st line treatment if x____ oxidase inhibitors contraindicated/not tolerated",
         "answer": "6, 5, allopurinol, febuxostat",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "If the serum UA levle is still not at goal maximize X____ dose and/or do c____ therapy of X____ + p____ OR X____ + U____ OR add other u____ agents such as l____ or f____ and last resort is p____",
         "answer": "XOI, combination, XOI, probenacid, XOI, URAT1, uricosuric, losartan, fenofibrates, pegloticase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Initiating urate lowering therapy in patients can cause an a____ g____ a____ and this affects patient c____ and long term effects include u____ a____ n____, g____ n____, t____ g____, and ways to increase compliance would be to c____ initiate acute gout p____ with urate lowering therapy and start acute gout prophylaxis prior to initiating urate lowering therapy",
         "answer": "acute gouty attack, compliance, urice acid nephrolithiasis, gouty nephropathy, tophaceous gout, prophylaxis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Goal of acute gout prophylaxis is to i____ patient c____ with urate lowering therapy and p____ acute gouty arthritis attack",
         "answer": "increase, compliance, prevent",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacologic therapy for acute gout prophylaxis is to use c____ as ____ line therapy and low dose N____ and low dose oral c____",
         "answer": "colchicine, 1st, NSAIDs, corticosteroids",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Colchicine is dosed at ____ mg daily or twice daily and dose is adjusted in s____ renal impairment and/or concomitant use with C____/P____ inhibitor",
         "answer": "0.6, severe, CYP3A4/Pgp",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Low dose Naproxen is dosed at ____ mg PO B____ and P____ or H____ may be considered if needed",
         "answer": "250, BID, PPIs, H2-blockers",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Low dose oral c____ is used only if colchicine/NSAIDs are c____/not t____/i____ such as p____/p____,____ mg/day",
         "answer": "corticosteroids, contraindicated, tolerated, ineffective, prednisone/prednisolone, 10",
-        "type": "text"
+        "type": "fill"
     }
 ]

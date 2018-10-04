@@ -2,361 +2,361 @@ OsteoArthritisQuestions = [
     {
         "question": "Patients have multiple risk factors for osteoarthritis such as a____, o____, g____, o____, history of i____/trauma, g____ predisposition",
         "answer": "age, obesity, gender, occupation, injury, genetic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "If you are obese there is more pressure on the k____ than h____",
         "answer": "knee, hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "OA is more common in ____ when under <45 yo and more common in ____ when > 45 yo",
         "answer": "men, women",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Clinical presentation of OA includes: m____ stiffness, p____ (deep and aching) d____ or r____ after joint use (ex. going up and down stairs), b____ of knees, s____ in the affected joints with limited joint motion, and generally a____ involvement",
         "answer": "morning, during, right, bulging, stiffness, asymmetrical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "OA affects c____ and l____ spine, h____, k____, first m____ phalangeal joint, d____ and p____ interphalangeal joints of h____ and base of t____",
         "answer": "cervical, lubosacral, hip, knee, metatarsal, distal, proximal, hand, thumb",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "RA age of onset is y____ and speed of onset is r____, and joint symptoms p____, s____, s____, joints affected s____ and l____ joints on both sides of the body (symmetrical), and morning stiffness usually lasts >____ hr, and systemic symptoms are f____, general ill feeling",
         "answer": "younger, rapid, painful, swollen, stiff, small, large, 1, fatigue",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "OA age of onset is l____ >____yo, and speed of onset, joint symptoms are a____ and t____, and joints affected usually begin a____ and spread to the other side and morning stiffness <____ min and there are no s____ symptoms",
         "answer": "later, 50, aching, tender, asymmetrical, 30, systemic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nonpharmacologic treatment include optimizing joint function by s____ and c____ of muscles that bridge the joints, and avoiding activities that o____ the joint, w____ loss, e____, w____ aid, p____ therapy, p____ interventions, s____",
         "answer": "strengthening, conditioning, overload, weight, exercise, walking, physical, psychosocial, surgery",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacological treatments include A____, N____, t____, s____, o____, topical c____, c____ sulfate, h____",
         "answer": "APAP, NSAIDs, tramadol, steroids, opioids, capsaicin, chondroitin, hyaluronate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Different forms of exercise include a____/r____, a____, t____ c____",
         "answer": "aerobic/resistance, aquatic, tai chi",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tylenol acts within the C____ and inhibits the p____ synthesis and works p____ to block p____ impulse generation",
         "answer": "CNS, prostaglandin, peripherally, pain",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tylenol is dosed at ____-____-mg Q____-____hours, and max dose is ____g and caution for h____ and avoid in chronic a____ abuse and l____ disease",
 		"answer": "650-1000, 4-6, 4, hepatotoxicity, alcohol, liver",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tylenol has DDI with A____ and w____ and A____ and A____ need to be monitored",
         "answer": "APAP, warfarin, AST, ALT",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "NSAIDs inhibit COX-1 and COX-2 enzymes that result in decreased formation of prostaglandin precursors and have black box warning for increased risk of t____ and serious g____ bleeding",
         "answer": "thrombosis, gastrointestinal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "NSAIDs adverse effects are d____, n____, g____ ulcers, f____ retention, H____",
         "answer": "dyspepsia, nausea, gastric, fluid, HTN",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "NSAIDs need to be taken in caution in G____, p____ ulcer disease, r____ impairment, c____ patients",
         "answer": "GERD, peptic, renal, cardiac",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tylenol is guideline recommended for k____ and h____ O____",
         "answer": "knee, hip OA",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "NSAIDs is guideline recommended for h____, k____, and h____ OA",
         "answer": "hand, knee, hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "PO NSAID formulation is recommended for h____ OA",
         "answer": "hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ibuprofen (Advil, Motrin) is dosed at ____-____ mg ____-____X daily (max____mg/day) and comes as P____, I____, and t____",
         "answer": "400-800, 3-4, 3200, PO, IV, topical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Naproxen (Naprosyn, Aleve) is dosed at ____-____mg ____X daily and comes as P____, t____",
         "answer": "250-500, 2, PO, topical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Meloxicam (Mobic, Vivlodex) is dosed at ____-____mg daily and comes as P____",
         "answer": "7.5-15, PO",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vivlodex is dosed at ____-____mg daily and is not interchangeable with other meloxicam formulation, even if mg is the same",
         "answer": "5-10",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Diclofenac (Voltaren, Flector, Pennsaid, Zorvolex) is dosed at XR: ____mg daily, DR: ____mg 2-3X daily or ____mg daily, IR: ____mg 2-3x daily, Zorvolex: ____-____mg TID and comes in P____, t____ (cream, gel, solution, patch) ",
         "answer": "100, 50, 50, 18-35, PO, topical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Celecoxib (Celebrex) is dosed at ____mg BID or ____mg daily and comes in P____ and must be avoided in s____ allergy",
         "answer": "100, 200, PO, sulfa",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Indomethacin (Indocin, Tivorbex) is dosed at IR: ____mg BID, titrate to a max of ____mg TID, ER: ____mg daily, MAX: ____ mg daily, Tivorbex: ____ mg TID or ____ mg 2-3X daily and comes in P____",
 		"answer": "25, 50, 75, 150, 20, 40, PO",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ketoprofen (Orudis) is dosed at ____-____mg 3-4X daily and comes in P____, t____",
         "answer": "50-70, PO, topical",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ketorolac (Toradol) is dosed at ____mg Q4-6 h (max ____mg/day) and comes in P____, I____/I____",
         "answer": "10, 40, PO, IV/IM",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nabumetone (Relafen) is dosed at ____-____mg 1-2X daily and comes in P____",
         "answer": "500-1000, PO",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Piroxicam (Feldene) is dosed at ____-____mg daily and comes in P____",
         "answer": "1-20, PO",
-        "type": "text"
+        "type": "fill"
 	},
     {
         "question": "Pennsaid ____% topical solution pump: apply ____ pumps (____mg) to each painful knee ____X daily and do not shower for at least ____min after applying",
         "answer": "2, 2, 40, 2, 30",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pennsaid ____% topical solution: apply ____ drops at a time onto the knee and spread. Apply until ____ drops are applied and the knee is covered in solution. W____ hands and wait until area is dry prior to putting on clothing",
         "answer": "1.5, 10, 40, wash",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Voltaren 1% gel is dosed at ____g on u____ extremity and is applied ____ (max____g/joint/day) do not exceed ____ mg/day",
         "answer": "2, upper, QID, 8, 32",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Voltaren 1% gel is dosed at ____g on l____ extremity and is applied ____ (max____g/joint/day) do not exceed ____mg/day",
         "answer": "4, lower, QID, 16, 32",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Diclofenac has DDI with anticoagulation and antip____ therapies (increased bleeding risk), N____, A____ and A____ (renal impairment), and other HTN agents and you need to monitor: ____, ____, ____, ____, ____",
         "answer": "antiplatelet, NSAID, ACEI, ARB, Na, K, Scr, BUN, CBC",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "To prevent NSAID induced bleeding: take with f____ and recommend topical over oral NSAIDs especially in patients >____ yo, for GI protection use P____ (example pantoprazole) or m____ (synthetic prostaglandin)",
         "answer": "food, 75, PPI, misoprostol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "To prevent NSAID induced bleeding: choose a COX-2 selective agent (if no c____ problem) such as c____, m____, e____",
         "answer": "celecoxib, meloxicam, etodolac",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In patients with a history of complicated GI bleed, with GI bleed episode in the past year, use: COX-2 selective N____ + P____",
         "answer": "NSAID, PPI",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "In patients with a history of complicated GI bleed but WITHOUT a GI bleed episode in past year, use: COX-2 selective N____ or non s____ N____ + P____",
         "answer": "NSAID, selective, NSAID, PPI",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "To prevent cardiovascular complications try to avoid N____ if possible, avoid i____ in patients with cardiovascular disease, and if the patient is on low dose ASA (<=____mg/day) for cardio protection choose a non selective N____ (other than ibuprofen, n____ shown to be safest) + P____",
         "answer": "NSAID, ibuprofen, 325, NSAID, naproxen, PPI",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Opioids (C____-C____) MOA is opioid receptor a____ and u: a____, r____ d____, k: a____, s____, s____ GI transit, d: a____, t____",
 		"answer": "CII-CIV, agonist, analgesia, respiratory depression, analgesia, sedation, slows GI transit, analgesia, tolerance",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Opioids are recommended only if the patient has i____ response to both p____ and n____- modalities and is unwilling/not qualified to undergo total joint a____",
         "answer": "inadequate, pharmacological, nonpharmacological, arthroplasty",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Opioids should be avoided in h____ OA adn BBW include a____, r____ d____",
         "answer": "hand, addiction, respiratory depression",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "ADR for opioids include c____, r____ d____, d____/d____, i____, u____ r____ and a____ should be avoided as well as DDI with C____/C____",
         "answer": "constipationi, respiratory depression, dizziness/drowsiness, itchiness, urinary retention, alcohol, CYP3A4/CYP2D6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tramadol (Ultram, Ultracet) CIV MOA is s____ opioid which binds to opioid receptors in the C____ and inhibit a____ pain pathways. It i____ the reuptake of neurotransmitters (n____ and s____) involved in d____ inhibitory pain pathway responsible for pain relief",
         "answer": "synthetic, CNS, ascending, inhibits, norepinephrine, serotonin, descending, ",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Ultram is dosed at ____-____mg Q____-____h: max daily ____mg and Ultracet (APAP____/tramadol ____mg): take ____ tablets Q____-____h PRN: max ____ tablets per day for short term (<____) pain management",
         "answer": "50-100, 4-6, 400, 325, 37.5, 2, 4-6, 8, 58",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "ADR of Tramadol are c____, N/V, d____, decreased s____ threshold and BBW include risk of opioid a____, r____ d____",
         "answer": "constipation, dizziness, seizure, addiction, respiratory depression",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The guideline recommends opioid in h____, k____ and h____ OA",
         "answer": "hand, knee, hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Tramadol has DDI with T____, S____, S____, M____, and be aware of combination drugs with A____",
         "answer": "TCA, SSRI, SNRI, MAO-I, APAP",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucosamine and chondroitin are found in normal cartilage. The combination may help r____ damaged cartilage and s____ the progression of the disease and is n____ recommended by ACR guideline",
         "answer": "replace, slow, not",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucosamine is dosed (T____) at ____mg/day and chondroitin is dosed (T____) at ____ mg/day ",
         "answer": "TID, 1500, TID, 1200",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucosamine needs to be cautioned in patients with s____ allergy and increases INR when taken with w____",
         "answer": "shellfish, warfarin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Guideline recommends to avoid in k____ and h____ OA for glucosamine/chondroitin",
         "answer": "knee, hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Capsaicin MOA depletes neurons of substance ____ which is a principal chemo-mediator of pain impulses from the p____ to the C____",
         "answer": "P, periphery, CNS",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The guideline recommends using capsaicin in h____ but avoid in k____ OA",
         "answer": "hand, knee",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Apply a thin film of capsaicin to the affected area ____-____ X daily and gently rub onto affected area until absorbed and wash hands after use",
         "answer": "3-4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Apply 1 capsaicin patch to the affected area for up to ____ hrs (max: ____ patches/day)",
         "answer": "8, 4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "intraarticular corticosteroid injections are administered directly into the joint s____ to reduce inflammation in t____ and l____",
         "answer": "space, tendons, ligaments",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "ICI offers s____ term pain relief (weeks to months) and has to be administered every ____-____ months up to ____ times a year ",
         "answer": "short, 4-6, 4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Guideline recommends ICI in k____ and h____ OA and AVOID in h____ OA",
         "answer": "knee, hip, hand",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Short term systemic steroid side effects include: increased a____/w____ gain, f____ retention, i____/m____ swings, i____, elevated blood g____/p____",
         "answer": "appetite/weight, fluid, irritability/mood, insomnia, glucose/pressure",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Long term systemic steroid side effects include: i____, o____, a____, d____ thinning, central redistribution of fat",
         "answer": "immunosupression, osteoporosis, acne, dernal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "hyaluronic acid injection is used for lubrication and cushioning of the joints and is n____ recommended by ACR guideline due to lack of evidence and requires multiple injections and has a d____ onset where max effect is seen at ____-____ weeks and effect lasts up to ____ weeks",
         "answer": "not, delayed, 5-13, 24",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hyaluronic acid injection is contraindicated in e____, c____, f____, or b____ protein allergy (rooster comb)",
         "answer": "egg, chicke, feather, bird",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Arthroplasty is known as t____ j____ r____",
         "answer": "total joint replacement",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nonpharmacological treatments for hand OA are j____ protection techniques, t____ modalities, splint for trapeziometacarpal OA",
         "answer": "joint, thermal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacological treatments for hand OA are topical c____, topical N____, oral N____, t____",
         "answer": "capsaicin, NSAIDs, NSAIDs, tramadol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nonpharmacological treatment for knee OA include a____/r____ land based exercise, a____ exercise, w____ loss if overweight, t____ agents, w____ aids as needed",
         "answer": "aerobic/resistance, aquatic, weight, thermal, walking",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacological treatment for knee OA include A____, oral N____, topical N____, t____, I____",
         "answer": "APAP, NSAIDs, NSAIDs, tramadol, ICI",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Use o____ (instead of tramadol) in k____/h____ OA if patient failed initial nonpharmacological/pharmacological tx and is not undergoing total joint arthroplasty",
         "answer": "opioid, knee/hip",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Nonpharmacological treatment in hip OA include a____/r____ land based exercise, a____ exercise, w____ loss if overweight, t____ agents, w____ aids as needed",
         "answer": "aerobic/resistance, aquatic, weight, thermal, walking",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacological treatment for hip OA include A____, oral N____, t____, I____",
         "answer": "APAP, NSAIDs, NSAIDs, tramadol, ICI",
-        "type": "text"
+        "type": "fill"
     }
 ]

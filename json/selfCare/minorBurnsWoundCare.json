@@ -42,12 +42,12 @@ minorBurnsQuestions = [
     {
         "question": "Proliferative phase is day ____ to week ____",
         "answer": "3,3",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Maturation or remodeling is week ____ to week ____",
         "answer": "3,9",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "What is the correct order for phase of wound healing (proliferative and migration, hemostasis and coagulation, remodelign, inflammation",
@@ -132,7 +132,7 @@ minorBurnsQuestions = [
     {
         "question": "gauze alone is not recommended for ____ wound treatment",
         "answer": "moist",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What do you need to caution for in antimicrobials",
@@ -157,17 +157,17 @@ minorBurnsQuestions = [
     {
         "question": "You want to absorb excess moisture during the ____ phase of healing",
         "answer": "inflammatory",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "You want to maintain moisture during the ____ phase",
         "answer": "proliferative",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "You want to provide moisture to ____ tissues",
         "answer": "rehydrate",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "How long can you use skin protectants for",
@@ -182,12 +182,12 @@ minorBurnsQuestions = [
     {
         "question": "first aid antiseptics can only be applied to ____ skin",
         "answer": "intact",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "topical anesthetics can be applied up to ____ times a day",
         "answer": "4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which first aid antiseptic is recommended for chlorhexidine allergy",
@@ -252,6 +252,6 @@ minorBurnsQuestions = [
     {
         "question": "Aloe vera is contraindicated for ____ family (tulips, garlic, onions",
         "answer": "Liliaceae",
-        "type": "text"
+        "type": "fill"
     }
 ]

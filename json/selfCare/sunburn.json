@@ -42,7 +42,7 @@ sunburnQuestions = [
     {
         "question": "Highest intensity of UVB occurs at ____am to ____pm",
         "answer": "10, 4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "UVR exposure can lead to suntan and s____, drug photo____, skin hyper____, photoaging, skin c____, photodermatoses, premature a____ and c____",
@@ -52,12 +52,12 @@ sunburnQuestions = [
     {
         "question": "Acute overexposure to UVR is a result of damaged and in____ skin cells",
         "answer": "inflamed",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "erythema peaks after ____ hours",
         "answer": "12-24",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "suntan is produced when UVR stimulates increased production of",
@@ -77,17 +77,17 @@ sunburnQuestions = [
     {
         "question": "photoallergy triggers a____ skin reaction",
         "answer": "antigenic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "photoallergy occurs after ____ exposure to agent/drug",
         "answer": "prior",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "phototoxicity occurs during ____ exposure to agent/drug",
         "answer": "first",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What does the ABCDE evaluation stand for?",
@@ -106,12 +106,12 @@ sunburnQuestions = [
     }, {
         "question": "sunscreen is an agent that protects the skin and reduces the damage caused by the sun by r____, a____, d____ UV radiation ",
         "answer": "reflecting, absorbing, dispersing",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "SPF under 15 only protects against ____ radiation",
         "answer": "UVB",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "sunscreens are not required to have expiration dates as long as manufacturer can prove that they are good for",
@@ -121,7 +121,7 @@ sunburnQuestions = [
     {
         "question": "apply sunscreen ____ mins before sun exposure",
         "answer": "15-30",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which ingredients offer UVB protection",
@@ -148,7 +148,7 @@ sunburnQuestions = [
     {
         "question": "Titanium dioxide is used most often on small p____ exposed areas",
         "answer": "prominently",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Do not use sunscreen in pediatric patients less than",

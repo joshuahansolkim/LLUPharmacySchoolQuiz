@@ -2,96 +2,96 @@ hyperpigmentationQuestions = [
     {
         "question": "The three types of hyperpigmentation that can be treated are e____, s____ l____, m____ ",
         "answer": "ephelides, solar lentigines, melasma",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Etiology of hyperpigmentation are e____ imbalances, m____ alternations, i____ dermatoses, p____ trauma to skin, d____ induced",
         "answer": "endocrine, metabolic, inflammatory, physical, drug",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Endocrine imbalances are caused by a____disease, c____ disease, hypo/hyper____, p____, ____ resistance",
         "answer": "Addison's, Cushing's, thyroidism, pregnancy, insulin",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Drug induced hyperpigmentation include: amiodarone, antimalarial agents, antineoplastic agents, ____ metals, ____ replacement therapy, minocycline, ____ contraceptives, phenothiazines, ____ antidepressants, zidovudine",
         "answer": "heavy, hormone, oral, tricylic",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone is pregnancy category ____",
         "answer": "C",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone is not suitable for children < ____ years old",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone is gently applied ____ times a day",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone noticeable hypopigmentation occurs after ____ to ____ weeks",
         "answer": "3, 4",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hyperpigmentation is excluded for people under ____ years old",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone ____% is available as OTC",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Etiology of photoaging includes i____factors, e____ factors, ____ radiation exposure",
         "answer": "intrinsic, extrinsic, UV",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Primary culprit of photoaging is ____",
         "answer": "UVB",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of photoaging are s____, b____, p____, s____, d____",
         "answer": "stinging, burning, pruritus, skin lightening, dryness",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Alternative therapy to photoaging is ____/retinaldehyde, ascorbic acid, ____",
         "answer": "retinol, idebenone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone should be used for ____ months or if skin darkens refer to PCP",
         "answer": "3",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hydroquinone reduces the conversion of t____ to d____",
         "answer": "tyrosine, dopa",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Alternative agents to hydroquinone include synthetic o____0.1%, K____ acid, r____, t____ acid, m____ acid, N____",
         "answer": "oligopeptide, kojic, rucinol, tranexamic, mandelic, niacinamide",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Pharmacologic therapy for photoaging include vitamin ____, ____, ____, ____, N____ (kinerase), ____ (lactic and glycolic) and ____ ( salicyclic) hydroxy acids",
         "answer": "A, B3, C, E, N-furfuryladenine, alpha, beta",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "photoaging agents should be used ____ days for ____ week, then increase to every other day for ____ week, up to t____ daily",
         "answer": "3, 1, 1, twice",
-        "type": "text"
+        "type": "fill"
     }
 ]

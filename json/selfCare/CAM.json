@@ -2,12 +2,12 @@ CAMQuestions = [
     {
         "question": "A broader definition of dietary supplement includes culinary h____, s____, and f____",
         "answer": "herbs, spices, foods",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A dietary supplement is intended to supplement the diet, contains one or more dietary ingredients, and is intended to be taken by mouth as a c____, p____, t____, l____, and is labeled on the front as a dietary supplement",
         "answer": "capsule, pill, tablet, liquid",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which one is NOt a reason for supplement use?",
@@ -24,12 +24,12 @@ CAMQuestions = [
     {
         "question": "In order to know if dietary supplements are effective you need to know your e____, encourage r____ expectations, keep the patient as a w____ in mind",
         "answer": "evidence, realistic, whole",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "What are some examples of evidence: l____/e____/g____ resource",
         "answer": "literature, electronic, government",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which one is not an electronic literature source",
@@ -40,12 +40,12 @@ CAMQuestions = [
     {
         "question": "Dietary supplements are regulated by the FDA under the provisions of ____",
         "answer": "DSHEA",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "A dietary supplement label may not claim that the supplement can d____, p____, m____, t____, or c____a specific disease",
         "answer": "diagnose, prevent, mitigate, treat, cure",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Exceptions are made for which specific health claims which need to meet Federal guidelines",
@@ -56,7 +56,7 @@ CAMQuestions = [
     {
         "question": "Dietary supplements can be labeled in regard to prevention of d____ disease, s____ or f____, or in regard to w____-b____",
         "answer": "deficiency, structure, function, well-being",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Government resources include",
@@ -73,12 +73,12 @@ CAMQuestions = [
     {
         "question": "For interactions, you must pay attention to the same e____, same s____ e____, same m____",
         "answer": "effect, side effect, metabolism",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Factual content of advertising is monitored by the ____ and ____",
         "answer": "FDA, FTC",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which is the best response for dietary substances regulated by the FDA",
