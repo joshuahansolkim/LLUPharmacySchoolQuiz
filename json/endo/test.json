@@ -1,0 +1,42 @@
+testDrugs = [
+    {
+        "Name": "pill1",
+        "Broad-Generic": "Josh's Awesome Pill of Happiness",
+        "MOA": "Makes happiness| inhibits sadness| reduces tears",
+        "ADR": "I don't know what this is| but I am testing",
+        "CI": "I don't know what this is but I am testing",
+        "Dosing": "1 pill daily| 1 bottle daily",
+        "DDI": "I don't nknow what this is| but I am testing",
+        "Monitoring": "No Monitoring required you will alway be happy"
+    },
+    {
+        "Name": "pill2",
+        "Broad-Generic": "Josh's Awesome Pill of Happiness",
+        "MOA": "Makes happiness| inhibits sadness| reduces tears",
+        "ADR": "I don't know what this is| but I am testing",
+        "CI": "I don't know what this is| but I am testing",
+        "Dosing": "1 pill daily| 1 bottle daily",
+        "DDI": "I don't know what this is| but I am testing",
+        "Monitoring": "No Monitoring required| you will alway be happy"
+    },
+    {
+        "Name": "pill3",
+        "Broad-Generic": "Josh's Awesome Pill of Happiness",
+        "MOA": "Makes happiness| inhibits sadness| reduces tears",
+        "ADR": "I don't know what this is| but I am testing",
+        "CI": "I don't know what this is but I am testing",
+        "Dosing": "1 pill daily| 1 bottle daily",
+        "DDI": "I don't nknow what this is| but I am testing",
+        "Monitoring": "No Monitoring required you will alway be happy"
+    },
+    {
+        "Name": "pill4",
+        "Broad-Generic": "Josh's Awesome Pill of Happiness",
+        "MOA": "Makes happiness| inhibits sadness| reduces tears",
+        "ADR": "I don't know what this is but I am testing",
+        "CI": "I don't know what this is but I am testing",
+        "Dosing": "1 pill daily 1 bottle daily",
+        "DDI": "I don't nknow what this is but I am testing",
+        "Monitoring": "No Monitoring required you will alway be happy"
+    }
+]

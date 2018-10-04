@@ -3,6 +3,7 @@
     <TITLE>Pharmacy Topic Quiz</TITLE>
     <script type="text/javascript" src="json/classes.json"></script>
     <script type="text/javascript" src="js/quizLogic.js"></script>
+    <script type="text/javascript" src="js/commonLogic.js"></script>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
@@ -21,39 +22,42 @@
         var totalCorrect = 0;
     </script>
 </HEAD>
-<BODY onload="setupPage()">
+<BODY data-quizType="topic" onload="setupPage()">
     <h1 class="quizTitle"></h1>
-        <fieldset class="topics">
-        </fieldset>
-        <fieldset>
-            <form id="quizForm" class="form-inline">
-                <div class="row" id="questionRow">
-                </div>
-            </form>
-            <div class="form-group">
-                <label for="correctAnswer" id="correctAnswerLabel">Start Quiz:</label>
-                <input class="form-control" id="correctAnswer" type="text" disabled value='Press "Check Answer" or "Enter" key to submit your answer.'>
+    <fieldset class="topics">
+    </fieldset>
+    <fieldset>
+        <form id="quizForm" class="form-inline">
+            <div class="row" id="questionRow">
+                <!-- This is where the questions will go. -->
             </div>
-            <div class="form-group">
-                <p>Questions Correct/Total Questions: <span id="correctCount">0</span></p>
-            </div>
-            <div class="form-group">
-                <nav aria-label="Page navigation">
-                    <ul class="pagination pagination-sm">
-                        <li class="page-item questionNav"><button class="page-link" type="button" onclick="getPreviousQuestion()">Previous</button></li>
-                        <li class="page-item"><button class="page-link" type="button" onclick="getNextQuestion()">Next</button></li>
-                    </ul>
-                </nav>
+        </form>
+        <div class="form-group">
+            <label for="correctAnswer" id="correctAnswerLabel">Start Quiz:</label>
+            <input class="form-control" id="correctAnswer" type="text" disabled value='Press "Check Answer" or "Enter" key to submit your answer.'>
+        </div>
+        <div class="form-group">
+            <p>Questions Correct/Total Questions: <span id="correctCount">0</span></p>
+        </div>
+        <div class="form-group">
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-sm">
+                    <li class="page-item questionNav"><button class="page-link" type="button" onclick="getPreviousQuestion()">Previous</button></li>
+                    <li class="page-item"><button class="page-link" type="button" onclick="getNextQuestion()">Next</button></li>
+                </ul>
+            </nav>
 
-            </div>
-            <div class="form-group">
-                <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
-                <button class="btn btn-primary" type="button" onclick="randomizeQuestions()">Reset Quiz</button>
-                <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
-                <br><br>
-                <a class="btn btn-primary" role="button" href="index.html">Home</a>
-            </div>
-        </fieldset>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
+            <button class="btn btn-primary" type="button" onclick="randomizeQuestions()">Reset Quiz</button>
+            <!-- Temporarily remove this button until this logic has been fleshed out
+            <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
+            -->
+            <br><br>
+            <a class="btn btn-primary" role="button" href="index.html">Home</a>
+        </div>
+    </fieldset>
     <script>
         $('.quizTitle').append(pclass.name + ' Topics Quiz');
     </script>
