@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <script>
         // Determine the class to ask questions for
+        var quizType = 'topics';
         var urlParams = new URLSearchParams(window.location.search);
         var className = urlParams.get('class');
         var pclass = classes.find(function (obj) {return obj.path === className});
-        var classTopics = pclass.topics;
+        var classTopics = getTopicsList(pclass.topics);
         setupTopics();
         var questions;
         var arrayIndex = 0;

@@ -2,102 +2,115 @@ classes = [
     {
         "name" : "IPDM",
         "path" : "ipdm",
-        "quizType" : "topics",
         "topics" : [
             {
                 "name" : "BPH",
                 "path" : "BPH",
-                "varname" : "BPHQuestions"
+                "varname" : "BPHQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Diagnostic Tests",
                 "path" : "DiagnosticTests",
-                "varname" : "DiagnosticTestsQuestions"
+                "varname" : "DiagnosticTestsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Drug Interations",
                 "path" : "DrugInteractions",
-                "varname" : "DrugInteractionsQuestions"
+                "varname" : "DrugInteractionsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Gout",
                 "path" : "Gout",
-                "varname" : "GoutQuestions"
+                "varname" : "GoutQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Lab Values",
                 "path" : "LabValues",
-                "varname" : "LabValuesQuestions"
+                "varname" : "LabValuesQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Medical Terminology",
                 "path" : "MedicalTerminology",
-                "varname" : "MedicalTermsQuestions"
+                "varname" : "MedicalTermsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Osteo Arthritis",
                 "path" : "OsteoArthritis",
-                "varname" : "OsteoArthritisQuestions"
+                "varname" : "OsteoArthritisQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Patient Medications",
                 "path" : "PatientMedications",
-                "varname" : "PatientMedicationQuestions"
+                "varname" : "PatientMedicationQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "PE",
                 "path" : "PE",
-                "varname" : "PEQuestions"
+                "varname" : "PEQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Urinary Incontinence",
                 "path" : "UrinaryIncontinence",
-                "varname" : "UrinaryIncontinenceQuestions"
+                "varname" : "UrinaryIncontinenceQuestions",
+                "quizType" : "topics"
             }
         ]
     },
     {
         "name" : "Law",
         "path" : "law",
-        "quizType" : "drug",
         "topics" : [
             
             {
                 "name" : "Controlled Drugs",
                 "path" : "ControlledDrugs",
-                "varname" : "ControlledDrugsQuestions"
+                "varname" : "ControlledDrugsQuestions",
+                "quizType" : "drug"
             }
         ]
     },
     {
         "name" : "Medchem",
         "path" : "medchem",
-        "quizType" : "topics",
         "topics" : [
             {
                 "name" : "Adrenergic 1",
                 "path" : "Adrenergic1",
-                "varname" : "AdrenergicQuestions1"
+                "varname" : "AdrenergicQuestions1",
+                "quizType" : "topics"
             },
             {
                 "name" : "Adrenergic 2",
                 "path" : "Adrenergic2",
-                "varname" : "AdrenergicQuestions2"
+                "varname" : "AdrenergicQuestions2",
+                "quizType" : "topics"
             },
             {
                 "name" : "BioPharmaceutical",
                 "path" : "BioPharmaceutical",
-                "varname" : "BiopharmaceuticalQuestions"
+                "varname" : "BiopharmaceuticalQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Cholinergic Neurotransmissions",
                 "path" : "CholinergicNeurotransmission",
-                "varname" : "CholinergicNeurotransmissionQuestions"
+                "varname" : "CholinergicNeurotransmissionQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Drug Receptor",
                 "path" : "DrugReceptor",
-                "varname" : "DrugReceptorQuestions"
+                "varname" : "DrugReceptorQuestions",
+                "quizType" : "topics"
             }
             
         ]
@@ -105,84 +118,96 @@ classes = [
     {
         "name" : "Self Care",
         "path" : "selfCare",
-        "quizType" : "topics",
         "topics" : [
             {
                 "name" : "Complimentary and Alternative Medicine",
                 "path" : "CAM",
-                "varname" : "CAMQuestions"
+                "varname" : "CAMQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Hair Loss",
                 "path" : "hairLoss",
-                "varname" : "hairLossQuestions"
+                "varname" : "hairLossQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Hyperpigmentation",
                 "path" : "hyperpigmentation",
-                "varname" : "hyperpigmentationQuestions"
+                "varname" : "hyperpigmentationQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Minor Burns and Wounds",
                 "path" : "minorBurnsWoundCare",
-                "varname" : "minorBurnsQuestions"
+                "varname" : "minorBurnsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Minor Foot Disorders",
                 "path" : "minorFootDisorders",
-                "varname" : "minorFootQuestions"
+                "varname" : "minorFootQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Obesity",
                 "path" : "obesity",
-                "varname" : "obesityQuestions"
+                "varname" : "obesityQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Sunburn",
                 "path" : "sunburn",
-                "varname" : "sunburnQuestions"
+                "varname" : "sunburnQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Supplements",
                 "path" : "supplements",
-                "varname" : "supplementsQuestions"
+                "varname" : "supplementsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Vitamins And Minerals",
                 "path" : "vitaminsAndMinerals",
-                "varname" : "vitaminsAndMineralsQuestions"
+                "varname" : "vitaminsAndMineralsQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Warts",
                 "path" : "warts",
-                "varname" : "wartsQuestions"
+                "varname" : "wartsQuestions",
+                "quizType" : "topics"
             }
         ]
     },
     {
         "name" : "Endo",
         "path" : "endo",
-        "quizType" : "form",
         "topics" : [
             {
                 "name" : "Test",
                 "path" : "test",
-                "varname" : "testDrugs"
+                "varname" : "testDrugs",
+                "quizType" : "form"
             },
             {
                 "name" : "Menopause",
                 "path" : "menopause",
-                "varname" : "MenopauseQuestions"
+                "varname" : "MenopauseQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Contraception",
                 "path" : "contraception",
-                "varname" : "ContraceptionQuestions"
+                "varname" : "ContraceptionQuestions",
+                "quizType" : "topics"
             },
             {
                 "name" : "Corticosteroid",
                 "path" : "corticosteroids",
-                "varname" : "CorticosteroidQuestions"
+                "varname" : "CorticosteroidQuestions",
+                "quizType" : "topics"
             }
             
         ]

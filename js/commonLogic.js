@@ -15,6 +15,18 @@ function setupClass() {
     document.head.appendChild(topicFile);
 }
 
+function getTopicsList(topicsArray){
+    console.log('getTopicsList');
+    var quizTopicsArray = [];
+    for(topic in topicsArray){
+        if(topicsArray[topic].quizType == quizType){
+            quizTopicsArray.push(topicsArray[topic]);
+        }
+    }
+    console.log(quizTopicsArray);
+    return quizTopicsArray;
+}
+
 function setupTopics() {
     console.log('setupTopics');
     for(topic in classTopics){
