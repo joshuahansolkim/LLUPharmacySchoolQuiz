@@ -185,19 +185,6 @@ classes = [
         "name" : "Endo",
         "path" : "endo",
         "topics" : [
-            
-            {
-                "name" : "Topic Test",
-                "path" : "topicTest",
-                "varname" : "topicTestQuestions",
-                "quizType" : "topics"
-            },
-            {
-                "name" : "Test",
-                "path" : "test",
-                "varname" : "testDrugs",
-                "quizType" : "form"
-            },
             {
                 "name" : "Menopause",
                 "path" : "menopause",
@@ -217,6 +204,24 @@ classes = [
                 "quizType" : "topics"
             }
             
+        ]
+    },
+    {
+        "name" : "Test",
+        "path" : "test",
+        "topics" : [
+            {
+                "name" : "Topic Test",
+                "path" : "topicTest",
+                "varname" : "topicTestQuestions",
+                "quizType" : "topics"
+            },
+            {
+                "name" : "Form Test",
+                "path" : "formTest",
+                "varname" : "testDrugs",
+                "quizType" : "form"
+            }
         ]
     }
 ]

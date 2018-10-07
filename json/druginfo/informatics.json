@@ -1,0 +1,178 @@
+InformaticsQuestions = [
+    {
+        "question" : "Pharmacy informatics is the application of computers to the s____, r____,  and a____ of drug and prescription information.",
+        "answer" : "storage, retrieval, analysis",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which is not a aim of pharmacy informatics:",
+        "choices" : "Reduce medication errors, Increase patient safety, Expedite the delivery of medications, Aid other medical professionals",
+        "answer" : "Expedite the delivery of medications",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Pharmacy information systems generate c____, u____, and accurate medication administration records.",
+        "answer" : "clear, useful",
+        "type" : "fill"
+    },
+    {
+        "question" : "Pharmacy informatics helps support decision making to ensure quality m____, help with r____ for giving, make sure meds are s____ for p____, and avoid i____.",
+        "answer" : "meds, reason, safe, patient, interactions",
+        "type" : "fill"
+    },
+    {
+        "question" : "Pharmacy informatics help reporting the b____ aspect, determine m____ u____, and c____ of drugs purchase/d____.",
+        "answer" : "business, medication, usage, cost, dispensed",
+        "type" : "fill"
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    },
+    {
+        "question" : "",
+        "answer" : "",
+        "type" : ""
+    }
+]
