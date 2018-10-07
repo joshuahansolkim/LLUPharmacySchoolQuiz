@@ -5,7 +5,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "The hemoglobin values for males is ____-____g/dL and the values for women is ____-____g/dL",
+        "question": "The hemoglobin values for males is ____g/dL and the values for women is ____g/dL",
         "answer": "14-17.5, 12.3-15.3",
         "type": "fill"
     },
@@ -25,7 +25,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "The normal white blood cell value is ____-____x10^3/mm^3 or ____-____mm^3 or ____-____x10^9/L or ____-____x10^3/uL",
+        "question": "The normal white blood cell value is ____x10^3/mm^3 or ____mm^3 or ____x10^9/L or ____x10^3/uL",
         "answer": "5-10, 5000-10000, 5-10, 5-10",
         "type": "fill"
     },
@@ -45,7 +45,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "ANC predicts the body's defense against infection. The normal range of ANC is ____-____ cells/mm^3",
+        "question": "ANC predicts the body's defense against infection. The normal range of ANC is ____ cells/mm^3",
         "answer": "1500-8000",
         "type": "fill"
     },
@@ -95,12 +95,12 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "Platelets normal range is ____-____/uL",
+        "question": "Platelets normal range is ____/uL",
         "answer": "150,000-450,000",
         "type": "fill"
     },
     {
-        "question": "The average life span of platelets is ____-____ days and there is a ____% turnover each day",
+        "question": "The average life span of platelets is ____ days and there is a ____% turnover each day",
         "answer": "8-10, 10",
         "type": "fill"
     },
@@ -136,7 +136,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "Serum creatinine levels range from ____-____mg/dL and creatine is produced in the l____ and filtered at the g____ and is a primary marker of r____ function",
+        "question": "Serum creatinine levels range from ____mg/dL and creatine is produced in the l____ and filtered at the g____ and is a primary marker of r____ function",
         "answer": "0.6-1.2, liver, glomerulus, renal",
         "type": "fill"
     },
@@ -152,7 +152,7 @@ DiagnosticTestsQuestions = [
         "type": "multiple"
 	},
     {
-        "question": "The normal blood urea nitrogen range is ____-____mg/dL and is the e____ product of metabolism",
+        "question": "The normal blood urea nitrogen range is ____mg/dL and is the e____ product of metabolism",
         "answer": "10-20, end",
         "type": "fill"
     },
@@ -192,7 +192,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "The normal range of CrCl is ____-____ mL/min and provides a good approximation of G____",
+        "question": "The normal range of CrCl is ____ mL/min and provides a good approximation of G____",
         "answer": "90-140, GFR",
         "type": "fill"
     },
@@ -207,7 +207,7 @@ DiagnosticTestsQuestions = [
         "type": "fill"
     },
     {
-        "question": "the adjusted body weight is calculated as ABW= 0.4 (____-____) + IBW",
+        "question": "the adjusted body weight is calculated as ABW= 0.4 (____) + IBW",
         "answer": "ABW, IBW",
         "type": "fill"
     },

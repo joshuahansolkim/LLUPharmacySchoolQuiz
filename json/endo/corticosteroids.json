@@ -2,92 +2,92 @@ CorticosteroidQuestions = [
     {
         "question": "The ____ secretes mineralocorticoid, glucocorticoid, and androgens",
         "answer": "",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The ____ secretes catecholamines",
         "answer": "medulla",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The zona glomerulosa is a ____ that secretes ____ and functions in electrolyte and volume homeostasis",
         "answer": "mineralocorticoid, aldosterone",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The zona fasciculata is a ____ that secretes ____ and functions in fat, carb, & protein reproduction",
         "answer": "corticosteroid, cortisol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The zona reticularis is an ____ and secretes ____ and ____ and functions in sex characteristics and reproduction",
         "answer": "androgen, testosterone, estradiol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The medulla is a ____ and secretes ____ and functions in sympathetic nervous system",
         "answer": "catecholaminne, epinephrine",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "The hypothalamus secretes ____ to the ____ pituitary which then secretes ____ to the adrenal cortex which the secretes ____",
         "answer": "CRH, anterior, ACTH, corticosteroids",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Corticosteroids undergo oxidative metabolism by ____ in the liver",
         "answer": "CYP450",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Alternate day dosing minimizes HPA axis suppression and risk of corticosteroid side effects and is appropriate for ____ or ____ duration corticosteroids and ____ disease suppression, rather than ____ treatment of active disease",
         "answer": "short, immediate, chronic, acute",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Side effects with long term corticosteroids include altered bone metabolism, weight gain and ____ appearance, ____/____, cataracts and ____, dermatologic events, ____ risk, myopathy, psychiatric disturbances, immunosuppression",
         "answer": "cushingoid, hyperglycemia/diabetes, glaucoma, CVD",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Osteonecrosis my cause ____ collapse and increased risk in those with excessive ____ intake, hypercoagulable states, ____ cell disease, radiation exposure (HIV) infection",
         "answer": "bone, alcohol, sickle",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Side effects include ____ gain, and ____ hump and moon facies of cheeks and forehead, and ____ obesity and a ____ on a stick appearance",
 		"answer": "weight, buffalo, central, lemon",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Skin thinning, ____ (which occurs on sun exposed areas of the hands and forearms, sides of the neck, face and lower legs), and ____ striae appear on the thighs, buttocks, shoulders and abdomen",
         "answer": "pupura, red",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Glucocorticoid use is associated with higher CVD risk such as ____, ____, ____",
         "answer": "hypertension, dyslipidemia, obesity",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Corticosteroid use leads to muscle atrophy or ____ myopathy due to stimulated ____ degradation and inhibition of protein synthesis",
         "answer": "steroid, protein",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Psychiatric and cognitive disturbances associated with glucocorticoid use may occur as early as ____ week after starting corticosteroids",
         "answer": "1",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "More frequent and complicated infections include oral ____, ____, varicella zoster, cytomegalovirus, and ____",
         "answer": "candidiasis, aspergillosis, TB",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "P stands for ____, insomnia, mood changes, depression, R stands for ____ face, cushing features, E stands for ____ toxicity, glaucoma, cataracts, D stands for ____, glucose intolerance, N stands for ____, I stands for ____, impaired wound healing, S stands for ____ ulcers, O stands for ____ osteonecrosis, N stands for ____ of the skin, skin atrophy, acne, hirsutism, and E stands for ____ imbalance, edema, HTN",
         "answer": "psychosis, round, eye, diabetes, nausea, infection, stomach, osteoporosis, necrosis, electrolyte",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Prior to corticosteroid treatment ____, ____, ____, ____, ____ must be known",
@@ -96,23 +96,23 @@ CorticosteroidQuestions = [
     },
     {
         "question": "Labs include ____, ____, ____, ____",
-        "answer": "CBC< glucose, lipids, BMD",
+        "answer": "CBC, glucose, lipids, BMD",
         "type": "list"
     },
     {
-        "question": "Monitor glucose ____ hours after corticosteroid initiation and then every ____-____ months for first year, then annually and measure lipids at baseline ____ month after initiation then every ____-____ months with an eye exam every year",
+        "question": "Monitor glucose ____ hours after corticosteroid initiation and then every ____ months for first year, then annually and measure lipids at baseline ____ month after initiation then every ____ months with an eye exam every year",
         "answer": "48, 3-6, 1, 6-12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "DDI occur with ____ vaccines, ____, and ____/antivirals/antifungals",
         "answer": "live, anticoagulants, antibiotics",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Corticosteroid withdrawal syndrome comes with the inability to produce ____ cortisol and is likely to due to > ____ mg/d for ____ weeks",
         "answer": "endogenous, 20, 2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Topical corticosteroids are used for ____, ____, ____, and ____",
@@ -120,27 +120,27 @@ CorticosteroidQuestions = [
         "type": "list"
     },
     {
-        "question": "Class ____ potency refers to ____ high potency, and is up to ____ times stronger than hydrocortisone and can be used for ____-____ continuous weeks",
+        "question": "Class ____ potency refers to ____ high potency, and is up to ____ times stronger than hydrocortisone and can be used for ____ continuous weeks",
         "answer": "1, very, 600, 2-3",
-        "type": "text"
+        "type": "fill"
     },
     {
-        "question": "Class ____, potency refers to ____ potency, and is up to ____-____ times as potent as hydrocortisone",
+        "question": "Class ____, potency refers to ____ potency, and is up to ____ times as potent as hydrocortisone",
 		"answer": "II, high, 50-100",
-        "type": "text"
+        "type": "fill"
     },
     {
-        "question": "Class ____, potency refers to ____ potency, and is up to ____-____  times as potent as hydrocortisone and can be used for <____ weeks",
+        "question": "Class ____, potency refers to ____ potency, and is up to ____  times as potent as hydrocortisone and can be used for <____ weeks",
         "answer": "III, intermediate, 2-25, 8",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Class ____, potency refers to ____ potency",
         "answer": "IV, low",
-        "type": "text"
+        "type": "fill"
     },
     {
-        "question": "List the order of potency: a. creams, b. lotions, c. ointments/gels, d. solutions ____",
+        "question": "List the order of potency: a. creams, b. lotions, c. ointments/gels, d. solutions",
         "answer": "c, a, b, d",
         "type": "text"
     },
@@ -151,43 +151,43 @@ CorticosteroidQuestions = [
         "type": "multiple"
 	},
     {
-        "question": "Corticosteroids should be applied ____-____ times a day and creams and lotions should be rubbed in until they disappear",
+        "question": "Corticosteroids should be applied ____ times a day and creams and lotions should be rubbed in until they disappear",
         "answer": "1-2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Face and neck require ____ fingertip units for one application",
         "answer": "2.5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Trunk requires ____ fingertip units for one application",
         "answer": "7",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "One hand requires ____ fingertip units for one application",
         "answer": "3",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "One leg requires ____ fingertip units for one application",
         "answer": "6",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "One foot requires ____ fingertip units for one application",
         "answer": "2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Occusive dressings should be limited to < ____ hours per day",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Corticosteroids are pregnancy category ____",
         "answer": "C",
-        "type": "text"
+        "type": "fill"
     }
 ]

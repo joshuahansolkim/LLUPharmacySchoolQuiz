@@ -2,37 +2,37 @@ MenopauseQuestions = [
     {
         "question": "Natural/spontaneous menopause is confirmed after ____ consecutive months of amenorrhea with no obvious pathologic cause",
         "answer": "12",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Induced menopause is permanent cessation of menstruation after bilateral ____ or iatrogenic ablation of ovarian function",
         "answer": "oophorectomy",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Perimenopause is time between reproduction and non reproductive years and is characterized by decline in ovarian function and ____ menstrual cycles",
         "answer": "irregular",
-        "type": "text"
+        "type": "fill"
     },
     {
-        "question": "What is the correct order of menopause pathophysiology: a. depletion of ovarian follicles, b. occurence of frequent anovulatory cycles, c. increase production of FSH, d. decrease inhibin production by follicle, e. inability for the ovary  to produce mature follicles, f. occurence of menopause____",
+        "question": "What is the correct order of menopause pathophysiology: a. depletion of ovarian follicles, b. occurence of frequent anovulatory cycles, c. increase production of FSH, d. decrease inhibin production by follicle, e. inability for the ovary  to produce mature follicles, f. occurence of menopause",
         "answer": "d, c, e, b, a, f",
         "type": "text"
     },
     {
         "question": "During menopause, FSH levels ____, LH levels ____, estradiol from ovary ____, estrone ____",
         "answer": "increase, increase, decrease, increase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vasomotor symptoms include ____ flashes and ____ sweats",
         "answer": "hot, night",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Genitourinary syndromes of menopause include genital ____, ____ and ____, decreased vaginal lubrication and/or discomfort or pain during ____ activity, urinary symptoms of urgency, dysuria, and recurrent ____",
         "answer": "dryness, irritation, dryness, sexual, UTIs",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Which one is not a pathophysiology of genitourinary syndromes",
@@ -43,167 +43,167 @@ MenopauseQuestions = [
     {
         "question": "Non-hormonal therapy lubricants must be applied at time of ____ and some examples are ____ and ____",
         "answer": "intercourse, Astroglide, KY-Jelly",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Non-hormonal therapy moisturizers maintain ____ of the vaginal epithelium for long term relief of vaginal dryness and is applied ____ or more per week and effects last ____ to ____ days and examples are Vagisil feminine moisturizer, K-Y-SILK E, and Replens",
         "answer": "hydration, once, two, three",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vaginal Estrogen Therapy is a local treatment used only when vaginal symptoms are present and do nto require addition of progesterone given low risk of endometrial ____ and helps to reverse vaginal epithelial thinning, decreases the vaginal pH, and improves symptoms of vaginal atrophy",
         "answer": "hyperplasia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vaginal rings are ____ (Estradiol) and ____ (Estradiol acetate)",
 		"answer": "Estring, Femring",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vaginal local tablet ____ (Estradiol hemihydrate) is inserted with an applicator or ____",
         "answer": "Vagifem, finger",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Selective estrogen receptor modulator such as ____ (Ospemifene) which is used to treatment of moderate to severe dyspareunia from menopause and BBW is endometrial ____ and ____ and ____ with primary ____ and ____ metabolism with some CYP2C19 activity",
         "answer": "cancer, CYP3A4, CYP2C9",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Adverse effects of SERM include vaginal ____, vaginal ____, and ____ tenderness",
         "answer": "irritation, bleeding, breast",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Vasomotor symptoms have a mean duration of ____ years",
         "answer": "10.2",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hot flushes and night swears are feelings of warmth in ____, ____, or ____ areas that may prsent visible flushing and increased sweating",
         "answer": "chest, neck, facial",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hot flushes last around ____ minutes and contributing factors are a ____ environment, ____ drinks, ____ food, stress, higher ____, ____ smoking, ____",
         "answer": "4, warm, hot, spicy, BMI, cigarette, alcohol",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____, ____s, and aromatase inhibitors are used to treat hot flushes",
         "answer": "SERM, SSRI",
-        "type": "text"
+        "type": "fill"
     },
     {
-        "question": "What is the correct MOA of hot flushes: a. activation of the body's heat release mechanism, b. decrease in serotonin levels and increase in the levels of norepinephrine and its metabolite, c. decrease in estrogen, d. cutaneous vasodilatoin and sweating = hot flashes ____",
+        "question": "What is the correct MOA of hot flushes: a. activation of the body's heat release mechanism, b. decrease in serotonin levels and increase in the levels of norepinephrine and its metabolite, c. decrease in estrogen, d. cutaneous vasodilatoin and sweating = hot flashes",
         "answer": "c, b, a, d",
         "type": "text"
     },
     {
         "question": "To treat vasomotor symptoms that disrupt daytime activities and sleep lifestyle modification such as hormone therapy (____, combination estrogen progestogen), non hormonal therapy (____), and complementary therapy (____) can be used",
         "answer": "estrogen, antidepressant, herbal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hormone therapy is effective to treat vasomotor symptoms and ____ dryness, preventing ____",
         "answer": "vaginal, osteoporosis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Estrogen therapy is prescribed systemically for women who do not have a ____, and locally in very low doses for any woman with ____ symptoms",
         "answer": "uterus, vaginal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Estrogen progestogen therapy is added to ET to protect women with a ____ against endometrial cancer, which can be caused by ____ alone",
         "answer": "uterus, estrogen",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Bioidentical hormone therapy consists of hormones chemically identical or similar to those made in the body and contains ____ approved and tested and ____ and ____ from compounding pharmacies and physicians",
         "answer": "FDA, unapproved, untested",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Hormones used for hormone therapy are ____, ____, ____ & ____ combination",
 		"answer": "estrogen, progestogens, estrogen, progestogen",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "____ estrogen undergoes ____ pass metabolism in the liver and ____ estrogen skips first pass metabolism in the liver",
         "answer": "PO, first, transdermal",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Micronized 17 beta estradiolis structurally identical to estradiol and is micronized to facilitate ____, conjugated equine estrogen is derived from pregnant mare's ____ and contains most ____, esterified estrogens, estropipate is a salt of ____ sulfate and piperazine, and ethinyl estradiol are all derived from ____ sources (yams and soy) EXCEPT ___",
         "answer": "absorption, urine, estrone, estrone, pant, CEE",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Contraindications to estrogen are ____, ____, ____ cancer, ____-sensitive cancers, ____ disease, ____",
         "answer": "VTE, pregnancy, breast, estrogen, liver, hypertriglyceridemia",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Progestogens is used for endometrial protection from systemic estrogen therapy for women with an ____ uterus",
         "answer": "intact",
-        "type": "text"
+        "type": "fill"
 	},
     {
         "question": "medroxyprogesterone is commonly prescribed and studied and is associated with higher risk of ____ cancer and has unfavorable lipid effects",
         "answer": "breast",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Micronized progesterone is ____ line and does not effect serum lipids",
         "answer": "first",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Estrogen and progestin combination include ____ and ____",
         "answer": "prempro, premphase",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Side effects of estrogen include ____ tenderness, nipple sensitivity, leg cramps, ____ discharge, ____ retention",
         "answer": "breast, vaginal, fluid",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Progestogen side effects include ____ pain, ____, increased ____, aggression, anxiety, depression, irritability",
         "answer": "breast, bloating, appetite",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Benefits of HT are for ____ symptoms, ____, vaginal atrophy",
         "answer": "vasomotor, osteoporosis",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "HT combined (Estrogen and Progestin) is indicated in women who do have a ____ and is continuous or cyclic combined",
         "answer": "uterus",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "HT dosages start at the ____ effective estrogen dose",
         "answer": "lowest",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "HT is initiated at > age ____ in women who had natural menopause at median age",
         "answer": "60",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "HT should be used ____ years or not beyond 60 years",
         "answer": "5",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Estrogen Receptor Agonist (formerly SERMS) mediate effects through estrogen receptor binding and activate certain estrogenic pathways and block other estrogen pathways and examples include ____ (Evista) and ____ (Duavee)",
 		"answer": "Raloxifne, Bazedoxefine/CE",
-        "type": "text"
+        "type": "fill"
     },
     {
         "question": "Non hormonal treatment include ____, ____, ____, ____, ____",
@@ -213,6 +213,6 @@ MenopauseQuestions = [
     {
         "question": "CAM to reduce hot flashes include ____, traditional chinese medicine, ____, ____ (black cohosh, cranberry, st. john's wort, valerian, chasteberry, evening primrose oil)",
         "answer": "soy, acupuncture, herbs",
-        "type": "text"
+        "type": "fill"
     }
 ]
