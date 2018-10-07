@@ -105,6 +105,7 @@ function getNewQuestion(questionNumber) {
     // Update pagination
     $('.page-link').parent().removeClass('active');
     $('#question' + questionNumber).parent().addClass('active');
+    $('#quizForm').addClass('form-inline');
     
     // Get question and determine how to present the question by type
     var question = questions[questionNumber];
@@ -127,10 +128,13 @@ function getNewQuestion(questionNumber) {
             break;
         case 'multiple':
             // Multiple choice
-            $('#questionRow').html('<div class="col"><div class="row"><h2 id="question"></h2></div><div class="row form-group form-check"><label for="answerInput" class="answers">Answers</label></div></div>');
+            $('#quizForm').removeClass('form-inline');
+            $('#questionRow').html('<div class="col"><div class="row"><h2 id="question"></h2></div><div class="row form-group form-check"><h3><label for="answerInput" class="answers">Answers</label></h3></div></div>');
             $('#question').text(questionNumber + 1 + ': ' + question.question.trim());
             
             var answerChoices = question.choices.split(',');
+            answerChoices.sort(function(){return 0.5 - Math.random()});
+            
             for (choice in answerChoices) {
                 $('.form-check').last().after('<div class="form-check"><input type="radio" name="answerSelector" class="answers"><label class="form-check-label answerLabel"></label></div>');
                 $('.answerLabel').last().text(answerChoices[choice]);
@@ -147,6 +151,8 @@ function getNewQuestion(questionNumber) {
             /* TODO: Update - This will feature checkboxes instead of radio buttons and allow the user to select multiple answers */
             break;
     }
+    
+    $('#questionRow').data('quiztype', question.type);
     if('input' in questions[questionNumber]){
         $('#correctAnswerLabel').text('Previously Entered Answer:');
 	    $('#correctAnswer').val(questions[questionNumber].input);
@@ -158,3 +164,40 @@ function getNewQuestion(questionNumber) {
 	    $('#correctAnswer').val('Press "Check Answer" or "Enter" key to submit your answer.');
     }
 }
+
+function showAnswer(){
+    var correctAnswer = getCorrectAnswer();
+    var answerArray = correctAnswer.split(',').map(item => item.trim());
+    var answerInputCount = $('.answerInput').length;
+    var questionType = $('#questionRow').data('quiztype');
+    switch (questionType) {
+        case 'list':
+        case 'text':
+        case 'fill':
+            if(answerArray.length == answerInputCount){
+                $('.answerInput').each(function(index){
+                    this.value = answerArray[index];
+                })
+            }else{
+                $('.answerInput').first().val(correctAnswer);
+            }
+            break;
+        case 'multiple':
+            $('.answers').each(function(index){
+                if(this.value == correctAnswer){
+                    $(this).prop('checked', true);
+                }
+            })
+            break;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

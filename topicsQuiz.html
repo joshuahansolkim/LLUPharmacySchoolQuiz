@@ -16,7 +16,7 @@
         var className = urlParams.get('class');
         var pclass = classes.find(function (obj) {return obj.path === className});
         var classTopics = getTopicsList(pclass.topics);
-        setupTopics();
+        setupTopics(classTopics);
         var questions;
         var arrayIndex = 0;
         var totalQuestions;
@@ -28,7 +28,7 @@
     <fieldset class="topics">
     </fieldset>
     <fieldset>
-        <form id="quizForm" class="form-inline">
+        <form id="quizForm">
             <div class="row" id="questionRow">
                 <!-- This is where the questions will go. -->
             </div>
@@ -52,9 +52,9 @@
         <div class="form-group">
             <button class="btn btn-primary" type="button" onclick="checkAnswer()">Check Answer</button>
             <button class="btn btn-primary" type="button" onclick="randomizeQuestions()">Reset Quiz</button>
-            <!-- Temporarily remove this button until this logic has been fleshed out
-            <button class="btn btn-warning" type="button" onclick="getCorrectAnswer()">Correct Answer</button>
-            -->
+            
+            <button class="btn btn-warning" type="button" onclick="showAnswer()">Show Answer</button>
+            
             <br><br>
             <a class="btn btn-primary" role="button" href="index.html">Home</a>
         </div>

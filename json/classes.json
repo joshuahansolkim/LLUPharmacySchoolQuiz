@@ -185,6 +185,13 @@ classes = [
         "name" : "Endo",
         "path" : "endo",
         "topics" : [
+            
+            {
+                "name" : "Topic Test",
+                "path" : "topicTest",
+                "varname" : "topicTestQuestions",
+                "quizType" : "topics"
+            },
             {
                 "name" : "Test",
                 "path" : "test",

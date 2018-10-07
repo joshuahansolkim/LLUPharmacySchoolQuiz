@@ -23,11 +23,10 @@ function getTopicsList(topicsArray){
             quizTopicsArray.push(topicsArray[topic]);
         }
     }
-    console.log(quizTopicsArray);
     return quizTopicsArray;
 }
 
-function setupTopics() {
+function setupTopics(classTopics) {
     console.log('setupTopics');
     for(topic in classTopics){
         var topicFile = document.createElement('script');
@@ -62,7 +61,7 @@ function setupPage() {
 function randomizeQuestions() {
     console.log('randomizeQuestions');
     arrayIndex = 0;
-	questions.sort(function(a, b){return 0.5 - Math.random()});
+	questions.sort(function(){return 0.5 - Math.random()});
 	setupPagination();
     getQuestion(0);
 }
@@ -117,9 +116,8 @@ function getFirstIncorrectQuestion(){
 
 function getCorrectAnswer(){
     console.log('getCorrectAnswer');
-    $('#correctAnswerLabel').text('Correct Answer:');
-    $('#correctAnswer').val(questions[arrayIndex].answer);
-    $('.answerInput').first().focus();
+    var correctAnswer = questions[arrayIndex].answer;
+    return correctAnswer;
 }
 
 function resetScore() {

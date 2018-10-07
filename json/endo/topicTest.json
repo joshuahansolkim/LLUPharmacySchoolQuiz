@@ -1,0 +1,18 @@
+topicTestQuestions = [
+    {
+        "question": "Perimenopause is time between reproduction and non reproductive years and is characterized by decline in ovarian function and ____ menstrual ____ cycles",
+        "answer": "irregular",
+        "type": "fill"
+    },
+    {
+        "question": "What is the correct order of menopause pathophysiology: a. depletion of ovarian follicles, b. occurence of frequent anovulatory cycles, c. increase production of FSH, d. decrease inhibin production by follicle, e. inability for the ovary  to produce mature follicles, f. occurence of menopause",
+        "answer": "d, c, e, b, a, f",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a pathophysiology of genitourinary syndromes",
+		"choices": "loss of elasticity of vaginal epithelium, shortening and narrowing of vaginal canal with loss of distensibility, reduction in vaginal secretion, increase in vaginal pH, thinning of top layer of superficial epithelial cells, hot flashes",
+        "answer": "hot flashes",
+        "type": "multiple"
+    }
+]

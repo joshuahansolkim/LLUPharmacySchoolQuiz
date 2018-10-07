@@ -7,7 +7,7 @@ ContraceptionQuestions = [
     {
         "question": "The menstrual cycle occurs every ____ days until menopause",
         "answer": "28-30",
-        "type": "fill"(
+        "type": "fill"
     },
     {
         "question": "The first stage of menstrual cycle (day ____) is the ____ phase which begins with the ____ of endometrium and ____ steadily increases to increase growth of follicles",
