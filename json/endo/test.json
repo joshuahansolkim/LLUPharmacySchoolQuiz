@@ -1,13 +1,13 @@
 testDrugs = [
     {
-        "Name": "pill1",
-        "Broad-Generic": "Josh's Awesome Pill of Happiness",
-        "MOA": "Makes happiness| inhibits sadness| reduces tears",
-        "ADR": "I don't know what this is| but I am testing",
-        "CI": "I don't know what this is but I am testing",
-        "Dosing": "1 pill daily| 1 bottle daily",
-        "DDI": "I don't nknow what this is| but I am testing",
-        "Monitoring": "No Monitoring required you will alway be happy"
+        "Name": "BIGUANIDES",
+        "Broad-Generic": "Metformin| Metformin ER",
+        "Dosing": "500-2000 mg QD-BID| 500-2000 QD",
+        "MOA": "decrease hepatic glucose production| increase glucose uptake in skeletal muscles| decrease carb absorption in small intestine",
+        "ADR": "lactic acidosis| D/N/V| abdominal bloating | flatulence| weight neutral/loss",
+        "CI": "renal dysfunction male SCr >1.5 female Scr >1.4| dehydration| acute MI| acute/chronic metabolic acidosis| shock/sepsis|eGFR<30 not recommended",
+        "DDI": "Alcohol: increase risk of hypoglycemia and lactic acidosis avoid alcohol| Cimetidine increases metformin conc peak consider alt therapy| Parenteral contrast study renal failure and lactic acidosis hold metformin",
+        "Monitoring": "FBG, A1c, Scr, LFTs, Hgb, Hct, RBC, Vit B12, folate"
     },
     {
         "Name": "pill2",

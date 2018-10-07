@@ -168,7 +168,23 @@ classes = [
                 "name" : "Test",
                 "path" : "test",
                 "varname" : "testDrugs"
+            },
+            {
+                "name" : "Menopause",
+                "path" : "menopause",
+                "varname" : "MenopauseQuestions"
+            },
+            {
+                "name" : "Contraception",
+                "path" : "contraception",
+                "varname" : "ContraceptionQuestions"
+            },
+            {
+                "name" : "Corticosteroid",
+                "path" : "corticosteroids",
+                "varname" : "CorticosteroidQuestions"
             }
+            
         ]
     }
 ]

@@ -1,0 +1,478 @@
+ContraceptionQuestions = [
+    {
+        "question": "Menstrual cycle begins at age ____",
+        "answer": "12",
+        "type": "text"
+    },
+    {
+        "question": "The menstrual cycle occurs every ____-____ days until menopause",
+        "answer": "28-30",
+        "type": "text"
+    },
+    {
+        "question": "The first stage of menstrual cycle (day ____-____) is the ____ phase which begins with the ____ of endometrium and ____ steadily increases to increase growth of follicles",
+        "answer": "1-13, follicular, sloughing, FSH",
+        "type": "text"
+    },
+    {
+        "question": "The dominant follicle emerges and secretes ____ which stimulates thickening of endometrial lining",
+        "answer": "estrogen",
+        "type": "text"
+    },
+    {
+        "question": "The second stage of menstrual cycle (day ____-____) is ____ phase where ____ surges after ____ levels are elevated and ovulation occurs ____-____ hours after LH surge",
+        "answer": "13-15, ovulation, LH, estrogen, 10-16",
+        "type": "text"
+    },
+    {
+        "question": "Fertilization is most likely to occur if sexual intercourse occurs ____ days bfore until day of ovulation",
+        "answer": "2",
+        "type": "text"
+    },
+    {
+        "question": "The third stage of menstrual cycle (day ____-____) is ____ phase in which the ____ ____ is formed and there are increased levels of androgens and progesterone",
+        "answer": "6-28, luteal, corpus luteum",
+        "type": "text"
+    },
+    {
+        "question": "If fertilization does not occur, ____ ____ degenerates and progesterone levels decrease and ____ levels remain elevated",
+        "answer": "corpus luteum, estrogen",
+        "type": "text"
+    },
+    {
+        "question": "Sources of human estrogen are the ____ and ____",
+        "answer": "ovaries, placenta",
+        "type": "text"
+    },
+    {
+        "question": "There are three types of human estrogen ____, ____, ____",
+        "answer": "estradiol, estrone, estriol",
+        "type": "list"
+    },
+    {
+        "question": "Estrogen works in growth and development of ____, ____, ____ ____, and ____ enlargement",
+        "answer": "uterus, vagina, fallopian tubes, breast",
+        "type": "text"
+    },
+    {
+        "question": "Estrogen causes pubertal growth of long bones and decreases activity of ____ to maintain bone mass",
+		"answer": "osteoclasts",
+        "type": "text"
+    },
+    {
+        "question": "Progestin ____ menstruation and produces thick cervical  to ____ sperm fenetration of cervix and also causes ____F increase in basal body temperature",
+        "answer": "suppresses, decrease, 1",
+        "type": "text"
+    },
+    {
+        "question": "Progestin helps maintain ____ ",
+        "answer": "pregnancy",
+        "type": "text"
+    },
+    {
+        "question": "Contraception prevents pregnancy by ____ viable sperm from coming into contact with mature ovum and prevents a ____ ovum from implanting successfully in the endometrium",
+        "answer": "inhibiting, fertilized",
+        "type": "text"
+    },
+    {
+        "question": "____% of pregnancies are unintended",
+        "answer": "37",
+        "type": "text"
+    },
+    {
+        "question": "Which one is not a contraception option",
+		"choices": "Combined hormonal contraception, progestin only pills, implants, injectables, intrauterine contraception, abstinence",
+        "answer": "abstinence",
+        "type": "multiple"
+    },
+    {
+        "question": "What are the factors for choosing a contraception ____, ____, ____, ____, ____",
+        "answer": "safety, effectiveness, accessability, affordability, acceptability",
+        "type": "list"
+    },
+    {
+        "question": "Breakthrough bleeding is bleeding during active pills that requires use of ____/____",
+        "answer": "pad/tampon",
+        "type": "text"
+    },
+    {
+        "question": "Spotting is less bleeding that doesn't require ____",
+        "answer": "protection",
+        "type": "text"
+    },
+    {
+        "question": "Absence of the menses is ____",
+        "answer": "amenorrhea",
+        "type": "text"
+    },
+    {
+        "question": "Withdrawal bleeding is bleeding that occurs deu to ____ of hormones in the pill",
+        "answer": "withdrawal",
+        "type": "text"
+    },
+    {
+        "question": "Back up method is the use of additional form of contraception such as ____/____ condom, ____, or ____",
+        "answer": "male/female, spermicide, diaphragm",
+        "type": "text"
+    },
+    {
+        "question": "Perfect use is when contraception is used correctly and ____",
+        "answer": "consistently",
+        "type": "text"
+    },
+    {
+        "question": "Typical use is when actual use of contraception is ____ and correct",
+        "answer": "incorrect",
+        "type": "text"
+    },
+    {
+        "question": "Estrogen suppresses ____/____ and prevents development of dominant ____",
+		"answer": "FSH/LH, follicle",
+        "type": "text"
+    },
+    {
+        "question": "Progestins decreases ____ and thus a decrease in ____ and ____",
+        "answer": "GnRH, LH, FSH",
+        "type": "text"
+    },
+    {
+        "question": "Progestins ____ cervial mucus which ____ sperm penetration",
+        "answer": "thicken, decrease",
+        "type": "text"
+    },
+    {
+        "question": "Progestins alter endometrial lining to inhibit ____",
+        "answer": "implantation",
+        "type": "text"
+    },
+    {
+        "question": "Estrogen metabolism occurs by ____ pass hepatic metabolism (CYP____)",
+        "answer": "first, 3A4",
+        "type": "text"
+	},
+    {
+        "question": "Three types of combined hormonal contraception are ____ contraceptives, ____ contraceptives, and ____ ring",
+        "answer": "oral, transdermal, vaginal",
+        "type": "text"
+    },
+    {
+        "question": "Monophasic contains the same amount of ____ and ____",
+        "answer": "estrogen, progestin",
+        "type": "text"
+    },
+    {
+        "question": "____ days of continuous active pills are followed by ____ days of pill free days (placebo week) and are used for continuous ovarian suppression if no pill free week",
+        "answer": "21, 7",
+        "type": "text"
+    },
+    {
+        "question": "____ days of continuous active pills are followed by ____ days of placebo, ____ tablets, or lower ____ dosage",
+        "answer": "28, 7, iron, estrogen",
+        "type": "text"
+    },
+    {
+        "question": "Multiphasic contains ____ amounts of estrogen and progestin for 21 days followed by ____ days of placebo",
+        "answer": "variable, 7",
+        "type": "text"
+    },
+    {
+        "question": "Continuous combination contains ____-____ days of active tablets followed by ____ days of ____ pill which shortens menses and ____ hormonal withdrawal side effects",
+        "answer": "21-24, 3, active, decreases",
+        "type": "text"
+    },
+    {
+        "question": "Extended cycle contains ____ days of active tablets followed by ____ days of placebo which produces ____ menstrual cycles per year",
+        "answer": "84, 7, 4",
+        "type": "text"
+    },
+    {
+        "question": "Extended cycle needs to be watched for ____, ____, ____, ____",
+        "answer": "anemia, dysmenorrhea, menorrhagia, endometriosis",
+        "type": "text"
+    },
+    {
+        "question": "Lybrel (Amethyst) is continuous use extended interval oral contraception with higher breakthrough ____/____",
+        "answer": "bleeding/spotting",
+        "type": "text"
+    },
+    {
+        "question": "Drospirenone containing contraceptive have ____ and ____ result in antimineralocorticoid and antialdosterone activity and examples of medication are ____, ____, ____ ",
+        "answer": "drospirenone, EE, yasmin, yaz, beyaz",
+        "type": "text"
+    },
+    {
+        "question": "Drospirenone has increased risk of ____ clots",
+		"answer": "blood",
+        "type": "text"
+    },
+    {
+        "question": "Beyaz contains ____ which is a metabolite of ____ acid",
+        "answer": "levomefolate, folic",
+        "type": "text"
+    },
+    {
+        "question": "Lo Loestrin Fe contains the ____ dose of estrogen and has ____ tablets to help with ____ during menstruation",
+        "answer": "lowest, iron, anemia",
+        "type": "text"
+    },
+    {
+        "question": "Minastrin 24 Fe and Lo Minastrin FE have ____ tablet formulations",
+        "answer": "chewable",
+        "type": "text"
+    },
+    {
+        "question": "Day 1 start: Start on ____ day of menstrual flow, no back up contraception is needed",
+        "answer": "first",
+        "type": "text"
+    },
+    {
+        "question": "Sunday start: start on ____ sunday after menstruation begins or same day, back up contraception is needed for ____ days and advantage is that bleeding may not occur on ____",
+        "answer": "first, 7, weekends",
+        "type": "text"
+    },
+    {
+        "question": "Immediate quick start: start ____ regardless of menstruation and back up method of contraception is needed for ____ days",
+        "answer": "immediately, 7",
+        "type": "text"
+    },
+    {
+        "question": "If ____ active pill is missed take ____ when remembered even if ____ pills taken on same day. Take remaining pill as usual and no backup contraception is needed and may consider ____",
+        "answer": "1, ASAP, 2, EC",
+        "type": "text"
+    },
+    {
+        "question": "If ____ consecutive pills are missed, take last missed pill ____ (2 tablets on same day) and discard other missed pills. Use backup contraception for ____ days. If missed pills were in last week of active pills, omit ____ and start new pack. Consider ____ if missed pills were in week ____",
+        "answer": "2, ASAP, 7, placebo, EC, 1",
+        "type": "text"
+    },
+    {
+        "question": "If ____ or more consecutive pills were missed consult the ____ insert",
+        "answer": "3, package",
+        "type": "text"
+    },
+    {
+        "question": "Ortho Evra is a transdermal patch that contains ____ and ____ which provide slow sustained hormone release and constant blood levels",
+        "answer": "EE, norelgestromin",
+        "type": "text"
+    },
+    {
+        "question": "Ortho Evra increases risk of ____, and may cause ____ irritation at site of application- rotate sites and use topical anti-inflammatory products to help with irritation",
+        "answer": "VTE, skin",
+        "type": "text"
+    },
+    {
+        "question": "Ortho Evra should be avoided in women weighing >____ kg",
+        "answer": "90",
+        "type": "text"
+    },
+    {
+        "question": "Ortho Evra may be started on ____ or day ____ and apply 1 patch each week for ____ weeks, then remove patch for 1 week to get hormonal release for ____ days",
+        "answer": "sunday, 1, 3, 9",
+        "type": "text"
+    },
+    {
+        "question": "Application sites for Ortho Evra are ____, ____, ____, ____",
+        "answer": "buttocks, arm, torso, abdomen",
+        "type": "text"
+    },
+    {
+        "question": "If Ortho Evra falls off <____ hours you can reapply or apply a new patch, if <____ hours apply new patch ASAP, if > ____ hours, apply new patch and use backup contraception for ____ days and if delay occurs in week ____ omit hormone free week and start new patch immediately with backup for ____ days",
+        "answer": "24, 48, 48, 7, 3, 7",
+        "type": "text"
+    },
+    {
+        "question": "Nuvaring contains ____ and ____",
+        "answer": "EE, etonogestrel",
+        "type": "text"
+    },
+    {
+        "question": "Nuvaring contains ____ days of medication but should not be used beyond",
+        "answer": "35",
+        "type": "text"
+    },
+    {
+        "question": "Nuvaring must be ____ at pharmacy and stored at room temp with ____ month expiration date",
+        "answer": "refrigerated, 4",
+        "type": "text"
+    },
+    {
+        "question": "Nuvaring should be inserted on or before the ____th day of menstrual cycle",
+        "answer": "5",
+        "type": "text"
+    },
+    {
+        "question": "Nuvaring is left in place for ____ weeks then removed for ____ week",
+        "answer": "3, 1",
+        "type": "text"
+    },
+    {
+        "question": "If the nuvaring has been displaced <____ hours, rinse with lukewarm water and re-insert, if displaced >3 hrs then rinse with lukewarm water and reinsert + backup contracepption for ____ days",
+        "answer": "3, 3, 7",
+        "type": "text"
+    },
+    {
+        "question": "If there is a < ____ hr delayed reinsertion of nuvaring then insert new ring ____ and keep until scheduled removal day",
+        "answer": "48, ASAP",
+        "type": "text"
+    },
+    {
+        "question": "If there is > ____hr delayed reinsertion of nuvaring then insert new ring ____ and keep until scheduled removal day and use back up contraception for ____ days",
+        "answer": "48, ASAP, 7",
+        "type": "text"
+    },
+    {
+        "question": "ADR of estrogen excess is ____, ____ tenderness, cyclical ____ gain due to fluid retention, ____, ____, uterine fibroid growth",
+        "answer": "nausea, breast, weight, dysmenorrhea, menorrhagia",
+        "type": "text"
+    },
+    {
+        "question": "ADR of Progestin deficiency is ____, ____, late cycle BTB and ____",
+        "answer": "dysmenorrhea, menorrhagia, spotting",
+        "type": "text"
+    },
+    {
+        "question": "Serious symptoms of progestin is ____ pain, ____ pain, ____, ____ problems, severe ____ pain",
+        "answer": "abdominal, chest, headaches, eye, leg",
+        "type": "text"
+    },
+    {
+        "question": "CHC contraindications are ____, breastfeeding women <____ week postpartum, current ____ cancer, >____ yrs old and current heavy smoker, uncontrolled ____, acute history of DVT/PE, ____ with aura or without, multiple risk factors for ____ disease and ____ with vascular or microvascular complications or DM>20 yrs duration",
+        "answer": "pregnancy, 6, breast, 35, HTN, migraines, cardiovascular, DM",
+        "type": "text"
+    },
+    {
+        "question": "CHC DDI medications are ____, ____, ____, ____, ____, broad spectrum ____",
+        "answer": "rifampin, carbamazepine, phenytoin, St. John's wort, cimetidine, antibiotics",
+        "type": "text"
+    },
+    {
+        "question": "Consider risk vs benefit in women who smoke <____ cigarettes per day",
+        "answer": "15",
+        "type": "text"
+    },
+    {
+        "question": "CHC use may increase BP by ____-____ mmHg",
+        "answer": "6-8",
+        "type": "text"
+    },
+    {
+        "question": "Minipill is contraindicated to ____",
+        "answer": "estrogen",
+        "type": "text"
+	},
+    {
+        "question": "Progestin only pills minipill has no adverse effect on ____ and has a higher incidence of ____ pregnancy",
+        "answer": "lactation, ectopic",
+        "type": "text"
+    },
+    {
+        "question": "ADR of progestin only pills is ____ menses, decreased duration and amount of menstrual flow, ____ and ____ ",
+        "answer": "irregular, spotting, amenorrhea",
+        "type": "text"
+    },
+    {
+        "question": "Minipill must be started on Day ____ and if dose is delayed >____ take missed pill ASAP and backup contraception is needed for ____ hrs",
+        "answer": "1, 3, 48",
+        "type": "text"
+    },
+    {
+        "question": "Depo-Provera is an ____ form of contraception",
+        "answer": "injectable",
+        "type": "text"
+    },
+    {
+        "question": "Depo-Provera must be administered every ____ months within ____ days of onset of menstrual bleeding",
+        "answer": "3, 5",
+        "type": "text"
+    },
+    {
+        "question": "BBW of Depo-Provera is ____ bone mineral density, menstrual irregularities, ____ tenderness, ____, and ____ gain",
+        "answer": "decreased, breast, depression, weight",
+        "type": "text"
+    },
+    {
+        "question": "Nexplanon is a single subdermal rod that inhibits ovulation by blocking ____ surge, thins endometrium to reduce chance of implantation and thickens cervical mucus to prevent sperm penetration",
+        "answer": "LH",
+        "type": "text"
+    },
+    {
+        "question": "Nexplanon provides contraception for up to ____ years and can result in ____, decreased ____ cramping, and less ____",
+        "answer": "3, amenorrea, menstrual, anemia",
+        "type": "text"
+    },
+    {
+        "question": "Nexplanon ADR is irregular ____ bleeding, ____, mood changes, ____ and ____ gain",
+        "answer": "menstrual, headaches, acne, weight",
+        "type": "text"
+    },
+    {
+        "question": "Nexplanon should be inserted between days ____-____ of the menstrual cycle in women who have not previously used hormonal contraception",
+        "answer": "1-5",
+        "type": "text"
+    },
+    {
+        "question": "IUD are T-shaped medicated devices with ____ or ____",
+		"answer": "copper, levonorgestrel",
+        "type": "text"
+    },
+    {
+        "question": "IUD copper is ____ and levonorgestrel is ____, ____, ____",
+        "answer": "paragard ,mirena, skyla, liletta",
+        "type": "text"
+    },
+    {
+        "question": "The correct MOA of IUD is a. damage ovum or interrupt transport, b. endometrial suppression and thickening of cervial mucus, c. inhibit sperm migration, d. damage fertilized ovum ____",
+        "answer": "c, a, d, b",
+        "type": "text"
+    },
+    {
+        "question": "Copper (Paragard) is replaced every ____ years and has no DDi, and levonorgestrel Mirena is replaced every ____ years, Skyla is replaced every ____ years, Liletta is replaced every ____ years",
+        "answer": "10, 5, 3, 3",
+        "type": "text"
+    },
+    {
+        "question": "IUD adr include risk of pelvic inflammatory disease in first ____ days after insertion and copper (Paragard) has increased ____ flow and ____, while levonorgestrel (Mirena, Skyla, and lilletta has ____ menstrual blood flow and increased spotting in first ____ months",
+        "answer": "20, menstrual dysmneorrhea, decreased, 3",
+        "type": "text"
+    },
+    {
+        "question": "Ovulation occurs about ____-____ weeks after discontinuation when using ____",
+        "answer": "1-2, CHC",
+        "type": "text"
+    },
+    {
+        "question": "Return to fertility occurs ____ using ____ only",
+        "answer": "immediate, progestin",
+        "type": "text"
+    },
+    {
+        "question": "Return to fertility takes ____ months using ____",
+        "answer": "10, injectable",
+        "type": "text"
+    },
+    {
+        "question": "Return to fertility takes ____ weeks using ____",
+        "answer": "6, Nexplanon",
+        "type": "text"
+    },
+    {
+        "question": "Return to fertility occurs ____ days from removal",
+        "answer": "30",
+        "type": "text"
+    },
+    {
+        "question": "EC has to be used within ____ days or ____ hours of unprotected sex which contains ____",
+        "answer": "3, 72, levonorgestrel",
+        "type": "text"
+    },
+    {
+        "question": "EC has to be used with ____ or ____ hours of unprotected sex which contains ____ acetate",
+        "answer": "5, 120, ulipristal",
+        "type": "text"
+    },
+    {
+        "question": "CHC 1st dose (0.1 EE & 0.5 mg levonorgestrel) is administered with ____ hours of unprotected sex and the second dose is administered ____ hours after first dose",
+        "answer": "72, 12",
+        "type": "text"
+    }
+]

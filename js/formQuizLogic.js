@@ -7,7 +7,7 @@ function checkAnswer() {
     var broadValues = [];
     
     for(fieldname in drug){
-        if (fieldname !== 'name'){
+        if (fieldname.toLowerCase() !== 'name'){
             var className = fieldname + 'Field';
         
             // Get correct answers from json
