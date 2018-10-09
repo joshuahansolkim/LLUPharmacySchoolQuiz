@@ -21,158 +21,280 @@ InformaticsQuestions = [
         "type" : "fill"
     },
     {
-        "question" : "Pharmacy informatics help reporting the b____ aspect, determine m____ u____, and c____ of drugs purchase/d____.",
+        "question" : "Pharmacy informatics helps reporting the b____ aspect, determine m____ u____, and c____ of drugs purchase/d____.",
         "answer" : "business, medication, usage, cost, dispensed",
         "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "What does PHR stand for?",
+        "answer" : "Personal Health Record",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Personal health records are maintained by the ____.",
+        "answer" : "patient",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Which is an important tool for pharmacists in the outpatient and ambulatory care settings?",
+        "choices" : "Personal Health Records, Electronic Medical Record, Electronic Health Record",
+        "answer" : "Personal Health Records",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "What does EMR stand for?",
+        "answer" : "Electronic Medical Record",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Wnat does EHR stand for?",
+        "answer" : "Electronic Health Record",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "What percentage of the population uses PHR?",
+        "choices" : "<5, <10, 10, 15",
+        "answer" : "<10",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Which is a con of PHR?",
+        "choices" : "Accuracy of information, Integrate personal healthcare features and applications, Patient communication with healthcare providers, Patient involvement in their own healthcare",
+        "answer" : "Accuracy of information",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "EMR is created, gathered, managed, and consulted by l____ c____ and s____.",
+        "answer" : "licensed, clinicians, staff",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "How many organizations are involved in keeping EMRs?",
+        "answer" : "1",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Which type of record do we want to achieve long term?",
+        "choices" : "EMR, EHR, PHR",
+        "answer" : "EHR",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "WHen records are moved from paper to ____ there can be an increase in number of ____.",
+        "answer" : "electronics, errors",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Which is a disadvantage of using note templates:",
+        "choices" : "Easier data retrieval, Provider can add key pieces of information, Providers can have more consistency in documentation, Large volume of free text, Save time while documenting",
+        "answer" : "Large volume of free text",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "In document by exception values are prepopulated as ____ values and the provider select ____ values.",
+        "answer" : "normal, abnormal",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Providers must train voice recognition sofware for ____ terms in their ____.",
+        "answer" : "various, specialty",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "What does HIMSS stand for?",
+        "answer" : "Health Information and Management Systems Society",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Which of these is not a listed barrier of entry to EMR adoption:",
+        "choices" : "E-prescribing, The way medications are ordered are changed, Resistance from providers, Resistance from patients",
+        "answer" : "Resistance from patients",
+        "type" : "multiple"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Some of the hidden costs to adopting EMR are: s____ costs, training s____, loss in p____ when installing new application, support cost once you install an a____ and h____ costs.",
+        "answer" : "software, staff, productivity, application, hardware",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Some of the problems with using document imaging and EMR are that it is l____ and e____.",
+        "answer" : "laborious, expensive",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Hybris EMR models may be adopted becaause some a____ might not want to use EMR, so they can use a m____ of p____ and elextronic medical records.",
+        "answer" : "areas, mix, paper",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "While the b____-of-b____ model of EMR adoption might allow each department to choose the best p____ for itself, one of the disadvantges is that there is i____ across the o____.",
+        "answer" : "best, breed, product, inconsistency, organization",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Some of the advantages of the E-mar marketplace are c____, single v____, less i____ issues, and data is in one place.",
+        "answer" : "consistency, vendor, interfacing",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Iteroperability is the abilty of 2 or more s____ or c____ to exchange i____ and to use the i____ that has been exchanged.",
+        "answer" : "systems, components, information, information",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Business Benefits is a national program develeped in 2004 to create uniform business p____, uniform p____, and uniform p____ i____.",
+        "answer" : "processes, privacy, patient, identification",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "What does HIE stand for?",
+        "answer" : "Health information exchange",
+        "type" : "text"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "The HIE was built for s____, e____ exchange of health i____ using nationally-r____ standards.",
+        "answer" : "secure, electronic, information, recognizedd",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Most users of HIE are p____-centric interactions between p____-centric information.",
+        "answer" : "provider, patient",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Some of the poblems with HIE today are that you are expected to know m____ h____ in your head and c____ records between p____ fomr doctor to another.",
+        "answer" : "medical, history, caarry, providers",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "With HIE most patients believe that health records are already e___, that their information should move like their f____ information, and that provders with look out for their p____.",
+        "answer" : "electronic, financial, privacy",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "With HIE most providers believe that they will have more c____ information which leads to h____ q____ and l____ c____.",
+        "answer" : "complete, higher, quality, lower, costs",
+        "type" : "fill"
     },
     {
-        "question" : "",
-        "answer" : "",
-        "type" : ""
+        "question" : "Hitech Act stands for H____ I____ T____ for E____ and C____ H____ A____",
+        "answer" : "Health, Information, Technology, Economic, Clinical, Health, Act",
+        "type" : "fill"
+    },
+    {
+        "question" : "What year was the Hitech Act signed?",
+        "answer" : "2009",
+        "type" : "text"
+    },
+    {
+        "question" : "How much money does the Hitech Act allocate as incentives for providers to adopt EHR?",
+        "answer" : "18 billion",
+        "type" : "text"
+    },
+    {
+        "question" : "What is stage 2 of showing meaninigful use of the Hitech Act:",
+        "choices" : "Capture information of patient in EMR, Exchange of structured information to promote capture and interoperability, Improve/analyze data from EHR through interoperability",
+        "answer" : "Exchange of structured information to promote capture and interoperability",
+        "type" : "multiple"
+    },
+    {
+        "question" : "EHRs and HIE create a new s____ of c____ d____.",
+        "answer" : "standard, care, delivery",
+        "type" : "fill"
+    },
+    {
+        "question" : "To obtain certification for EHR physicians must r____ and p____ certain information and do it a certain p____ of the time to qualify.",
+        "answer" : "record, provide, percentage",
+        "type" : "fill"
+    },
+    {
+        "question" : "The current typical use of HIE includes m____ orders, l____ and services, to exchange and receive r____ i____, referral to a s____, e____ department visit, and public health r____.",
+        "answer" : "medication, labs, radiology, images, specialist, emergency, reporting",
+        "type" : "fill"
+    },
+    {
+        "question" : "The basic functionality of HIE is to push info from one p____ to another a____ or on d____, and to respond to r____ for i____.",
+        "answer" : "place, automatically, demand, requests, information",
+        "type" : "fill"
+    },
+    {
+        "question" : "The advanced functionality of HIE is to create and maintain a c____ r____, and allow information in e____ format to be used to a____ care and provide t____.",
+        "answer" : "community, record, electronic, analyze, trends",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which standard of HIE dominated in healthcare?",
+        "answer" : "HL7",
+        "type" : "text"
+    },
+    {
+        "question" : "OASIS, W____ W____ W____ Consortium and I____ E____ T____ F____ are some of the basic standards that drive the web.",
+        "answer" : "World, Wide, Web, Internet, Engineering, Task, Force",
+        "type" : "fill"
+    },
+    {
+        "question" : "In what year what HL7 founded?",
+        "answer" : "1987",
+        "type" : "text"
+    },
+    {
+        "question" : "The HL7 FHIR Foundation establishes primary electronic data i____ standards, including some t____ standards for health information exchange.",
+        "answer" : "interchange, terminology",
+        "type" : "fill"
+    },
+    {
+        "question" : "The HL7 FHIR Foundation is accredited by A____.",
+        "answer" : "ANSI",
+        "type" : "fill"
+    },
+    {
+        "question" : "HL7 version 2.x is a series of electronic messages to support a____, l____, f____ purposes, as well as c____ processes.",
+        "answer" : "administrative, logistical, financial, clinical",
+        "type" : "fill"
+    },
+    {
+        "question" : "HL7 version 3 was created as a standard that was d____ and t____.",
+        "answer" : "definite, testable",
+        "type" : "fill"
+    },
+    {
+        "question" : "HL7 version 3 is a better framework for c____ of software that i____ the standards.",
+        "answer" : "certification, implemented",
+        "type" : "fill"
+    },
+    {
+        "question" : "HL7 version 3 establishes a common model of how i____ is r____.",
+        "answer" : "information, represented",
+        "type" : "fill"
+    },
+    {
+        "question" : "In HL7 version 3 the content in the message defined the f____ of the s____ of the message.",
+        "answer" : "format, syntax",
+        "type" : "fill"
+    },
+    {
+        "question" : "Snomed-ct is a collection of m____ t____ that are s____ organized.",
+        "answer" : "medical, terms, systematically",
+        "type" : "fill"
+    },
+    {
+        "question" : "Who distributes Snomed-ct?",
+        "answer" : "NLM",
+        "type" : "text"
+    },
+    {
+        "question" : "Rxnorm allows computer systems to c___ drug-r____ information.",
+        "answer" : "communicate, related",
+        "type" : "fill"
+    },
+    {
+        "question" : "Who produces Rxnorm?",
+        "answer" : "NLM",
+        "type" : "text"
+    },
+    {
+        "question" : "Rxnorm normalizes n____ convention for g____ and b____ medications.",
+        "answer" : "naming, generic, brand",
+        "type" : "fill"
     }
 ]
