@@ -1,0 +1,277 @@
+ClinicalStudiesQuestions = [
+    {
+        "question" : "Prospective studies happen from ____ to ____.",
+        "answer" : "now, the future",
+        "type" : "fill"
+    },
+    {
+        "question" : "Retrospective studies happen from ____ to ____.",
+        "answer" : "the past, now",
+        "type" : "fill"
+    },
+    {
+        "question" : "The method of inquiry for prospective studies is ____.",
+        "answer" : "follow-up",
+        "type" : "fill"
+    },
+    {
+        "question" : "The method of inquiry for retrospective studies is ____ ____",
+        "answer" : "chart, review",
+        "type" : "fill"
+    },
+    {
+        "question" : "The different groups in clinical studies are referred to as ____.",
+        "answer" : "arms",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which type of study is most common:",
+        "choices" : "Single-arm study, Double-arm study, Multiple-arm study",
+        "answer" : "Double-arm study",
+        "type" : "multiple"
+    },
+    {
+        "question" : "In active-controlled studies the control group receives an ____ drug.",
+        "answer" : "active",
+        "type" : "fill"
+    },
+    {
+        "question" : "Occasionally, single-arm studies may compare the ____ to a '____' control group from other studies done in the ____.",
+        "answer" : "intervention, historical, past",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which evidence is at the top of the quality of evidence pyramid:",
+        "choices" : "Critically Appraise Literature, Case Series or Studies, Meta-Analyses, Cohort Studies, Individual Case Reports",
+        "answer" : "Meta-Analyses",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is the lowest quality evidence:",
+        "choices" : "Cohort Studies, Meta-Analyses, Case Series or Studies, Randomized Controlled Trials, Systematic Reviews",
+        "answer" : "Case Series or Studies",
+        "type" : "multiple"
+    },
+    {
+        "question" : "A clinical end point (or outcome) is an occurrence of a d____, s____, s____ or l____ a____ that constitues one of the target outcomes of the trial.",
+        "answer" : "disease, symptom, sign, laboratory, abnormality",
+        "type" : "fill"
+    },
+    {
+        "question" : "For the primary end point the subjects are ____.",
+        "answer" : "randomized",
+        "type" : "fill"
+    },
+    {
+        "question" : "Trials are designed to investigate the ____ ____ ____.",
+        "answer" : "primary, end, point",
+        "type" : "fill"
+    },
+    {
+        "question" : "Secondary end points are analyzed p____ h____.",
+        "answer" : "post, hoc",
+        "type" : "fill"
+    },
+    {
+        "question" : "A surrogate end point or marker is an outcome that s____ for direct measure of how a patient f____, f____, or s____.",
+        "answer" : "substitutes, feels, functions, survives",
+        "type" : "fill"
+    },
+    {
+        "question" : "Surrogate end points may include p____ or f____ variables or measures of s____ disease.",
+        "answer" : "physiologic, functional, subclinical",
+        "type" : "fill"
+    },
+    {
+        "question" : "Absolute risk is also referred to as b____ risk, the c____ g____ risk, or the c____ e____ rate.",
+        "answer" : "baseline, control, group, control, event",
+        "type" : "fill"
+    },
+    {
+        "question" : "The aboslute risk is the risk of the a____ o____ in the c____ group.",
+        "answer" : "adverse, outcome, control",
+        "type" : "fill"
+    },
+    {
+        "question" : "The risk difference (RD) is the a____ measurement of the t____ effect on changing the risk compared to the c____ group.",
+        "answer" : "absolute, treatment, control",
+        "type" : "fill"
+    },
+    {
+        "question" : "The risk difference is an absolute risk ____ when the difference is less than 0.",
+        "answer" : "reduction",
+        "type" : "fill"
+    },
+    {
+        "question" : "The risk difference is an absolute risk ____ when the different is greater than 0.",
+        "answer" : "increase",
+        "type" : "fill"
+    },
+    {
+        "question" : "Another term for relative risk is ____ ____.",
+        "answer" : "risk, ratio",
+        "type" : "fill"
+    },
+    {
+        "question" : "Relative risk ____ happens when the ratio is less than 1.",
+        "answer" : "reduction",
+        "type" : "fill"
+    },
+    {
+        "question" : "Relative risk ____ happens when the ratio is greater than 1.",
+        "answer" : "increase",
+        "type" : "fill"
+    },
+    {
+        "question" : "In longer-term studies, we are interesting not only in the total number of ____ but also in their ____.",
+        "answer" : "events, timing",
+        "type" : "fill"
+    },
+    {
+        "question" : "The analysis of accumulated data that takes into account the timing of events is called ____ ____.",
+        "answer" : "survival, analysis",
+        "type" : "fill"
+    },
+    {
+        "question" : "What is the probablity of events occurring at any point in each group?",
+        "answer" : "hazard",
+        "type" : "text"
+    },
+    {
+        "question" : "The weighted RR during the entire study duration is known as the ____ ____.",
+        "answer" : "hazard, ratio",
+        "type" : "fill"
+    },
+    {
+        "question" : "What is the number of patients you would need to treat for the duration of the study follow-up to prevent an adverse effect compared to the control called? (NNT)",
+        "answer" : "Number needed to treat",
+        "type" : "text"
+    },
+    {
+        "question" : "The composite end point captures the number of patients experiencing any of several ____ ____ as a primary study end point.",
+        "answer" : "adverse, effects",
+        "type" : "fill"
+    },
+    {
+        "question" : "By increasing the number of ____, composite end points ____ the necessary sample size and also may ____ duration of follow-up.",
+        "answer" : "event, decrease, reduce",
+        "type" : "fill"
+    },
+    {
+        "question" : "____ is deviation from the truth.",
+        "answer" : "error",
+        "type" : "fill"
+    },
+    {
+        "question" : "Random error is also known as ____.",
+        "answer" : "change",
+        "type" : "fill"
+    },
+    {
+        "question" : "Systematic error is also known as ____",
+        "answer" : "bias",
+        "type" : "fill"
+    },
+    {
+        "question" : "Even if a study is perfectly d____ and executed, the e____ treatment effect may miss the mark due to c____",
+        "answer" : "designed, estimated, chance",
+        "type" : "fill"
+    },
+    {
+        "question" : "Studies may be flawed in their design or c____ and introduce b____.",
+        "answer" : "conduct, bias",
+        "type" : "fill"
+    },
+    {
+        "question" : "In contrast to random error, ____ leads to systematic deviations from the underlying truth.",
+        "answer" : "bias",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which is not a type of bias:",
+        "choices" : "Confounding bias, Measurement bias, Selection bias, Treatment bias",
+        "answer" : "Treatment bias",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Measurement bias occurs when the ____ or ____ are dissimilar among groups of patients.",
+        "answer" : "methods, measurement",
+        "type" : "fill"
+    },
+    {
+        "question" : "Detection bias happens when a phenomenon is more likely to be ____ for a particular set of ____ subjects.",
+        "answer" : "observed, study",
+        "type" : "fill"
+    },
+    {
+        "question" : "Selection bias occurs when ____ are made between groups of patients that ____ in determinants of outcome other than the one under ____.",
+        "answer" : "comparisons, differ, study",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which is an appropriate way of reducing bias introduced by cointervention:",
+        "choices" : "Blinding of assessors of outcome, Blinding of patients, Blinding of caregivers, Randomization, Ensuring complete follow-up",
+        "answer" : "Blinding of caregivers",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Loss to follow-up can be reduced by ensuring ____ follow-up.",
+        "answer" : "complete",
+        "type" : "fill"
+    },
+    {
+        "question" : "Bias introduced by placebo effects can be reduced in clinical trials by blinding of ____.",
+        "answer" : "patients",
+        "type" : "fill"
+    },
+    {
+        "question" : "What is the optimal strategy for maintaining prognostic balance?",
+        "answer" : "blinding",
+        "type" : "text"
+    },
+    {
+        "question" : "In order to reduce the risk of ____, the prognostic balance between groups must be maintained as the study ____.",
+        "answer" : "bias, progresses",
+        "type" : "fill"
+    },
+    {
+        "question" : "The more ____ involved in judging whether a patient has had a target outcome, the more important ____ becomes.",
+        "answer" : "subjectivity, blinding",
+        "type" : "fill"
+    },
+    {
+        "question" : "A placebo is a pharmacologically ____ agent, usually administred to participants in the ____ group.",
+        "answer" : "inactive, control",
+        "type" : "fill"
+    },
+    {
+        "question" : "Randomized clinical trials frequently report '____' from the study.",
+        "answer" : "dropouts",
+        "type" : "fill"
+    },
+    {
+        "question" : "Study participants who dropout of a study because they no longer comply with the intervention are referred to as ____.",
+        "answer" : "nonadherence",
+        "type" : "fill"
+    },
+    {
+        "question" : "The ____-to-treat (ITT) principle dictates that we count events in all ____ patients, regardless of whether they received the intended ____.",
+        "answer" : "intention, randomized, intervention",
+        "type" : "fill"
+    },
+    {
+        "question" : "Analyses restricted to patients who adhere to assigned treatment are to reffere to as ____",
+        "answer" : "perprotocol",
+        "type" : "fill"
+    },
+    {
+        "question" : "Removing patients after randomization always introduces a ____ of ____ by creating noncomparable groups.",
+        "answer" : "risk, bias",
+        "type" : "fill"
+    },
+    {
+        "question" : "In unusual situations an additional PP analysis may provide ____ information.",
+        "answer" : "reassuring",
+        "type" : "fill"
+    }
+] 

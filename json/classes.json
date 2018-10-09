@@ -212,7 +212,7 @@ classes = [
         "topics" : [
             {
                 "name" : "Information Resources",
-                "path" : "InfoResources",
+                "path" : "infoResources",
                 "varname" : "InfoResourcesQuestions",
                 "quizType" : "topics"
             },
@@ -220,6 +220,12 @@ classes = [
                 "name" : "Informatics",
                 "path" : "informatics",
                 "varname" : "InformaticsQuestions",
+                "quizType" : "topics"
+            },
+            {
+                "name" : "Clinical Studies",
+                "path" : "clinicalStudies",
+                "varname" : "ClinicalStudiesQuestions",
                 "quizType" : "topics"
             }
         ]
