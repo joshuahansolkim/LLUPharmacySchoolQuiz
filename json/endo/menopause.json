@@ -136,7 +136,7 @@ MenopauseQuestions = [
         "type": "fill"
     },
     {
-        "question": "Micronized 17 beta estradiolis structurally identical to estradiol and is micronized to facilitate ____, conjugated equine estrogen is derived from pregnant mare's ____ and contains most ____, esterified estrogens, estropipate is a salt of ____ sulfate and piperazine, and ethinyl estradiol are all derived from ____ sources (yams and soy) EXCEPT ___",
+        "question": "Micronized 17 beta estradiolis structurally identical to estradiol and is micronized to facilitate ____, conjugated equine estrogen is derived from pregnant mare's ____ and contains most ____, esterified estrogens, estropipate is a salt of ____ sulfate and piperazine, and ethinyl estradiol are all derived from ____ sources (yams and soy) EXCEPT ____",
         "answer": "absorption, urine, estrone, estrone, pant, CEE",
         "type": "fill"
     },

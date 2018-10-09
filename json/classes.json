@@ -207,6 +207,24 @@ classes = [
         ]
     },
     {
+        "name" : "Drug Information Resources",
+        "path" : "druginfo",
+        "topics" : [
+            {
+                "name" : "Information Resources",
+                "path" : "InfoResources",
+                "varname" : "InfoResourcesQuestions",
+                "quizType" : "topics"
+            },
+            {
+                "name" : "Informatics",
+                "path" : "informatics",
+                "varname" : "InformaticsQuestions",
+                "quizType" : "topics"
+            }
+        ]
+    },
+    {
         "name" : "Test",
         "path" : "test",
         "topics" : [

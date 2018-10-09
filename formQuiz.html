@@ -9,14 +9,16 @@
     <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
     <link rel='stylesheet' href='css/bootstrap.min.css'>
     <link rel='stylesheet' href='css/styles.css'>
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/pill.png">
     <script>
         // Determine the class to ask questions for
         var quizType = 'form';
         var urlParams = new URLSearchParams(window.location.search);
         var className = urlParams.get('class');
         var pclass = classes.find(function (obj) {return obj.path === className});
+        console.log(pclass);
         var classTopics = getTopicsList(pclass.topics);
+        console.log(classTopics);
         setupTopics(classTopics);
         var questions;
         var arrayIndex = 0;

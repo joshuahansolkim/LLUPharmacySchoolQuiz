@@ -1,0 +1,137 @@
+InfoResourcesQuestions = [
+    {
+        "question" : "What kind of questions should you ask from someone requesting drug information?",
+        "answer" : "probing",
+        "type" : "text"
+    },
+    {
+        "question" : "You should examine the medical record for patient data to ____ the response to meet the requestor's need.",
+        "answer" : "individualize",
+        "type" : "fill"
+    },
+    {
+        "question" : "C____ r____ is crucial when analyzing drug information request information.",
+        "answer" : "clinical, reasoning",
+        "type" : "fill"
+    },
+    {
+        "question" : "What should be included when possible when disseminating information to a patient?",
+        "answer" : "supporting documentation",
+        "type" : "text"
+    },
+    {
+        "question" : "The following should be documented for information requests: the r____, information r____ used, the i____ found in each s____, t____ spent on the response, the r____ itself as appropriate for the request and the p____ setting.",
+        "answer" : "request, resources, information, source, time, response, practice",
+        "type" : "fill"
+    },
+    {
+        "question" : "The response to a question must include a r____ of the request and clear identification of the p____, i____, and c____.",
+        "answer" : "restatement, problems, issues, circumstances",
+        "type" : "fill"
+    },
+    {
+        "question" : "Specific recommendations must be s____ sound, clearly j____, and well d____.",
+        "answer" : "scientifically, justified, documented",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which is not a patient factor that should be considered when formulating a response:",
+        "choices" : "Demographics, Allergies/intolerances, Chief complaint, Family history, Drug interactions, Social history",
+        "answer" : "Drug interactions",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is not a medication factor that should be considered when formulating a response:",
+        "choices" : "Epidemiology, Treatment, Allergy, Administration, Product preparation, Indications, Laboratory test interference",
+        "answer" : "Epidemiology",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is a drug factor that should be considered when formulating a response:",
+        "choices" : "Context, Allergy, Risk factors, Dosage and schedule, Medications, Scoep of question",
+        "answer" : "Risk factors",
+        "type" : "multiple"
+    },
+    {
+        "question" : "What are some of the desired characteristics of a response: t____, a____, c____, w____, c____, and c____.",
+        "answer" : "timely, accurate, concise, well-referenced, current, complete",
+        "type" : "text"
+    },
+    {
+        "question" : "Which of the following is an example of a tertiary source:",
+        "choices" : "Controlled trials, Case reports, Dynamed, Google scholar, MEDLINE",
+        "answer" : "Dynamed",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is an advantage of secondary sources:",
+        "choices" : "Latest published information, Peer reviewed, Summarizes methods and results of a study, References may lead you to good primary literature",
+        "answer" : "Summarizes methods and results of a study",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which literature often provides the most recent and in-depth information about a topic?",
+        "answer" : "primary",
+        "type" : "text"
+    },
+    {
+        "question" : "Which is a useful tertiary resource for finding the availability of dosage forms:",
+        "choices" : "Red Book, Lexi-Comp, CDC, Toxnet, The Harriet Lane Handbook",
+        "answer" : "Red Book",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is the principle online bibliographic citation database of the PubMed system:",
+        "choices" : "MEDLINE, PubMed Central",
+        "answer" : "MEDLINE",
+        "type" : "multiple"
+    },
+    {
+        "question" : "What does MeSH stand for?",
+        "answer" : "Medical Subject Headings",
+        "type" : "text"
+    },
+    {
+        "question" : "What is the acronym for the controlled vocabulary thesaurus produced by the National Library of Medicine?",
+        "answer" : "MeSH",
+        "type" : "text"
+    },
+    {
+        "question" : "what are the 2 ways to access MeSH Headings?",
+        "answer" : "search box, more resources > MeSH Database",
+        "type" : "list"
+    },
+    {
+        "question" : "What are the 3 boolean operators for searching PubMed?",
+        "answer" : "AND, OR, NOT",
+        "type" : "list"
+    },
+    {
+        "question" : "Will using boolean operators or brackets, quotations, comma, etc. turn ATM on or off:",
+        "choices" : "On, Off",
+        "answer" : "Off",
+        "type" : "multiple"
+    },
+    {
+        "question" : "What does ATM stand for in terms of PubMed search:",
+        "answer" : "AUtomatic Term Mapping",
+        "type" : "text"
+    },
+    {
+        "question" : "Grey literature is literature that is not in a b____, j____, or p____ n____.",
+        "answer" : "book, journal, published, newsletter",
+        "type" : "fill"
+    },
+    {
+        "question" : "Which is not an advantage of grey literature:",
+        "choices" : "Abundant, Varied formats, Low cost, Complementary to published literature",
+        "answer" : "Varied formats",
+        "type" : "multiple"
+    },
+    {
+        "question" : "Which is not a place where grey literature can be found:",
+        "choices" : "Web of science, Fda.org, Google, PubMed, CDC, ClinicalTrials.gov",
+        "answer" : "PubMed",
+        "type" : "multiple"
+    }
+]
