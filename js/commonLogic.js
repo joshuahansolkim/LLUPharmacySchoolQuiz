@@ -66,17 +66,12 @@ function randomizeQuestions() {
     getQuestion(0);
 }
 
-function getQuestion(index){
-    console.log('getQuestion');
-    arrayIndex = index;
-    getNewQuestion(arrayIndex);
-}
-
 function getNextQuestion() {
     console.log('getNextQuestion');
+    console.log(arrayIndex);
     if(arrayIndex < questions.length - 1){
 	    arrayIndex++;
-	    getNewQuestion(arrayIndex);
+	    getQuestion(arrayIndex);
     } else {
         //alert('You have reached the end of the quiz.');
         getFirstIncorrectQuestion()
@@ -87,7 +82,7 @@ function getPreviousQuestion() {
     console.log('getPreviousQuestion');
     if(arrayIndex > 0){
 	    arrayIndex--;
-	    getNewQuestion(arrayIndex);
+	    getQuestion(arrayIndex);
     } else {
         alert('You have reached the beginning of the quiz.')
     }
@@ -96,7 +91,7 @@ function getPreviousQuestion() {
 function getFirstQuestion() {
     console.log('getFirstQuestion');
     arrayIndex = 0;
-    getNewQuestion(arrayIndex);
+    getQuestion(arrayIndex);
 }
 
 function getFirstIncorrectQuestion(){
@@ -106,11 +101,11 @@ function getFirstIncorrectQuestion(){
     if(numIncorrect > 0){
         var firstIncorrect = $('.incorrect').first().attr('id');
         arrayIndex = parseInt(firstIncorrect.replace('question',''));
-        getNewQuestion(arrayIndex);
+        getQuestion(arrayIndex);
     } else {
         var firstIncorrect = $('.removeable').not('.answerCorrect').first().attr('id');
         arrayIndex = parseInt(firstIncorrect.replace('question',''));
-        getNewQuestion(arrayIndex);
+        getQuestion(arrayIndex);
     }
 }
 
@@ -126,4 +121,11 @@ function resetScore() {
     $('#correctCount').text('0/' + totalQuestions);
     totalCorrect = 0;
     getFirstQuestion();
+}
+
+function resetQuestion(){
+    console.log('resetQuestion');
+    $('#question' + arrayIndex).removeClass('incorrect');
+    delete questions[arrayIndex].input;
+    getQuestion(arrayIndex);
 }

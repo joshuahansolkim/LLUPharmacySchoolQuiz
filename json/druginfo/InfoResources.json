@@ -48,7 +48,7 @@ InfoResourcesQuestions = [
     },
     {
         "question" : "Which is a drug factor that should be considered when formulating a response:",
-        "choices" : "Context, Allergy, Risk factors, Dosage and schedule, Medications, Scoep of question",
+        "choices" : "Context, Allergy, Risk factors, Dosage and schedule, Medications, Scope of question",
         "answer" : "Risk factors",
         "type" : "multiple"
     },
@@ -114,7 +114,7 @@ InfoResourcesQuestions = [
     },
     {
         "question" : "What does ATM stand for in terms of PubMed search:",
-        "answer" : "AUtomatic Term Mapping",
+        "answer" : "Automatic Term Mapping",
         "type" : "text"
     },
     {
