@@ -1,7 +1,7 @@
 CorticosteroidQuestions = [
     {
         "question": "The ____ secretes mineralocorticoid, glucocorticoid, and androgens",
-        "answer": "",
+        "answer": "cortex",
         "type": "fill"
     },
     {
@@ -26,7 +26,7 @@ CorticosteroidQuestions = [
     },
     {
         "question": "The medulla is a ____ and secretes ____ and functions in sympathetic nervous system",
-        "answer": "catecholaminne, epinephrine",
+        "answer": "catecholamine, epinephrine",
         "type": "fill"
     },
     {
@@ -45,7 +45,7 @@ CorticosteroidQuestions = [
         "type": "fill"
     },
     {
-        "question": "Side effects with long term corticosteroids include altered bone metabolism, weight gain and ____ appearance, ____/____, cataracts and ____, dermatologic events, ____ risk, myopathy, psychiatric disturbances, immunosuppression",
+        "question": "Side effects with long term corticosteroids include altered bone metabolism, weight gain and ____ appearance, ____, cataracts and ____, dermatologic events, ____ risk, myopathy, psychiatric disturbances, immunosuppression",
         "answer": "cushingoid, hyperglycemia/diabetes, glaucoma, CVD",
         "type": "fill"
     },
@@ -61,7 +61,7 @@ CorticosteroidQuestions = [
     },
     {
         "question": "Skin thinning, ____ (which occurs on sun exposed areas of the hands and forearms, sides of the neck, face and lower legs), and ____ striae appear on the thighs, buttocks, shoulders and abdomen",
-        "answer": "pupura, red",
+        "answer": "purpura, red",
         "type": "fill"
     },
     {
@@ -92,12 +92,12 @@ CorticosteroidQuestions = [
     {
         "question": "Prior to corticosteroid treatment ____, ____, ____, ____, ____ must be known",
         "answer": "weight, height, BMI, BP, infection",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Labs include ____, ____, ____, ____",
         "answer": "CBC, glucose, lipids, BMD",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Monitor glucose ____ hours after corticosteroid initiation and then every ____ months for first year, then annually and measure lipids at baseline ____ month after initiation then every ____ months with an eye exam every year",
@@ -117,7 +117,7 @@ CorticosteroidQuestions = [
     {
         "question": "Topical corticosteroids are used for ____, ____, ____, and ____",
         "answer": "eczema, dermatitis, psoriasis, hermorrhoids",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Class ____ potency refers to ____ high potency, and is up to ____ times stronger than hydrocortisone and can be used for ____ continuous weeks",
@@ -141,7 +141,7 @@ CorticosteroidQuestions = [
     },
     {
         "question": "List the order of potency: a. creams, b. lotions, c. ointments/gels, d. solutions",
-        "answer": "c, a, b, d",
+        "answer": "cabd",
         "type": "text"
     },
     {

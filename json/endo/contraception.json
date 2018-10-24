@@ -47,7 +47,7 @@ ContraceptionQuestions = [
     {
         "question": "There are three types of human estrogen ____, ____, ____",
         "answer": "estradiol, estrone, estriol",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Estrogen works in growth and development of ____, ____, ____ ____, and ____ enlargement",
@@ -88,7 +88,7 @@ ContraceptionQuestions = [
     {
         "question": "What are the factors for choosing a contraception ____, ____, ____, ____, ____",
         "answer": "safety, effectiveness, accessability, affordability, acceptability",
-        "type": "list"
+        "type": "fill"
     },
     {
         "question": "Breakthrough bleeding is bleeding during active pills that requires use of ____/____",
@@ -106,7 +106,7 @@ ContraceptionQuestions = [
         "type": "fill"
     },
     {
-        "question": "Withdrawal bleeding is bleeding that occurs deu to ____ of hormones in the pill",
+        "question": "Withdrawal bleeding is bleeding that occurs due to ____ of hormones in the pill",
         "answer": "withdrawal",
         "type": "fill"
     },
@@ -306,7 +306,7 @@ ContraceptionQuestions = [
         "type": "fill"
     },
     {
-        "question": "If the nuvaring has been displaced <____ hours, rinse with lukewarm water and re-insert, if displaced >3 hrs then rinse with lukewarm water and reinsert + backup contracepption for ____ days",
+        "question": "If the nuvaring has been displaced <____ hours, rinse with lukewarm water and re-insert, if displaced >____ hrs then rinse with lukewarm water and reinsert + backup contracepption for ____ days",
         "answer": "3, 3, 7",
         "type": "fill"
     },
@@ -456,7 +456,7 @@ ContraceptionQuestions = [
         "type": "fill"
     },
     {
-        "question": "Return to fertility occurs ____ days from removal",
+        "question": "Return to fertility occurs ____ days from IUD removal",
         "answer": "30",
         "type": "fill"
     },

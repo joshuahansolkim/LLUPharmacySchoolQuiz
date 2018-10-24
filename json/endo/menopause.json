@@ -16,7 +16,7 @@ MenopauseQuestions = [
     },
     {
         "question": "What is the correct order of menopause pathophysiology: a. depletion of ovarian follicles, b. occurence of frequent anovulatory cycles, c. increase production of FSH, d. decrease inhibin production by follicle, e. inability for the ovary  to produce mature follicles, f. occurence of menopause",
-        "answer": "d, c, e, b, a, f",
+        "answer": "dcebaf",
         "type": "text"
     },
     {
@@ -51,7 +51,7 @@ MenopauseQuestions = [
         "type": "fill"
     },
     {
-        "question": "Vaginal Estrogen Therapy is a local treatment used only when vaginal symptoms are present and do nto require addition of progesterone given low risk of endometrial ____ and helps to reverse vaginal epithelial thinning, decreases the vaginal pH, and improves symptoms of vaginal atrophy",
+        "question": "Vaginal Estrogen Therapy is a local treatment used only when vaginal symptoms are present and do not require addition of progesterone given low risk of endometrial ____ and helps to reverse vaginal epithelial thinning, decreases the vaginal pH, and improves symptoms of vaginal atrophy",
         "answer": "hyperplasia",
         "type": "fill"
     },
@@ -67,7 +67,7 @@ MenopauseQuestions = [
     },
     {
         "question": "Selective estrogen receptor modulator such as ____ (Ospemifene) which is used to treatment of moderate to severe dyspareunia from menopause and BBW is endometrial ____ and ____ and ____ with primary ____ and ____ metabolism with some CYP2C19 activity",
-        "answer": "cancer, CYP3A4, CYP2C9",
+        "answer": "Osphena, cancer, stroke, VTE, CYP3A4, CYP2C9",
         "type": "fill"
     },
     {
@@ -97,7 +97,7 @@ MenopauseQuestions = [
     },
     {
         "question": "What is the correct MOA of hot flushes: a. activation of the body's heat release mechanism, b. decrease in serotonin levels and increase in the levels of norepinephrine and its metabolite, c. decrease in estrogen, d. cutaneous vasodilatoin and sweating = hot flashes",
-        "answer": "c, b, a, d",
+        "answer": "cbad",
         "type": "text"
     },
     {
@@ -137,7 +137,7 @@ MenopauseQuestions = [
     },
     {
         "question": "Micronized 17 beta estradiolis structurally identical to estradiol and is micronized to facilitate ____, conjugated equine estrogen is derived from pregnant mare's ____ and contains most ____, esterified estrogens, estropipate is a salt of ____ sulfate and piperazine, and ethinyl estradiol are all derived from ____ sources (yams and soy) EXCEPT ____",
-        "answer": "absorption, urine, estrone, estrone, pant, CEE",
+        "answer": "absorption, urine, estrone, estrone, plant, CEE",
         "type": "fill"
     },
     {
@@ -202,13 +202,13 @@ MenopauseQuestions = [
     },
     {
         "question": "Estrogen Receptor Agonist (formerly SERMS) mediate effects through estrogen receptor binding and activate certain estrogenic pathways and block other estrogen pathways and examples include ____ (Evista) and ____ (Duavee)",
-		"answer": "Raloxifne, Bazedoxefine/CE",
+		"answer": "Raloxifene, Bazedoxefene/CE",
         "type": "fill"
     },
     {
-        "question": "Non hormonal treatment include ____, ____, ____, ____, ____",
-        "answer": "antidepressant, hypnotic, anticonvulsant, antihypertensive, neuropathic pain agent",
-        "type": "list"
+        "question": "Non hormonal treatment include ____, ____, ____, ____, ____ pain agent",
+        "answer": "antidepressant, hypnotic, anticonvulsant, antihypertensive, neuropathic",
+        "type": "fill"
     },
     {
         "question": "CAM to reduce hot flashes include ____, traditional chinese medicine, ____, ____ (black cohosh, cranberry, st. john's wort, valerian, chasteberry, evening primrose oil)",

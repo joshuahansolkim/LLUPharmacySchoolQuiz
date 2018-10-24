@@ -1,0 +1,222 @@
+AsthmaQuestions = [
+    {
+        "question": "Early asthma response leads to ____ and mucosal ____",
+        "answer": "bronchospasm, edema",
+        "type": "fill"
+    },
+    {
+        "question": "Late asthma response leads to ____, ____ injury, ____, ____",
+        "answer": "bronchospasm, tissue, inflammation, hyperresponsiveness",
+        "type": "fill"
+    },
+    {
+        "question": "Mast cell activation and degranulation leads to release of ____, ____, and ____",
+        "answer": "histamine, leukotriene, prostaglandins",
+        "type": "fill"
+    },
+    {
+        "question": "B2 adrenergic agonists cannot be used as a ____ in persistent asthma",
+        "answer": "monotherapy",
+        "type": "fill"
+    },
+    {
+        "question": "____ is used in ____ asthma when other treatments do not work",
+        "answer": "epinephrine, acute",
+        "type": "fill"
+    },
+    {
+        "question": "Epinephrine is given by slow ____ infusion",
+        "answer": "IV",
+        "type": "fill"
+    },
+    {
+        "question": "____ is the drug of choice for acute bronchospasm",
+        "answer": "albuterol",
+        "type": "fill"
+    },
+    {
+        "question": "____ has the greatest B2 adrenoreceptor affinity and is not used  for acute asthma treatment",
+        "answer": "salmeterol",
+        "type": "fill"
+    },
+    {
+        "question": "Short acting B2 adrenergic agonists with (2-6h DOA) are l____, m____, i____, and t____",
+        "answer": "levalbuterol, metaproterenol, isoproterenol, terbutaline",
+        "type": "fill"
+    },
+    {
+        "question": "Long acting B2 adrenergic agonists with (12-24h DOA) are f____, a____, i____, o____",
+        "answer": "formoterol, arformoterol, indacaterol, olodaterol",
+        "type": "fill"
+    },
+    {
+        "question": "Anticholinergics act selectively at the ____ muscarinic receptor",
+        "answer": "M3",
+        "type": "fill"
+    },
+    {
+        "question": "Ipratropium bromide ____ is used for ____ and acute ____ and is N-____atropine",
+		"answer": "Atrovent, COPD, asthma, isopropyl",
+        "type": "fill"
+    },
+    {
+        "question": "Tiotropium Bromide ____ is used for ____ and has a 24 hour duration",
+        "answer": "Spiriva, COPD",
+        "type": "fill"
+    },
+    {
+        "question": "Theophylline-Elixophylline, Bronkodyl is similar to caffeine and is used for ____ and ____ and is not used frequently now due to better therapeutic profile of other drugs",
+        "answer": "asthma, COPD",
+        "type": "fill"
+    },
+    {
+        "question": "Asthma symptoms are caused by ____ and ____",
+        "answer": "bronchoconstriction, inflammation",
+        "type": "fill"
+    },
+    {
+        "question": "Four main classes of steroids are ____ hormones, ____ acids, ____, and ____",
+        "answer": "sex, bile, vitamins, adrenocorticoids",
+        "type": "fill"
+    },
+    {
+        "question": "Adrenocorticoids are split into two classes ____ and ____",
+        "answer": "glucocorticoids and mineralocorticoids",
+        "type": "fill"
+    },
+    {
+        "question": "Glucocorticoids have high ___-inflammatory activity",
+        "answer": "anti",
+        "type": "fill"
+    },
+    {
+        "question": "Corticosteroids stimulate synthesis of ____ which inhibits ____ A2",
+        "answer": "lipocortin, phospholipase",
+        "type": "fill"
+    },
+    {
+        "question": "____ use of glucocorticoids should be avoided as there is a large number of adverse effects of prolonged use",
+        "answer": "",
+        "type": "fill"
+    },
+    {
+        "question": "hydrocortisone is used in severe ____ attacks",
+        "answer": "asthma",
+        "type": "fill"
+    },
+    {
+        "question": "Prednisolone is hydrocortisone with a ____ oxidation (olefin addition) and has ____X glucocorticoid activity than hydrocortisone",
+        "answer": "ring, 4",
+        "type": "fill"
+    },
+    {
+        "question": "prednisone is a ____ of prednisolone",
+        "answer": "prodrug",
+        "type": "fill"
+    },
+    {
+        "question": "Methylprednisolone ____ has essentially no ____ activity and has ____X more glucocorticoid activity than hydrocortisone",
+        "answer": "Medrol, mineralocorticoid, 5",
+        "type": "fill"
+    },
+    {
+        "question": "Localized use of glucocorticoids strongly attenuates ____ effects seen with systemic glucocorticoids and so ____ is preferred",
+        "answer": "adverse, inhalation",
+        "type": "fill"
+    },
+    {
+        "question": "Beclomethasone diproprionate (QVAR, Vanceril) is a lipophilic prodrug that must be activated to 17alpha-____ (lung) whereas 21-____ is inactive (liver)",
+		"answer": "monoproprionate, monoproprionate",
+        "type": "fill"
+    },
+    {
+        "question": "____ on the beclomethasone diproprionate increases mineralocorticoid and glucocorticoid activity",
+        "answer": "Cl",
+        "type": "fill"
+    },
+    {
+        "question": "____ decreases mineralocorticoid activity",
+        "answer": "methyl",
+        "type": "fill"
+    },
+    {
+        "question": "Budesonide (pulmicort) with formoterol is ____",
+        "answer": "symbicort",
+        "type": "fill"
+    },
+    {
+        "question": "Flunisolide (aerobid, Aerospan HFA) has ____ ketal which decreases mineralocorticoid activity and the ____-fluoro derivative increases ____ activity",
+        "answer": "acetone, 6, glucocorticoid",
+        "type": "fill"
+	},
+    {
+        "question": "Unique Fluticasone proprionate combo gives ____X glucocorticoid activity vs beclomethasone",
+        "answer": "36",
+        "type": "fill"
+    },
+    {
+        "question": "Fluticasone proprionate (Flovent, Flonase) combo with salmeterol is ____",
+        "answer": "Advair",
+        "type": "fill"
+    },
+    {
+        "question": "Mometasone furoate (Asmanex, Nasonex) has the ____ glucocorticoid receptor affinity and a long half life and ____ daily dosing and is not used alone for ____",
+        "answer": "highest, once, asthma",
+        "type": "fill"
+    },
+    {
+        "question": "Mast cell stabilizers play a key role in ____ and ____ inflammation",
+        "answer": "allergic, asthmatic",
+        "type": "fill"
+    },
+    {
+        "question": "Cromolyn Sodium (intal, Nasalcrom) is poorly absorbed from the lung, eye, and GI and is a solution for intranasal and inhalation and is given ____X a day and is ____ used",
+        "answer": "4, rarely",
+        "type": "fill"
+    },
+    {
+        "question": "Nedocromil sodium (Tilade) is a ____ ring in khellin changed to piperidinone which makes it poorly absorbed systemically and is not orally bioavailable and is not readily metabolized",
+        "answer": "furan",
+        "type": "fill"
+    },
+    {
+        "question": "Leukotriene biosynthesis inhibitors are useful for moderate to severe allergic asthma in patients ____ controlled by conventional therapy",
+        "answer": "poorly",
+        "type": "fill"
+    },
+    {
+        "question": "Zileutin (Zyflo) is a 5-lipoxygenase inhibitor with a hydroxyurea that is essential for activity and is dosed ____X/day",
+        "answer": "4",
+        "type": "fill"
+    },
+    {
+        "question": "Montelukast (Singulair) has high affinity and selective antagonist activity and is rapidly ____ and bioavailable",
+        "answer": "absorbed",
+        "type": "fill"
+    },
+    {
+        "question": "Zafirlukast (Accolate) is rapidly and well absorbed orally and is highly metabolized through ____",
+        "answer": "CYP3A4",
+        "type": "fill"
+    },
+    {
+        "question": "IgE binds to high affinity receptors on the surface of ____ cells",
+		"answer": "mast",
+        "type": "fill"
+    },
+    {
+        "question": "Omalizumab (Xolair) is designed to interact with the site on IgE that binds to a designated area of the mast cell and is used in allergic ____ for moderate to severe persistent asthma",
+        "answer": "asthma",
+        "type": "fill"
+    },
+    {
+        "question": "3 FDA approved agents for IL-5 antagonists include ____ (mepolizumab), ____ (reslizumab), and ____ (benralizumab)",
+        "answer": "Nucala, cinquair, fasenra",
+        "type": "fill"
+    },
+    {
+        "question": "____ play a role in the deveopment of asthma and are primarily regulated by signalling proteins ____",
+        "answer": "eosinophils, IL-5",
+        "type": "fill"
+    }
+]
