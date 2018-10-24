@@ -27,7 +27,7 @@ function createDrugSubset(subset) {
     
     totalCorrect = 0;
     totalDrugs = drugSubset.length;
-    getNewQuestion();
+    getQuestion();
     printDrugList();
 }
 
@@ -39,12 +39,12 @@ function setupPagination() {
     }
 }
 
-function getNewQuestion () {
+function getQuestion () {
     /* Bug fix for arrayindex not getting set correctly on app start. */
     if(arrayIndex > 0){
         if($('#question'+arrayIndex).attr('class').includes('answerCorrect')){
             arrayIndex++;
-            getNewQuestion();
+            getQuestion();
         }
     }
     /* Change pagination to show which question is active. */
@@ -134,13 +134,13 @@ function getNewQuestion () {
 
 function getQuestion(index){
     arrayIndex = index;
-    getNewQuestion();
+    getQuestion();
 }
 
 function getNextQuestion() {
     if(arrayIndex < drugSubset.length - 1){
 	    arrayIndex++;
-	    getNewQuestion();
+	    getQuestion();
     } else {
         //alert("You have reached the end of the quiz.");
         getFirstIncorrectQuestion()
@@ -149,13 +149,13 @@ function getNextQuestion() {
 
 function getFirstQuestion() {
     arrayIndex = 0;
-    getNewQuestion();
+    getQuestion();
 }
 
 function getFirstIncorrectQuestion(){
     var firstIncorrect = $('.incorrect').first().attr('id');
     arrayIndex = parseInt(firstIncorrect.replace("question",""));
-    getNewQuestion();
+    getQuestion();
 }
 
 function randomizeQuestions() {
@@ -244,7 +244,7 @@ function getCorrectAnswer(){
 function getPreviousQuestion() {
     if(arrayIndex > 0){
 	    arrayIndex--;
-	    getNewQuestion();
+	    getQuestion();
     } else {
         alert("You have reached the beginning of the quiz.")
     }

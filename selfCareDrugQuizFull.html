@@ -16,7 +16,7 @@
         var answerCorrect = new Array(totalDrugs);
     </script>
 </HEAD>
-<BODY onload="getNewQuestion()">
+<BODY onload="getQuestion()">
     <h1>Self Care Drug List Quiz</h1>
     <form id="quizForm">
         <fieldset>
@@ -108,7 +108,7 @@
         resetScore();
         $('input:radio').change(function() {
             var changeType = $('input[name="questionSelector"]:checked').val();
-            getNewQuestion();
+            getQuestion();
         });
         $('.userInput').keypress(function(e) {
             if (e.which == 13) {

@@ -100,10 +100,12 @@ function checkAnswer() {
     }
 }
 
-function getNewQuestion(questionNumber) {
-    console.log('getNewQuestion');
+function getQuestion(questionNumber) {
+    console.log('getQuestion');
+    arrayIndex = questionNumber;
     // Update pagination
     $('.page-link').parent().removeClass('active');
+    $('#correctAnswer').removeClass('is-invalid');
     $('#question' + questionNumber).parent().addClass('active');
     $('#quizForm').addClass('form-inline');
     
@@ -117,20 +119,20 @@ function getNewQuestion(questionNumber) {
         case 'text':
             // A single answer
             var questionString = question.question;
-		    $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + questionString + '</h2></div><div class="row form-group"><h3><label for="answerInput">Answer: &nbsp; </label></h3></br><input class="userInput form-control answerInput" type="text" name="answer"></div></div>');
+		    $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + eval(questionNumber + 1) + ': ' + questionString + '</h2></div><div class="row form-group"><h3><label for="answerInput">Answer: &nbsp; </label></h3></br><input class="userInput form-control answerInput" type="text" name="answer"></div></div>');
             break;
         case 'fill':
             // Fill in the blanks
             var questionString = question.question.replace(/____/g,'<input class="userInput form-control answerInput" type="text" name="answer" autofocus>');
-            $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + questionNumber + 1 + ': ' + questionString + '</h2></div><div class="row form-group"><label class="sr-only" for="answerInput">Answer</label></div>');
-            $('#question').html(questionNumber + 1 + ': ' + questionString);
+            $('#questionRow').html('<div class="col"><div class="row"><h2 id="question">' + eval(questionNumber + 1) + ': ' + questionString + '</h2></div><div class="row form-group"><label class="sr-only" for="answerInput">Answer</label></div>');
+            $('#question').html(eval(questionNumber + 1) + ': ' + questionString);
             $('.answerInput').first().focus();
             break;
         case 'multiple':
             // Multiple choice
             $('#quizForm').removeClass('form-inline');
             $('#questionRow').html('<div class="col"><div class="row"><h2 id="question"></h2></div><div class="row form-group form-check"><h3><label for="answerInput" class="answers">Answers</label></h3></div></div>');
-            $('#question').text(questionNumber + 1 + ': ' + question.question.trim());
+            $('#question').text(eval(questionNumber + 1) + ': ' + question.question.trim());
             
             var answerChoices = question.choices.split(',');
             answerChoices.sort(function(){return 0.5 - Math.random()});

@@ -8,7 +8,7 @@ function checkAnswer() {
     
     for(fieldname in drug){
         if (fieldname.toLowerCase() !== 'name'){
-            var className = fieldname + 'Field';
+            var className = fieldname.replace(' ','') + 'Field';
         
             // Get correct answers from json
             var itemAnswerArray = drug[fieldname].split('|').map(item => item.trim().toLowerCase());
@@ -39,11 +39,12 @@ function checkAnswer() {
     }
 }
 
-function getNewQuestion(questionNumber) {
-    console.log('getNewQuestion');
+function getQuestion(questionNumber) {
+    console.log('getQuestion');
     
     // Clear all form fields
     $('.formFields').empty();
+    $('.formField').remove();
     
     // Update the pagination buttons
     $('.page-link').parent().removeClass('active');
@@ -60,8 +61,8 @@ function getNewQuestion(questionNumber) {
     for(fieldname in drug){
         if (fieldname.toLowerCase() !== 'name'){
             // Show an empty input field for each item in the json
-            var className = fieldname.toLowerCase() + 'Field';
-            $('.inputFields').append('<div class="form-group"><div class="label">' + fieldname + ':</div><div class=' + className + 's formFields"></div></div>');
+            var className = fieldname.replace(' ','').toLowerCase() + 'Field';
+            $('.inputFields').append('<div class="form-group formField"><div class="label">' + fieldname + ':</div><div class=' + className + 's formFields"></div></div>');
             
             var itemArray = drug[fieldname].split('|').map(item => item);
             for(question in itemArray){
