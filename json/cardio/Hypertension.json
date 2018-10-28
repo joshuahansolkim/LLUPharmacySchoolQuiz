@@ -1,0 +1,247 @@
+HypertensionQuestions = [
+    {
+        "question": "Who is the famous stent & device?",
+        "answer": "Dick Cheney",
+        "type": "text"
+    },
+    {
+        "question": "The 1st pacemaker was created by?",
+        "answer": "Earl Bakken",
+        "type": "text"
+    },
+    {
+        "question": "Which assist device makes you homebound?",
+        "answer": "ventricular",
+        "type": "text"
+    },
+    {
+        "question": "Who created the 1st implanted device?",
+        "answer": "Mirowski",
+        "type": "text"
+    },
+    {
+        "question": "What are two implantable devices?",
+        "answer": "pacemakers, defibrullators",
+        "type": "list"
+    },
+    {
+        "question": "Which drugs are ideal for DES?",
+        "answer": "Pachitaxel (Taxus), Zotarolimus (Endeavor Resolute), Everolimus (Promus Xience), Brolimnus (Nabori)",
+        "type": "list"
+    },
+    {
+        "question": "The ideal DES drug should be: ____, ____, ____, ____",
+        "answer": "antiproliferative, antithrombotic, antiinflammmatory, nontoxic",
+        "type": "fill"
+    },
+    {
+        "question": "What is the BBW for direct arterial vasodilators?",
+        "answer": "minoxidil : potent antihypertensive = pericardial effusion + angina exacerbations",
+        "type": "text"
+    },
+    {
+        "question": "What is the CI to ARBs?",
+        "answer": "hypersensitivity",
+        "type": "text"
+    },
+    {
+        "question": "Who was the 1st person to defibrillate a human heart?",
+        "answer": "Dr. CLaude Beck",
+        "type": "text"
+    },
+    {
+        "question": "What year was the implantable cardioverter defribillator (ICD) approved by the FDA?",
+        "answer": "1985",
+        "type": "text"
+    },
+    {
+        "question": "If a patient has Afib what med can you give them?",
+        "answer": "ARB",
+        "type": "text"
+    },
+    {
+        "question": "What are the DDI with central α2 agonists?",
+        "answer": "negative chronotropic ag + clonidine, MAOI + clonidine, CNE depressants + clonidine, TCA + clonidine, non-selective β-blockers during clonodine withdrawal = increase in BP",
+        "type": "list"
+    },
+    {
+        "question": "What are the side effects of direct arterial vasodilators?",
+        "answer": "headache, nausea, flushing, Hypotension, reflex tachycardia, papitations, dizziness",
+        "type": "list"
+    },
+    {
+        "question": "What are the side effects with β-blockers?",
+        "answer": "bradycardia, 2nd or 3rd degree HB, bronchospasms, vasoconstriction of peripheral blood vessels (raynand's, PVD), masked hypoglycemia (except sweating), CNS depression, lethargy, fatigure, sexual dysfunction, hypotension, impaired exercise/glucose",
+        "type": "list"
+    },
+    {
+        "question": "What is the CI with non DHP CCBs?",
+        "answer": "hypotension SBP <90, 2nd or 3rd degree AV block, actute MI",
+        "type": "list"
+    },
+    {
+        "question": "What is the DDI with non DHP CCBs?",
+        "answer": "cycosporine, iovastahn, simvastahn, theophyline, carbamazepine, tacrolimus, digoxin",
+        "type": "list"
+    },
+    {
+        "question": "What are the CI to DHP CCBs?",
+        "answer": "allergy to soybeans, soy products, eggs, severe aortic stenosis",
+        "type": "list"
+    },
+    {
+        "question": "What are the side effects of non DHP CCBs?",
+        "answer": "bradycardia, AV block, hypotension, constipation, worsening HF",
+        "type": "list"
+    },
+    {
+        "question": "What is the side effect of α1 receptor antagonists?",
+        "answer": "postural hypotension/syncopation, Headache, palpitations, priapism, NA/H2O retention, Orthostatis hypotension",
+        "type": "list"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    },
+    {
+        "question": "",
+        "answer": "",
+        "type": "text"
+    }
+]

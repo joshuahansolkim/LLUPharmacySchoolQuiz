@@ -1,0 +1,282 @@
+Cardiodrugs = [
+    {
+	"genericName" : "Benazepril-40mg",
+	"tradeName" : "Lotensin",
+	},
+     {
+	"genericName" : "Captopril",
+	"tradeName" : "Capoten",
+	},
+    {
+	"genericName" : "Enalapril-40mg div 1-2",
+	"tradeName" : "Vasotec",
+	},
+    {
+	"genericName" : "Enalaprilat",
+	"tradeName" : "Vasotec IV",
+	},
+    {
+	"genericName" : "Fosinopril-40mg",
+	"tradeName" : "Monopril",
+	},
+    {
+	"genericName" : "Lisinopril-40mg",
+	"tradeName" : "Prinvil, Zestril",
+	},
+    {
+	"genericName" : "Moexipril",
+	"tradeName" : "Univasc",
+	},
+    {
+	"genericName" : "Perindopril",
+	"tradeName" : "Aceon",
+	},
+    {
+	"genericName" : "Quinapril",
+	"tradeName" : "Accupril",
+	},
+    {
+	"genericName" : "Ramipril",
+	"tradeName" : "Altace",
+	},
+    {
+	"genericName" : "Trandolapril",
+	"tradeName" : "Mavik",
+	},
+    {
+	"genericName" : "Azilsartan",
+	"tradeName" : "Edarbi",
+	},
+    {
+	"genericName" : "Candesartan",
+	"tradeName" : "Atacano",
+	},
+    {
+	"genericName" : "Eprosartan",
+	"tradeName" : "Teveten",
+	},
+    {
+	"genericName" : "Irbesartan",
+	"tradeName" : "Avapro",
+	},
+    {
+	"genericName" : "Losartan-100mg div 1-2",
+	"tradeName" : "Cozaar",
+	},
+    {
+	"genericName" : "Olmesartan",
+	"tradeName" : "Benicar",
+	},
+    {
+	"genericName" : "Telmisartan",
+	"tradeName" : "pseudoephedrine",
+	},
+    {
+	"genericName" : "Velsartan",
+	"tradeName" : "Diovar",
+	},
+    {
+	"genericName" : "Aliskiren",
+	"tradeName" : "Tekturna",
+	},
+    {
+	"genericName" : "Amlodipine-10mg",
+	"tradeName" : "Norvasc",
+	},
+    {
+	"genericName" : "Clevidipine",
+	"tradeName" : "Cleviprex",
+	},
+    {
+	"genericName" : "Felodipine-10mg",
+	"tradeName" : "Plendil",
+	},
+    {
+	"genericName" : "Isradapine",
+	"tradeName" : "Dynacirc",
+	},
+    {
+	"genericName" : "Nicardipine",
+	"tradeName" : "Cardene",
+	},
+    {
+	"genericName" : "Nifedipine-90mg",
+	"tradeName" : "Procardia XL, Adalat CC",
+	},
+    {
+	"genericName" : "Nimodipine",
+	"tradeName" : "Nimotop",
+	},
+    {
+	"genericName" : "Nisoldipine",
+	"tradeName" : "Sular",
+	},
+    {
+	"genericName" : "Acebutolol",
+	"tradeName" : "Sectral",
+	},
+    {
+	"genericName" : "Atenolol-100mg",
+	"tradeName" : "Tenormin",
+	},
+    {
+	"genericName" : "Betaxolol",
+	"tradeName" : "Kerlone",
+	},
+    {
+	"genericName" : "Bisoprolol",
+	"tradeName" : "Zebeta",
+	},
+    {
+	"genericName" : "Esmolol",
+	"tradeName": "Brevibloc",
+	},
+    {
+	"genericName" : "Metoprolol-100mg",
+	"tradeName" : "Lopressor, Toprol XL",
+	},
+    {
+	"genericName" : "Nevibolol",
+	"tradeName" : "Bystolic",
+	},
+    {	
+    "genericName" : "Carteolol",
+	"tradeName": "Cartrol",
+	},
+    {
+	"genericName" : "Nadolol",
+	"tradeName": "Cogard",
+	},
+    {
+	"genericName" : "Penbutolol",
+	"tradeName" : "Levatol",
+	},
+    {
+	"genericName" : "Pindolol",
+	"tradeName" : "Visken",
+	},
+    {
+	"genericName" : "Propanolol",
+	"tradeName" : "Inderal, Inderal LA",
+	},
+    {
+	"genericName" : "Sotalol",
+	"tradeName" : "Betapace",
+	},
+    {
+	"genericName" : "Timolol",
+	"tradeName" : "Blocadren",
+	},
+    {
+	"genericName" : "Diltiazem SR",
+	"tradeName" : "Cardizem SR",
+	},
+    {
+	"genericName" : "Diltiazem SR",
+	"tradeName" : "Cardizem CD< Cartia XT, Dilacor XR, Tiazac, Taztia XT",
+	},
+    {	
+	"genericName" : "Diltiazem ER",
+	"tradeName" : "Cardizem LA",
+	},
+    {
+	"genericName" : "Verapamil IR",
+	"tradeName" : "Calan",
+	},
+    {
+	"genericName" : "Verapamil LA",
+	"tradeName" : "Calan SR, Isoptin SR, Verelan",
+	},
+    {
+	"genericName" : "Verapamil Er",
+	"tradeName" : "Covera HS",
+	},
+    {
+	"genericName" : "Carvedilol",
+	"tradeName" : "Coreg, Coreg CR",
+	},
+    {
+	"genericName" : "Labetolol",
+	"tradeName" : "Trandate, Normodyne",
+	},
+    {
+	"genericName" : "Doxazosin",
+	"tradeName" : "Cardura",
+	},
+    {
+	"genericName" : "Prazosin",
+	"tradeName" : "Minipress",
+	},
+    {
+	"genericName" : "Terazosin",
+	"tradeName" : "Hytrin",
+	},
+    {
+	"genericName" : "Methyldopa",
+	"tradeName" : "Aldomet",
+	},
+    {
+	"genericName" : "Clonidine",
+	"tradeName" : "Catapres",
+	},
+    {
+	"genericName" : "Guanabenz",
+	"tradeName" : "Wytensin",
+	},
+    {
+	"genericName" : "Guanfacine",
+	"tradeName" : "Tenex",
+	},
+    {
+	"genericName" : "Hydralazine",
+	"tradeName" : "Apresoline",
+	},
+    {
+	"genericName" : "Minoxidil",
+	"tradeName" : "Loniten",
+	},
+    {
+	"genericName" : "Diazoxide",
+	"tradeName" : "Hyperstat",
+	},
+    {
+	"genericName" : "Chlorothiazide",
+	"tradeName" : "Diuril",
+	},
+    {
+	"genericName" : "Hydrochlorothiazide",
+	"tradeName" : "Hydrodiuril",
+	},
+    {
+	"genericName" : "Metolazone",
+	"tradeName" : "Zaroxolyn, Mykrox",
+	},
+    {
+	"genericName" : "Bumetanide",
+	"tradeName" : "Burnex",
+	},
+    {
+	"genericName" : "Furosemide",
+	"tradeName" : "Lasix",
+	},
+    {
+	"genericName" : "Torsemide",
+	"tradeName" : "Demadex",
+	},
+    {
+	"genericName" : "Amiloride",
+	"tradeName" : "Midamor",
+	},
+    {
+	"genericName" : "Triamterene",
+	"tradeName" : "Dyrenium",
+	},
+    {
+	"genericName" : "Spironolactone",
+	"tradeName" : "Aldactone",
+	},
+    {
+	"genericName" : "Eplerenone",
+	"tradeName" : "Inspra",
+	}
+]

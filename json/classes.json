@@ -236,6 +236,30 @@ classes = [
         ]
     },
     {
+        "name" : "Cardio",
+        "path" : "cardio",
+        "topics" : [
+            {
+                "name" : "Cardio Generic Brand",
+                "path" : "Cardiogenericbrand",
+                "varname" : "Cardiodrugs",
+                "quizType" : "form"
+            },
+            {
+                "name" : "Hypertension",
+                "path" : "Hypertension",
+                "varname" : "HypertensionQuestions",
+                "quizType" : "topics"
+            },
+            {
+                "name" : "Hypertensive Crisis",
+                "path" : "HypertensiveCrisis",
+                "varname" : "HypertensiveCrisisQuestions",
+                "quizType" : "topics"
+            }
+        ]
+    },
+    {
         "name" : "Test",
         "path" : "test",
         "topics" : [
