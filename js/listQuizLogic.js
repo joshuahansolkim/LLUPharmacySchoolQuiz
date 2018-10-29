@@ -13,20 +13,33 @@ function checkAnswer() {
 
     // Set the styles according to whether that section was correct or not
     if(correctAnswer == userAnswer){
+        console.log('correct');
         totalCorrect++;
         question.correct = 1;
         $('.' + generateClassName(questionType)).removeClass('incorrect').addClass('answerCorrect');
-        $('#question' + arrayIndex).addClass('answerCorrect');
-        arrayIndex++;
-        getQuestion(arrayIndex);
+        $('#question' + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
     } else {
-        $('#question' + arrayIndex).addClass('answerCorrect');
+        console.log('incorrect');
+        console.log(arrayIndex);
+        $('#question' + arrayIndex).addClass('incorrect');
         $('.' + generateClassName(questionType)).removeClass('answerCorrect').addClass('incorrect');
+    }
+    
+    // Update scoring
+    $('#correctCount').text(totalCorrect + '/' + totalQuestions);
+
+    // Get next question
+    if (totalCorrect == totalQuestions) {
+        getFirstQuestion();
+    } else {
+	    getNextQuestion();
     }
 }
 
 function getQuestion(questionNumber) {
     console.log('getQuestion');
+    
+    arrayIndex = questionNumber;
     
     // Clear all form fields
     $('.formFields').empty();
@@ -46,12 +59,10 @@ function getQuestion(questionNumber) {
     for(fieldname in question){
         if(fieldname != 'correct'){
             var className = generateClassName(fieldname);
-            if (fieldname.toLowerCase() !== 'name'){
-                // Show an empty input field for each item in the json
-                $('.inputFields').append('<div class="form-group formField"><div class="label">' + fieldname + ':</div><div class=' + className + 's formFields"></div></div>');
+            // Show an empty input field for each item in the json
+            $('.inputFields').append('<div class="form-group formField"><div class="label">' + fieldname + ':</div><div class=' + className + 's formFields"></div></div>');
 
-                $('.' + className + 's').append('<input class="form-control ' + className + '" type="text">');
-            }
+            $('.' + className + 's').append('<input class="form-control ' + className + '" type="text">');
             $('.' + className + 's').removeClass('incorrect');
         }   
     }
@@ -75,7 +86,6 @@ function setupQuestionTypes(question) {
                 $('.questionTypes').append('<div class="form-check form-check-inline"><label class="form-check-label"><input type="radio" name="typeSelector" value="' + fieldname + '" class="typeSelector" id="' + fieldname.replace(' ','') + '"' + (currentType == fieldname ? 'checked': '') + '> ' + fieldname +'</label></div>');
             }
         }
-        
     }
     $('input[name="typeSelector"]:radio').change(function() {
         changeQuestionType();
@@ -94,7 +104,7 @@ function showValues(question){
             }else if(question.correct == 1){
                 $('.' + className).val(question[fieldname])
             }else{
-                $('.' + className).val('').prop( "disabled", false );
+                $('.' + className).val('').prop( "disabled", false ).focus();
             }
         }
     }
