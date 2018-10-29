@@ -1,6 +1,4 @@
 function checkAnswer() {
-    console.log('checkAnswer');
-    
     var questionNumber = arrayIndex;
     var question = questions[questionNumber];
     var questionType = getQuestionType();
@@ -13,14 +11,11 @@ function checkAnswer() {
 
     // Set the styles according to whether that section was correct or not
     if(correctAnswer == userAnswer){
-        console.log('correct');
         totalCorrect++;
         question.correct = 1;
         $('.' + generateClassName(questionType)).removeClass('incorrect').addClass('answerCorrect');
         $('#question' + arrayIndex).removeClass('incorrect').addClass('answerCorrect');
     } else {
-        console.log('incorrect');
-        console.log(arrayIndex);
         $('#question' + arrayIndex).addClass('incorrect');
         $('.' + generateClassName(questionType)).removeClass('answerCorrect').addClass('incorrect');
     }
@@ -37,8 +32,6 @@ function checkAnswer() {
 }
 
 function getQuestion(questionNumber) {
-    console.log('getQuestion');
-    
     arrayIndex = questionNumber;
     
     // Clear all form fields
@@ -71,13 +64,11 @@ function getQuestion(questionNumber) {
 }
 
 function getQuestionType(){
-    console.log('getQuestionType');
     var dataType = $('.questionTypes').attr('data-type');
     return dataType;
 }
 
 function setupQuestionTypes(question) {
-    console.log('setupQuestionTypes');
     var currentType = getQuestionType();
     $('.typeSelector').closest('.form-check-inline').remove();
     for(fieldname in question){
@@ -94,7 +85,6 @@ function setupQuestionTypes(question) {
 }
 
 function showValues(question){
-    console.log('showValues');
     var currentType = getQuestionType();
     for(fieldname in question){
         var className = generateClassName(fieldname);
@@ -111,7 +101,6 @@ function showValues(question){
 }
 
 function changeQuestionType(){
-    console.log('changeQuestionType');
     var typeValue = $('input[name="typeSelector"]:checked').val();
     $('.questionTypes').attr('data-type',typeValue);
 }

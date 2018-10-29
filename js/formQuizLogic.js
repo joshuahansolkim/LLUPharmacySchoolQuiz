@@ -1,8 +1,5 @@
 function checkAnswer() {
-    console.log('checkAnswer');
-    
-    var questionNumber = $('.nameField').data('arrayIndex');
-    console.log(questionNumber);
+    var questionNumber = arrayIndex;
     var drug = questions[questionNumber];
     var broadValues = [];
     
@@ -12,7 +9,6 @@ function checkAnswer() {
         
             // Get correct answers from json
             var itemAnswerArray = drug[fieldname].split('|').map(item => item.trim().toLowerCase());
-            console.log(itemAnswerArray);
 
             // Get user's input and add them to an array
             var itemInputArray = [];
@@ -24,7 +20,6 @@ function checkAnswer() {
             var correctAnswersCount = 0;
             for(question in itemAnswerArray){
                 if(itemInputArray.indexOf(itemAnswerArray[question]) > -1){
-                    console.log(itemAnswerArray[question]);
                     correctAnswersCount++;
                 }
             }
@@ -40,8 +35,7 @@ function checkAnswer() {
 }
 
 function getQuestion(questionNumber) {
-    console.log('getQuestion');
-    
+    arrayIndex = questionNumber;
     // Clear all form fields
     $('.formFields').empty();
     $('.formField').remove();
@@ -55,7 +49,7 @@ function getQuestion(questionNumber) {
     console.log(drug);
     
     // Show the drug name on the page
-    $('.nameField').append('<h2>' + drug.Name + '</h2>').data('arrayIndex', questionNumber);
+    $('.nameField').append('<h2>' + drug.Name + '</h2>');
     
     // Iterate through the fields
     for(fieldname in drug){
