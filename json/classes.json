@@ -62,6 +62,12 @@ classes = [
                 "path" : "UrinaryIncontinence",
                 "varname" : "UrinaryIncontinenceQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "IPDM",
+                "path" : "IPDMDrugList",
+                "varname" : "IPDMDrugs",
+                "quizType" : "list"
             }
         ]
     },
@@ -183,6 +189,18 @@ classes = [
                 "path" : "warts",
                 "varname" : "wartsQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "Drugs",
+                "path" : "drugs",
+                "varname" : "drugs",
+                "quizType" : "list"
+            },
+            {
+                "name" : "Drugs 2",
+                "path" : "drugs2",
+                "varname" : "drugs2",
+                "quizType" : "list"
             }
         ]
     },

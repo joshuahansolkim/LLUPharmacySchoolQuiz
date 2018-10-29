@@ -1,5 +1,4 @@
 function checkAnswer() {
-    console.log('checkAnswer');
     // Determine correct answer using logic specific to question type
     switch (questions[arrayIndex].type) {
         case 'text':
@@ -101,7 +100,6 @@ function checkAnswer() {
 }
 
 function getQuestion(questionNumber) {
-    console.log('getQuestion');
     arrayIndex = questionNumber;
     // Update pagination
     $('.page-link').parent().removeClass('active');
@@ -191,15 +189,5 @@ function showAnswer(){
                 }
             })
             break;
-    }
-    
+    }   
 }
-
-
-
-
-
-
-
-
-
