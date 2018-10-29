@@ -129,3 +129,7 @@ function resetQuestion(){
     delete questions[arrayIndex].input;
     getQuestion(arrayIndex);
 }
+
+function generateClassName(originalString){
+    return originalString.replace(' ','');
+}

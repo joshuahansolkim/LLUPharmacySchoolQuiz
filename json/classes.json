@@ -74,7 +74,7 @@ classes = [
                 "name" : "Controlled Drugs",
                 "path" : "ControlledDrugs",
                 "varname" : "ControlledDrugsQuestions",
-                "quizType" : "drug"
+                "quizType" : "list"
             }
         ]
     },
@@ -243,7 +243,7 @@ classes = [
                 "name" : "Cardio Generic Brand",
                 "path" : "Cardiogenericbrand",
                 "varname" : "Cardiodrugs",
-                "quizType" : "form"
+                "quizType" : "list"
             },
             {
                 "name" : "Hypertension",
@@ -274,6 +274,12 @@ classes = [
                 "path" : "formTest",
                 "varname" : "testDrugs",
                 "quizType" : "form"
+            },
+            {
+                "name" : "List Test",
+                "path" : "listTest",
+                "varname" : "listDrugs",
+                "quizType" : "list"
             }
         ]
     }
