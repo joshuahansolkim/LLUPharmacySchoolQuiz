@@ -1,34 +1,45 @@
 <HTML>
+
 <HEAD>
     <TITLE>Melissa's Page</TITLE>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="images/pill.png">
+    <script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel='icon' type='image/png' href='images/pill.png'>
 </HEAD>
+
 <BODY>
     <h1>Apps for Melissa</h1>
-    
-    <a class="btn btn-secondary" role="button" href="drugList.html">View Drug List</a>
-    <a class="btn btn-secondary" role="button" href="listQuiz.html?class=selfCare">Self Care Drug Quiz - Full</a>
-    <a class="btn btn-secondary" role="button" href="topicsQuiz.html?class=selfCare">Self Care Topic Quiz</a>
-    <br><br>
-    <a class="btn btn-primary" role="button" href="listQuiz.html?class=ipdm">IPDM Drug Quiz - Lite</a>
-    <a class="btn btn-primary" role="button" href="topicsQuiz.html?class=ipdm">IPDM Topic Quiz</a>
-    <br><br>
-    <a class="btn btn-primary" role="button" href="listQuiz.html?class=law">Pharm Law Controlled Drugs Quiz</a>
-    <br><br>
-    
-    <a class="btn btn-primary" role="button" href="topicsQuiz.html?class=medchem">Medchem Quiz</a>
-    <br><br>
-    <a class="btn btn-primary" role="button" href="topicsQuiz.html?class=endo">Endo Topics Quiz</a>
-    <br><br>
-    <a class="btn btn-primary" role="button" href="topicsQuiz.html?class=druginfo">Drug Info Topics Quiz</a>
-    <br><br>
-    <a class="btn btn-primary" role="button" href="topicsQuiz.html?class=cardio">Cardio Topics Quiz</a>
-    <a class="btn btn-primary" role="button" href="listQuiz.html?class=cardio">Cardio Drug Quiz</a>
-    <br><br>
+
+    <div class='card-columns'>
+        <div class='card border-secondary' style='width: 18rem;'>
+            <h2 class='card-header'>
+                Year 1
+            </h2>
+            <ul class='list-group list-group-flush'>
+                <li class='list-group-item'><a role='button' href='drugList.html'>View Self Care Drug List</a></li>
+                <li class='list-group-item'><a role='button' href='listQuiz.html?class=selfCare'>Self Care Drug Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=selfCare'>Self Care Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='listQuiz.html?class=ipdm'>IPDM Drug Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=ipdm'>IPDM Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='listQuiz.html?class=law'>Pharm Law Controlled Drugs Quiz</a></li>
+            </ul>
+        </div>
+        <div class='card border-primary' style='width: 18rem;'>
+            <h2 class='card-header'>
+                Year 2
+            </h2>
+            <ul class='list-group list-group-flush'>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=medchem'>Medchem Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=endo'>Endo Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=druginfo'>Drug Info Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='topicsQuiz.html?class=cardio'>Cardio Quiz</a></li>
+                <li class='list-group-item'><a role='button' href='listQuiz.html?class=cardio'>Cardio Drug Quiz</a></li>
+            </ul>
+        </div>
+    </div>
 </BODY>
+
 </HTML>
