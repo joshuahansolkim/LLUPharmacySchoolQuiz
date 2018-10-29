@@ -278,5 +278,25 @@ Cardiodrugs = [
     {
 	"Generic Name" : "Eplerenone",
 	"Trade Name" : "Inspra",
+    },
+    {
+	"Generic Name" : "Phentolamine",
+	"Trade Name" : "Regitine",
+    },
+    {
+	"Generic Name" : "Nitroglycerin",
+	"Trade Name" : "Tridil",    
+   	},
+    {
+	"Generic Name" : "Fenoldopam",
+	"Trade Name" : "Corlopam",
+    },
+    {
+	"Generic Name" : "",
+	"Trade Name" : "Inspra",
+    },
+    {
+	"Generic Name" : "Eplerenone",
+	"Trade Name" : "Inspra",
 	}
 ]
