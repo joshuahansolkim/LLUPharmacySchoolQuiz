@@ -274,6 +274,12 @@ classes = [
                 "path" : "HypertensiveCrisis",
                 "varname" : "HypertensiveCrisisQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "Hyperlipidemia",
+                "path" : "HyperlipidemiaDrugs",
+                "varname" : "HyperlipidemiaDrugs",
+                "quizType" : "list"
             }
         ]
     },
