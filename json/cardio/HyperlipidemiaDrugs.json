@@ -100,203 +100,27 @@ HyperlipidemiaDrugs = [
 	"Trade Name" : "Advicor",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
+	"Generic Name" : "Cholestyramine",
+	"Trade Name" : "Questran, Questran Light",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
+	"Generic Name" : "Colestipol",
+	"Trade Name" : "Colestid",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
+	"Generic Name" : "Colesevelam",
+	"Trade Name" : "Welchol",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
+	"Generic Name" : "Fish Oil",
+	"Trade Name" : "Lovaza, Vascepa, Epanova",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
+	"Generic Name" : "Mipomersen",
+	"Trade Name" : "Kynamro",
 	},
     {
-	"Generic Name" : "",
-	"Trade Name" : "",
-	},
-    {
-	"Generic Name" : "",
-	"Trade Name" : "",
-	},
-    {
-	"Generic Name" : "",
-	"Trade Name": "",
-	},
-    {
-	"Generic Name" : "",
-	"Trade Name" : "",
-	},
-    {
-	"Generic Name" : "Nevibolol",
-	"Trade Name" : "Bystolic",
-	},
-    {	
-    "Generic Name" : "Carteolol",
-	"Trade Name": "Cartrol",
-	},
-    {
-	"Generic Name" : "Nadolol",
-	"Trade Name": "Cogard",
-	},
-    {
-	"Generic Name" : "Penbutolol",
-	"Trade Name" : "Levatol",
-	},
-    {
-	"Generic Name" : "Pindolol",
-	"Trade Name" : "Visken",
-	},
-    {
-	"Generic Name" : "Propanolol",
-	"Trade Name" : "Inderal, Inderal LA",
-	},
-    {
-	"Generic Name" : "Sotalol",
-	"Trade Name" : "Betapace",
-	},
-    {
-	"Generic Name" : "Timolol",
-	"Trade Name" : "Blocadren",
-	},
-    {
-	"Generic Name" : "Diltiazem SR",
-	"Trade Name" : "Cardizem SR",
-	},
-    {
-	"Generic Name" : "Diltiazem SR",
-	"Trade Name" : "Cardizem CD< Cartia XT, Dilacor XR, Tiazac, Taztia XT",
-	},
-    {	
-	"Generic Name" : "Diltiazem ER",
-	"Trade Name" : "Cardizem LA",
-	},
-    {
-	"Generic Name" : "Verapamil IR",
-	"Trade Name" : "Calan",
-	},
-    {
-	"Generic Name" : "Verapamil LA",
-	"Trade Name" : "Calan SR, Isoptin SR, Verelan",
-	},
-    {
-	"Generic Name" : "Verapamil Er",
-	"Trade Name" : "Covera HS",
-	},
-    {
-	"Generic Name" : "Carvedilol",
-	"Trade Name" : "Coreg, Coreg CR",
-	},
-    {
-	"Generic Name" : "Labetolol",
-	"Trade Name" : "Trandate, Normodyne",
-	},
-    {
-	"Generic Name" : "Doxazosin",
-	"Trade Name" : "Cardura",
-	},
-    {
-	"Generic Name" : "Prazosin",
-	"Trade Name" : "Minipress",
-	},
-    {
-	"Generic Name" : "Terazosin",
-	"Trade Name" : "Hytrin",
-	},
-    {
-	"Generic Name" : "Methyldopa",
-	"Trade Name" : "Aldomet",
-	},
-    {
-	"Generic Name" : "Clonidine",
-	"Trade Name" : "Catapres",
-	},
-    {
-	"Generic Name" : "Guanabenz",
-	"Trade Name" : "Wytensin",
-	},
-    {
-	"Generic Name" : "Guanfacine",
-	"Trade Name" : "Tenex",
-	},
-    {
-	"Generic Name" : "Hydralazine",
-	"Trade Name" : "Apresoline",
-	},
-    {
-	"Generic Name" : "Minoxidil",
-	"Trade Name" : "Loniten",
-	},
-    {
-	"Generic Name" : "Diazoxide",
-	"Trade Name" : "Hyperstat",
-	},
-    {
-	"Generic Name" : "Chlorothiazide",
-	"Trade Name" : "Diuril",
-	},
-    {
-	"Generic Name" : "Hydrochlorothiazide",
-	"Trade Name" : "Hydrodiuril",
-	},
-    {
-	"Generic Name" : "Metolazone",
-	"Trade Name" : "Zaroxolyn, Mykrox",
-	},
-    {
-	"Generic Name" : "Bumetanide",
-	"Trade Name" : "Burnex",
-	},
-    {
-	"Generic Name" : "Furosemide",
-	"Trade Name" : "Lasix",
-	},
-    {
-	"Generic Name" : "Torsemide",
-	"Trade Name" : "Demadex",
-	},
-    {
-	"Generic Name" : "Amiloride",
-	"Trade Name" : "Midamor",
-	},
-    {
-	"Generic Name" : "Triamterene",
-	"Trade Name" : "Dyrenium",
-	},
-    {
-	"Generic Name" : "Spironolactone",
-	"Trade Name" : "Aldactone",
-	},
-    {
-	"Generic Name" : "Eplerenone",
-	"Trade Name" : "Inspra",
-    },
-    {
-	"Generic Name" : "Phentolamine",
-	"Trade Name" : "Regitine",
-    },
-    {
-	"Generic Name" : "Nitroglycerin",
-	"Trade Name" : "Tridil",    
-   	},
-    {
-	"Generic Name" : "Fenoldopam",
-	"Trade Name" : "Corlopam",
-    },
-    {
-	"Generic Name" : "",
-	"Trade Name" : "Inspra",
-    },
-    {
-	"Generic Name" : "Eplerenone",
-	"Trade Name" : "Inspra",
+	"Generic Name" : "Lomitapide",
+	"Trade Name" : "Juxtapid",
 	}
 ]

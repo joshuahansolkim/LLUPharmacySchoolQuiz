@@ -1,0 +1,266 @@
+BrandGenericDrugs = [
+    {
+	"Generic Name" : "Ipratropium",
+	"Trade Name" : "Atrovent",
+	},
+    {
+	"Generic Name" : "Ipratropium + albuterol",
+	"Trade Name" : "combivent",
+	},
+    {
+	"Generic Name" : "Tiotropium",
+	"Trade Name" : "Spiriva",
+	},
+    {
+	"Generic Name" : "Theophylline",
+	"Trade Name" : "Elixophylline, Bronkodyl",
+	},
+    {
+	"Generic Name" : "Hydrocortisone",
+	"Trade Name" : "Cortisol",
+	},
+    {
+	"Generic Name" : "Prednisone",
+	"Trade Name" : "Deltasone",
+	},
+    {
+	"Generic Name" : "Methylprednisolone",
+	"Trade Name" : "Medrol",
+	},
+    {
+	"Generic Name" : "Beclomethasone",
+	"Trade Name" : "Qvar, Vanceril",
+	},
+    {
+	"Generic Name" : "Budessonide",
+	"Trade Name" : "Pulmicort",
+	},
+    {
+	"Generic Name" : "Flunisolide",
+	"Trade Name" : "Aerobid, Aerospan HFA",
+	},
+    {
+	"Generic Name" : "Budesonide + formeterol",
+	"Trade Name" : "Symbicort",
+	},
+    {
+	"Generic Name" : "Fluticasone",
+	"Trade Name" : "Flovent, Flonase",
+	},
+    {
+	"Generic Name" : "Mometasone",
+	"Trade Name" : "Asmanex, Nasonex",
+	},
+    {
+	"Generic Name" : "Triamcinolone",
+	"Trade Name" : "Azinacort",
+	},
+    {
+	"Generic Name" : "Cromlyn Sodium",
+	"Trade Name" : "Nasalcrom, Intal",
+	},
+    {
+	"Generic Name" : "Nedocromil Sodium",
+	"Trade Name" : "Tilade",
+	},
+    {
+	"Generic Name" : "Fluticasone + salmeterol",
+	"Trade Name" : "Advair",
+	},
+    {
+	"Generic Name" : "Mometasone + formeterol",
+	"Trade Name" : "Dulera",
+	},
+    {
+	"Generic Name" : "Zileton",
+	"Trade Name" : "Zyflo",
+	},
+    {
+	"Generic Name" : "Montelukast",
+	"Trade Name" : "Singulair",
+	},
+    {
+	"Generic Name" : "Zafirlukast",
+	"Trade Name" : "Accolate",
+	},
+    {
+	"Generic Name" : "Omalizumab",
+	"Trade Name" : "Xolair",
+	},
+    {
+	"Generic Name" : "Nucala",
+	"Trade Name" : "Mepolizumab",
+	},
+    {
+	"Generic Name" : "Cinqair",
+	"Trade Name" : "Reslizumab",
+	},
+    {
+	"Generic Name" : "Fasenra",
+	"Trade Name" : "Benralizumab",
+	},
+    {
+	"Generic Name" : "Finasteride",
+	"Trade Name" : "Proscar, Propecia",
+	},
+    {
+	"Generic Name" : "Dutasteride",
+	"Trade Name" : "Avodart",
+	},
+    {
+	"Generic Name" : "Sildenafil",
+	"Trade Name" : "Viagra",
+	},
+    {
+	"Generic Name" : "Vardenafil",
+	"Trade Name" : "Levitra",
+	},
+    {
+	"Generic Name" : "Tadalafil",
+	"Trade Name" : "Cialis",
+	},
+    {
+    "Generic Name" : "Mifepristone",
+	"Trade Name" : "Mifeprex",
+	},
+    {
+	"Generic Name" : "Lovastatin",
+	"Trade Name" : "Mevacor",
+	},
+    {
+	"Generic Name" : "Simvastatin",
+	"Trade Name" : "Zocor",
+	},
+    {
+	"Generic Name" : "Pravastatin",
+	"Trade Name" : "Pravachol",
+	},
+    {
+	"Generic Name" : "Fluvastatin",
+	"Trade Name" : "Leschol",
+	},
+    {
+    "Generic Name" : "Atorvastatin",
+	"Trade Name" : "Lipitor",
+	},
+    {
+	"Generic Name" : "Pitavastatin",
+	"Trade Name" : "Livalo",
+	},
+    {
+	"Generic Name" : "Rosuvastatin",
+	"Trade Name" : "Crestor",
+	},
+    {
+	"Generic Name" : "Ezetimibe",
+	"Trade Name" : "Zetia",
+	},
+    {
+	"Generic Name" : "Alirocumab",
+	"Trade Name" : "Praluent",
+	},
+    {
+    "Generic Name" : "Evolocumab",
+	"Trade Name" : "Repatha",
+	},
+    {
+	"Generic Name" : "Lispro",
+	"Trade Name" : "Humalog",
+	},
+    {
+	"Generic Name" : "Aspart",
+	"Trade Name" : "Novolog",
+	},
+    {
+	"Generic Name" : "Glulisine",
+	"Trade Name" : "Apidra",
+	},
+    {
+	"Generic Name" : "Glargine",
+	"Trade Name" : "Lantus",
+	},
+    {
+    "Generic Name" : "Detemir",
+	"Trade Name" : "Levemir",
+	},
+    {
+	"Generic Name" : "Tolbutamide",
+	"Trade Name" : "Orinase",
+	},
+    {
+	"Generic Name" : "Chlorpropamide",
+	"Trade Name" : "Diabinese",
+	},
+    {
+	"Generic Name" : "Tolazamide",
+	"Trade Name" : "Tolinase",
+	},
+    {
+	"Generic Name" : "Acetahexamide",
+	"Trade Name" : "Dymelor",
+	},
+    {
+    "Generic Name" : "Glipizide",
+	"Trade Name" : "Glucotrol",
+	},
+    {
+	"Generic Name" : "Glimepiride",
+	"Trade Name" : "Amaryl",
+	},
+    {
+	"Generic Name" : "Glyburide/glibenclamide",
+	"Trade Name" : "Diabeta, Micronase, Glynase",
+	},
+    {
+	"Generic Name" : "Repaglinide",
+	"Trade Name" : "Prandin",
+	},
+    {
+	"Generic Name" : "Nateglinide",
+	"Trade Name" : "Starlix",
+	},
+    {
+    "Generic Name" : "Rosiglitazone",
+	"Trade Name" : "Avandia",
+	},
+    {
+	"Generic Name" : "Pioglitazone",
+	"Trade Name" : "Actos",
+	},
+    {
+	"Generic Name" : "Sitagliptin",
+	"Trade Name" : "Januvia",
+	},
+    {
+	"Generic Name" : "Fenofibrate",
+	"Trade Name" : "Tricor",
+	},
+    {
+	"Generic Name" : "Norgestimate/ethinyl estradiol",
+	"Trade Name" : "Ortho Cyclen, Ortho tricyclen",
+	},
+    {
+    "Generic Name" : "Gemfibrozil",
+	"Trade Name" : "Lopid",
+	},
+    {
+	"Generic Name" : "Sotalol",
+	"Trade Name" : "Betapace",
+	},
+    {
+	"Generic Name" : "Terazosin",
+	"Trade Name" : "Hytrin",
+	},
+    {
+	"Generic Name" : "Levonorgestrel/ethinyl estradiol",
+	"Trade Name" : "Alesse, Aviane",
+	},
+    {
+	"Generic Name" : "Varenicline",
+	"Trade Name" : "Chantix",
+	},
+    {
+	"Generic Name" : "Canagliflozin",
+	"Trade Name" : "Invokana",
+	}
+]

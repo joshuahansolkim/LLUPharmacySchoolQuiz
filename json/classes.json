@@ -122,6 +122,12 @@ classes = [
                 "path" : "DrugReceptor",
                 "varname" : "DrugReceptorQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "Medchem Brand/Generic",
+                "path" : "BrandGeneric",
+                "varname" : "BrandGenericDrugs",
+                "quizType" : "list"
             }
             
         ]
