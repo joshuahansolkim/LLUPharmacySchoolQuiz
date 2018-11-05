@@ -122,6 +122,12 @@ classes = [
                 "path" : "DrugReceptor",
                 "varname" : "DrugReceptorQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "Medchem Brand/Generic",
+                "path" : "BrandGeneric",
+                "varname" : "BrandGenericDrugs",
+                "quizType" : "list"
             }
             
         ]
@@ -274,6 +280,12 @@ classes = [
                 "path" : "HypertensiveCrisis",
                 "varname" : "HypertensiveCrisisQuestions",
                 "quizType" : "topics"
+            },
+            {
+                "name" : "Hyperlipidemia",
+                "path" : "HyperlipidemiaDrugs",
+                "varname" : "HyperlipidemiaDrugs",
+                "quizType" : "list"
             }
         ]
     },

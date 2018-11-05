@@ -1,0 +1,126 @@
+HyperlipidemiaDrugs = [
+    {
+	"Generic Name" : "Atorvastatin",
+	"Trade Name" : "Lipitor",
+	},
+    {
+	"Generic Name" : "Fluvastatin",
+	"Trade Name" : "Lescol, Lescol XL",
+	},
+    {
+	"Generic Name" : "Lovastatin",
+	"Trade Name" : "Mevacor, Altoprev",
+	},
+    {
+	"Generic Name" : "Pitavastatin",
+	"Trade Name" : "Livalo",
+	},
+    {
+	"Generic Name" : "Pravastatin",
+	"Trade Name" : "Pravachol",
+	},
+    {
+	"Generic Name" : "Rosuvastatin",
+	"Trade Name" : "Crestor",
+	},
+    {
+	"Generic Name" : "Simvastatin",
+	"Trade Name" : "Zocor",
+	},
+    {
+	"Generic Name" : "Simvastatin + ezetimibe",
+	"Trade Name" : "Vytorin",
+	},
+    {
+	"Generic Name" : "Atorvastatin + ezetimibe",
+	"Trade Name" : "Liptruzet",
+	},
+    {
+	"Generic Name" : "Simvastatin + sitagliptin",
+	"Trade Name" : "Juvisync",
+	},
+    {
+	"Generic Name" : "Simvastatin + niacin",
+	"Trade Name" : "Simcor",
+	},
+    {
+	"Generic Name" : "Lovastatin + niacin",
+	"Trade Name" : "Advicor",
+	},
+    {
+	"Generic Name" : "Atorvastatin + amlodipine",
+	"Trade Name" : "Caduet",
+	},
+    {
+	"Generic Name" : "Ezetimibe",
+	"Trade Name" : "Zetia",
+	},
+    {
+	"Generic Name" : "Ezetimibe + simvastatin",
+	"Trade Name" : "Vytorin",
+	},
+    {
+	"Generic Name" : "Ezetimibe + atorvastatin",
+	"Trade Name" : "Liptruzet",
+	},
+    {
+	"Generic Name" : "Alirocumab",
+	"Trade Name" : "Praluent",
+	},
+    {
+	"Generic Name" : "Evolocumab",
+	"Trade Name" : "Repatha",
+	},
+    {
+	"Generic Name" : "Gembfibrozil",
+	"Trade Name" : "Lopid",
+	},
+    {
+	"Generic Name" : "Fenofibrate",
+	"Trade Name" : "Tricor, Fenoglide, Lofibra, Triglide, Lipofen, Antara",
+	},
+    {
+	"Generic Name" : "Fenofibric Acid",
+	"Trade Name" : "Triliprix, Fibricor",
+	},
+    {
+	"Generic Name" : "Immediate release Niacin",
+	"Trade Name" : "Niacor",
+	},
+    {
+	"Generic Name" : "Sustained release Niacin",
+	"Trade Name" : "Slo-niacin",
+	},
+    {
+	"Generic Name" : "Extended release Niacin",
+	"Trade Name" : "Niaspan",
+	},
+    {
+	"Generic Name" : "Lovastatin + Niacin ER",
+	"Trade Name" : "Advicor",
+	},
+    {
+	"Generic Name" : "Cholestyramine",
+	"Trade Name" : "Questran, Questran Light",
+	},
+    {
+	"Generic Name" : "Colestipol",
+	"Trade Name" : "Colestid",
+	},
+    {
+	"Generic Name" : "Colesevelam",
+	"Trade Name" : "Welchol",
+	},
+    {
+	"Generic Name" : "Fish Oil",
+	"Trade Name" : "Lovaza, Vascepa, Epanova",
+	},
+    {
+	"Generic Name" : "Mipomersen",
+	"Trade Name" : "Kynamro",
+	},
+    {
+	"Generic Name" : "Lomitapide",
+	"Trade Name" : "Juxtapid",
+	}
+]

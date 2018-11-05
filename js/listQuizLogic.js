@@ -104,3 +104,10 @@ function changeQuestionType(){
     var typeValue = $('input[name="typeSelector"]:checked').val();
     $('.questionTypes').attr('data-type',typeValue);
 }
+
+function showAnswer(){
+    var question = questions[arrayIndex];  
+    var currentType = getQuestionType();
+    var className = generateClassName(currentType);
+    $('.' + className).val(question[currentType])
+}
