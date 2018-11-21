@@ -1,0 +1,54 @@
+<HTML>
+
+<HEAD>
+    <TITLE>Instructions Page</TITLE>
+    <script type='text/javascript' src='js/jquery-3.2.1.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='js/bootstrap.bundle.min.js'></script>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/styles.css'>
+    <link rel='icon' type='image/png' href='images/pill.png'>
+</HEAD>
+
+<BODY>
+    <h1>Instructions for adding classes</h1>
+    <ul>
+        <h2>Add json file</h2>
+        <li>Create the file with your questions/drug lists in the appropriate directory, should go into the folder for the class</li>
+        <li>Make sure that the file is a correctly formatted json file (extension should be .json)</li>
+        <li>Make sure that the contents of the file are formatted correctly (no punctuation or bracket <span style="font-family: 'Courier New', Courier, monospace;">{}</span> issues)</li>
+    </ul>
+    <ul>
+        <h2>Add file metadata to classes.json file</h2>
+        <li>Look for the classes.json file in the json directory</li>
+        <li>Find the class section for the class that your new file belongs to</li>
+        <li>Add another entry for the class</li>
+        <ul>
+            <li>Name: Name of the json file (without the .json extension)</li>
+            <li>Path: The directory in which the file exists (class directory)</li>
+            <li>Varname: The name of the main variable in the json file (this is the first thing in the .json file, <span style="font-family: 'Courier New', Courier, monospace;">questions = {}</span>)</li>
+            <li>QuizType: The type of quiz</li>
+            <ul>
+                <li>Topics: Questions/answers based on a topic</li>
+                <li>List: A list of drugs with generic and brand names</li>
+                <li>Form: A list of drugs with other information</li>
+            </ul>
+        </ul>
+    </ul>
+    <ul>
+        <h2>Add new classes to the index.html file</h2>
+        <li>If you want to add a new class to the main page you need to add them to the index.html page</li>
+        <li>It is easiest to find an existing button for a quiz of the same type and copy/paste it</li><li>Look for a button with the same quiz type as what you want to add</li>
+        <ul>
+            <li>listQuiz.html</li>
+            <li>topicsQuiz.html</li>
+            <li>formQuiz.html</li>
+        </ul>
+        <li>Copy this button and paste it where you want it</li>
+        <li>Change the value between the <span style="font-family: 'Courier New', Courier, monospace;">&lt;a&gt;</span> tags to the title you want</li>
+        <li>Update the <span style="font-family:'Courier New', Courier, monospace;">class="classTitle"</span> to the appropriate title</li>   
+    </ul>
+    <a class="btn btn-primary" role="button" href="index.html">Home</a>
+</BODY>
+
+</HTML>
